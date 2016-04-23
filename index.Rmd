@@ -1,0 +1,139 @@
+---
+title: "KUNI MARICULTURE"
+author: "Patricia Faundez"
+date: "February 17, 2016"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+---
+
+####Maping mariculture harvest in the world (data from, https://github.com/OHI-Science/ohi-global)
+
+```{r, echo=FALSE, warning=FALSE}
+
+suppressPackageStartupMessages({
+  library(readr)
+  library(dplyr)
+  library(tidyr)
+  library(ggplot2)
+  library(knitr)
+})
+
+```
+
+
+# The Geo chart is displayed in a window's browser when you run this chunk
+
+```{r Maping IUCN Category Index per Country}
+
+#run this chunk to get the Geo chart
+
+setwd("~/Winter_2016/Environmental_Informatics/marinehealth.github.io/KUNI")
+
+mar_harvest <- read_csv(file="mar_harvest_tonnes.csv")     #read cvs always as read_csv (instead of read.csv) it keep the data without factors
+
+#This is the file with thae matching column "FAO_Country"
+conversion <- read_csv(file="CountryConversion.csv")
+
+
+harvest_countries = mar_harvest %>%           
+  rename(FAO_Country=country) %>%             #rename match column FAO_Country
+  left_join(                                  #joining harvest_countries with conversion data 
+    conversion, 
+    by = c("FAO_Country")) 
+str(harvest_countries)
+  
+harvest_2013 = harvest_countries %>%                     
+  filter(year > 2012)%>%                           # filtering to keep only 2013 year of harvest
+  group_by(FAO_Country) %>%                        #grouping by country
+   summarise(
+     harvest = round(sum(value),digits=1), n_species = n()) #getting sum per country and n species harvested
+
+# Plot countries, I am using the sum of all species for country as an example that we want to show in this map
+
+suppressWarnings(suppressMessages(library(googleVis))) #install.packages("googleVis")
+
+#### Create a geo chart
+#harvest in all countries
+G1 <- gvisGeoChart(harvest_2013, "FAO_Country", "harvest", hovervar="FAO_Country",
+                options=list(gvis.editor="S&P",
+                             colorAxis="{colors:['#91BFDB', '#FC8D59']}"))
+plot(G1)
+
+#number of species produced since 1950
+G2 <- gvisGeoChart(harvest_2013, "FAO_Country", "n_species", hovervar="FAO_Country",
+                options=list(gvis.editor="S&P",
+                             colorAxis="{colors:['#91BFDB', '#FC8D59']}"))
+plot(G2)
+
+```
+
+```{r}
+#harvest in all countries without China  
+harvest_2013_noChina = harvest_countries %>%                     
+  filter(year > 2012)%>%                           # filtering to keep only 2013 year of harvest
+  filter(FAO_Country != "China")%>% 
+  group_by(FAO_Country) %>%                        #grouping by country
+   summarise(
+     harvest = round(sum(value),digits=1), n_species = n()) #getting sum per country and n species harvested
+
+# Plot countries, I am using the sum of all species for country as an example that we want to show in this map
+
+suppressWarnings(suppressMessages(library(googleVis))) #install.packages("googleVis")
+
+#### Create a geo chart
+
+G3 <- gvisGeoChart(harvest_2013_noChina, "FAO_Country", "harvest", hovervar="FAO_Country",
+                options=list(gvis.editor="S&P",
+                             colorAxis="{colors:['#91BFDB', '#FC8D59']}"))
+plot(G3)
+
+
+```
+
+```{r}
+harvest_2013_total = harvest_2013 %>%             # filtering to keep only 2013 year of harvest
+  group_by() %>%                        #grouping by country
+   summarise(
+     harvest = round(sum(harvest),digits=1))
+```
+
+```{r}
+#number of species with harvest > 0 ton in year 2013 
+harvest_2013_no0 = harvest_2013 %>%
+  filter(harvest != 0)                      
+   
+# Plot countries, I am using the sum of all species for country as an example that we want to show in this map
+
+suppressWarnings(suppressMessages(library(googleVis))) #install.packages("googleVis")
+
+#### Create a geo chart
+
+G4 <- gvisGeoChart(harvest_2013_no0, "FAO_Country", "n_species", hovervar="FAO_Country",
+                options=list(gvis.editor="S&P",
+                             colorAxis="{colors:['#91BFDB', '#FC8D59']}"))
+plot(G4)
+
+
+```
+
+
+```{r}
+#number of species in 2013 with havest >10000 ton
+harvest_70000 = harvest_2013 %>% 
+  filter(harvest < 700000)                           
+
+# Plot countries, I am using the sum of all species for country as an example that we want to show in this map
+
+suppressWarnings(suppressMessages(library(googleVis))) #install.packages("googleVis")
+
+#### Create a geo chart
+
+G5 <- gvisGeoChart(harvest_70000, "FAO_Country", "harvest", hovervar="FAO_Country",
+                options=list(gvis.editor="S&P",
+                             colorAxis="{colors:['#91BFDB', '#FC8D59']}"))
+plot(G5)
+
+
+```
