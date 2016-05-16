@@ -1,0 +1,360 @@
+Country,Common name,Native vs. introduced,Fish meal usage,Intensity level,Hatchery vs wild,Habitat alteration,Waste water treatment,Ecological,MSI
+Argentina,Blue mussel,10,10,7,5,7,10,8.2,7.1
+Argentina,Pacific cupped oyster,3,10,5,7,7,10,7.0,6.4
+Argentina,River Plata mussel,7,10,7,5,7,10,7.7,7.0
+Australia,Atlantic salmon,1,1,1,3,5,3,2.3,3.7
+Australia,Barramundi,5,3,1,5,5,1,3.3,4.0
+Australia,Cupped oysters nei,5,10,7,7,9,10,8.0,7.1
+Australia,Flat oysters nei,5,10,7,7,7,9,7.5,7.4
+Australia,Giant tiger prawn,10,1,1,5,5,1,3.8,4.9
+Australia,Giant tiger prawn (br),10,1,1,5,5,1,3.8,4.9
+Australia,Kuruma prawn,10,1,5,4,5,5,5.0,5.0
+Australia,Pacific cupped oyster,1,10,10,10,7,10,8.0,7.2
+Australia,Pacific cupped oyster (br),1,10,8,10,7,10,7.7,7.0
+Australia,Southern bluefin tuna,10,1,1,1,3,1,2.8,4.1
+Bangladesh,Penaeus shrimps nei,5,3,1,3,1,1,2.3,3.5
+Belize,Whiteleg shrimp,1,3,3,5,1,3,2.7,3.7
+Brazil,Cupped oysters nei,7,10,7,7,7,10,8.0,7.1
+Brazil,Groupers nei,9,1,5,5,5,4,4.8,5.2
+Brazil,Whiteleg shrimp,1,3,3,5,1,1,2.3,4.0
+Cambodia,Penaeus shrimps nei,5,3,1,3,1,1,2.3,3.5
+Canada,Atlantic bluefin tuna,10,10,5,1,3,1,5.0,5.0
+Canada,Atlantic cod,10,1,3,3,3,3,3.8,4.7
+Canada,Atlantic salmon (Atl),10,1,1,3,5,1,3.5,4.1
+Canada,Atlantic salmon (Pac),1,3,2,3,3,2,2.3,3.4
+Canada,Blue mussel,10,10,9,8,8,10,9.2,8.2
+Canada,Coho(=Silver)salmon,10,2,1,5,3,3,4.0,4.1
+Canada,Pacific cupped oyster,1,10,1,5,7,10,5.7,6.1
+Chile,Abalones nei,1,10,1,7,3,3,4.2,3.9
+Chile,Atlantic salmon,1,1,1,1,1,2,1.2,2.5
+Chile,Coho(=Silver)salmon,1,1,1,5,1,2,1.8,2.8
+Chile,Gracilaria seaweeds,10,10,10,7,10,10,9.5,8.4
+Chile,Pacific cupped oyster,1,10,7,5,7,1,5.2,5.6
+China,Blood cockle,10,10,7,3,5,7,7.0,7.0
+China,Groupers nei,9,1,5,5,5,4,4.8,5.3
+China,Laver (Nori),10,10,7,5,7,5,7.3,6.8
+China,Pacific cupped oyster,1,10,7,5,5,1,4.8,5.4
+China,Red drum,1,1,2,5,4,5,3.0,4.4
+China,Whiteleg shrimp,1,3,1,5,3,3,2.7,3.9
+Colombia,Cupped oysters nei,5,10,7,7,7,10,7.7,6.9
+Colombia,Whiteleg shrimp (Atl),10,3,3,5,3,3,4.5,4.7
+Colombia,Whiteleg shrimp (Pac),10,3,3,5,3,3,4.5,4.7
+Costa Rica,Whiteleg shrimp (Pac) (br),10,3,1,5,3,5,4.5,5.0
+Denmark,Atlantic salmon,10,3,1,5,5,7,5.2,5.5
+Denmark,Blue mussel,10,10,9,8,7,10,9.0,8.1
+Denmark,European eel,10,3,3,3,6,7,5.3,5.9
+Ecuador,Red drum,1,1,3,5,5,5,3.3,4.5
+Ecuador,Whiteleg shrimp,10,3,5,5,1,3,4.5,4.7
+Egypt,European seabass,10,3,5,5,5,5,5.5,5.8
+Egypt,European seabass (br),10,3,5,5,5,5,5.5,5.8
+Egypt,Flathead grey mullet,10,3,5,5,5,5,5.5,5.8
+Egypt,Flathead grey mullet (Med),10,3,5,5,5,5,5.5,5.8
+Egypt,Gilthead seabream,1,1,1,5,3,1,2.0,3.5
+Egypt,Gilthead seabream (br),1,1,1,5,3,1,2.0,3.5
+Egypt,Penaeus shrimps nei,5,1,5,5,3,3,3.7,4.0
+Faeroes,Atlantic salmon,10,3,1,5,3,5,4.5,4.7
+Finland,Atlantic salmon,10,3,2,5,3,7,5.0,4.9
+France,Atlantic salmon,10,3,2,5,5,3,4.7,4.8
+France,Blue mussel,10,10,9,8,7,10,9.0,8.1
+France,Coho(=Silver)salmon,1,3,1,5,5,3,3.0,3.9
+France,European eel,10,3,3,3,6,7,5.3,5.9
+France,European flat oyster,10,10,7,5,7,10,8.2,7.3
+France,European seabass,10,3,5,7,5,5,5.8,5.7
+France,European seabass (br),10,3,5,7,5,5,5.8,5.7
+France,Gilthead seabream,10,1,1,5,3,1,3.5,4.3
+France,Kuruma prawn,1,3,5,5,5,5,4.0,4.9
+France,Pacific cupped oyster,1,10,10,5,5,1,5.3,6.2
+France,Pacific cupped oyster (Med),1,10,10,5,5,1,5.3,6.2
+Germany,Blue mussel,10,10,9,8,7,10,9.0,8.1
+Germany,European seabass,10,3,5,7,5,7,6.2,6.2
+Germany,Pacific cupped oyster,1,10,10,5,7,1,5.7,6.4
+Greece,European eel (br),10,3,3,3,6,7,5.3,5.9
+Greece,European eel,10,3,3,3,6,7,5.3,5.9
+Greece,European flat oyster,10,10,7,5,7,10,8.2,7.3
+Greece,European seabass (br),10,3,5,5,5,1,4.8,5.0
+Greece,European seabass,10,3,5,5,5,1,4.8,5.0
+Greece,Flathead grey mullet (br),10,3,5,5,5,3,5.2,5.7
+Greece,Flathead grey mullet,10,3,5,5,5,3,5.2,5.7
+Greece,Gilthead seabream (br),10,1,1,3,3,1,3.2,4.1
+Greece,Gilthead seabream,10,1,1,3,3,1,3.2,4.1
+Greece,Kuruma prawn,1,3,5,5,5,5,4.0,4.6
+Guatemala,Penaeus shrimps nei,5,1,3,3,1,1,2.3,3.0
+Honduras,Penaeus shrimps nei,5,1,5,5,1,2,3.2,3.6
+Iceland,Abalones nei,3,7,7,7,7,5,6.0,6.4
+Iceland,Arctic char,10,3,5,8,6,5,6.2,6.9
+Iceland,Atlantic cod,10,4,5,8,6,5,6.3,7.0
+Iceland,Atlantic halibut,10,3,5,8,7,5,6.3,7.0
+Iceland,Atlantic salmon (br),1,5,5,8,6,5,5.0,6.1
+Iceland,Atlantic salmon,1,5,5,8,6,5,5.0,6.1
+Iceland,Atlantic wolffish,10,3,5,8,7,5,6.3,6.7
+Iceland,Blue mussel,7,10,7,8,8,10,8.3,8.0
+Iceland,European seabass,5,,5,8,7,5,5.0,6.2
+Iceland,Haddock,10,3,5,8,7,5,6.3,6.9
+Iceland,Rainbow trout,10,5,5,8,6,5,6.5,7.0
+Iceland,Spotted wolffish,10,3,6,8,7,5,6.5,6.9
+Iceland,Turbot,10,3,6,8,7,5,6.5,6.9
+India,Giant tiger prawn (East),10,1,1,3,1,1,2.8,3.9
+India,Giant tiger prawn,10,1,1,3,1,1,2.8,3.9
+Indonesia,Banana prawn (India),10,4,4,3,3,3,4.5,4.5
+Indonesia,Banana prawn,10,4,4,1,3,3,4.2,4.4
+Indonesia,Barramundi (br),10,3,1,1,3,1,3.2,3.6
+Indonesia,Barramundi,10,3,1,1,3,1,3.2,3.6
+Indonesia,Giant tiger prawn (India),10,1,1,3,1,1,2.8,3.8
+Indonesia,Giant tiger prawn,10,1,1,3,1,1,2.8,3.8
+Indonesia,Groupers nei,9,1,5,5,3,4,4.5,5.0
+Indonesia,Milkfish,10,7,10,3,3,3,6.0,5.9
+Iran,Indian white prawn,1,3,6,2,6,4,3.7,4.5
+Ireland,Atlantic salmon,10,3,3,5,5,5,5.2,5.4
+Ireland,Blue mussel,10,10,9,8,8,10,9.2,8.2
+Ireland,European flat oyster,10,10,7,5,7,10,8.2,7.3
+Ireland,Pacific cupped oyster,1,10,7,5,7,10,6.7,6.8
+Italy,Cupped oysters nei (br),5,10,10,10,9,10,9.0,7.6
+Italy,Cupped oysters nei,5,10,10,10,9,10,9.0,7.6
+Italy,European eel (br),10,3,3,3,6,7,5.3,5.9
+Italy,European eel,10,3,3,3,6,7,5.3,5.9
+Italy,European flat oyster,10,10,7,5,7,10,8.2,7.3
+Italy,European seabass (br),10,3,5,5,5,5,5.5,5.5
+Italy,European seabass,10,3,5,5,5,5,5.5,5.5
+Italy,Flathead grey mullet (br),10,3,5,5,5,5,5.5,5.8
+Italy,Flathead grey mullet,10,3,5,5,5,5,5.5,5.8
+Italy,Giant tiger prawn,1,1,3,5,5,3,3.0,4.6
+Italy,Gilthead seabream (br),10,1,5,5,3,1,4.2,4.9
+Italy,Gilthead seabream,10,1,3,5,3,1,3.8,4.7
+Italy,Gracilaria seaweeds,10,10,10,7,7,10,9.0,8.2
+Italy,Kuruma prawn (br),1,3,5,5,5,7,4.3,4.8
+Italy,Kuruma prawn,1,3,5,5,5,7,4.3,4.8
+Japan,Coho(=Silver)salmon,10,1,1,5,3,5,4.2,4.4
+Japan,Flathead grey mullet,10,3,5,5,5,5,5.5,5.8
+Japan,Kuruma prawn,10,3,5,5,4,7,5.7,5.5
+Japan,Laver (Nori),10,10,7,5,7,7,7.7,7.0
+Japan,Pacific cupped oyster,10,10,7,3,5,10,7.5,7.1
+Kiribati,Milkfish,10,7,5,1,3,3,4.8,5.5
+"Korea, N.",Gracilaria seaweeds,5,10,10,5,7,10,7.8,7.4
+"Korea, N.",Laver (Nori),10,10,7,5,7,5,7.3,6.8
+"Korea, S.",Abalones nei,10,5,3,7,5,5,5.8,5.0
+"Korea, S.",Blood cockle,10,10,7,3,5,7,7.0,7.0
+"Korea, S.",Flathead grey mullet,10,3,5,5,5,5,5.5,5.8
+"Korea, S.",Groupers nei,9,1,5,5,5,4,4.8,5.2
+"Korea, S.",Kuruma prawn,10,3,5,5,4,7,5.7,5.5
+"Korea, S.",Laver (Nori),10,10,7,5,7,7,7.7,7.0
+"Korea, S.",Pacific cupped oyster,1,10,7,5,7,10,6.7,6.5
+Madagascar,Giant tiger prawn,10,1,3,5,1,1,3.5,4.0
+Malaysia,Banana prawn,10,4,3,3,3,2,4.2,4.4
+Malaysia,Banana prawn,10,4,3,3,3,2,4.2,4.4
+Malaysia,Barramundi (India),10,1,1,1,3,3,3.2,3.6
+Malaysia,Barramundi,10,1,1,1,3,3,3.2,3.6
+Malaysia,Blood cockle (India),10,10,7,3,5,7,7.0,7.0
+Malaysia,Blood cockle,10,10,7,3,5,7,7.0,7.0
+Malaysia,Cupped oysters nei (India),5,10,7,5,6,10,7.2,6.7
+Malaysia,Cupped oysters nei,5,10,7,5,6,10,7.2,6.7
+Malaysia,Giant tiger prawn (India),10,1,1,3,1,1,2.8,3.6
+Malaysia,Giant tiger prawn,10,1,1,3,1,1,2.8,3.6
+Mexico,Abalones nei,5,10,1,7,5,3,5.2,4.6
+Mexico,Atlantic bluefin tuna,10,5,3,1,3,1,3.8,4.6
+Mexico,Flathead grey mullet,10,3,5,5,5,5,5.5,5.8
+Mexico,Pacific cupped oyster (Atl),1,10,10,3,7,10,6.8,6.6
+Mexico,Pacific cupped oyster,1,10,10,3,7,10,6.8,6.6
+Mexico,Whiteleg shrimp (br),10,3,3,5,3,5,4.8,5.0
+Mexico,Whiteleg shrimp,10,3,3,5,3,5,4.8,5.0
+Mexico,Yellowfin tuna,10,1,1,1,3,1,2.8,4.1
+Morocco,"Clams, etc nei",5,10,8,3,7,10,7.2,6.5
+Morocco,European eel,10,3,6,5,4,5,5.5,5.7
+Morocco,European flat oyster,10,10,7,3,7,10,7.8,6.9
+Morocco,European seabass,10,3,4,5,4,5,5.2,5.4
+Morocco,Gilthead seabream,10,3,4,5,4,5,5.2,5.5
+Morocco,Marine fishes nei,5,4,5,5,4,5,4.7,5.3
+Morocco,Mediterranean mussel,10,10,7,5,6,10,6.3,6.4
+Morocco,Pacific cupped oyster,1,10,7,5,7,10,6.7,6.3
+Morocco,Pacific cupped oyster (Med),1,10,7,5,7,10,6.7,6.3
+Morocco,Penaeus shrimps nei,5,3,3,5,4,5,4.2,4.9
+Morocco,Yesso scallop,1,10,7,7,6,9,6.7,6.5
+Myanmar,Giant tiger prawn,10,1,1,3,1,1,2.8,3.7
+Namibia,Blue mussel,1,10,8,4,7,9,6.5,5.8
+Namibia,Gracilaria seaweeds,10,10,7,4,9,10,8.3,6.7
+Namibia,Pacific cupped oyster,1,10,7,4,7,9,6.3,5.5
+Netherlands,Blue mussel,10,10,9,8,7,10,9.0,8.1
+Netherlands,Cupped oysters nei,5,10,7,7,9,10,8.0,7.1
+Netherlands,European flat oyster,10,10,7,5,7,10,8.2,7.3
+New Zealand,Abalones nei,5,5,1,5,5,5,4.3,4.2
+New Zealand,Pacific cupped oyster,1,10,10,3,7,10,6.8,6.7
+Nicaragua,Whiteleg shrimp,10,3,1,5,3,3,4.2,4.8
+Nigeria,Bagrid catfish,10,9,3,3,4,3,5.3,5.5
+Nigeria,Freshwater fishes nei,5,5,5,3,5,3,4.3,5.0
+Nigeria,Mullets nei,5,7,3,3,4,3,4.2,4.8
+Nigeria,Snappers nei,5,7,3,3,4,3,4.2,4.9
+Nigeria,Tilapias nei,5,5,3,3,4,3,3.8,4.8
+Nigeria,Torpedo catfishes nei,5,5,3,3,4,3,3.8,4.6
+Norway,Atlantic cod,10,1,3,3,3,1,3.5,4.6
+Norway,Atlantic salmon,10,1,1,5,3,1,3.5,4.0
+Norway,Blue mussel,10,10,9,8,7,10,9.0,8.1
+Norway,European flat oyster,10,10,7,5,7,10,8.2,7.3
+Norway,Pacific cupped oyster,1,10,7,2,7,10,6.2,6.6
+Pakistan,Marine crustaceans nei,4,3,5,3,5,3,3.8,4.3
+Panama,Whiteleg shrimp,10,3,1,5,5,5,4.8,5.3
+Peru,False abalone,10,10,7,7,7,5,7.7,7.2
+Peru,Gracilaria seaweeds,10,10,10,5,10,10,9.2,8.2
+Peru,Pacific cupped oyster,1,10,10,5,7,10,7.2,6.5
+Peru,Whiteleg shrimp,10,3,1,5,3,3,4.2,4.5
+Philippines,Banana prawn (br),10,4,5,3,3,1,4.3,4.5
+Philippines,Banana prawn,10,4,5,1,3,1,4.0,4.3
+Philippines,Barramundi,10,1,1,3,3,3,3.5,3.9
+Philippines,Giant tiger prawn (br),10,1,1,1,1,1,2.5,3.5
+Philippines,Giant tiger prawn,10,1,1,1,1,1,2.5,3.5
+Philippines,Gracilaria seaweeds,10,10,10,5,7,10,8.7,7.8
+Philippines,"Groupers, seabasses nei (br)",9,1,5,5,6,4,5.0,5.2
+Philippines,"Groupers, seabasses nei",9,1,5,5,6,4,5.0,5.2
+Philippines,Milkfish (br),10,7,7,1,3,3,5.2,5.7
+Philippines,Milkfish,10,7,7,1,3,3,5.2,5.7
+Philippines,Penaeus shrimps nei,5,3,5,3,1,1,3.0,3.9
+Poland,Freshwater fishes nei,5,5,5,6,5,5,5.2,5.4
+Portugal,Atlantic salmon,1,3,3,6,4,3,3.3,4.5
+Portugal,Brill,10,5,3,6,4,6,5.7,5.7
+Portugal,Common cuttlefish,10,5,5,6,7,7,6.7,6.5
+Portugal,Common edible cockle,10,10,7,6,9,6,8.0,6.9
+Portugal,Common sole,10,5,3,6,4,5,5.5,5.8
+Portugal,European eel,10,5,3,6,4,5,5.5,5.8
+Portugal,European flat oyster,10,10,7,6,8,6,7.8,6.9
+Portugal,European seabass (br),10,3,3,6,4,4,5.0,5.2
+Portugal,European seabass,10,3,3,6,4,4,5.0,5.4
+Portugal,Flat and cupped oysters nei,10,10,7,6,7,9,8.2,7.0
+Portugal,Freshwater fishes nei,5,5,5,5,5,5,5.0,5.4
+Portugal,Gilthead seabream (br),10,3,3,6,4,3,4.8,5.1
+Portugal,Gilthead seabream,10,3,3,6,4,3,4.8,5.3
+Portugal,Grooved carpet shell (br),10,10,7,7,8,9,8.5,7.2
+Portugal,Grooved carpet shell,10,10,7,7,8,9,8.5,7.3
+Portugal,Kuruma prawn,1,3,3,6,4,3,3.3,4.6
+Portugal,Marine fishes nei,5,5,5,6,4,5,5.0,5.4
+Portugal,Marine molluscs nei,5,5,5,6,4,5,5.0,5.3
+Portugal,Mullets nei,5,5,5,6,4,5,5.0,5.4
+Portugal,Octopuses nei,5,5,5,6,8,5,5.7,5.7
+Portugal,Pacific cupped oyster,1,10,7,6,8,9,6.8,6.3
+Portugal,Pullet carpet shell,10,10,7,6,8,9,8.3,7.0
+Portugal,Razor clams nei,5,10,7,6,8,9,7.5,6.5
+Portugal,Sargo breams nei,6,3,3,6,4,3,4.2,4.8
+Portugal,Sea mussels nei,5,10,7,6,7,8,7.2,6.5
+Portugal,Turbot,10,3,3,6,4,5,5.2,5.3
+Russian Fed.,Atlantic salmon,1,3,3,6,3,4,3.3,4.1
+Russian Fed.,Brown seaweeds,10,10,10,8,8,10,9.3,7.4
+Russian Fed.,Brown seaweeds (Pac),10,10,10,8,8,10,9.3,7.3
+Russian Fed.,Flatfishes nei,5,3,4,5,4,5,4.3,4.6
+Russian Fed.,Marine fishes nei,5,3,4,5,4,5,4.3,4.7
+Russian Fed.,Mediterranean mussel,10,10,7,6,7,8,8.0,6.5
+Russian Fed.,Mullets nei,5,5,5,5,4,5,4.8,4.9
+Russian Fed.,Sea mussels nei,5,10,7,5,7,8,7.0,6.5
+Russian Fed.,Sea mussels nei (Pac),5,10,7,5,7,8,7.0,6.4
+Russian Fed.,Sea trout,10,3,3,6,3,5,5.0,5.2
+Russian Fed.,Sea trout (med),10,3,3,6,3,5,5.0,5.3
+Russian Fed.,Sea urchins nei,5,5,7,5,7,5,5.7,5.7
+Russian Fed.,Silver carp,10,5,3,6,4,5,5.5,5.5
+Russian Fed.,Sturgeons nei,5,5,6,6,4,5,5.2,5.2
+Russian Fed.,Yesso scallop,10,10,7,7,7,7,8.0,6.9
+Saudi Arabia,Barramundi,5,1,1,3,3,1,2.3,3.5
+Saudi Arabia,Flathead grey mullet,10,3,5,5,5,5,5.5,5.7
+Saudi Arabia,Giant tiger prawn,10,1,1,3,5,1,3.5,4.2
+Saudi Arabia,Groupers nei,9,1,5,5,5,4,4.8,5.2
+Senegal,Blackchin tilapia,10,5,3,7,5,5,5.8,5.9
+Senegal,Cupped oysters nei,5,10,7,4,7,8,6.0,5.7
+Senegal,Gasar cupped oyster,10,10,7,4,7,8,7.7,6.5
+Senegal,Giant river prawn,1,3,3,4,4,4,3.2,4.0
+Senegal,Nile tilapia,1,5,6,4,5,6,4.5,4.8
+Senegal,Pacific cupped oyster,1,10,7,4,7,8,6.2,5.8
+South Africa,Aquatic plants nei,7,10,7,6,8,10,8.0,6.9
+South Africa,Carpet shells nei,7,10,7,6,7,8,7.5,6.5
+South Africa,European flat oyster,1,10,7,7,7,8,6.7,6.1
+South Africa,Giant tiger prawn,1,3,3,7,5,5,4.0,4.7
+South Africa,Gracilaria seaweeds,10,10,7,6,8,10,8.5,7.3
+South Africa,Indian white prawn,1,3,3,7,5,5,4.0,4.6
+South Africa,Kuruma prawn,1,3,3,7,5,5,4.0,4.7
+South Africa,Mediterranean mussel,1,10,7,7,7,9,6.8,6.2
+South Africa,Mullets nei,5,5,4,6,5,6,5.2,5.4
+South Africa,Pacific cupped oyster,1,10,7,7,7,9,6.8,6.1
+South Africa,Perlemoen abalone,10,5,7,6,7,8,7.2,6.7
+South Africa,Red bait,1,5,4,7,5,6,4.7,5.0
+South Africa,Sea mussels nei,5,10,7,7,7,8,7.3,6.5
+South Africa,Smooth mactra,10,10,7,6,7,7,7.8,6.7
+Spain,Atlantic salmon,10,1,2,3,3,1,3.3,3.5
+Spain,Blue mussel,10,10,9,8,7,10,9.0,8.1
+Spain,Cupped oysters nei,5,10,10,7,8,10,8.3,7.2
+Spain,European eel,10,3,3,3,6,7,5.3,5.9
+Spain,European flat oyster,10,10,7,5,7,10,8.2,7.3
+Spain,European seabass,10,3,5,5,5,5,5.5,5.7
+Spain,Flathead grey mullet,10,3,5,5,5,5,5.5,5.8
+Spain,Gilthead seabream,10,1,1,3,3,1,3.2,4.2
+Spain,Kuruma prawn,1,3,5,5,5,7,4.3,4.8
+Spain,Pacific cupped oyster,1,10,7,5,7,10,6.7,6.4
+Spain,Tuna-like fishes nei,10,1,3,1,5,1,3.5,4.5
+Sri Lanka,Giant tiger prawn,10,1,1,1,1,1,2.5,3.8
+Sweden,Atlantic salmon,10,3,3,8,5,5,5.7,6.0
+Sweden,Blue mussel,7,10,7,7,7,6,7.3,6.7
+Sweden,European flat oyster,10,10,7,8,7,8,6.7,6.3
+Sweden,Rainbow trout,1,3,3,8,5,5,4.2,5.2
+Taiwan,Abalones nei (br),5,5,1,5,5,3,4.0,3.9
+Taiwan,Abalones nei,5,5,1,5,5,3,4.0,3.9
+Taiwan,Barramundi (br),10,1,1,3,3,1,3.2,3.6
+Taiwan,Barramundi,10,1,1,3,3,3,3.5,3.9
+Taiwan,Blood cockle,10,10,7,3,5,7,7.0,7.0
+Taiwan,Flathead grey mullet (br),10,3,5,5,5,3,5.2,5.5
+Taiwan,Flathead grey mullet,10,3,5,5,5,3,5.2,5.5
+Taiwan,Giant tiger prawn,10,1,1,1,1,1,2.5,3.5
+Taiwan,Groupers nei (Pac) (br),9,1,5,5,3,4,4.5,5.0
+Taiwan,Groupers nei (br),9,1,5,5,3,4,4.5,5.0
+Taiwan,Groupers nei,9,1,5,5,3,4,4.5,5.0
+Taiwan,Kuruma prawn (br),10,3,1,5,1,3,3.8,4.6
+Taiwan,Kuruma prawn,10,3,1,5,1,3,3.8,4.6
+Taiwan,Laver (Nori),10,10,7,5,7,5,7.3,7.0
+Taiwan,Milkfish (br),10,7,7,5,3,3,5.8,5.9
+Taiwan,Milkfish,10,7,7,5,3,3,5.8,5.9
+Taiwan,Pacific cupped oyster (br),1,1,7,5,7,10,5.2,5.7
+Taiwan,Pacific cupped oyster,1,1,7,5,7,10,5.2,5.7
+Taiwan,Whiteleg shrimp,1,3,1,5,1,3,2.3,3.6
+Thailand,Banana prawn,10,4,4,1,3,1,3.8,4.1
+Thailand,Barramundi (Ind),10,1,1,3,3,1,3.2,3.7
+Thailand,Barramundi,10,1,1,3,3,1,3.2,3.7
+Thailand,Blood cockle (Ind),10,10,7,3,5,7,7.0,7.0
+Thailand,Blood cockle,10,10,7,3,5,7,7.0,7.0
+Thailand,Cupped oysters nei (Ind),5,10,7,5,6,10,7.2,6.7
+Thailand,Cupped oysters nei,5,10,7,5,6,10,7.2,6.7
+Thailand,Giant tiger prawn (Ind),10,1,1,1,1,1,2.5,3.5
+Thailand,Giant tiger prawn,10,1,1,1,1,1,2.5,3.5
+Thailand,Groupers nei (Ind),9,1,5,5,3,4,4.5,5.0
+Thailand,Groupers nei,9,1,5,5,3,4,4.5,5.0
+Thailand,Penaeus shrimps nei,5,3,1,3,1,2,2.5,3.5
+Thailand,Whiteleg shrimp,1,3,1,3,1,1,1.7,3.0
+Tonga,Milkfish,10,7,10,1,5,3,6.0,6.4
+Turkey,Atlantic salmon,1,3,3,8,5,5,4.2,4.7
+Turkey,Com.2-banded seabream,10,3,3,7,5,6,5.7,5.3
+Turkey,Gilthead seabream,8,3,3,7,5,6,5.3,5.1
+Turkey,Mediterranean mussel,10,10,7,6,7,8,8.0,6.6
+Turkey,Natantian decapods nei,5,5,5,6,5,5,5.2,5.1
+Turkey,Seabasses nei,5,3,3,6,5,6,4.7,4.8
+Turkey,Trouts nei,5,3,3,5,5,5,4.3,4.8
+Ukraine,Baltic prawn,10,3,3,6,5,5,5.3,5.2
+Ukraine,Flatfishes nei,5,3,3,6,5,6,3.8,4.4
+Ukraine,Gobies nei,5,5,3,5,5,6,4.0,4.5
+Ukraine,Mediterranean mussel,10,10,7,6,7,8,8.0,6.9
+Ukraine,Mullets nei (br),5,10,5,5,5,5,5.8,5.6
+Ukraine,Mullets nei,5,10,5,5,5,5,5.8,5.6
+Ukraine,Silversides nei,10,5,5,6,5,6,6.2,6.0
+Ukraine,So-iuy mullet,1,5,5,8,5,6,5.0,5.3
+Ukraine,Sturgeons nei,5,5,5,6,5,7,5.5,5.6
+United Kingdom,Atlantic cod,10,1,3,3,3,1,3.5,4.6
+United Kingdom,Atlantic salmon,10,1,2,3,3,5,4.0,4.3
+United Kingdom,Blue mussel,10,10,9,8,8,10,9.2,8.2
+United Kingdom,Cupped oysters nei,5,10,7,6,8,10,7.7,6.9
+United Kingdom,European flat oyster,10,10,7,5,7,10,8.2,7.3
+United Kingdom,European seabass,10,3,5,7,5,5,5.8,6.0
+United Kingdom,Pacific cupped oyster,1,10,7,5,7,10,6.7,6.7
+U.S. of America,Abalones nei,10,5,1,5,5,5,5.2,5.6
+U.S. of America,Atlantic salmon,10,1,1,5,3,5,4.2,4.5
+U.S. of America,Blue mussel,10,10,8,8,7,10,8.8,7.9
+U.S. of America,Coho(=Silver)salmon,10,1,1,5,3,5,4.2,4.4
+U.S. of America,Cupped oysters nei,5,10,7,10,8,10,8.3,7.2
+U.S. of America,European flat oyster,1,10,7,5,7,10,6.7,6.5
+U.S. of America,Flat oysters nei,5,10,7,7,7,9,7.5,7.4
+U.S. of America,Pacific cupped oyster,1,10,7,7,7,10,7.0,7.0
+U.S. of America,Whiteleg shrimp,1,3,1,5,5,5,3.3,4.7
+Venezuela,Whiteleg shrimp,1,3,3,7,3,5,3.7,4.7
+Viet Nam,Banana prawn,10,4,3,3,3,3,4.3,4.5
+Viet Nam,Giant tiger prawn,10,1,1,1,1,1,2.5,3.5
+Viet Nam,Gracilaria seaweeds,10,10,10,5,7,10,8.7,7.9
+Viet Nam,Whiteleg shrimp,1,1,7,3,1,3,2.7,3.8
