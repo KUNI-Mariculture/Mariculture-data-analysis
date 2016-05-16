@@ -1,0 +1,1030 @@
+"","country","species","area","year","value","value.kg","relative.value","production","native","fishmeal","intensity","hatchery","habitat","waste","ecol.score","msi"
+"6","Argentina","Pacific cupped oyster","Atlantic, Southwest",2000,35,3.5,0.466666666666667,10,3,10,5,7,7,10,7,6.4
+"7","Argentina","River Plata mussel","Atlantic, Southwest",2000,40,2,0.533333333333333,20,7,10,7,5,7,10,7.7,7
+"10","Australia","Atlantic salmon","Pacific, Southwest",2000,49415.82,4.5306518749427,0.288451630881902,10907,1,1,1,3,5,3,2.3,3.7
+"22","Australia","Pacific cupped oyster","Indian Ocean, Eastern",2000,14511.96,3.09225655231195,0.0847096846575231,4693,1,10,10,10,7,10,8,7.2
+"25","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2000,86248.7,32.5589656474141,0.50345371535763,2649,10,1,1,1,3,1,2.8,4.1
+"48","Brazil","Cupped oysters nei","Atlantic, Southwest",2000,1786.5,0.126165254237288,0.0250928075712438,14160,7,10,7,7,7,10,8,7.1
+"51","Brazil","Groupers nei","Atlantic, Southwest",2000,6,2,8.42747525482578e-05,3,9,1,5,5,5,4,4.8,5.2
+"139","China","Red drum","Pacific, Northwest",2000,36,0.0198347107438017,0.000247563834334683,1815,1,1,2,5,4,5,3,4.4
+"238","France","European flat oyster","Mediterranean and Black Sea",2000,0,0,0,41,10,10,7,5,7,10,8.2,7.3
+"257","France","Pacific cupped oyster","Mediterranean and Black Sea",2000,0,0,0,98,1,10,10,5,5,1,5.3,6.2
+"285","Greece","European flat oyster","Mediterranean and Black Sea",2000,12110,131.630434782609,0.0869578891880754,92,10,10,7,5,7,10,8.2,7.3
+"286","Greece","European seabass","Mediterranean and Black Sea",2000,77200,44.6242774566474,0.554347567739011,1730,10,3,5,5,5,1,4.8,5
+"287","Greece","Flathead grey mullet","Mediterranean and Black Sea",2000,1547.92,0.16040621761658,0.0111150995732457,9650,10,3,5,5,5,3,5.2,5.7
+"304","Iceland","Atlantic wolffish","Atlantic, Northeast",2000,13920,32.4475524475524,0.0478112461462058,429,10,3,5,8,7,5,6.3,6.7
+"305","Iceland","Blue mussel","Atlantic, Northeast",2000,0,0,0,1740,7,10,7,8,8,10,8.3,8
+"310","Iceland","Turbot","Atlantic, Northeast",2000,0,0,0,40,10,3,6,8,7,5,6.5,6.9
+"317","Indonesia","Groupers nei","Pacific, Western Central",2000,60.64,0.0297400686611084,0.00455334220874641,2039,9,1,5,5,3,4,4.5,5
+"328","Ireland","Atlantic salmon","Atlantic, Northeast",2000,9868.56,44.6541176470588,0.00757167323715777,221,10,3,3,5,5,5,5.2,5.4
+"375","Japan","Flathead grey mullet","Pacific, Northwest",2000,1680.21,840.105,0.179868198780903,2,10,3,5,5,5,5,5.5,5.8
+"495","Mexico","Abalones nei","Pacific, Eastern Central",2000,135.28,3.86514285714286,0.000377975178475085,35,5,10,1,7,5,3,5.2,4.6
+"517","Mexico","Yellowfin tuna","Pacific, Eastern Central",2000,6,0.000689813750287422,1.67641267803852e-05,8698,10,1,1,1,3,1,2.8,4.1
+"530","Morocco","Penaeus shrimps nei","Mediterranean and Black Sea",2000,0,0,0,13,5,3,3,5,4,5,4.2,4.9
+"553","Netherlands","European flat oyster","Atlantic, Northeast",2000,120400.01,60200.005,0.877899757709895,2,10,10,7,5,7,10,8.2,7.3
+"564","Nigeria","Snappers nei","Atlantic, Eastern Central",2000,345650.3,6913.006,1,50,5,7,3,3,4,3,4.2,4.9
+"566","Norway","Atlantic cod","Atlantic, Northeast",2000,0,0,0,1300,10,1,3,3,3,1,3.5,4.6
+"569","Norway","Blue mussel","Atlantic, Northeast",2000,8,5.84650013885438e-05,5.43220227571114e-06,136834,10,10,9,8,7,10,9,8.1
+"571","Norway","European flat oyster","Atlantic, Northeast",2000,110874.2,110874.2,0.0752863851947065,1,10,10,7,5,7,10,8.2,7.3
+"602","Peru","Pacific cupped oyster","Pacific, Southeast",2000,1493.22,5.02767676767677,0.256329179112164,297,1,10,10,5,7,10,7.2,6.5
+"604","Peru","Whiteleg shrimp","Pacific, Southeast",2000,1115.57,10.0501801801802,0.191501012805988,111,10,3,1,5,3,3,4.2,4.5
+"605","Philippines","Banana prawn","Pacific, Western Central",2000,0,0,0,740.69,10,4,5,1,3,1,4,4.3
+"617","Philippines","Penaeus shrimps nei","Pacific, Western Central",2000,73832.01,18458.0025,0.0642467065539994,4,5,3,5,3,1,1,3,3.9
+"630","Portugal","Common edible cockle","Atlantic, Northeast",2000,16532.78,359.408260869565,0.0440143038141259,46,10,10,7,6,9,6,8,6.9
+"635","Portugal","Gilthead seabream","Atlantic, Northeast",2000,348177.44,533.196692189893,0.92693349971297,653,10,3,3,6,4,3,4.8,5.3
+"640","Portugal","Marine molluscs nei","Atlantic, Northeast",2000,0,0,0,138,5,5,5,6,4,5,5,5.3
+"646","Portugal","Sargo breams nei","Atlantic, Northeast",2000,749.07,0.0571503776607919,0.00199420754150526,13107,6,3,3,6,4,3,4.2,4.8
+"647","Portugal","Sea mussels nei","Atlantic, Northeast",2000,0,0,0,676,5,10,7,6,7,8,7.2,6.5
+"696","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2000,146923.36,14692.336,0.882776859758373,10,10,3,5,5,5,5,5.5,5.7
+"700","Saudi Arabia","Groupers nei","Indian Ocean, Western",2000,3.91,0.558571428571429,2.34929116898445e-05,7,9,1,5,5,5,4,4.8,5.2
+"760","South Africa","Mediterranean mussel","Atlantic, Southeast",2000,1667.63,3.98002386634845,0.0768552234204199,419,1,10,7,7,7,9,6.8,6.2
+"761","South Africa","Mullets nei","Atlantic, Southeast",2000,503,4.83653846153846,0.0231815075169379,104,5,5,4,6,5,6,5.2,5.4
+"762","South Africa","Pacific cupped oyster","Atlantic, Southeast",2000,443.97,0.882644135188867,0.0204610216546619,503,1,10,7,7,7,9,6.8,6.1
+"763","South Africa","Perlemoen abalone","Atlantic, Southeast",2000,5072.05,266.95,0.233753012328599,19,10,5,7,6,7,8,7.2,6.7
+"764","South Africa","Red bait","Atlantic, Southeast",2000,11.37,0.000940368869406997,0.000524003460174124,12091,1,5,4,7,5,6,4.7,5
+"785","Spain","European eel","Atlantic, Northeast",2000,12090.74,140.59,0.00396029630938074,86,10,3,3,3,6,7,5.3,5.9
+"786","Spain","European flat oyster","Atlantic, Northeast",2000,6,0.00105540897097625,1.96528730716933e-06,5685,10,10,7,5,7,10,8.2,7.3
+"794","Spain","Gilthead seabream","Atlantic, Northeast",2000,133487.47,0.753830041958674,0.0437235384095244,177079,10,1,1,3,3,1,3.2,4.2
+"795","Spain","Gilthead seabream","Mediterranean and Black Sea",2000,1,2.05010455533232e-05,3.27547884528221e-07,48778,10,1,1,3,3,1,3.2,4.2
+"804","Spain","Kuruma prawn","Atlantic, Northeast",2000,1053.8,1.66477093206951,0.000345169960715839,633,1,3,5,5,5,7,4.3,4.8
+"847","Sweden","Atlantic salmon","Atlantic, Northeast",2000,0,0,0,130488,10,3,3,8,5,5,5.7,6
+"849","Sweden","European flat oyster","Atlantic, Northeast",2000,0,0,0,150,10,10,7,8,7,8,6.7,6.3
+"887","Thailand","Cupped oysters nei","Pacific, Western Central",2000,1384.18,2.86579710144928,0.311981319617557,483,5,10,7,5,6,10,7.2,6.7
+"907","Turkey","Atlantic salmon","Mediterranean and Black Sea",2000,16422,6,0.117990361605755,2737,1,3,3,8,5,5,4.2,4.7
+"912","Turkey","Gilthead seabream","Mediterranean and Black Sea",2000,130,13,0.000934036475992461,10,8,3,3,7,5,6,5.3,5.1
+"915","Turkey","Mediterranean mussel","Mediterranean and Black Sea",2000,104.4,3.6,0.000750103139181638,29,10,10,7,6,7,8,8,6.6
+"916","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2000,1231.38,3.19838961038961,0.00884733719851997,385,5,5,5,6,5,5,5.2,5.1
+"930","Ukraine","Mullets nei","Mediterranean and Black Sea",2000,5880,0.5,1,11760,5,10,5,5,5,5,5.8,5.6
+"950","United Kingdom","Atlantic cod","Atlantic, Northeast",2000,4.3,4.3,0.000216257863865172,1,10,1,3,3,3,1,3.5,4.6
+"952","United Kingdom","Atlantic salmon","Atlantic, Northeast",2000,8.4,2.8,0.000422457222434289,3,10,1,2,3,3,5,4,4.3
+"956","United Kingdom","European flat oyster","Atlantic, Northeast",2000,10692,12,0.537727693127074,891,10,10,7,5,7,10,8.2,7.3
+"957","United Kingdom","European seabass","Atlantic, Northeast",2000,5897.6,1.9,0.296605204170055,3104,10,3,5,7,5,5,5.8,6
+"1005","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2000,110.43,12.27,0.0238703569205229,9,10,10,10,5,7,10,8.7,7.9
+"1020","Argentina","Pacific cupped oyster","Atlantic, Southwest",2001,45,4.5,0.6,10,3,10,5,7,7,10,7,6.4
+"1021","Argentina","River Plata mussel","Atlantic, Southwest",2001,30,1.5,0.4,20,7,10,7,5,7,10,7.7,7
+"1024","Australia","Atlantic salmon","Pacific, Southwest",2001,51331.85,4.03425416535681,0.268475880275475,12724,1,1,1,3,5,3,2.3,3.7
+"1036","Australia","Pacific cupped oyster","Indian Ocean, Eastern",2001,12861.41,2.767084767642,0.0672677562046525,4648,1,10,10,10,7,10,8,7.2
+"1039","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2001,105721.16,27.1846644381589,0.55294289013048,3889,10,1,1,1,3,1,2.8,4.1
+"1062","Brazil","Cupped oysters nei","Atlantic, Southwest",2001,2596.5,0.148320575802582,0.0294402108039281,17506,7,10,7,7,7,10,8,7.1
+"1084","Canada","Atlantic cod","Atlantic, Northwest",2001,0,0,0,5,10,1,3,3,3,3,3.8,4.7
+"1153","China","Red drum","Pacific, Northwest",2001,48,0.0272417707150965,0.00035892766769998,1762,1,1,2,5,4,5,3,4.4
+"1252","France","European flat oyster","Mediterranean and Black Sea",2001,0,0,0,28,10,10,7,5,7,10,8.2,7.3
+"1271","France","Pacific cupped oyster","Mediterranean and Black Sea",2001,0,0,0,187,1,10,10,5,5,1,5.3,6.2
+"1299","Greece","European flat oyster","Mediterranean and Black Sea",2001,11661.71,116.6171,0.0779563536509542,100,10,10,7,5,7,10,8.2,7.3
+"1300","Greece","European seabass","Mediterranean and Black Sea",2001,80000,43.5492651061513,0.534785060859543,1837,10,3,5,5,5,1,4.8,5
+"1318","Iceland","Atlantic wolffish","Atlantic, Northeast",2001,16000,30.4761904761905,0.0684650466039433,525,10,3,5,8,7,5,6.3,6.7
+"1324","Iceland","Turbot","Atlantic, Northeast",2001,0,0,0,44,10,3,6,8,7,5,6.5,6.9
+"1331","Indonesia","Groupers nei","Pacific, Western Central",2001,60,0.0305966343702193,0.00435029440617394,1961,9,1,5,5,3,4,4.5,5
+"1342","Ireland","Atlantic salmon","Atlantic, Northeast",2001,7866.99,28.6072363636364,0.00568176512263799,275,10,3,3,5,5,5,5.2,5.4
+"1389","Japan","Flathead grey mullet","Pacific, Northwest",2001,1808.1,129.15,0.220172962599456,14,10,3,5,5,5,5,5.5,5.8
+"1509","Mexico","Abalones nei","Pacific, Eastern Central",2001,159.43,3.98575,0.000405276531135904,40,5,10,1,7,5,3,5.2,4.6
+"1531","Mexico","Yellowfin tuna","Pacific, Eastern Central",2001,26.4,0.00282958199356913,6.71097059649242e-05,9330,10,1,1,1,3,1,2.8,4.1
+"1544","Morocco","Penaeus shrimps nei","Mediterranean and Black Sea",2001,4,0.307692307692308,0.21978021978022,13,5,3,3,5,4,5,4.2,4.9
+"1560","Namibia","Gracilaria seaweeds","Atlantic, Southeast",2001,96.43,48.215,0.00310692386828292,2,10,10,7,4,9,10,8.3,6.7
+"1562","Namibia","Pacific cupped oyster","Atlantic, Southeast",2001,30778.2,654.855319148936,0.991657411622789,47,1,10,7,4,7,9,6.3,5.5
+"1578","Nigeria","Snappers nei","Atlantic, Eastern Central",2001,478852.53,3990.43775,1,120,5,7,3,3,4,3,4.2,4.9
+"1580","Norway","Atlantic cod","Atlantic, Northeast",2001,0,0,0,1520,10,1,3,3,3,1,3.5,4.6
+"1583","Norway","Blue mussel","Atlantic, Northeast",2001,8,5.22619630899886e-05,7.1305480978688e-06,153075,10,10,9,8,7,10,9,8.1
+"1616","Peru","Pacific cupped oyster","Pacific, Southeast",2001,1186.61,2.85930120481928,0.184109838141105,415,1,10,10,5,7,10,7.2,6.5
+"1618","Peru","Whiteleg shrimp","Pacific, Southeast",2001,1206.36,13.7086363636364,0.187174172086788,88,10,3,1,5,3,3,4.2,4.5
+"1619","Philippines","Banana prawn","Pacific, Western Central",2001,0,0,0,808.27,10,4,5,1,3,1,4,4.3
+"1644","Portugal","Common edible cockle","Atlantic, Northeast",2001,373.19,6.32525423728814,0.00124387694167661,59,10,10,7,6,9,6,8,6.9
+"1649","Portugal","Gilthead seabream","Atlantic, Northeast",2001,287214.9,310.502594594595,0.957313945754046,925,10,3,3,6,4,3,4.8,5.3
+"1654","Portugal","Marine molluscs nei","Atlantic, Northeast",2001,0,0,0,54,5,5,5,6,4,5,5,5.3
+"1660","Portugal","Sargo breams nei","Atlantic, Northeast",2001,732.26,0.06303891184573,0.00244069061151722,11616,6,3,3,6,4,3,4.2,4.8
+"1661","Portugal","Sea mussels nei","Atlantic, Northeast",2001,0,0,0,656,5,10,7,6,7,8,7.2,6.5
+"1774","South Africa","Mediterranean mussel","Atlantic, Southeast",2001,4140.24,6.17025335320417,0.14314173044863,671,1,10,7,7,7,9,6.8,6.2
+"1775","South Africa","Mullets nei","Atlantic, Southeast",2001,1346.25,5.63284518828452,0.0465442956486745,239,5,5,4,6,5,6,5.2,5.4
+"1776","South Africa","Pacific cupped oyster","Atlantic, Southeast",2001,412.8,0.462780269058296,0.0142718553342788,892,1,10,7,7,7,9,6.8,6.1
+"1777","South Africa","Perlemoen abalone","Atlantic, Southeast",2001,3185.29,187.37,0.110125964335574,17,10,5,7,6,7,8,7.2,6.7
+"1778","South Africa","Red bait","Atlantic, Southeast",2001,9.13,0.00132838643969155,0.000315654164733443,6873,1,5,4,7,5,6,4.7,5
+"1797","Spain","Cupped oysters nei","Atlantic, Northeast",2001,0,0,0,28,5,10,10,7,8,10,8.3,7.2
+"1799","Spain","European eel","Atlantic, Northeast",2001,22944.01,279.805,0.00875224826998693,82,10,3,3,3,6,7,5.3,5.9
+"1800","Spain","European flat oyster","Atlantic, Northeast",2001,0,0,0,7887,10,10,7,5,7,10,8.2,7.3
+"1808","Spain","Gilthead seabream","Atlantic, Northeast",2001,130731.43,0.750825192255782,0.0498689606590312,174117,10,1,1,3,3,1,3.2,4.2
+"1809","Spain","Gilthead seabream","Mediterranean and Black Sea",2001,1,1.39345632907865e-05,3.81461142580871e-07,71764,10,1,1,3,3,1,3.2,4.2
+"1861","Sweden","Atlantic salmon","Atlantic, Northeast",2001,0,0,0,167909,10,3,3,8,5,5,5.7,6
+"1863","Sweden","European flat oyster","Atlantic, Northeast",2001,0,0,0,78,10,10,7,8,7,8,6.7,6.3
+"1901","Thailand","Cupped oysters nei","Pacific, Western Central",2001,2745.63,2.70505418719212,0.331847513285963,1015,5,10,7,5,6,10,7.2,6.7
+"1921","Turkey","Atlantic salmon","Mediterranean and Black Sea",2001,7923.6,6.2,0.0528466465496014,1278,1,3,3,8,5,5,4.2,4.7
+"1926","Turkey","Gilthead seabream","Mediterranean and Black Sea",2001,221,13,0.00147396497645791,17,8,3,3,7,5,6,5.3,5.1
+"1929","Turkey","Mediterranean mussel","Mediterranean and Black Sea",2001,129.6,3.6,0.000864370411533689,36,10,10,7,6,7,8,8,6.6
+"1930","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2001,725.83,2.71846441947566,0.00484094117132329,267,5,5,5,6,5,5,5.2,5.1
+"1944","Ukraine","Mullets nei","Mediterranean and Black Sea",2001,5540,0.5,1,11080,5,10,5,5,5,5,5.8,5.6
+"1964","United Kingdom","Atlantic cod","Atlantic, Northeast",2001,12.9,4.3,0.000806621045681013,3,10,1,3,3,3,1,3.5,4.6
+"1970","United Kingdom","European flat oyster","Atlantic, Northeast",2001,9747.8,12.2,0.609517878223983,799,10,10,7,5,7,10,8.2,7.3
+"1971","United Kingdom","European seabass","Atlantic, Northeast",2001,3136,2,0.196090201492687,1568,10,3,5,7,5,5,5.8,6
+"2019","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2001,593.96,4.79,0.0417598827832235,124,10,10,10,5,7,10,8.7,7.9
+"2032","Argentina","Blue mussel","Atlantic, Southwest",2002,12,0.8,0.105263157894737,15,10,10,7,5,7,10,8.2,7.1
+"2034","Argentina","Pacific cupped oyster","Atlantic, Southwest",2002,102,1.7,0.894736842105263,60,3,10,5,7,7,10,7,6.4
+"2038","Australia","Atlantic salmon","Pacific, Southwest",2002,60982.27,4.24785943159654,0.304719513830068,14356,1,1,1,3,5,3,2.3,3.7
+"2050","Australia","Pacific cupped oyster","Indian Ocean, Eastern",2002,14595.99,2.96425467099919,0.0729340343786569,4924,1,10,10,10,7,10,8,7.2
+"2053","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2002,103220.7,25.7536676646707,0.515778791461835,4008,10,1,1,1,3,1,2.8,4.1
+"2076","Brazil","Cupped oysters nei","Atlantic, Southwest",2002,2638.5,0.106078880714027,0.0206556883464106,24873,7,10,7,7,7,10,8,7.1
+"2087","Brazil","Whiteleg shrimp","Atlantic, Southwest",2002,120506.01,76.7554203821656,0.943390027071986,1570,1,3,3,5,1,1,2.3,4
+"2101","Canada","Blue mussel","Atlantic, Northwest",2002,19898.89,795.9556,0.0481240221844286,25,10,10,9,8,8,10,9.2,8.2
+"2167","China","Red drum","Pacific, Northwest",2002,72,0.0388140161725067,0.000698916892374758,1855,1,1,2,5,4,5,3,4.4
+"2266","France","European flat oyster","Mediterranean and Black Sea",2002,0,0,0,39,10,10,7,5,7,10,8.2,7.3
+"2285","France","Pacific cupped oyster","Mediterranean and Black Sea",2002,0,0,0,172,1,10,10,5,5,1,5.3,6.2
+"2312","Greece","European eel","Mediterranean and Black Sea",2002,226.92,2.2692,0.00124689546821194,100,10,3,3,3,6,7,5.3,5.9
+"2313","Greece","European flat oyster","Mediterranean and Black Sea",2002,14042.61,226.493709677419,0.0771622896653785,62,10,10,7,5,7,10,8.2,7.3
+"2314","Greece","European seabass","Mediterranean and Black Sea",2002,104000.01,56.3991377440347,0.57146633687201,1844,10,3,5,5,5,1,4.8,5
+"2332","Iceland","Atlantic wolffish","Atlantic, Northeast",2002,8000,8.89877641824249,0.0390296449668346,899,10,3,5,8,7,5,6.3,6.7
+"2337","Iceland","Spotted wolffish","Atlantic, Northeast",2002,792.76,1.58552,0.00386764266798847,500,10,3,6,8,7,5,6.5,6.9
+"2345","Indonesia","Groupers nei","Pacific, Western Central",2002,30,0.0110415899889584,0.00190530385785925,2717,9,1,5,5,3,4,4.5,5
+"2356","Ireland","Atlantic salmon","Atlantic, Northeast",2002,8032.96,8.74097932535365,0.00529245892858804,919,10,3,3,5,5,5,5.2,5.4
+"2365","Ireland","Pacific cupped oyster","Atlantic, Northeast",2002,0.65,0.0433333333333333,4.28247906572699e-07,15,1,10,7,5,7,10,6.7,6.8
+"2490","Malaysia","Blood cockle","Pacific, Western Central",2002,60,4,0.00109411285227015,15,10,10,7,3,5,7,7,7
+"2545","Mexico","Yellowfin tuna","Pacific, Eastern Central",2002,8.01,0.000481485934118779,1.2895393741207e-05,16636,10,1,1,1,3,1,2.8,4.1
+"2557","Morocco","Mediterranean mussel","Mediterranean and Black Sea",2002,13,13,0.596330275229358,1,10,10,7,5,6,10,6.3,6.4
+"2558","Morocco","Penaeus shrimps nei","Mediterranean and Black Sea",2002,0,0,0,13,5,3,3,5,4,5,4.2,4.9
+"2568","Myanmar","Giant tiger prawn","Indian Ocean, Eastern",2002,80,80,0.017128126953677,1,10,1,1,3,1,1,2.8,3.7
+"2576","Namibia","Pacific cupped oyster","Atlantic, Southeast",2002,35265,783.666666666667,0.99642907397225,45,1,10,7,4,7,9,6.3,5.5
+"2592","Nigeria","Snappers nei","Atlantic, Eastern Central",2002,225220.62,2252.2062,1,100,5,7,3,3,4,3,4.2,4.9
+"2594","Norway","Atlantic cod","Atlantic, Northeast",2002,0,0,0,1800,10,1,3,3,3,1,3.5,4.6
+"2597","Norway","Blue mussel","Atlantic, Northeast",2002,8,4.92319810949193e-05,7.75262963625059e-06,162496,10,10,9,8,7,10,9,8.1
+"2628","Peru","Gracilaria seaweeds","Pacific, Southeast",2002,0,0,0,1,10,10,10,5,10,10,9.2,8.2
+"2630","Peru","Pacific cupped oyster","Pacific, Southeast",2002,1361.1,1.98700729927007,0.204626842784164,685,1,10,10,5,7,10,7.2,6.5
+"2632","Peru","Whiteleg shrimp","Pacific, Southeast",2002,1568.42,24.5065625,0.235795189743251,64,10,3,1,5,3,3,4.2,4.5
+"2633","Philippines","Banana prawn","Pacific, Western Central",2002,0,0,0,1267.52,10,4,5,1,3,1,4,4.3
+"2658","Portugal","Common edible cockle","Atlantic, Northeast",2002,28,1.12,9.92906745134668e-05,25,10,10,7,6,9,6,8,6.9
+"2663","Portugal","Gilthead seabream","Atlantic, Northeast",2002,274320.72,339.505841584158,0.972767475779281,808,10,3,3,6,4,3,4.8,5.3
+"2668","Portugal","Marine molluscs nei","Atlantic, Northeast",2002,0,0,0,26,5,5,5,6,4,5,5,5.3
+"2674","Portugal","Sargo breams nei","Atlantic, Northeast",2002,803.04,0.100092234824878,0.00284765654504623,8023,6,3,3,6,4,3,4.2,4.8
+"2675","Portugal","Sea mussels nei","Atlantic, Northeast",2002,0,0,0,956,5,10,7,6,7,8,7.2,6.5
+"2724","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2002,183279.25,3332.35,0.917703426761079,55,10,3,5,5,5,5,5.5,5.7
+"2788","South Africa","Mediterranean mussel","Atlantic, Southeast",2002,1683.97,8.09600961538461,0.0714415411962853,208,1,10,7,7,7,9,6.8,6.2
+"2789","South Africa","Mullets nei","Atlantic, Southeast",2002,1197.15,10.2320512820513,0.0507884588461392,117,5,5,4,6,5,6,5.2,5.4
+"2790","South Africa","Pacific cupped oyster","Atlantic, Southeast",2002,526.91,0.805672782874618,0.0223538795060094,654,1,10,7,7,7,9,6.8,6.1
+"2791","South Africa","Perlemoen abalone","Atlantic, Southeast",2002,7314.62,304.775833333333,0.310318904769784,24,10,5,7,6,7,8,7.2,6.7
+"2792","South Africa","Red bait","Atlantic, Southeast",2002,17.8,0.0016158315177923,0.000755155634182247,11016,1,5,4,7,5,6,4.7,5
+"2800","Spain","Atlantic salmon","Atlantic, Northeast",2002,1101.96,16.4471641791045,0.00040382210757395,67,10,1,2,3,3,1,3.3,3.5
+"2811","Spain","Cupped oysters nei","Atlantic, Northeast",2002,18,1.125,6.59624481499428e-06,16,5,10,10,7,8,10,8.3,7.2
+"2813","Spain","European eel","Atlantic, Northeast",2002,17000.83,894.78052631579,0.0062300909298944,19,10,3,3,3,6,7,5.3,5.9
+"2814","Spain","European flat oyster","Atlantic, Northeast",2002,25,0.00357704964944913,9.1614511319365e-06,6989,10,10,7,5,7,10,8.2,7.3
+"2822","Spain","Gilthead seabream","Atlantic, Northeast",2002,175817.19,0.964814546532111,0.0644296237735758,182229,10,1,1,3,3,1,3.2,4.2
+"2875","Sweden","Atlantic salmon","Atlantic, Northeast",2002,0,0,0,209995,10,3,3,8,5,5,5.7,6
+"2915","Thailand","Cupped oysters nei","Pacific, Western Central",2002,2293.1,3.19373259052925,0.290635923720586,718,5,10,7,5,6,10,7.2,6.7
+"2935","Turkey","Atlantic salmon","Mediterranean and Black Sea",2002,1590,6,0.0125470187691564,265,1,3,3,8,5,5,4.2,4.7
+"2940","Turkey","Gilthead seabream","Mediterranean and Black Sea",2002,59.77,9.96166666666667,0.000471657428825458,6,8,3,3,7,5,6,5.3,5.1
+"2944","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2002,421.31,2.19432291666667,0.00332464432555552,192,5,5,5,6,5,5,5.2,5.1
+"2952","Turkey","Trouts nei","Mediterranean and Black Sea",2002,128,3.2,0.00101007446695096,40,5,3,3,5,5,5,4.3,4.8
+"2958","Ukraine","Mullets nei","Mediterranean and Black Sea",2002,4533.5,0.5,1,9067,5,10,5,5,5,5,5.8,5.6
+"2984","United Kingdom","European flat oyster","Atlantic, Northeast",2002,432,12,0.13748766748353,36,10,10,7,5,7,10,8.2,7.3
+"3033","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2002,2328.85,9.91,0.138437934318293,235,10,10,10,5,7,10,8.7,7.9
+"3046","Argentina","Blue mussel","Atlantic, Southwest",2003,24.9,0.83,0.332443257676902,30,10,10,7,5,7,10,8.2,7.1
+"3048","Argentina","Pacific cupped oyster","Atlantic, Southwest",2003,50,1,0.667556742323097,50,3,10,5,7,7,10,7,6.4
+"3052","Australia","Atlantic salmon","Pacific, Southwest",2003,75939.64,4.99340084166228,0.429437546116405,15208,1,1,1,3,5,3,2.3,3.7
+"3056","Australia","Cupped oysters nei","Indian Ocean, Eastern",2003,2956.93,2.9334623015873,0.0167213956141744,1008,5,10,7,7,9,10,8,7.1
+"3064","Australia","Pacific cupped oyster","Indian Ocean, Eastern",2003,15469.41,3.67008540925267,0.0874792857889315,4215,1,10,10,10,7,10,8,7.2
+"3067","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2003,53275.62,22.4507458912769,0.301272846706016,2373,10,1,1,1,3,1,2.8,4.1
+"3090","Brazil","Cupped oysters nei","Atlantic, Southwest",2003,3294,0.13040896314185,0.0175215170506063,25259,7,10,7,7,7,10,8,7.1
+"3101","Brazil","Whiteleg shrimp","Atlantic, Southwest",2003,180380.02,85.8952476190476,0.959481358839925,2100,1,3,3,5,1,1,2.3,4
+"3115","Canada","Blue mussel","Atlantic, Northwest",2003,22021.9,550.5475,0.051831744571664,40,10,10,9,8,8,10,9.2,8.2
+"3181","China","Red drum","Pacific, Northwest",2003,60,0.041407867494824,0.000259109960739659,1449,1,1,2,5,4,5,3,4.4
+"3271","France","Atlantic salmon","Atlantic, Northeast",2003,100000.01,33333.3366666667,0.136270759178768,3,10,3,2,5,5,3,4.7,4.8
+"3299","France","Pacific cupped oyster","Mediterranean and Black Sea",2003,0,0,0,94,1,10,10,5,5,1,5.3,6.2
+"3326","Greece","European eel","Mediterranean and Black Sea",2003,371.45,2.23765060240964,0.00195785971172209,166,10,3,3,3,6,7,5.3,5.9
+"3327","Greece","European flat oyster","Mediterranean and Black Sea",2003,13462.3,158.38,0.0709578538083626,85,10,10,7,5,7,10,8.2,7.3
+"3328","Greece","European seabass","Mediterranean and Black Sea",2003,132024,77.433431085044,0.695879581586747,1705,10,3,5,5,5,1,4.8,5
+"3329","Greece","Flathead grey mullet","Mediterranean and Black Sea",2003,5486.78,0.332471671817245,0.0289200309842039,16503,10,3,5,5,5,3,5.2,5.7
+"3345","Iceland","Atlantic salmon","Atlantic, Northeast",2003,4620,1.47603833865815,0.0235087346143728,3130,1,5,5,8,6,5,5,6.1
+"3351","Iceland","Spotted wolffish","Atlantic, Northeast",2003,470,2.83132530120482,0.00239158122700329,166,10,3,6,8,7,5,6.5,6.9
+"3370","Ireland","Atlantic salmon","Atlantic, Northeast",2003,6132.24,2.58635175031632,0.00604198185407293,2371,10,3,3,5,5,5,5.2,5.4
+"3379","Ireland","Pacific cupped oyster","Atlantic, Northeast",2003,0.6,0.04,5.91168824514983e-07,15,1,10,7,5,7,10,6.7,6.8
+"3504","Malaysia","Blood cockle","Pacific, Western Central",2003,60,20,0.000879248676144577,3,10,10,7,3,5,7,7,7
+"3559","Mexico","Yellowfin tuna","Pacific, Eastern Central",2003,8,0.000334196674743086,2.47484628111036e-05,23938,10,1,1,1,3,1,2.8,4.1
+"3571","Morocco","Mediterranean mussel","Mediterranean and Black Sea",2003,1,1,9.77449172398673e-06,1,10,10,7,5,6,10,6.3,6.4
+"3572","Morocco","Penaeus shrimps nei","Mediterranean and Black Sea",2003,0,0,0,1,5,3,3,5,4,5,4.2,4.9
+"3590","Namibia","Pacific cupped oyster","Atlantic, Southeast",2003,38214.84,707.682222222222,0.994955814560184,54,1,10,7,4,7,9,6.3,5.5
+"3606","Nigeria","Snappers nei","Atlantic, Eastern Central",2003,284313.4,2187.02615384615,1,130,5,7,3,3,4,3,4.2,4.9
+"3608","Norway","Atlantic cod","Atlantic, Northeast",2003,0,0,0,1813,10,1,3,3,3,1,3.5,4.6
+"3611","Norway","Blue mussel","Atlantic, Northeast",2003,8,5.07717303005686e-05,6.40307239903537e-06,157568,10,10,9,8,7,10,9,8.1
+"3644","Peru","Pacific cupped oyster","Pacific, Southeast",2003,152.71,0.253250414593698,0.0244143419670564,603,1,10,10,5,7,10,7.2,6.5
+"3647","Philippines","Banana prawn","Pacific, Western Central",2003,0,0,0,1942.81,10,4,5,1,3,1,4,4.3
+"3672","Portugal","Common edible cockle","Atlantic, Northeast",2003,149.05,2.71,0.000396594940411777,55,10,10,7,6,9,6,8,6.9
+"3673","Portugal","Common sole","Atlantic, Northeast",2003,46940,2040.86956521739,0.124898802434947,23,10,5,3,6,4,5,5.5,5.8
+"3675","Portugal","European seabass","Atlantic, Northeast",2003,320,106.666666666667,0.000851461797596568,3,10,3,3,6,4,4,5,5.4
+"3676","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2003,8047.09,502.943125,0.0214118428650668,16,10,10,7,6,7,9,8.2,7
+"3677","Portugal","Gilthead seabream","Atlantic, Northeast",2003,258352.98,186.671228323699,0.687430289891344,1384,10,3,3,6,4,3,4.8,5.3
+"3688","Portugal","Sargo breams nei","Atlantic, Northeast",2003,1627.29,0.176725673327541,0.00432992271440912,9208,6,3,3,6,4,3,4.2,4.8
+"3689","Portugal","Sea mussels nei","Atlantic, Northeast",2003,0,0,0,1492,5,10,7,6,7,8,7.2,6.5
+"3692","Portugal","Turbot","Atlantic, Northeast",2003,2104.49,32.3767692307692,0.005599665120075,65,10,3,3,6,4,5,5.2,5.3
+"3738","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2003,199250.55,13283.37,0.793402374745306,15,10,3,5,5,5,5,5.5,5.7
+"3802","South Africa","Mediterranean mussel","Atlantic, Southeast",2003,1952.39,2.88388478581979,0.0334112373840873,677,1,10,7,7,7,9,6.8,6.2
+"3803","South Africa","Mullets nei","Atlantic, Southeast",2003,1497.07,9.65851612903226,0.0256193491825893,155,5,5,4,6,5,6,5.2,5.4
+"3804","South Africa","Pacific cupped oyster","Atlantic, Southeast",2003,627.26,0.823175853018373,0.010734296304295,762,1,10,7,7,7,9,6.8,6.1
+"3805","South Africa","Perlemoen abalone","Atlantic, Southeast",2003,24486.36,1020.265,0.419034919576631,24,10,5,7,6,7,8,7.2,6.7
+"3806","South Africa","Red bait","Atlantic, Southeast",2003,13.63,0.000404919639939396,0.000233250101437269,33661,1,5,4,7,5,6,4.7,5
+"3814","Spain","Atlantic salmon","Atlantic, Northeast",2003,1178.79,16.8398571428571,0.000417557730307801,70,10,1,2,3,3,1,3.3,3.5
+"3827","Spain","European eel","Atlantic, Northeast",2003,22850.86,3808.47666666667,0.0080943622164943,6,10,3,3,3,6,7,5.3,5.9
+"3828","Spain","European flat oyster","Atlantic, Northeast",2003,29,0.00604166666666667,1.02725457281842e-05,4800,10,10,7,5,7,10,8.2,7.3
+"3836","Spain","Gilthead seabream","Atlantic, Northeast",2003,172936.81,0.725631320124535,0.0612586651314241,238326,10,1,1,3,3,1,3.2,4.2
+"3858","Spain","Pacific cupped oyster","Mediterranean and Black Sea",2003,30.8,0.102666666666667,1.09101520147611e-05,300,1,10,7,5,7,10,6.7,6.4
+"3929","Thailand","Cupped oysters nei","Pacific, Western Central",2003,1357.44,4.17673846153846,0.309178743961353,325,5,10,7,5,6,10,7.2,6.7
+"3949","Turkey","Atlantic salmon","Mediterranean and Black Sea",2003,3410,5,0.0315279877460605,682,1,3,3,8,5,5,4.2,4.7
+"3954","Turkey","Gilthead seabream","Mediterranean and Black Sea",2003,51.63,12.9075,0.000477357773410294,4,8,3,3,7,5,6,5.3,5.1
+"3958","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2003,464.06,2.3203,0.00429058005672634,200,5,5,5,6,5,5,5.2,5.1
+"3966","Turkey","Trouts nei","Mediterranean and Black Sea",2003,178.79,3.08258620689655,0.00165304660677952,58,5,3,3,5,5,5,4.3,4.8
+"3972","Ukraine","Mullets nei","Mediterranean and Black Sea",2003,4304,0.5,1,8608,5,10,5,5,5,5,5.8,5.6
+"3998","United Kingdom","European flat oyster","Atlantic, Northeast",2003,2210,10,0.4814961676391,221,10,10,7,5,7,10,8.2,7.3
+"4047","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2003,2501.4,11.37,0.149758245863597,220,10,10,10,5,7,10,8.7,7.9
+"4060","Argentina","Blue mussel","Atlantic, Southwest",2004,18.9,0.63,0.143051771117166,30,10,10,7,5,7,10,8.2,7.1
+"4062","Argentina","Pacific cupped oyster","Atlantic, Southwest",2004,84.24,0.78,0.637602179836512,108,3,10,5,7,7,10,7,6.4
+"4063","Argentina","River Plata mussel","Atlantic, Southwest",2004,28.98,0.63,0.219346049046322,46,7,10,7,5,7,10,7.7,7
+"4066","Australia","Atlantic salmon","Pacific, Southwest",2004,102062.86,6.19463826171401,0.403995013180334,16476,1,1,1,3,5,3,2.3,3.7
+"4070","Australia","Cupped oysters nei","Indian Ocean, Eastern",2004,10573.61,3.31461128526646,0.0418534784476323,3190,5,10,7,7,9,10,8,7.1
+"4078","Australia","Pacific cupped oyster","Indian Ocean, Eastern",2004,16661.44,4.2721641025641,0.0659509117459901,3900,1,10,10,10,7,10,8,7.2
+"4081","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2004,85369.11,18.7459617918314,0.337916208889731,4554,10,1,1,1,3,1,2.8,4.1
+"4104","Brazil","Cupped oysters nei","Atlantic, Southwest",2004,4023,0.178720568636162,0.0249836981835119,22510,7,10,7,7,7,10,8,7.1
+"4115","Brazil","Whiteleg shrimp","Atlantic, Southwest",2004,151808,165.008695652174,0.942760440925322,920,1,3,3,5,1,1,2.3,4
+"4126","Canada","Atlantic cod","Atlantic, Northwest",2004,0,0,0,4,10,1,3,3,3,3,3.8,4.7
+"4129","Canada","Blue mussel","Atlantic, Northwest",2004,25081.31,597.174047619048,0.057994760164999,42,10,10,9,8,8,10,9.2,8.2
+"4195","China","Red drum","Pacific, Northwest",2004,36,0.0213649851632047,0.000154010233980048,1685,1,1,2,5,4,5,3,4.4
+"4285","France","Atlantic salmon","Atlantic, Northeast",2004,155235.02,11088.2157142857,0.191375819059675,14,10,3,2,5,5,3,4.7,4.8
+"4286","France","Blue mussel","Atlantic, Northeast",2004,118200.01,0.761426289174477,0.145718560970404,155235,10,10,9,8,7,10,9,8.1
+"4294","France","European flat oyster","Mediterranean and Black Sea",2004,0,0,0,14,10,10,7,5,7,10,8.2,7.3
+"4313","France","Pacific cupped oyster","Mediterranean and Black Sea",2004,0,0,0,107,1,10,10,5,5,1,5.3,6.2
+"4340","Greece","European eel","Mediterranean and Black Sea",2004,698.28,3.26299065420561,0.00308737240016941,214,10,3,3,3,6,7,5.3,5.9
+"4341","Greece","European flat oyster","Mediterranean and Black Sea",2004,20617.09,156.190075757576,0.0911563192957105,132,10,10,7,5,7,10,8.2,7.3
+"4342","Greece","European seabass","Mediterranean and Black Sea",2004,144320,65.273631840796,0.638095870986494,2211,10,3,5,5,5,1,4.8,5
+"4343","Greece","Flathead grey mullet","Mediterranean and Black Sea",2004,20444.07,1.1332633037694,0.090391329359471,18040,10,3,5,5,5,3,5.2,5.7
+"4365","Iceland","Spotted wolffish","Atlantic, Northeast",2004,600,2.7906976744186,0.00331651271783132,215,10,3,6,8,7,5,6.5,6.9
+"4384","Ireland","Atlantic salmon","Atlantic, Northeast",2004,9954.39,3.54374866500534,0.00956743591546812,2809,10,3,3,5,5,5,5.2,5.4
+"4518","Malaysia","Blood cockle","Pacific, Western Central",2004,60,2.85714285714286,0.000782901432709622,21,10,10,7,3,5,7,7,7
+"4551","Mexico","Abalones nei","Pacific, Eastern Central",2004,703.09,14.0618,0.00202830938196006,50,5,10,1,7,5,3,5.2,4.6
+"4573","Mexico","Yellowfin tuna","Pacific, Eastern Central",2004,6,0.000304444895473919,1.73091016680089e-05,19708,10,1,1,1,3,1,2.8,4.1
+"4604","Namibia","Pacific cupped oyster","Atlantic, Southeast",2004,42531.78,708.863,0.993939629049118,60,1,10,7,4,7,9,6.3,5.5
+"4620","Nigeria","Snappers nei","Atlantic, Eastern Central",2004,297805.2,3867.6,1,77,5,7,3,3,4,3,4.2,4.9
+"4622","Norway","Atlantic cod","Atlantic, Northeast",2004,0,0,0,2300,10,1,3,3,3,1,3.5,4.6
+"4625","Norway","Blue mussel","Atlantic, Northeast",2004,4,2.66545832555908e-05,3.32906932263368e-06,150068,10,10,9,8,7,10,9,8.1
+"4653","Peru","False abalone","Pacific, Southeast",2004,25.64,1.282,0.00484572672671538,20,10,10,7,7,7,5,7.7,7.2
+"4658","Peru","Pacific cupped oyster","Pacific, Southeast",2004,203.22,0.496870415647922,0.0384067310999648,409,1,10,10,5,7,10,7.2,6.5
+"4661","Philippines","Banana prawn","Pacific, Western Central",2004,0,0,0,1826.88,10,4,5,1,3,1,4,4.3
+"4686","Portugal","Common edible cockle","Atlantic, Northeast",2004,1068.02,13.6925641025641,0.00232054964013577,78,10,10,7,6,9,6,8,6.9
+"4687","Portugal","Common sole","Atlantic, Northeast",2004,68957.21,398.596589595376,0.14982737107008,173,10,5,3,6,4,5,5.5,5.8
+"4690","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2004,7861.66,1123.09428571429,0.0170814893764815,7,10,10,7,6,7,9,8.2,7
+"4691","Portugal","Gilthead seabream","Atlantic, Northeast",2004,314391.78,254.56824291498,0.683097443812517,1235,10,3,3,6,4,3,4.8,5.3
+"4702","Portugal","Sargo breams nei","Atlantic, Northeast",2004,1871.69,0.194825647965025,0.00406673054432101,9607,6,3,3,6,4,3,4.2,4.8
+"4703","Portugal","Sea mussels nei","Atlantic, Northeast",2004,0,0,0,1839,5,10,7,6,7,8,7.2,6.5
+"4706","Portugal","Turbot","Atlantic, Northeast",2004,1942.5,26.9791666666667,0.00422058358079786,72,10,3,3,6,4,5,5.2,5.3
+"4752","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2004,190258.98,1612.36423728814,0.718840092812705,118,10,3,5,5,5,5,5.5,5.7
+"4810","South Africa","European flat oyster","Atlantic, Southeast",2004,14313.41,433.739696969697,0.241079448502556,33,1,10,7,7,7,8,6.7,6.1
+"4816","South Africa","Mediterranean mussel","Atlantic, Southeast",2004,1988.21,3.09208398133748,0.0334872382127855,643,1,10,7,7,7,9,6.8,6.2
+"4817","South Africa","Mullets nei","Atlantic, Southeast",2004,1286.74,8.30154838709677,0.0216724435034125,155,5,5,4,6,5,6,5.2,5.4
+"4818","South Africa","Pacific cupped oyster","Atlantic, Southeast",2004,198.37,0.310438184663537,0.0033411276697483,639,1,10,7,7,7,9,6.8,6.1
+"4819","South Africa","Perlemoen abalone","Atlantic, Southeast",2004,13635.7,1947.95714285714,0.229664841288435,7,10,5,7,6,7,8,7.2,6.7
+"4820","South Africa","Red bait","Atlantic, Southeast",2004,20.7,0.000907337599719471,0.000348648196621414,22814,1,5,4,7,5,6,4.7,5
+"4828","Spain","Atlantic salmon","Atlantic, Northeast",2004,1204.18,17.451884057971,0.000362659335023943,69,10,1,2,3,3,1,3.3,3.5
+"4839","Spain","Cupped oysters nei","Atlantic, Northeast",2004,14.7,2.94,4.42715559538603e-06,5,5,10,10,7,8,10,8.3,7.2
+"4841","Spain","European eel","Atlantic, Northeast",2004,36227.06,2131.00352941176,0.0109103966927473,17,10,3,3,3,6,7,5.3,5.9
+"4842","Spain","European flat oyster","Atlantic, Northeast",2004,28,0.00538876058506543,8.43267732454483e-06,5196,10,10,7,5,7,10,8.2,7.3
+"4850","Spain","Gilthead seabream","Atlantic, Northeast",2004,189524.94,0.792096543653613,0.05707866657049,239270,10,1,1,3,3,1,3.2,4.2
+"4872","Spain","Pacific cupped oyster","Mediterranean and Black Sea",2004,67.2,0.331034482758621,2.02384255789076e-05,203,1,10,7,5,7,10,6.7,6.4
+"4943","Thailand","Cupped oysters nei","Pacific, Western Central",2004,3174.16,3.5073591160221,0.303954173605199,905,5,10,7,5,6,10,7.2,6.7
+"4963","Turkey","Atlantic salmon","Mediterranean and Black Sea",2004,2350,5,0.0170916785272006,470,1,3,3,8,5,5,4.2,4.7
+"4968","Turkey","Gilthead seabream","Mediterranean and Black Sea",2004,59.93,14.9825,0.000435874167717078,4,8,3,3,7,5,6,5.3,5.1
+"4971","Turkey","Mediterranean mussel","Mediterranean and Black Sea",2004,180,3.6,0.00130914984463664,50,10,10,7,6,7,8,8,6.6
+"4972","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2004,401.78,2.34959064327485,0.00292216791432283,171,5,5,5,6,5,5,5.2,5.1
+"4980","Turkey","Trouts nei","Mediterranean and Black Sea",2004,201,3,0.00146188399317758,67,5,3,3,5,5,5,4.3,4.8
+"4986","Ukraine","Mullets nei","Mediterranean and Black Sea",2004,5190,0.5,1,10380,5,10,5,5,5,5,5.8,5.6
+"5012","United Kingdom","European flat oyster","Atlantic, Northeast",2004,1250,10,0.437984849228095,125,10,10,7,5,7,10,8.2,7.3
+"5061","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2004,5468.83,15.67,0.267557509039948,349,10,10,10,5,7,10,8.7,7.9
+"5074","Argentina","Blue mussel","Atlantic, Southwest",2005,35,1,0.113268608414239,35,10,10,7,5,7,10,8.2,7.1
+"5076","Argentina","Pacific cupped oyster","Atlantic, Southwest",2005,228,1.9,0.737864077669903,120,3,10,5,7,7,10,7,6.4
+"5077","Argentina","River Plata mussel","Atlantic, Southwest",2005,46,1,0.148867313915858,46,7,10,7,5,7,10,7.7,7
+"5080","Australia","Atlantic salmon","Pacific, Southwest",2005,110484.57,6.58430095351609,0.514102282765406,16780,1,1,1,3,5,3,2.3,3.7
+"5084","Australia","Cupped oysters nei","Indian Ocean, Eastern",2005,15272.98,3.28451182795699,0.0710676059347508,4650,5,10,7,7,9,10,8,7.1
+"5092","Australia","Pacific cupped oyster","Indian Ocean, Eastern",2005,15366.13,5.61422360248447,0.0715010477053039,2737,1,10,10,10,7,10,8,7.2
+"5095","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2005,31986.46,14.3372747646795,0.148838087559053,2231,10,1,1,1,3,1,2.8,4.1
+"5118","Brazil","Cupped oysters nei","Atlantic, Southwest",2005,3165,0.0292170926915727,0.0233005831918795,108327,7,10,7,7,7,10,8,7.1
+"5129","Brazil","Whiteleg shrimp","Atlantic, Southwest",2005,126268.01,350.744472222222,0.929579232694495,360,1,3,3,5,1,1,2.3,4
+"5143","Canada","Blue mussel","Atlantic, Northwest",2005,27257.51,283.932395833333,0.0459464221172232,96,10,10,9,8,8,10,9.2,8.2
+"5209","China","Red drum","Pacific, Northwest",2005,36,0.0236998025016458,0.000132633045589625,1519,1,1,2,5,4,5,3,4.4
+"5299","France","Atlantic salmon","Atlantic, Northeast",2005,143800,415.606936416185,0.152933176975644,346,10,3,2,5,5,3,4.7,4.8
+"5301","France","Blue mussel","Mediterranean and Black Sea",2005,1234.09,0.0253719161184211,0.0013124708231841,48640,10,10,9,8,7,10,9,8.1
+"5308","France","European flat oyster","Mediterranean and Black Sea",2005,0,0,0,12,10,10,7,5,7,10,8.2,7.3
+"5310","France","European seabass","Mediterranean and Black Sea",2005,600.73,1.30028138528139,0.000638884196137544,462,10,3,5,7,5,5,5.8,5.7
+"5327","France","Pacific cupped oyster","Mediterranean and Black Sea",2005,0,0,0,191,1,10,10,5,5,1,5.3,6.2
+"5354","Greece","European eel","Mediterranean and Black Sea",2005,401.76,0.726509945750452,0.00168048499158252,553,10,3,3,3,6,7,5.3,5.9
+"5355","Greece","European flat oyster","Mediterranean and Black Sea",2005,20304.89,270.731866666667,0.0849314588329698,75,10,10,7,5,7,10,8.2,7.3
+"5356","Greece","European seabass","Mediterranean and Black Sea",2005,152000,62.2950819672131,0.635786834728551,2440,10,3,5,5,5,1,4.8,5
+"5373","Iceland","Atlantic salmon","Atlantic, Northeast",2005,4890,24.45,0.0266349618025235,200,1,5,5,8,6,5,5,6.1
+"5379","Iceland","Spotted wolffish","Atlantic, Northeast",2005,1355.11,2.45047016274864,0.00738104357632262,553,10,3,6,8,7,5,6.5,6.9
+"5398","Ireland","Atlantic salmon","Atlantic, Northeast",2005,6601.53,3.2234033203125,0.0073284165874234,2048,10,3,3,5,5,5,5.2,5.4
+"5407","Ireland","Pacific cupped oyster","Atlantic, Northeast",2005,1,0.05,1.11010880620453e-06,20,1,10,7,5,7,10,6.7,6.8
+"5425","Italy","Gilthead seabream","Mediterranean and Black Sea",2005,709.6,37.3473684210526,0.00206704833653877,19,10,1,3,5,3,1,3.8,4.7
+"5532","Malaysia","Blood cockle","Pacific, Western Central",2005,86,6.14285714285714,0.000942214737093055,14,10,10,7,3,5,7,7,7
+"5565","Mexico","Abalones nei","Pacific, Eastern Central",2005,566.82,11.3364,0.00133804038765921,50,5,10,1,7,5,3,5.2,4.6
+"5587","Mexico","Yellowfin tuna","Pacific, Eastern Central",2005,40,0.00187819880734376,9.44243595962886e-05,21297,10,1,1,1,3,1,2.8,4.1
+"5618","Namibia","Pacific cupped oyster","Atlantic, Southeast",2005,42185.58,958.763181818182,0.996081135165065,44,1,10,7,4,7,9,6.3,5.5
+"5634","Nigeria","Snappers nei","Atlantic, Eastern Central",2005,465810.84,2061.10991150442,1,226,5,7,3,3,4,3,4.2,4.9
+"5636","Norway","Atlantic cod","Atlantic, Northeast",2005,0,0,0,2000,10,1,3,3,3,1,3.5,4.6
+"5639","Norway","Blue mussel","Atlantic, Northeast",2005,4,2.50405343650033e-05,3.36858507081162e-06,159741,10,10,9,8,7,10,9,8.1
+"5667","Peru","False abalone","Pacific, Southeast",2005,47.46,0.968571428571429,0.00903597253795451,49,10,10,7,7,7,5,7.7,7.2
+"5672","Peru","Pacific cupped oyster","Pacific, Southeast",2005,220.62,1.6587969924812,0.042004135299695,133,1,10,10,5,7,10,7.2,6.5
+"5675","Philippines","Banana prawn","Pacific, Western Central",2005,0,0,0,2877.8,10,4,5,1,3,1,4,4.3
+"5700","Portugal","Common edible cockle","Atlantic, Northeast",2005,1396.1,55.844,0.00244301284502241,25,10,10,7,6,9,6,8,6.9
+"5701","Portugal","Common sole","Atlantic, Northeast",2005,106081.86,493.404,0.185630933746773,215,10,5,3,6,4,5,5.5,5.8
+"5704","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2005,10159.05,298.795588235294,0.0177771575411682,34,10,10,7,6,7,9,8.2,7
+"5705","Portugal","Gilthead seabream","Atlantic, Northeast",2005,366414.78,239.486784313726,0.641183306458034,1530,10,3,3,6,4,3,4.8,5.3
+"5716","Portugal","Sargo breams nei","Atlantic, Northeast",2005,1370.12,0.107637677743735,0.0023975508625615,12729,6,3,3,6,4,3,4.2,4.8
+"5717","Portugal","Sea mussels nei","Atlantic, Northeast",2005,0,0,0,1500,5,10,7,6,7,8,7.2,6.5
+"5766","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2005,288863.34,1689.25929824561,0.787803816481633,171,10,3,5,5,5,5,5.5,5.7
+"5824","South Africa","European flat oyster","Atlantic, Southeast",2005,12979.82,129.7982,0.242584166472609,100,1,10,7,7,7,8,6.7,6.1
+"5830","South Africa","Mediterranean mussel","Atlantic, Southeast",2005,1712.45,4.41353092783505,0.0320045467407113,388,1,10,7,7,7,9,6.8,6.2
+"5831","South Africa","Mullets nei","Atlantic, Southeast",2005,2571.69,20.4102380952381,0.0480631684473239,126,5,5,4,6,5,6,5.2,5.4
+"5832","South Africa","Pacific cupped oyster","Atlantic, Southeast",2005,167.94,0.118517995765702,0.00313868643150752,1417,1,10,7,7,7,9,6.8,6.1
+"5833","South Africa","Perlemoen abalone","Atlantic, Southeast",2005,11399.8,1899.96666666667,0.213054647980823,6,10,5,7,6,7,8,7.2,6.7
+"5834","South Africa","Red bait","Atlantic, Southeast",2005,24.03,0.000799454388182847,0.000449104650167475,30058,1,5,4,7,5,6,4.7,5
+"5853","Spain","Cupped oysters nei","Atlantic, Northeast",2005,152.01,10.8578571428571,3.93327964363063e-05,14,5,10,10,7,8,10,8.3,7.2
+"5855","Spain","European eel","Atlantic, Northeast",2005,47914.09,7985.68166666667,0.0123978366449632,6,10,3,3,3,6,7,5.3,5.9
+"5856","Spain","European flat oyster","Atlantic, Northeast",2005,0,0,0,7500,10,10,7,5,7,10,8.2,7.3
+"5864","Spain","Gilthead seabream","Atlantic, Northeast",2005,195092.64,0.775081404495721,0.0504804887529873,251706,10,1,1,3,3,1,3.2,4.2
+"5886","Spain","Pacific cupped oyster","Mediterranean and Black Sea",2005,0,0,0,200,1,10,7,5,7,10,6.7,6.4
+"5957","Thailand","Cupped oysters nei","Pacific, Western Central",2005,4502.18,4.97478453038674,0.3838535583047,905,5,10,7,5,6,10,7.2,6.7
+"5977","Turkey","Atlantic salmon","Mediterranean and Black Sea",2005,1265,5,0.0157540426554715,253,1,3,3,8,5,5,4.2,4.7
+"5982","Turkey","Gilthead seabream","Mediterranean and Black Sea",2005,179.24,16.2945454545455,0.00223221707949938,11,8,3,3,7,5,6,5.3,5.1
+"5985","Turkey","Mediterranean mussel","Mediterranean and Black Sea",2005,18,3.6,0.000224168195888133,5,10,10,7,6,7,8,8,6.6
+"5986","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2005,357.57,2.4491095890411,0.00445310121131775,146,5,5,5,6,5,5,5.2,5.1
+"5994","Turkey","Trouts nei","Mediterranean and Black Sea",2005,422.74,2.45779069767442,0.0052647146183194,172,5,3,3,5,5,5,4.3,4.8
+"6000","Ukraine","Mullets nei","Mediterranean and Black Sea",2005,6387.5,0.5,1,12775,5,10,5,5,5,5,5.8,5.6
+"6025","United Kingdom","Cupped oysters nei","Atlantic, Northeast",2005,20.46,20.46,0.00906288204964652,1,5,10,7,6,8,10,7.7,6.9
+"6026","United Kingdom","European flat oyster","Atlantic, Northeast",2005,190,10,0.0841616612626021,19,10,10,7,5,7,10,8.2,7.3
+"6027","United Kingdom","European seabass","Atlantic, Northeast",2005,24,2,0.0106309466858024,12,10,3,5,7,5,5,5.8,6
+"6075","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2005,6400,16,0.275048541769989,400,10,10,10,5,7,10,8.7,7.9
+"6088","Argentina","Blue mussel","Atlantic, Southwest",2006,8.4,0.7,0.0338164251207729,12,10,10,7,5,7,10,8.2,7.1
+"6090","Argentina","Pacific cupped oyster","Atlantic, Southwest",2006,220,2,0.885668276972625,110,3,10,5,7,7,10,7,6.4
+"6091","Argentina","River Plata mussel","Atlantic, Southwest",2006,20,1,0.0805152979066023,20,7,10,7,5,7,10,7.7,7
+"6094","Australia","Atlantic salmon","Pacific, Southwest",2006,172712.81,8.33958522452921,0.580559183921391,20710,1,1,1,3,5,3,2.3,3.7
+"6098","Australia","Cupped oysters nei","Indian Ocean, Eastern",2006,17970.97,3.32980730035205,0.0604078624942516,5397,5,10,7,7,9,10,8,7.1
+"6106","Australia","Pacific cupped oyster","Indian Ocean, Eastern",2006,14093.79,5.45425309597523,0.047375057013776,2584,1,10,10,10,7,10,8,7.2
+"6109","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2006,48122.94,13.3267626696206,0.161761103732248,3611,10,1,1,1,3,1,2.8,4.1
+"6132","Brazil","Cupped oysters nei","Atlantic, Southwest",2006,5119.5,0.0253542261996147,0.0367595687968667,201919,7,10,7,7,7,10,8,7.1
+"6143","Brazil","Whiteleg shrimp","Atlantic, Southwest",2006,128700.01,858.000066666667,0.924105258668315,150,1,3,3,5,1,1,2.3,4
+"6157","Canada","Blue mussel","Atlantic, Northwest",2006,30580.51,318.546979166667,0.0369977125559661,96,10,10,9,8,8,10,9.2,8.2
+"6158","Canada","Blue mussel","Pacific, Northeast",2006,10829.51,0.00657809026301403,0.0131020410745917,1646300,10,10,9,8,8,10,9.2,8.2
+"6223","China","Red drum","Pacific, Northwest",2006,36,0.022181146025878,0.000111268318821936,1623,1,1,2,5,4,5,3,4.4
+"6313","France","Atlantic salmon","Atlantic, Northeast",2006,146200,302.066115702479,0.153218461198069,484,10,3,2,5,5,3,4.7,4.8
+"6315","France","Blue mussel","Mediterranean and Black Sea",2006,1164.48,0.0237039449578635,0.00122038189942495,49126,10,10,9,8,7,10,9,8.1
+"6322","France","European flat oyster","Mediterranean and Black Sea",2006,0,0,0,10,10,10,7,5,7,10,8.2,7.3
+"6324","France","European seabass","Mediterranean and Black Sea",2006,330.96,0.360522875816993,0.000346848029535657,918,10,3,5,7,5,5,5.8,5.7
+"6341","France","Pacific cupped oyster","Mediterranean and Black Sea",2006,0,0,0,270,1,10,10,5,5,1,5.3,6.2
+"6368","Greece","European eel","Mediterranean and Black Sea",2006,458.94,0.923420523138833,0.00171829694585392,497,10,3,3,3,6,7,5.3,5.9
+"6369","Greece","European flat oyster","Mediterranean and Black Sea",2006,19107.28,224.791529411765,0.0715387215487332,85,10,10,7,5,7,10,8.2,7.3
+"6370","Greece","European seabass","Mediterranean and Black Sea",2006,172800.02,75.8560228270413,0.64697290846188,2278,10,3,5,5,5,1,4.8,5
+"6371","Greece","Flathead grey mullet","Mediterranean and Black Sea",2006,9664.76,0.447442592592593,0.0361854002492942,21600,10,3,5,5,5,3,5.2,5.7
+"6393","Iceland","Spotted wolffish","Atlantic, Northeast",2006,490,0.983935742971888,0.0029413530223903,498,10,3,6,8,7,5,6.5,6.9
+"6401","Indonesia","Groupers nei","Pacific, Western Central",2006,0,0,0,2681,9,1,5,5,3,4,4.5,5
+"6412","Ireland","Atlantic salmon","Atlantic, Northeast",2006,10320.28,6.1102901124926,0.00939785043663077,1689,10,3,3,5,5,5,5.2,5.4
+"6421","Ireland","Pacific cupped oyster","Atlantic, Northeast",2006,0.25,0.0113636363636364,2.2765492885442e-07,22,1,10,7,5,7,10,6.7,6.8
+"6435","Italy","Cupped oysters nei","Mediterranean and Black Sea",2006,16.95,6.10221479796089e-05,4.59121165163381e-05,277768,5,10,10,10,9,10,9,7.6
+"6439","Italy","Gilthead seabream","Mediterranean and Black Sea",2006,1896.26,82.4460869565217,0.00513636047582722,23,10,1,3,5,3,1,3.8,4.7
+"6546","Malaysia","Blood cockle","Pacific, Western Central",2006,73.05,2.435,0.000754983589312905,30,10,10,7,3,5,7,7,7
+"6579","Mexico","Abalones nei","Pacific, Eastern Central",2006,652.94,13.0588,0.00154005936306868,50,5,10,1,7,5,3,5.2,4.6
+"6601","Mexico","Yellowfin tuna","Pacific, Eastern Central",2006,56,0.0020351055711015,0.000132084608588608,27517,10,1,1,1,3,1,2.8,4.1
+"6615","Morocco","Yesso scallop","Atlantic, Eastern Central",2006,241682.84,60420.71,0.999875761683687,4,1,10,7,7,6,9,6.7,6.5
+"6632","Namibia","Pacific cupped oyster","Atlantic, Southeast",2006,49326,1298.05263157895,0.996184986741365,38,1,10,7,4,7,9,6.3,5.5
+"6635","Netherlands","Blue mussel","Atlantic, Northeast",2006,0,0,0,888840,10,10,9,8,7,10,9,8.1
+"6648","Nigeria","Snappers nei","Atlantic, Eastern Central",2006,466265.9,10136.2152173913,1,46,5,7,3,3,4,3,4.2,4.9
+"6650","Norway","Atlantic cod","Atlantic, Northeast",2006,0,0,0,2400,10,1,3,3,3,1,3.5,4.6
+"6653","Norway","Blue mussel","Atlantic, Northeast",2006,4,2.58057856571443e-05,3.17571656570865e-06,155004,10,10,9,8,7,10,9,8.1
+"6655","Norway","European flat oyster","Atlantic, Northeast",2006,187629.83,46907.4575,0.148964789838025,4,10,10,7,5,7,10,8.2,7.3
+"6686","Peru","Pacific cupped oyster","Pacific, Southeast",2006,0,0,0,192,1,10,10,5,7,10,7.2,6.5
+"6689","Philippines","Banana prawn","Pacific, Western Central",2006,0,0,0,2410.04,10,4,5,1,3,1,4,4.3
+"6693","Philippines","Giant tiger prawn","Pacific, Western Central",2006,0,0,0,1046950,10,1,1,1,1,1,2.5,3.5
+"6714","Portugal","Common edible cockle","Atlantic, Northeast",2006,1939.86,64.662,0.00396118760646077,30,10,10,7,6,9,6,8,6.9
+"6715","Portugal","Common sole","Atlantic, Northeast",2006,74415.3,254.846917808219,0.151955792733012,292,10,5,3,6,4,5,5.5,5.8
+"6718","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2006,10441.98,497.237142857143,0.0213224880985799,21,10,10,7,6,7,9,8.2,7
+"6719","Portugal","Gilthead seabream","Atlantic, Northeast",2006,302719.75,191.110953282828,0.618152713046768,1584,10,3,3,6,4,3,4.8,5.3
+"6726","Portugal","Octopuses nei","Atlantic, Northeast",2006,1035,0.023784355179704,0.00211346652474245,43516,5,5,5,6,8,5,5.7,5.7
+"6730","Portugal","Sargo breams nei","Atlantic, Northeast",2006,1117.12,0.0927378382865681,0.00228115528900511,12046,6,3,3,6,4,3,4.2,4.8
+"6731","Portugal","Sea mussels nei","Atlantic, Northeast",2006,0,0,0,1183,5,10,7,6,7,8,7.2,6.5
+"6734","Portugal","Turbot","Atlantic, Northeast",2006,174.96,4.16571428571429,0.000357267732530377,42,10,3,3,6,4,5,5.2,5.3
+"6780","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2006,359241.88,1575.62228070175,0.819836301519718,228,10,3,5,5,5,5,5.5,5.7
+"6839","South Africa","Giant tiger prawn","Atlantic, Southeast",2006,188.35,0.00665571221597936,0.0026552908096769,28299,1,3,3,7,5,5,4,4.7
+"6844","South Africa","Mediterranean mussel","Atlantic, Southeast",2006,538.39,1.11237603305785,0.00759002930194822,484,1,10,7,7,7,9,6.8,6.2
+"6845","South Africa","Mullets nei","Atlantic, Southeast",2006,2662.2,64.9317073170732,0.0375307416698797,41,5,5,4,6,5,6,5.2,5.4
+"6846","South Africa","Pacific cupped oyster","Atlantic, Southeast",2006,129.11,0.0872954699121028,0.00182014651678994,1479,1,10,7,7,7,9,6.8,6.1
+"6847","South Africa","Perlemoen abalone","Atlantic, Southeast",2006,14173.82,2834.764,0.199817435540296,5,10,5,7,6,7,8,7.2,6.7
+"6848","South Africa","Red bait","Atlantic, Southeast",2006,30.72,0.00145420118343195,0.000433079552287096,21125,1,5,4,7,5,6,4.7,5
+"6849","South Africa","Sea mussels nei","Atlantic, Southeast",2006,0,0,0,3200,5,10,7,7,7,8,7.3,6.5
+"6867","Spain","Cupped oysters nei","Atlantic, Northeast",2006,161.24,31.0076923076923,3.72729217343888e-05,5.2,5,10,10,7,8,10,8.3,7.2
+"6869","Spain","European eel","Atlantic, Northeast",2006,61681.91,1186.19057692308,0.0142586517232548,52,10,3,3,3,6,7,5.3,5.9
+"6870","Spain","European flat oyster","Atlantic, Northeast",2006,0,0,0,7721,10,10,7,5,7,10,8.2,7.3
+"6878","Spain","Gilthead seabream","Atlantic, Northeast",2006,246424.8,0.869849203659776,0.0569646011151848,283296,10,1,1,3,3,1,3.2,4.2
+"6888","Spain","Kuruma prawn","Atlantic, Northeast",2006,0,0,0,1376,1,3,5,5,5,7,4.3,4.8
+"6900","Spain","Pacific cupped oyster","Mediterranean and Black Sea",2006,0,0,0,229,1,10,7,5,7,10,6.7,6.4
+"6971","Thailand","Cupped oysters nei","Pacific, Western Central",2006,5942.74,10.9442725598527,0.441853859903224,543,5,10,7,5,6,10,7.2,6.7
+"6991","Turkey","Atlantic salmon","Mediterranean and Black Sea",2006,1315,5,0.00511118458951805,263,1,3,3,8,5,5,4.2,4.7
+"6996","Turkey","Gilthead seabream","Mediterranean and Black Sea",2006,129.73,14.4144444444444,0.000504238765625989,9,8,3,3,7,5,6,5.3,5.1
+"6999","Turkey","Mediterranean mussel","Mediterranean and Black Sea",2006,180,3.6,0.000699629829743915,50,10,10,7,6,7,8,8,6.6
+"7000","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2006,298.46,2.35007874015748,0.00116006399436316,127,5,5,5,6,5,5,5.2,5.1
+"7008","Turkey","Trouts nei","Mediterranean and Black Sea",2006,657.42,2.37335740072202,0.00255528134816802,277,5,3,3,5,5,5,4.3,4.8
+"7014","Ukraine","Mullets nei","Mediterranean and Black Sea",2006,5437.35,0.45,1,12083,5,10,5,5,5,5,5.8,5.6
+"7039","United Kingdom","Cupped oysters nei","Atlantic, Northeast",2006,289.45,24.1208333333333,0.0194907162375275,12,5,10,7,6,8,10,7.7,6.9
+"7040","United Kingdom","European flat oyster","Atlantic, Northeast",2006,570,10,0.0383821325112823,57,10,10,7,5,7,10,8.2,7.3
+"7041","United Kingdom","European seabass","Atlantic, Northeast",2006,4,2,0.000269348298324788,2,10,3,5,7,5,5,5.8,6
+"7048","United Kingdom","Pacific cupped oyster","Atlantic, Northeast",2006,11684.64,13.9102857142857,0.786809475134438,840,1,10,7,5,7,10,6.7,6.7
+"7089","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2006,11287.5,21.5,0.275704717133677,525,10,10,10,5,7,10,8.7,7.9
+"7102","Argentina","Blue mussel","Atlantic, Southwest",2007,9.1,0.7,0.0336912254720474,13,10,10,7,5,7,10,8.2,7.1
+"7104","Argentina","Pacific cupped oyster","Atlantic, Southwest",2007,240,2,0.888559792669382,120,3,10,5,7,7,10,7,6.4
+"7105","Argentina","River Plata mussel","Atlantic, Southwest",2007,21,1,0.0777489818585709,21,7,10,7,5,7,10,7.7,7
+"7108","Australia","Atlantic salmon","Pacific, Southwest",2007,241989.34,9.55120539943164,0.611924846856533,25336,1,1,1,3,5,3,2.3,3.7
+"7112","Australia","Cupped oysters nei","Indian Ocean, Eastern",2007,31721.07,4.10894689119171,0.08021390901713,7720,5,10,7,7,9,10,8,7.1
+"7123","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2007,32985.8,15.421131369799,0.0834120652316346,2139,10,1,1,1,3,1,2.8,4.1
+"7146","Brazil","Cupped oysters nei","Atlantic, Southwest",2007,3601,0.0144011773692356,0.0186036131099419,250049,7,10,7,7,7,10,8,7.1
+"7157","Brazil","Whiteleg shrimp","Atlantic, Southwest",2007,180271.95,261.263695652174,0.931327301409271,690,1,3,3,5,1,1,2.3,4
+"7171","Canada","Blue mussel","Atlantic, Northwest",2007,29427.36,313.057021276596,0.0404247809901259,94,10,10,9,8,8,10,9.2,8.2
+"7172","Canada","Blue mussel","Pacific, Northeast",2007,7402.24,0.00527875516127422,0.0101685618701898,1402270,10,10,9,8,8,10,9.2,8.2
+"7192","Chile","Atlantic salmon","Pacific, Southeast",2007,0,0,0,101529,1,1,1,1,1,2,1.2,2.5
+"7237","China","Red drum","Pacific, Northwest",2007,0,0,0,1930,1,1,2,5,4,5,3,4.4
+"7327","France","Atlantic salmon","Atlantic, Northeast",2007,170500.02,684.739036144578,0.173113182532782,249,10,3,2,5,5,3,4.7,4.8
+"7329","France","Blue mussel","Mediterranean and Black Sea",2007,1112.22,0.0230258990124837,0.00112926640053539,48303,10,10,9,8,7,10,9,8.1
+"7336","France","European flat oyster","Mediterranean and Black Sea",2007,0,0,0,2,10,10,7,5,7,10,8.2,7.3
+"7338","France","European seabass","Mediterranean and Black Sea",2007,421.14,0.771318681318681,0.000427594587331169,546,10,3,5,7,5,5,5.8,5.7
+"7355","France","Pacific cupped oyster","Mediterranean and Black Sea",2007,0,0,0,305,1,10,10,5,5,1,5.3,6.2
+"7382","Greece","European eel","Mediterranean and Black Sea",2007,530.44,1.52864553314121,0.00178088805357302,347,10,3,3,3,6,7,5.3,5.9
+"7384","Greece","European seabass","Mediterranean and Black Sea",2007,162400,88.1172002170374,0.545238330254617,1843,10,3,5,5,5,1,4.8,5
+"7385","Greece","Flathead grey mullet","Mediterranean and Black Sea",2007,62961.59,3.10155615763547,0.211385912572511,20300,10,3,5,5,5,3,5.2,5.7
+"7407","Iceland","Spotted wolffish","Atlantic, Northeast",2007,1033.73,2.98765895953757,0.00637384261264594,346,10,3,6,8,7,5,6.5,6.9
+"7415","Indonesia","Groupers nei","Pacific, Western Central",2007,0,0,0,2317,9,1,5,5,3,4,4.5,5
+"7426","Ireland","Atlantic salmon","Atlantic, Northeast",2007,13432.23,12.1120198376916,0.0120367307920764,1109,10,3,3,5,5,5,5.2,5.4
+"7449","Italy","Cupped oysters nei","Mediterranean and Black Sea",2007,0,0,0,279510,5,10,10,10,9,10,9,7.6
+"7453","Italy","Gilthead seabream","Mediterranean and Black Sea",2007,2959.83,46.24734375,0.00849012667767081,64,10,1,3,5,3,1,3.8,4.7
+"7473","Japan","Flathead grey mullet","Pacific, Northwest",2007,0,0,0,3,10,3,5,5,5,5,5.5,5.8
+"7560","Malaysia","Blood cockle","Pacific, Western Central",2007,0,0,0,30,10,10,7,3,5,7,7,7
+"7593","Mexico","Abalones nei","Pacific, Eastern Central",2007,411.19,8.2238,0.000879346436384357,50,5,10,1,7,5,3,5.2,4.6
+"7615","Mexico","Yellowfin tuna","Pacific, Eastern Central",2007,0,0,0,35564,10,1,1,1,3,1,2.8,4.1
+"7629","Morocco","Yesso scallop","Atlantic, Eastern Central",2007,240302.72,240302.72,0.999819926272956,1,1,10,7,7,6,9,6.7,6.5
+"7646","Namibia","Pacific cupped oyster","Atlantic, Southeast",2007,54250.2,1261.63255813953,0.997820987712225,43,1,10,7,4,7,9,6.3,5.5
+"7649","Netherlands","Blue mussel","Atlantic, Northeast",2007,0,0,0,994510,10,10,9,8,7,10,9,8.1
+"7662","Nigeria","Snappers nei","Atlantic, Eastern Central",2007,408862.78,2604.22152866242,1,157,5,7,3,3,4,3,4.2,4.9
+"7664","Norway","Atlantic cod","Atlantic, Northeast",2007,0,0,0,2800,10,1,3,3,3,1,3.5,4.6
+"7700","Peru","Pacific cupped oyster","Pacific, Southeast",2007,0,0,0,136,1,10,10,5,7,10,7.2,6.5
+"7703","Philippines","Banana prawn","Pacific, Western Central",2007,0,0,0,2199.71,10,4,5,1,3,1,4,4.3
+"7707","Philippines","Giant tiger prawn","Pacific, Western Central",2007,0,0,0,1165311,10,1,1,1,1,1,2.5,3.5
+"7728","Portugal","Common edible cockle","Atlantic, Northeast",2007,1699.34,113.289333333333,0.00313039863849194,15,10,10,7,6,9,6,8,6.9
+"7729","Portugal","Common sole","Atlantic, Northeast",2007,88862.65,310.708566433566,0.163696210630472,286,10,5,3,6,4,5,5.5,5.8
+"7732","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2007,8920.54,2230.135,0.0164327599365712,4,10,10,7,6,7,9,8.2,7
+"7733","Portugal","Gilthead seabream","Atlantic, Northeast",2007,347354.44,291.404731543624,0.639870694534425,1192,10,3,3,6,4,3,4.8,5.3
+"7740","Portugal","Octopuses nei","Atlantic, Northeast",2007,355.3,0.00829094133569795,0.00065450741832487,42854,5,5,5,6,8,5,5.7,5.7
+"7744","Portugal","Sargo breams nei","Atlantic, Northeast",2007,1401.25,0.103283703103118,0.00258127925676252,13567,6,3,3,6,4,3,4.2,4.8
+"7745","Portugal","Sea mussels nei","Atlantic, Northeast",2007,0,0,0,1303,5,10,7,6,7,8,7.2,6.5
+"7794","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2007,359196.9,1247.21145833333,0.815178935249565,288,10,3,5,5,5,5,5.5,5.7
+"7853","South Africa","Giant tiger prawn","Atlantic, Southeast",2007,320.73,0.014460976599486,0.00479436031472099,22179,1,3,3,7,5,5,4,4.7
+"7858","South Africa","Mediterranean mussel","Atlantic, Southeast",2007,789.86,0.809282786885246,0.0118070446736679,976,1,10,7,7,7,9,6.8,6.2
+"7859","South Africa","Mullets nei","Atlantic, Southeast",2007,2301.22,44.2542307692308,0.0343992699262377,52,5,5,4,6,5,6,5.2,5.4
+"7860","South Africa","Pacific cupped oyster","Atlantic, Southeast",2007,146.01,0.0695616960457361,0.00218259766642475,2099,1,10,7,7,7,9,6.8,6.1
+"7861","South Africa","Perlemoen abalone","Atlantic, Southeast",2007,14064.05,1758.00625,0.210233290257387,8,10,5,7,6,7,8,7.2,6.7
+"7862","South Africa","Red bait","Atlantic, Southeast",2007,27.35,0.00130804916543115,0.000408835327557818,20909,1,5,4,7,5,6,4.7,5
+"7863","South Africa","Sea mussels nei","Atlantic, Southeast",2007,0,0,0,4000,5,10,7,7,7,8,7.3,6.5
+"7881","Spain","Cupped oysters nei","Atlantic, Northeast",2007,885.2,88.52,0.000191844789814961,10,5,10,10,7,8,10,8.3,7.2
+"7883","Spain","European eel","Atlantic, Northeast",2007,67742.49,8467.81125,0.0146814773560688,8,10,3,3,3,6,7,5.3,5.9
+"7884","Spain","European flat oyster","Atlantic, Northeast",2007,0,0,0,9400,10,10,7,5,7,10,8.2,7.3
+"7888","Spain","European seabass","Mediterranean and Black Sea",2007,0,0,0,1,10,3,5,5,5,5,5.5,5.7
+"7892","Spain","Gilthead seabream","Atlantic, Northeast",2007,264732.25,0.824002570998145,0.0573740429942292,321276,10,1,1,3,3,1,3.2,4.2
+"7893","Spain","Gilthead seabream","Mediterranean and Black Sea",2007,0,0,0,77381,10,1,1,3,3,1,3.2,4.2
+"7902","Spain","Kuruma prawn","Atlantic, Northeast",2007,0,0,0,1037,1,3,5,5,5,7,4.3,4.8
+"7914","Spain","Pacific cupped oyster","Mediterranean and Black Sea",2007,8.4,0.0777777777777778,1.82048829015553e-06,108,1,10,7,5,7,10,6.7,6.4
+"7985","Thailand","Cupped oysters nei","Pacific, Western Central",2007,6631.14,12.2798888888889,0.509067208350031,540,5,10,7,5,6,10,7.2,6.7
+"8005","Turkey","Atlantic salmon","Mediterranean and Black Sea",2007,1554,6,0.0168514141199235,259,1,3,3,8,5,5,4.2,4.7
+"8010","Turkey","Gilthead seabream","Mediterranean and Black Sea",2007,126.43,15.80375,0.00137099374979532,8,8,3,3,7,5,6,5.3,5.1
+"8013","Turkey","Mediterranean mussel","Mediterranean and Black Sea",2007,8.81,8.81,9.55347222628868e-05,1,10,10,7,6,7,8,8,6.6
+"8014","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2007,263.39,2.19491666666667,0.00285617372268124,120,5,5,5,6,5,5,5.2,5.1
+"8022","Turkey","Trouts nei","Mediterranean and Black Sea",2007,517.6,2.68186528497409,0.00561280048164248,193,5,3,3,5,5,5,4.3,4.8
+"8028","Ukraine","Mullets nei","Mediterranean and Black Sea",2007,9601.6,0.8,1,12002,5,10,5,5,5,5,5.8,5.6
+"8053","United Kingdom","Cupped oysters nei","Atlantic, Northeast",2007,328.39,25.2607692307692,0.0146218203028643,13,5,10,7,6,8,10,7.7,6.9
+"8054","United Kingdom","European flat oyster","Atlantic, Northeast",2007,680,10,0.0302775291755162,68,10,10,7,5,7,10,8.2,7.3
+"8055","United Kingdom","European seabass","Atlantic, Northeast",2007,12,2,0.000534309338391462,6,10,3,5,7,5,5,5.8,6
+"8062","United Kingdom","Pacific cupped oyster","Atlantic, Northeast",2007,18428.7,19.605,0.820552208701228,940,1,10,7,5,7,10,6.7,6.7
+"8103","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2007,9922,22,0.329323171512915,451,10,10,10,5,7,10,8.7,7.9
+"8118","Argentina","Pacific cupped oyster","Atlantic, Southwest",2008,146,2,0.514628128304547,73,3,10,5,7,7,10,7,6.4
+"8122","Australia","Atlantic salmon","Pacific, Southwest",2008,257362.73,9.99975638091612,0.533327341684424,25736.9,1,1,1,3,5,3,2.3,3.7
+"8134","Australia","Pacific cupped oyster","Indian Ocean, Eastern",2008,50889.23,6.22034078546895,0.10545667492829,8181.1,1,10,10,10,7,10,8,7.2
+"8137","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2008,74187.8,16.3697705207414,0.153737808731729,4532,10,1,1,1,3,1,2.8,4.1
+"8160","Brazil","Cupped oysters nei","Atlantic, Southwest",2008,5265,0.0184593701024819,0.0187154563862682,285221,7,10,7,7,7,10,8,7.1
+"8171","Brazil","Whiteleg shrimp","Atlantic, Southwest",2008,264336.75,377.623928571429,0.939635881464937,700,1,3,3,5,1,1,2.3,4
+"8185","Canada","Blue mussel","Atlantic, Northwest",2008,24461.26,87.6747670250896,0.0324989535038996,279,10,10,9,8,8,10,9.2,8.2
+"8186","Canada","Blue mussel","Pacific, Northeast",2008,996.64,0.000754910203679718,0.00132412463708437,1320210,10,10,9,8,8,10,9.2,8.2
+"8206","Chile","Atlantic salmon","Pacific, Southeast",2008,0,0,0,113852,1,1,1,1,1,2,1.2,2.5
+"8217","Chile","Pacific cupped oyster","Pacific, Southeast",2008,174877.1,180.192787223081,0.288486261026394,970.5,1,10,7,5,7,1,5.2,5.6
+"8251","China","Red drum","Pacific, Northwest",2008,0,0,0,442.1,1,1,2,5,4,5,3,4.4
+"8341","France","Atlantic salmon","Atlantic, Northeast",2008,170000.02,152.19339301701,0.154561587880467,1117,10,3,2,5,5,3,4.7,4.8
+"8343","France","Blue mussel","Mediterranean and Black Sea",2008,508.11,0.0105192224085461,0.000461966348109513,48303,10,10,9,8,7,10,9,8.1
+"8350","France","European flat oyster","Mediterranean and Black Sea",2008,0,0,0,15,10,10,7,5,7,10,8.2,7.3
+"8352","France","European seabass","Mediterranean and Black Sea",2008,201.99,0.411384928716904,0.000183646420370866,491,10,3,5,7,5,5,5.8,5.7
+"8354","France","Gilthead seabream","Atlantic, Northeast",2008,903.9,29.158064516129,0.000821812957934678,31,10,1,1,5,3,1,3.5,4.3
+"8369","France","Pacific cupped oyster","Mediterranean and Black Sea",2008,0,0,0,490,1,10,10,5,5,1,5.3,6.2
+"8397","Greece","European flat oyster","Mediterranean and Black Sea",2008,22832.65,706.893188854489,0.0946607068713085,32.3,10,10,7,5,7,10,8.2,7.3
+"8398","Greece","European seabass","Mediterranean and Black Sea",2008,147200,72.2986247544204,0.610268893512431,2036,10,3,5,5,5,1,4.8,5
+"8419","Iceland","Haddock","Atlantic, Northeast",2008,495,20.7895842083158,0.00358950611151486,23.81,10,3,5,8,7,5,6.3,6.9
+"8420","Iceland","Rainbow trout","Atlantic, Northeast",2008,3612,7.2969696969697,0.0261925173228115,495,10,5,5,8,6,5,6.5,7
+"8421","Iceland","Spotted wolffish","Atlantic, Northeast",2008,1085.3,1.80282392026578,0.00787008279359006,602,10,3,6,8,7,5,6.5,6.9
+"8429","Indonesia","Groupers nei","Pacific, Western Central",2008,0,0,0,2491,9,1,5,5,3,4,4.5,5
+"8440","Ireland","Atlantic salmon","Atlantic, Northeast",2008,14685.4,33.1498871331828,0.0113700126635341,443,10,3,3,5,5,5,5.2,5.4
+"8463","Italy","Cupped oysters nei","Mediterranean and Black Sea",2008,0,0,0,290177,5,10,10,10,9,10,9,7.6
+"8467","Italy","Gilthead seabream","Mediterranean and Black Sea",2008,1590.68,22.0927777777778,0.00396465261011365,72,10,1,3,5,3,1,3.8,4.7
+"8613","Mexico","Flathead grey mullet","Pacific, Eastern Central",2008,13968.19,125.83954954955,0.0250352923278698,111,10,3,5,5,5,5,5.5,5.8
+"8660","Namibia","Pacific cupped oyster","Atlantic, Southeast",2008,46914.53,1117.01261904762,0.995913772512037,42,1,10,7,4,7,9,6.3,5.5
+"8676","Nigeria","Snappers nei","Atlantic, Eastern Central",2008,379217.4,1373.97608695652,1,276,5,7,3,3,4,3,4.2,4.9
+"8678","Norway","Atlantic cod","Atlantic, Northeast",2008,0,0,0,2700,10,1,3,3,3,1,3.5,4.6
+"8709","Peru","False abalone","Pacific, Southeast",2008,26.49,0.0564818763326226,0.00295830234318987,469,10,10,7,7,7,5,7.7,7.2
+"8717","Philippines","Banana prawn","Pacific, Western Central",2008,0,0,0,1890.76,10,4,5,1,3,1,4,4.3
+"8721","Philippines","Giant tiger prawn","Pacific, Western Central",2008,0,0,0,1137039,10,1,1,1,1,1,2.5,3.5
+"8741","Portugal","Common cuttlefish","Atlantic, Northeast",2008,1184.73,8.77577777777778,0.00210688338022677,135,10,5,5,6,7,7,6.7,6.5
+"8742","Portugal","Common edible cockle","Atlantic, Northeast",2008,2250.95,45.019,0.00400301262289419,50,10,10,7,6,9,6,8,6.9
+"8743","Portugal","Common sole","Atlantic, Northeast",2008,111875.8,265.738242280285,0.198956102799434,421,10,5,3,6,4,5,5.5,5.8
+"8746","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2008,38.1,12.7,6.77557391022763e-05,3,10,10,7,6,7,9,8.2,7
+"8747","Portugal","Gilthead seabream","Atlantic, Northeast",2008,308365.97,71713.0162790698,0.548387512108671,4.3,10,3,3,6,4,3,4.8,5.3
+"8752","Portugal","Marine molluscs nei","Atlantic, Northeast",2008,0,0,0,15,5,5,5,6,4,5,5,5.3
+"8754","Portugal","Octopuses nei","Atlantic, Northeast",2008,3458.15,0.0764857452502599,0.0061498558838986,45213,5,5,5,6,8,5,5.7,5.7
+"8756","Portugal","Pullet carpet shell","Atlantic, Northeast",2008,0,0,0,5,10,10,7,6,8,9,8.3,7
+"8758","Portugal","Sargo breams nei","Atlantic, Northeast",2008,1362.62,0.106379889140448,0.00242323688229774,12809,6,3,3,6,4,3,4.2,4.8
+"8759","Portugal","Sea mussels nei","Atlantic, Northeast",2008,0,0,0,917,5,10,7,6,7,8,7.2,6.5
+"8808","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2008,385885.66,648.547327731092,0.832921123863233,595,10,3,5,5,5,5,5.5,5.7
+"8867","South Africa","Giant tiger prawn","Atlantic, Southeast",2008,441.51,0.0209464844861941,0.00793412614094283,21078,1,3,3,7,5,5,4,4.7
+"8872","South Africa","Mediterranean mussel","Atlantic, Southeast",2008,1664.36,2.02476885644769,0.0299092708748151,822,1,10,7,7,7,9,6.8,6.2
+"8873","South Africa","Mullets nei","Atlantic, Southeast",2008,2310.26,24.0652083333333,0.0415163739402835,96,5,5,4,6,5,6,5.2,5.4
+"8874","South Africa","Pacific cupped oyster","Atlantic, Southeast",2008,154.25,0.0892134181607866,0.002771939383571,1729,1,10,7,7,7,9,6.8,6.1
+"8875","South Africa","Perlemoen abalone","Atlantic, Southeast",2008,14701.27,816.737222222222,0.264188196444154,18,10,5,7,6,7,8,7.2,6.7
+"8876","South Africa","Red bait","Atlantic, Southeast",2008,64.84,0.00366306988305745,0.00116520291494809,17701,1,5,4,7,5,6,4.7,5
+"8895","Spain","Cupped oysters nei","Atlantic, Northeast",2008,7.67,1.12794117647059,1.63160572863196e-06,6.8,5,10,10,7,8,10,8.3,7.2
+"8897","Spain","European eel","Atlantic, Northeast",2008,57292.06,8184.58,0.0121874906520373,7,10,3,3,3,6,7,5.3,5.9
+"8899","Spain","European flat oyster","Mediterranean and Black Sea",2008,485.45,121.3625,0.000103267666357807,4,10,10,7,5,7,10,8.2,7.3
+"8900","Spain","European seabass","Atlantic, Eastern Central",2008,75,1.66666666666667,1.59544236828418e-05,45,10,3,5,5,5,5,5.5,5.7
+"8906","Spain","Gilthead seabream","Atlantic, Northeast",2008,293529.66,1.17423136621116,0.0624412874549401,249976,10,1,1,3,3,1,3.2,4.2
+"8907","Spain","Gilthead seabream","Mediterranean and Black Sea",2008,0,0,0,85176,10,1,1,3,3,1,3.2,4.2
+"8916","Spain","Kuruma prawn","Atlantic, Northeast",2008,0,0,0,766,1,3,5,5,5,7,4.3,4.8
+"8959","Sweden","Atlantic salmon","Atlantic, Northeast",2008,0,0,0,224242,10,3,3,8,5,5,5.7,6
+"8961","Sweden","European flat oyster","Atlantic, Northeast",2008,0,0,0,0.1,10,10,7,8,7,8,6.7,6.3
+"8996","Thailand","Blood cockle","Indian Ocean, Eastern",2008,2348.04,153.466666666667,0.0644323192276156,15.3,10,10,7,3,5,7,7,7
+"9019","Turkey","Atlantic salmon","Mediterranean and Black Sea",2008,147.17,14.717,0.00114763613236096,10,1,3,3,8,5,5,4.2,4.7
+"9024","Turkey","Gilthead seabream","Mediterranean and Black Sea",2008,248.72,19.1323076923077,0.00193952611837207,13,8,3,3,7,5,6,5.3,5.1
+"9028","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2008,244.45,2.22227272727273,0.0019062285286107,110,5,5,5,6,5,5,5.2,5.1
+"9036","Turkey","Trouts nei","Mediterranean and Black Sea",2008,1230.58,3.96961290322581,0.00959610023619454,310,5,3,3,5,5,5,4.3,4.8
+"9042","Ukraine","Mullets nei","Mediterranean and Black Sea",2008,11620.35,1.05,1,11067,5,10,5,5,5,5,5.8,5.6
+"9067","United Kingdom","Cupped oysters nei","Atlantic, Northeast",2008,654.35,29.7431818181818,0.0225976506179086,22,5,10,7,6,8,10,7.7,6.9
+"9076","United Kingdom","Pacific cupped oyster","Atlantic, Northeast",2008,25700.4,25.4459405940594,0.8875504851234,1010,1,10,7,5,7,10,6.7,6.7
+"9117","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2008,13903.5,23.25,0.4058016783118,598,10,10,10,5,7,10,8.7,7.9
+"9132","Argentina","Pacific cupped oyster","Atlantic, Southwest",2009,93.45,0.89,0.465968586387435,105,3,10,5,7,7,10,7,6.4
+"9136","Australia","Atlantic salmon","Pacific, Southwest",2009,256816.27,8.59118422373131,0.556543478038979,29893,1,1,1,3,5,3,2.3,3.7
+"9148","Australia","Pacific cupped oyster","Indian Ocean, Eastern",2009,47989.78,5.72745587129575,0.103998080306693,8378.9,1,10,10,10,7,10,8,7.2
+"9151","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2009,53277.12,14.2110216057615,0.115456211807375,3749,10,1,1,1,3,1,2.8,4.1
+"9174","Brazil","Cupped oysters nei","Atlantic, Southwest",2009,5265,0.017195598710575,0.0178318894808956,306183,7,10,7,7,7,10,8,7.1
+"9185","Brazil","Whiteleg shrimp","Atlantic, Southwest",2009,275496.44,1197.81060869565,0.933071618321022,230,1,3,3,5,1,1,2.3,4
+"9199","Canada","Blue mussel","Atlantic, Northwest",2009,24683.83,39.242972972973,0.036142643774118,629,10,10,9,8,8,10,9.2,8.2
+"9200","Canada","Blue mussel","Pacific, Northeast",2009,10243.9,0.00773609128737247,0.0149993590361661,1324170,10,10,9,8,8,10,9.2,8.2
+"9220","Chile","Atlantic salmon","Pacific, Southeast",2009,0,0,0,115881,1,1,1,1,1,2,1.2,2.5
+"9231","Chile","Pacific cupped oyster","Pacific, Southeast",2009,159873.77,194.540971039182,0.253773967379631,821.8,1,10,7,5,7,1,5.2,5.6
+"9247","China","Groupers nei","Pacific, Northwest",2009,25,0.0268240343347639,6.76705713217911e-05,932,9,1,5,5,5,4,4.8,5.3
+"9265","China","Red drum","Pacific, Northwest",2009,1.8,0.00343511450381679,4.87228113516896e-06,524,1,1,2,5,4,5,3,4.4
+"9355","France","Atlantic salmon","Atlantic, Northeast",2009,165000.02,124.914845938375,0.159546224292163,1320.9,10,3,2,5,5,3,4.7,4.8
+"9356","France","Blue mussel","Atlantic, Northeast",2009,184416.02,1.11767284848485,0.178320461355023,165000,10,10,9,8,7,10,9,8.1
+"9357","France","Blue mussel","Mediterranean and Black Sea",2009,484.79,0.0105151396841923,0.00046876608908652,46104,10,10,9,8,7,10,9,8.1
+"9364","France","European flat oyster","Mediterranean and Black Sea",2009,0,0,0,4,10,10,7,5,7,10,8.2,7.3
+"9366","France","European seabass","Mediterranean and Black Sea",2009,293.55,0.463744075829384,0.000283847202812245,633,10,3,5,7,5,5,5.8,5.7
+"9368","France","Gilthead seabream","Atlantic, Northeast",2009,802.25,54.3898305084746,0.000775732987416533,14.75,10,1,1,5,3,1,3.5,4.3
+"9383","France","Pacific cupped oyster","Mediterranean and Black Sea",2009,0,0,0,253.1,1,10,10,5,5,1,5.3,6.2
+"9411","Greece","European flat oyster","Mediterranean and Black Sea",2009,19066.88,236.855652173913,0.0826238522743651,80.5,10,10,7,5,7,10,8.2,7.3
+"9412","Greece","European seabass","Mediterranean and Black Sea",2009,144800,77.8494623655914,0.627472025277762,1860,10,3,5,5,5,1,4.8,5
+"9426","Iceland","Abalones nei","Atlantic, Northeast",2009,15,0.416666666666667,0.000151297359729948,36,3,7,7,7,7,5,6,6.4
+"9433","Iceland","Haddock","Atlantic, Northeast",2009,600,27.2479564032698,0.00605189438919793,22.02,10,3,5,8,7,5,6.3,6.9
+"9435","Iceland","Spotted wolffish","Atlantic, Northeast",2009,910.39,2.43419786096257,0.00918264022163651,374,10,3,6,8,7,5,6.5,6.9
+"9443","Indonesia","Groupers nei","Pacific, Western Central",2009,0,0,0,2165,9,1,5,5,3,4,4.5,5
+"9454","Ireland","Atlantic salmon","Atlantic, Northeast",2009,14055.11,15.3105773420479,0.0109666227927162,918,10,3,3,5,5,5,5.2,5.4
+"9459","Ireland","European flat oyster","Atlantic, Northeast",2009,66.05,11.0083333333333,5.1536091532468e-05,6,10,10,7,5,7,10,8.2,7.3
+"9481","Italy","Gilthead seabream","Mediterranean and Black Sea",2009,1593.15,24.89296875,0.00419257017038496,64,10,1,3,5,3,1,3.8,4.7
+"9512","Japan","Pacific cupped oyster","Pacific, Northwest",2009,250.7,0.0186741154562384,0.00265806839325544,13425,10,10,7,3,5,10,7.5,7.1
+"9627","Mexico","Flathead grey mullet","Pacific, Eastern Central",2009,12726.29,0.463769177508108,0.0214224953429943,27441,10,3,5,5,5,5,5.5,5.8
+"9635","Mexico","Pacific cupped oyster","Atlantic, Western Central",2009,31568.85,457.519565217391,0.0531406672414888,69,1,10,10,3,7,10,6.8,6.6
+"9636","Mexico","Pacific cupped oyster","Pacific, Eastern Central",2009,0,0,0,3566.6,1,10,10,3,7,10,6.8,6.6
+"9655","Morocco","Mediterranean mussel","Mediterranean and Black Sea",2009,0,0,0,4.95,10,10,7,5,6,10,6.3,6.4
+"9674","Namibia","Pacific cupped oyster","Atlantic, Southeast",2009,62928.76,1210.16846153846,0.995263823653426,52,1,10,7,4,7,9,6.3,5.5
+"9690","Nigeria","Snappers nei","Atlantic, Eastern Central",2009,972496.8,2525.96571428571,1,385,5,7,3,3,4,3,4.2,4.9
+"9692","Norway","Atlantic cod","Atlantic, Northeast",2009,0,0,0,2800,10,1,3,3,3,1,3.5,4.6
+"9723","Peru","False abalone","Pacific, Southeast",2009,30.43,0.308934010152284,0.00397491479992842,98.5,10,10,7,7,7,5,7.7,7.2
+"9730","Peru","Whiteleg shrimp","Pacific, Southeast",2009,2495.6,277.288888888889,0.325987426049995,9,10,3,1,5,3,3,4.2,4.5
+"9731","Philippines","Banana prawn","Pacific, Western Central",2009,0,0,0,1849.94,10,4,5,1,3,1,4,4.3
+"9735","Philippines","Giant tiger prawn","Pacific, Western Central",2009,0,0,0,1276770,10,1,1,1,1,1,2.5,3.5
+"9755","Portugal","Common cuttlefish","Atlantic, Northeast",2009,701.8,15.5955555555556,0.00104631358438558,45,10,5,5,6,7,7,6.7,6.5
+"9756","Portugal","Common edible cockle","Atlantic, Northeast",2009,1859.28,28.7814241486068,0.00277200045764665,64.6,10,10,7,6,9,6,8,6.9
+"9757","Portugal","Common sole","Atlantic, Northeast",2009,148606.86,427.031206896552,0.22155796003261,348,10,5,3,6,4,5,5.5,5.8
+"9760","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2009,153.19,76.595,0.000228390963226028,2,10,10,7,6,7,9,8.2,7
+"9761","Portugal","Gilthead seabream","Atlantic, Northeast",2009,356525.53,20972.09,0.531543894584309,17,10,3,3,6,4,3,4.8,5.3
+"9764","Portugal","Grooved carpet shell","Atlantic, Northeast",2009,200,12.5,0.000298179989850549,16,10,10,7,7,8,9,8.5,7.3
+"9766","Portugal","Marine molluscs nei","Atlantic, Northeast",2009,0,0,0,13,5,5,5,6,4,5,5,5.3
+"9772","Portugal","Sargo breams nei","Atlantic, Northeast",2009,1574.04,0.0998123018389347,0.00234673615612179,15770,6,3,3,6,4,3,4.2,4.8
+"9773","Portugal","Sea mussels nei","Atlantic, Northeast",2009,0,0,0,961,5,10,7,6,7,8,7.2,6.5
+"9822","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2009,346380.16,429.421735141702,0.819272648101651,806.62,10,3,5,5,5,5,5.5,5.7
+"9881","South Africa","Giant tiger prawn","Atlantic, Southeast",2009,501.41,0.0224013760443194,0.00790015686556262,22383,1,3,3,7,5,5,4,4.7
+"9886","South Africa","Mediterranean mussel","Atlantic, Southeast",2009,1817.66,5.03506925207756,0.028638836736919,361,1,10,7,7,7,9,6.8,6.2
+"9887","South Africa","Mullets nei","Atlantic, Southeast",2009,1789.92,15.7010526315789,0.0282017685662588,114,5,5,4,6,5,6,5.2,5.4
+"9888","South Africa","Pacific cupped oyster","Atlantic, Southeast",2009,0,0,0,1558,1,10,7,7,7,9,6.8,6.1
+"9890","South Africa","Red bait","Atlantic, Southeast",2009,167.81,0.00859110223723954,0.00264399458249748,19533,1,5,4,7,5,6,4.7,5
+"9891","South Africa","Sea mussels nei","Atlantic, Southeast",2009,0,0,0,5520,5,10,7,7,7,8,7.3,6.5
+"9909","Spain","Cupped oysters nei","Atlantic, Northeast",2009,0,0,0,12.1,5,10,10,7,8,10,8.3,7.2
+"9911","Spain","European eel","Atlantic, Northeast",2009,27063.89,2255.32416666667,0.00512479744858279,12,10,3,3,3,6,7,5.3,5.9
+"9912","Spain","European flat oyster","Atlantic, Northeast",2009,104.89,0.00846433182698515,1.98618899345899e-05,12392,10,10,7,5,7,10,8.2,7.3
+"9913","Spain","European flat oyster","Mediterranean and Black Sea",2009,352.38,10.3641176470588,6.6726406474886e-05,34,10,10,7,5,7,10,8.2,7.3
+"9914","Spain","European seabass","Atlantic, Eastern Central",2009,112.5,2.44565217391304,2.13029136966476e-05,46,10,3,5,5,5,5,5.5,5.7
+"9916","Spain","European seabass","Mediterranean and Black Sea",2009,346.73,488.352112676056,6.56565268092321e-05,0.71,10,3,5,5,5,5,5.5,5.7
+"9920","Spain","Gilthead seabream","Atlantic, Northeast",2009,279548.34,1.16038014038379,0.0529350592094319,240911,10,1,1,3,3,1,3.2,4.2
+"9921","Spain","Gilthead seabream","Mediterranean and Black Sea",2009,0,0,0,73989.8,10,1,1,3,3,1,3.2,4.2
+"9930","Spain","Kuruma prawn","Atlantic, Northeast",2009,0,0,0,1366,1,3,5,5,5,7,4.3,4.8
+"9942","Spain","Pacific cupped oyster","Mediterranean and Black Sea",2009,0,0,0,2126,1,10,7,5,7,10,6.7,6.4
+"10010","Thailand","Blood cockle","Indian Ocean, Eastern",2009,2318.81,336.059420289855,0.0671785284581887,6.9,10,10,7,3,5,7,7,7
+"10033","Turkey","Atlantic salmon","Mediterranean and Black Sea",2009,1863.52,9.38328298086606,0.0173373841066226,198.6,1,3,3,8,5,5,4.2,4.7
+"10038","Turkey","Gilthead seabream","Mediterranean and Black Sea",2009,259.92,18.5657142857143,0.00241818326446368,14,8,3,3,7,5,6,5.3,5.1
+"10041","Turkey","Mediterranean mussel","Mediterranean and Black Sea",2009,48.5,4.85,0.000451223023724562,10,10,10,7,6,7,8,8,6.6
+"10042","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2009,224.53,2.11820754716981,0.00208893001065724,106,5,5,5,6,5,5,5.2,5.1
+"10050","Turkey","Trouts nei","Mediterranean and Black Sea",2009,1238.41,2.74592017738359,0.0115216310270255,451,5,3,3,5,5,5,4.3,4.8
+"10056","Ukraine","Mullets nei","Mediterranean and Black Sea",2009,14387.1,1.3,1,11067,5,10,5,5,5,5,5.8,5.6
+"10079","United Kingdom","Blue mussel","Atlantic, Northeast",2009,33.86,3.71271929824561,0.00209147129384616,9.12,10,10,9,8,8,10,9.2,8.2
+"10081","United Kingdom","Cupped oysters nei","Atlantic, Northeast",2009,1002.26,25.0565,0.0619077973706512,40,5,10,7,6,8,10,7.7,6.9
+"10082","United Kingdom","European flat oyster","Atlantic, Northeast",2009,806.61,22.7534555712271,0.0498228487988556,35.45,10,10,7,5,7,10,8.2,7.3
+"10083","United Kingdom","European seabass","Atlantic, Northeast",2009,204.49,4.05412371134021,0.0126309794707206,50.44,10,3,5,7,5,5,5.8,6
+"10090","United Kingdom","Pacific cupped oyster","Atlantic, Northeast",2009,11956.2,17.3278260869565,0.738512967616167,690,1,10,7,5,7,10,6.7,6.7
+"10131","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2009,17994.67,25.67,0.485061215335817,701,10,10,10,5,7,10,8.7,7.9
+"10146","Argentina","Pacific cupped oyster","Atlantic, Southwest",2010,25,1.25,0.0307639299074621,20,3,10,5,7,7,10,7,6.4
+"10150","Australia","Atlantic salmon","Pacific, Southwest",2010,338177.44,10.6321702769831,0.562345073532687,31807,1,1,1,3,5,3,2.3,3.7
+"10165","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2010,93947.7,12.8978171334432,0.156222799086559,7284,10,1,1,1,3,1,2.8,4.1
+"10188","Brazil","Cupped oysters nei","Atlantic, Southwest",2010,4960.8,0.0205567664779838,0.0119163219957966,241322,7,10,7,7,7,10,8,7.1
+"10210","Canada","Atlantic cod","Atlantic, Northwest",2010,0,0,0,1.5,10,1,3,3,3,3,3.8,4.7
+"10213","Canada","Blue mussel","Atlantic, Northwest",2010,34897.27,73.3135924369748,0.0406626341947141,476,10,10,9,8,8,10,9.2,8.2
+"10214","Canada","Blue mussel","Pacific, Northeast",2010,10741.51,0.00984258656868225,0.0125161106249533,1091330,10,10,9,8,8,10,9.2,8.2
+"10234","Chile","Atlantic salmon","Pacific, Southeast",2010,0,0,0,115829,1,1,1,1,1,2,1.2,2.5
+"10261","China","Groupers nei","Pacific, Northwest",2010,646.24,0.587490909090909,0.00150948071331466,1100,9,1,5,5,5,4,4.8,5.3
+"10279","China","Red drum","Pacific, Northwest",2010,0,0,0,422,1,1,2,5,4,5,3,4.4
+"10341","Denmark","European eel","Atlantic, Northeast",2010,12288,12288,0.0684418740619389,1,10,3,3,3,6,7,5.3,5.9
+"10369","France","Atlantic salmon","Atlantic, Northeast",2010,98426.01,54.2112855254461,0.0984965778732173,1815.6,10,3,2,5,5,3,4.7,4.8
+"10370","France","Blue mussel","Atlantic, Northeast",2010,184420.02,1.87369211387235,0.184552242454106,98426,10,10,9,8,7,10,9,8.1
+"10371","France","Blue mussel","Mediterranean and Black Sea",2010,578.02,0.0125370350287387,0.000578434419339736,46105,10,10,9,8,7,10,9,8.1
+"10380","France","European seabass","Mediterranean and Black Sea",2010,206.26,0.252151589242054,0.00020640788092629,818,10,3,5,7,5,5,5.8,5.7
+"10382","France","Gilthead seabream","Atlantic, Northeast",2010,485.64,74.7138461538461,0.000485988186236029,6.5,10,1,1,5,3,1,3.5,4.3
+"10383","France","Gilthead seabream","Mediterranean and Black Sea",2010,8.18,0.134098360655738,8.18586476280931e-06,61,10,1,1,5,3,1,3.5,4.3
+"10397","France","Pacific cupped oyster","Mediterranean and Black Sea",2010,0,0,0,229.8,1,10,10,5,5,1,5.3,6.2
+"10425","Greece","European flat oyster","Mediterranean and Black Sea",2010,11228.07,114.455351681957,0.0977288540814946,98.1,10,10,7,5,7,10,8.2,7.3
+"10426","Greece","European seabass","Mediterranean and Black Sea",2010,40997.76,35.4651903114187,0.356843527401249,1156,10,3,5,5,5,1,4.8,5
+"10427","Greece","Flathead grey mullet","Mediterranean and Black Sea",2010,4178.91,0.332292461832061,0.036373133192944,12576,10,3,5,5,5,3,5.2,5.7
+"10447","Iceland","Haddock","Atlantic, Northeast",2010,700,32.8792860497886,0.00570438011642151,21.29,10,3,5,8,7,5,6.3,6.9
+"10449","Iceland","Spotted wolffish","Atlantic, Northeast",2010,867.31,1.30031484257871,0.00706780845539077,667,10,3,6,8,7,5,6.5,6.9
+"10468","Ireland","Atlantic salmon","Atlantic, Northeast",2010,11841.2,12.9980241492865,0.00751961117795803,911,10,3,3,5,5,5,5.2,5.4
+"10473","Ireland","European flat oyster","Atlantic, Northeast",2010,60.51,0.729036144578313,3.84261453550519e-05,83,10,10,7,5,7,10,8.2,7.3
+"10491","Italy","Cupped oysters nei","Mediterranean and Black Sea",2010,1.14,3.6729170693988e-06,2.19255186668962e-06,310380,5,10,10,10,9,10,9,7.6
+"10495","Italy","Gilthead seabream","Mediterranean and Black Sea",2010,2797.7,31.4348314606742,0.00538079154161187,89,10,1,3,5,3,1,3.8,4.7
+"10526","Japan","Pacific cupped oyster","Pacific, Northwest",2010,119.42,0.00878217384909546,0.00120051543147884,13598,10,10,7,3,5,10,7.5,7.1
+"10641","Mexico","Flathead grey mullet","Pacific, Eastern Central",2010,18553.16,0.678385315733665,0.0230792034286546,27349,10,3,5,5,5,5,5.5,5.8
+"10668","Morocco","Marine fishes nei","Mediterranean and Black Sea",2010,3.13,0.0117140718562874,6.85997190830545e-06,267.2,5,4,5,5,4,5,4.7,5.3
+"10671","Morocco","Yesso scallop","Atlantic, Eastern Central",2010,452151.44,22607572,0.990973219392926,0.02,1,10,7,7,6,9,6.7,6.5
+"10686","Namibia","Gracilaria seaweeds","Atlantic, Southeast",2010,331.72,138.216666666667,0.00512943900897234,2.4,10,10,7,4,9,10,8.3,6.7
+"10688","Namibia","Pacific cupped oyster","Atlantic, Southeast",2010,63362.87,918.302463768116,0.979790115454128,69,1,10,7,4,7,9,6.3,5.5
+"10704","Nigeria","Snappers nei","Atlantic, Eastern Central",2010,570900,821.438848920863,1,695,5,7,3,3,4,3,4.2,4.9
+"10706","Norway","Atlantic cod","Atlantic, Northeast",2010,0,0,0,2800,10,1,3,3,3,1,3.5,4.6
+"10737","Peru","False abalone","Pacific, Southeast",2010,52.23,0.167942122186495,0.0131101701084105,311,10,10,7,7,7,5,7.7,7.2
+"10744","Peru","Whiteleg shrimp","Pacific, Southeast",2010,2838.24,1892.16,0.712422156011777,1.5,10,3,1,5,3,3,4.2,4.5
+"10745","Philippines","Banana prawn","Pacific, Western Central",2010,0,0,0,2129.12,10,4,5,1,3,1,4,4.3
+"10749","Philippines","Giant tiger prawn","Pacific, Western Central",2010,0,0,0,1407467,10,1,1,1,1,1,2.5,3.5
+"10769","Portugal","Common cuttlefish","Atlantic, Northeast",2010,275.99,1.90337931034483,0.000396479331343835,145,10,5,5,6,7,7,6.7,6.5
+"10770","Portugal","Common edible cockle","Atlantic, Northeast",2010,1583.3,38.0600961538462,0.00227452344402585,41.6,10,10,7,6,9,6,8,6.9
+"10771","Portugal","Common sole","Atlantic, Northeast",2010,140693.77,556.10185770751,0.202116641377743,253,10,5,3,6,4,5,5.5,5.8
+"10774","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2010,584.17,17.272915434654,0.00083920189496405,33.82,10,10,7,6,7,9,8.2,7
+"10775","Portugal","Gilthead seabream","Atlantic, Northeast",2010,393435,5245.8,0.565197455441363,75,10,3,3,6,4,3,4.8,5.3
+"10778","Portugal","Grooved carpet shell","Atlantic, Northeast",2010,200,10.4166666666667,0.00028731427323007,19.2,10,10,7,7,8,9,8.5,7.3
+"10780","Portugal","Marine molluscs nei","Atlantic, Northeast",2010,0,0,0,23.15,5,5,5,6,4,5,5,5.3
+"10782","Portugal","Octopuses nei","Atlantic, Northeast",2010,46.38,0.000939627228525122,6.66281799620533e-05,49360,5,5,5,6,8,5,5.7,5.7
+"10786","Portugal","Sargo breams nei","Atlantic, Northeast",2010,2128.37,0.144139916023297,0.00305755539857342,14766,6,3,3,6,4,3,4.2,4.8
+"10787","Portugal","Sea mussels nei","Atlantic, Northeast",2010,0,0,0,1312,5,10,7,6,7,8,7.2,6.5
+"10836","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2010,485123.84,694.76103457165,0.841039752128241,698.26,10,3,5,5,5,5,5.5,5.7
+"10837","Saudi Arabia","Giant tiger prawn","Indian Ocean, Western",2010,238.84,0.00337196990018495,0.000414067332576995,70831,10,1,1,3,5,1,3.5,4.2
+"10895","South Africa","Giant tiger prawn","Atlantic, Southeast",2010,477.68,0.0279934364744491,0.0069837850103014,17064,1,3,3,7,5,5,4,4.7
+"10898","South Africa","Kuruma prawn","Atlantic, Southeast",2010,1650,705.128205128205,0.0241233571993747,2.34,1,3,3,7,5,5,4,4.7
+"10900","South Africa","Mediterranean mussel","Atlantic, Southeast",2010,1069.25,1.79404362416107,0.015632666476019,596,1,10,7,7,7,9,6.8,6.2
+"10901","South Africa","Mullets nei","Atlantic, Southeast",2010,4760.27,74.37921875,0.0695961779245258,64,5,5,4,6,5,6,5.2,5.4
+"10902","South Africa","Pacific cupped oyster","Atlantic, Southeast",2010,0,0,0,2858,1,10,7,7,7,9,6.8,6.1
+"10904","South Africa","Red bait","Atlantic, Southeast",2010,195.8,0.00926513036483225,0.00286263838765913,21133,1,5,4,7,5,6,4.7,5
+"10905","South Africa","Sea mussels nei","Atlantic, Southeast",2010,0,0,0,6885,5,10,7,7,7,8,7.3,6.5
+"10923","Spain","Cupped oysters nei","Atlantic, Northeast",2010,40.3,2.61688311688312,5.39740931959926e-06,15.4,5,10,10,7,8,10,8.3,7.2
+"10925","Spain","European eel","Atlantic, Northeast",2010,75731.74,18932.935,0.0101428089147759,4,10,3,3,3,6,7,5.3,5.9
+"10926","Spain","European flat oyster","Atlantic, Northeast",2010,36.4,0.00296416938110749,4.87507938544449e-06,12280,10,10,7,5,7,10,8.2,7.3
+"10927","Spain","European flat oyster","Mediterranean and Black Sea",2010,982.57,83.4100169779287,0.000131596339333961,11.78,10,10,7,5,7,10,8.2,7.3
+"10928","Spain","European seabass","Atlantic, Eastern Central",2010,112.5,0.861408882082695,1.50672096390798e-05,130.6,10,3,5,5,5,5,5.5,5.7
+"10930","Spain","European seabass","Mediterranean and Black Sea",2010,3.98,1.8952380952381,5.33044394342557e-07,2.1,10,3,5,5,5,5,5.5,5.7
+"10934","Spain","Gilthead seabream","Atlantic, Northeast",2010,275006.6,1.02700241993308,0.0368318408384939,267776,10,1,1,3,3,1,3.2,4.2
+"10935","Spain","Gilthead seabream","Mediterranean and Black Sea",2010,0,0,0,54579,10,1,1,3,3,1,3.2,4.2
+"10944","Spain","Kuruma prawn","Atlantic, Northeast",2010,0,0,0,1149.6,1,3,5,5,5,7,4.3,4.8
+"10956","Spain","Pacific cupped oyster","Mediterranean and Black Sea",2010,0,0,0,4500,1,10,7,5,7,10,6.7,6.4
+"11047","Turkey","Atlantic salmon","Mediterranean and Black Sea",2010,2629.02,9.32276595744681,0.0156374369168943,282,1,3,3,8,5,5,4.2,4.7
+"11052","Turkey","Gilthead seabream","Mediterranean and Black Sea",2010,214.08,15.9761194029851,0.00127334995365906,13.4,8,3,3,7,5,6,5.3,5.1
+"11055","Turkey","Mediterranean mussel","Mediterranean and Black Sea",2010,69.5,4.79310344827586,0.000413386686188828,14.5,10,10,7,6,7,8,8,6.6
+"11056","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2010,242.88,2.14938053097345,0.00144465263800781,113,5,5,5,6,5,5,5.2,5.1
+"11064","Turkey","Trouts nei","Mediterranean and Black Sea",2010,1513.67,2.91415424897001,0.00900332410479775,519.42,5,3,3,5,5,5,4.3,4.8
+"11070","Ukraine","Mullets nei","Mediterranean and Black Sea",2010,20584.5,1.5,1,13723,5,10,5,5,5,5,5.8,5.6
+"11093","United Kingdom","Blue mussel","Atlantic, Northeast",2010,2.95,5.9,0.000114471529572459,0.5,10,10,9,8,8,10,9.2,8.2
+"11096","United Kingdom","European flat oyster","Atlantic, Northeast",2010,2529.3,26.8218451749735,0.0981467253381761,94.3,10,10,7,5,7,10,8.2,7.3
+"11097","United Kingdom","European seabass","Atlantic, Northeast",2010,203.46,4.29240506329114,0.00789504318874997,47.4,10,3,5,7,5,5,5.8,6
+"11104","United Kingdom","Pacific cupped oyster","Atlantic, Northeast",2010,19086.97,19.2797676767677,0.740649034170722,990,1,10,7,5,7,10,6.7,6.7
+"11145","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2010,18504.84,31.96,0.556738976668509,579,10,10,10,5,7,10,8.7,7.9
+"11160","Argentina","Pacific cupped oyster","Atlantic, Southwest",2011,233.69,1.94741666666667,0.176990949369485,120,3,10,5,7,7,10,7,6.4
+"11164","Australia","Atlantic salmon","Pacific, Southwest",2011,439054.2,11.9757296383176,0.58228233846541,36662,1,1,1,3,5,3,2.3,3.7
+"11179","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2011,129195.84,22.2751448275862,0.171342070831353,5800,10,1,1,1,3,1,2.8,4.1
+"11202","Brazil","Cupped oysters nei","Atlantic, Southwest",2011,3829.68,0.015523569016745,0.00755655369155075,246701,7,10,7,7,7,10,8,7.1
+"11224","Canada","Atlantic cod","Atlantic, Northwest",2011,0,0,0,1.5,10,1,3,3,3,3,3.8,4.7
+"11227","Canada","Blue mussel","Atlantic, Northwest",2011,37365,170.827047044301,0.0461838220685473,218.73,10,10,9,8,8,10,9.2,8.2
+"11228","Canada","Blue mussel","Pacific, Northeast",2011,10890.97,0.00811698900689398,0.0134614377260507,1341750,10,10,9,8,8,10,9.2,8.2
+"11248","Chile","Atlantic salmon","Pacific, Southeast",2011,0,0,0,121458,1,1,1,1,1,2,1.2,2.5
+"11275","China","Groupers nei","Pacific, Northwest",2011,640.47,0.492669230769231,0.00147707901864223,1300,9,1,5,5,5,4,4.8,5.3
+"11293","China","Red drum","Pacific, Northwest",2011,0,0,0,269,1,1,2,5,4,5,3,4.4
+"11355","Denmark","European eel","Atlantic, Northeast",2011,8801.28,8801.28,0.0492224129624032,1,10,3,3,3,6,7,5.3,5.9
+"11383","France","Atlantic salmon","Atlantic, Northeast",2011,114800.01,115.985380589626,0.101604980633234,989.78,10,3,2,5,5,3,4.7,4.8
+"11384","France","Blue mussel","Atlantic, Northeast",2011,256035.02,2.23027020905923,0.226606541659096,114800,10,10,9,8,7,10,9,8.1
+"11385","France","Blue mussel","Mediterranean and Black Sea",2011,1078.16,0.0210549338957564,0.000954237076456069,51207,10,10,9,8,7,10,9,8.1
+"11392","France","European flat oyster","Mediterranean and Black Sea",2011,0,0,0,10,10,10,7,5,7,10,8.2,7.3
+"11394","France","European seabass","Mediterranean and Black Sea",2011,131.79,1.44824175824176,0.000116642153582163,91,10,3,5,7,5,5,5.8,5.7
+"11396","France","Gilthead seabream","Atlantic, Northeast",2011,292.27,63.5369565217391,0.000258676699502685,4.6,10,1,1,5,3,1,3.5,4.3
+"11397","France","Gilthead seabream","Mediterranean and Black Sea",2011,6.8,0.2,6.01841296273398e-06,34,10,1,1,5,3,1,3.5,4.3
+"11411","France","Pacific cupped oyster","Mediterranean and Black Sea",2011,0,0,0,490,1,10,10,5,5,1,5.3,6.2
+"11439","Greece","European flat oyster","Mediterranean and Black Sea",2011,16724.15,151.899636693915,0.137900414926127,110.1,10,10,7,5,7,10,8.2,7.3
+"11440","Greece","European seabass","Mediterranean and Black Sea",2011,30676.6,19.9328135152697,0.252946539496645,1539,10,3,5,5,5,1,4.8,5
+"11441","Greece","Flathead grey mullet","Mediterranean and Black Sea",2011,3910.44,0.415562167906482,0.0322438688091008,9410,10,3,5,5,5,3,5.2,5.7
+"11442","Greece","Gilthead seabream","Mediterranean and Black Sea",2011,1580.7,0.978155940594059,0.0130337975845546,1616,10,1,1,3,3,1,3.2,4.1
+"11443","Greece","Kuruma prawn","Mediterranean and Black Sea",2011,659.3,3.40547520661157,0.00543631476402659,193.6,1,3,5,5,5,5,4,4.6
+"11454","Iceland","Abalones nei","Atlantic, Northeast",2011,0,0,0,70,3,7,7,7,7,5,6,6.4
+"11461","Iceland","Haddock","Atlantic, Northeast",2011,800,41.025641025641,0.00667783478886481,19.5,10,3,5,8,7,5,6.3,6.9
+"11462","Iceland","Rainbow trout","Atlantic, Northeast",2011,2500.76,3.12595,0.020874577658252,800,10,5,5,8,6,5,6.5,7
+"11463","Iceland","Spotted wolffish","Atlantic, Northeast",2011,1202.96,2.37739130434783,0.010041460172016,506,10,3,6,8,7,5,6.5,6.9
+"11482","Ireland","Atlantic salmon","Atlantic, Northeast",2011,10570.65,14.6407894736842,0.00813388946940923,722,10,3,3,5,5,5,5.2,5.4
+"11487","Ireland","European flat oyster","Atlantic, Northeast",2011,335.75,335.75,0.000258352456031952,1,10,10,7,5,7,10,8.2,7.3
+"11505","Italy","Cupped oysters nei","Mediterranean and Black Sea",2011,2.36,8.04911323328786e-06,4.69174900868413e-06,293200,5,10,10,10,9,10,9,7.6
+"11509","Italy","Gilthead seabream","Mediterranean and Black Sea",2011,690.73,10.1577941176471,0.00137319143761372,68,10,1,3,5,3,1,3.8,4.7
+"11540","Japan","Pacific cupped oyster","Pacific, Northwest",2011,83.48,0.0050967702545943,0.000665263249162285,16379,10,10,7,3,5,10,7.5,7.1
+"11655","Mexico","Flathead grey mullet","Pacific, Eastern Central",2011,298.34,0.207468706536857,0.000365072464693856,1438,10,3,5,5,5,5,5.5,5.8
+"11682","Morocco","Marine fishes nei","Mediterranean and Black Sea",2011,0.41,0.00204386839481555,8.54097431393634e-07,200.6,5,4,5,5,4,5,4.7,5.3
+"11702","Namibia","Pacific cupped oyster","Atlantic, Southeast",2011,63618.14,1053.28046357616,0.982984385820754,60.4,1,10,7,4,7,9,6.3,5.5
+"11718","Nigeria","Snappers nei","Atlantic, Eastern Central",2011,827248.8,3052.57859778598,1,271,5,7,3,3,4,3,4.2,4.9
+"11720","Norway","Atlantic cod","Atlantic, Northeast",2011,0,0,0,2775,10,1,3,3,3,1,3.5,4.6
+"11751","Peru","False abalone","Pacific, Southeast",2011,3.9,0.0138028667492479,0.000619939150587988,282.55,10,10,7,7,7,5,7.7,7.2
+"11756","Peru","Pacific cupped oyster","Pacific, Southeast",2011,309.43,2.09640921409214,0.0491866080426773,147.6,1,10,10,5,7,10,7.2,6.5
+"11758","Peru","Whiteleg shrimp","Pacific, Southeast",2011,3434.91,333.48640776699,0.546009022499022,10.3,10,3,1,5,3,3,4.2,4.5
+"11759","Philippines","Banana prawn","Pacific, Western Central",2011,0,0,0,2842.7,10,4,5,1,3,1,4,4.3
+"11763","Philippines","Giant tiger prawn","Pacific, Western Central",2011,0,0,0,1306124,10,1,1,1,1,1,2.5,3.5
+"11783","Portugal","Common cuttlefish","Atlantic, Northeast",2011,453.54,3.23957142857143,0.000758106266125889,140,10,5,5,6,7,7,6.7,6.5
+"11784","Portugal","Common edible cockle","Atlantic, Northeast",2011,3183.56,56.646975088968,0.00532141990692714,56.2,10,10,7,6,9,6,8,6.9
+"11785","Portugal","Common sole","Atlantic, Northeast",2011,164607.66,408.455732009926,0.275146841509723,403,10,5,3,6,4,5,5.5,5.8
+"11788","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2011,417.48,549.315789473684,0.000697830850602452,0.76,10,10,7,6,7,9,8.2,7
+"11789","Portugal","Gilthead seabream","Atlantic, Northeast",2011,323493.2,6221.02307692308,0.540728980837667,52,10,3,3,6,4,3,4.8,5.3
+"11792","Portugal","Grooved carpet shell","Atlantic, Northeast",2011,200,4.70809792843691,0.000334306242503809,42.48,10,10,7,7,8,9,8.5,7.3
+"11794","Portugal","Marine molluscs nei","Atlantic, Northeast",2011,0,0,0,31.2,5,5,5,6,4,5,5,5.3
+"11796","Portugal","Octopuses nei","Atlantic, Northeast",2011,67.35,0.00113128632378137,0.000112577627163158,59534,5,5,5,6,8,5,5.7,5.7
+"11800","Portugal","Sargo breams nei","Atlantic, Northeast",2011,3274.29,28.2266379310345,0.00547307793383899,116,6,3,3,6,4,3,4.2,4.8
+"11801","Portugal","Sea mussels nei","Atlantic, Northeast",2011,0,0,0,1829.46,5,10,7,6,7,8,7.2,6.5
+"11850","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2011,440522.72,686.108338784537,0.842302200454066,642.06,10,3,5,5,5,5,5.5,5.7
+"11851","Saudi Arabia","Giant tiger prawn","Indian Ocean, Western",2011,250.45,0.00301224381795439,0.000478873339617355,83144,10,1,1,3,5,1,3.5,4.2
+"11909","South Africa","Giant tiger prawn","Atlantic, Southeast",2011,500.91,0.0291343620405861,0.00736576784721976,17193.1,1,3,3,7,5,5,4,4.7
+"11914","South Africa","Mediterranean mussel","Atlantic, Southeast",2011,819.66,2.2895530726257,0.0120529142433813,358,1,10,7,7,7,9,6.8,6.2
+"11915","South Africa","Mullets nei","Atlantic, Southeast",2011,2979.85,78.4171052631579,0.0438180178465948,38,5,5,4,6,5,6,5.2,5.4
+"11916","South Africa","Pacific cupped oyster","Atlantic, Southeast",2011,225.74,0.114997452878248,0.00331945545872789,1963,1,10,7,7,7,9,6.8,6.1
+"11917","South Africa","Perlemoen abalone","Atlantic, Southeast",2011,20306.42,1160.36685714286,0.298601296696293,17.5,10,5,7,6,7,8,7.2,6.7
+"11918","South Africa","Red bait","Atlantic, Southeast",2011,168.23,0.00650038639876352,0.00247378396306279,25880,1,5,4,7,5,6,4.7,5
+"11919","South Africa","Sea mussels nei","Atlantic, Southeast",2011,0,0,0,6600.8,5,10,7,7,7,8,7.3,6.5
+"11937","Spain","Cupped oysters nei","Atlantic, Northeast",2011,289.73,26.5807339449541,3.85197827981485e-05,10.9,5,10,10,7,8,10,8.3,7.2
+"11939","Spain","European eel","Atlantic, Northeast",2011,90069.96,22517.49,0.0119748569214024,4,10,3,3,3,6,7,5.3,5.9
+"11942","Spain","European seabass","Atlantic, Eastern Central",2011,112.5,0.928217821782178,1.4956944620135e-05,121.2,10,3,5,5,5,5,5.5,5.7
+"11944","Spain","European seabass","Mediterranean and Black Sea",2011,9.48,4.289592760181,1.26037186665671e-06,2.21,10,3,5,5,5,5,5.5,5.7
+"11948","Spain","Gilthead seabream","Atlantic, Northeast",2011,264481.9,0.941143042181751,0.0351630322784718,281022,10,1,1,3,3,1,3.2,4.2
+"11949","Spain","Gilthead seabream","Mediterranean and Black Sea",2011,0,0,0,58472,10,1,1,3,3,1,3.2,4.2
+"11958","Spain","Kuruma prawn","Atlantic, Northeast",2011,0,0,0,754,1,3,5,5,5,7,4.3,4.8
+"11969","Spain","Pacific cupped oyster","Atlantic, Northeast",2011,25500,19465.6488549618,0.00339024078056393,1.31,1,10,7,5,7,10,6.7,6.4
+"11970","Spain","Pacific cupped oyster","Mediterranean and Black Sea",2011,0,0,0,8500,1,10,7,5,7,10,6.7,6.4
+"12061","Turkey","Atlantic salmon","Mediterranean and Black Sea",2011,1953.26,9.16937376772134,0.0090304242717329,213.02,1,3,3,8,5,5,4.2,4.7
+"12066","Turkey","Gilthead seabream","Mediterranean and Black Sea",2011,68.37,18.9916666666667,0.00031609212673089,3.6,8,3,3,7,5,6,5.3,5.1
+"12069","Turkey","Mediterranean mussel","Mediterranean and Black Sea",2011,25.85,4.97115384615385,0.000119511210706355,5.2,10,10,7,6,7,8,8,6.6
+"12070","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2011,257.38,2.30834080717489,0.00118993405847589,111.5,5,5,5,6,5,5,5.2,5.1
+"12078","Turkey","Trouts nei","Mediterranean and Black Sea",2011,1182.75,3.84997233162983,0.00546815800630335,307.21,5,3,3,5,5,5,4.3,4.8
+"12082","Ukraine","Flatfishes nei","Mediterranean and Black Sea",2011,193.09,27.9840579710145,0.00717393590085115,6.9,5,3,3,6,5,6,3.8,4.4
+"12110","United Kingdom","European flat oyster","Atlantic, Northeast",2011,995.41,28.0081598199212,0.0313541228965954,35.54,10,10,7,5,7,10,8.2,7.3
+"12111","United Kingdom","European seabass","Atlantic, Northeast",2011,293.16,4.29979466119097,0.00923415946028864,68.18,10,3,5,7,5,5,5.8,6
+"12159","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2011,21414.96,35.28,0.523193020105895,607,10,10,10,5,7,10,8.7,7.9
+"12172","Argentina","Blue mussel","Atlantic, Southwest",2012,206.63,3.97365384615385,0.683209892871313,52,10,10,7,5,7,10,8.2,7.1
+"12174","Argentina","Pacific cupped oyster","Atlantic, Southwest",2012,44.15,1.766,0.145979367808491,25,3,10,5,7,7,10,7,6.4
+"12175","Argentina","River Plata mussel","Atlantic, Southwest",2012,51.66,3.97384615384615,0.170810739320196,13,7,10,7,5,7,10,7.7,7
+"12178","Australia","Atlantic salmon","Pacific, Southwest",2012,530050.44,12.0515310808967,0.622364313391011,43982,1,1,1,3,5,3,2.3,3.7
+"12193","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2012,155373.55,21.9237406518978,0.182433492112324,7087,10,1,1,1,3,1,2.8,4.1
+"12216","Brazil","Cupped oysters nei","Atlantic, Southwest",2012,3548.26,0.011497888859725,0.0074643285199866,308601,7,10,7,7,7,10,8,7.1
+"12237","Canada","Atlantic bluefin tuna","Atlantic, Northwest",2012,0,0,0,28,10,10,5,1,3,1,5,5
+"12238","Canada","Atlantic cod","Atlantic, Northwest",2012,0,0,0,0.5,10,1,3,3,3,3,3.8,4.7
+"12241","Canada","Blue mussel","Atlantic, Northwest",2012,45772.25,96.3808932218736,0.0533161287292563,474.91,10,10,9,8,8,10,9.2,8.2
+"12242","Canada","Blue mussel","Pacific, Northeast",2012,8921.97,0.00509474591853633,0.0103924299338259,1751210,10,10,9,8,8,10,9.2,8.2
+"12262","Chile","Atlantic salmon","Pacific, Southeast",2012,0,0,0,128983,1,1,1,1,1,2,1.2,2.5
+"12289","China","Groupers nei","Pacific, Northwest",2012,841,0.442166140904311,0.00182842944281015,1902,9,1,5,5,5,4,4.8,5.3
+"12307","China","Red drum","Pacific, Northwest",2012,0,0,0,894.9,1,1,2,5,4,5,3,4.4
+"12397","France","Atlantic salmon","Atlantic, Northeast",2012,134031,220.95450049456,0.118704623474719,606.6,10,3,2,5,5,3,4.7,4.8
+"12398","France","Blue mussel","Atlantic, Northeast",2012,263465,1.96570196447091,0.233337911556035,134031,10,10,9,8,7,10,9,8.1
+"12399","France","Blue mussel","Mediterranean and Black Sea",2012,659.05,0.0125073539179777,0.000583687968462623,52693,10,10,9,8,7,10,9,8.1
+"12406","France","European flat oyster","Mediterranean and Black Sea",2012,0,0,0,7,10,10,7,5,7,10,8.2,7.3
+"12408","France","European seabass","Mediterranean and Black Sea",2012,68.62,1.12491803278689,6.07733379802825e-05,61,10,3,5,7,5,5,5.8,5.7
+"12410","France","Gilthead seabream","Atlantic, Northeast",2012,809.91,404.955,0.000717297204366229,2,10,1,1,5,3,1,3.5,4.3
+"12425","France","Pacific cupped oyster","Mediterranean and Black Sea",2012,0,0,0,397.1,1,10,10,5,5,1,5.3,6.2
+"12453","Greece","European flat oyster","Mediterranean and Black Sea",2012,16580.75,78.2110849056604,0.131275369618854,212,10,10,7,5,7,10,8.2,7.3
+"12454","Greece","European seabass","Mediterranean and Black Sea",2012,29370,17.8758368837492,0.232532159625212,1643,10,3,5,5,5,1,4.8,5
+"12455","Greece","Flathead grey mullet","Mediterranean and Black Sea",2012,4589.26,0.515647191011236,0.0363347136153082,8900,10,3,5,5,5,3,5.2,5.7
+"12456","Greece","Gilthead seabream","Mediterranean and Black Sea",2012,2347.13,1.05158154121864,0.0185830169499872,2232,10,1,1,3,3,1,3.2,4.1
+"12457","Greece","Kuruma prawn","Mediterranean and Black Sea",2012,38.86,0.111956208585422,0.000307667678686951,347.1,1,3,5,5,5,5,4,4.6
+"12475","Iceland","Haddock","Atlantic, Northeast",2012,900,45,0.00710219089963137,20,10,3,5,8,7,5,6.3,6.9
+"12477","Iceland","Spotted wolffish","Atlantic, Northeast",2012,1447.15,37.1064102564103,0.0114199284004461,39,10,3,6,8,7,5,6.5,6.9
+"12496","Ireland","Atlantic salmon","Atlantic, Northeast",2012,9834.64,14.5482840236686,0.007801172863407,676,10,3,3,5,5,5,5.2,5.4
+"12501","Ireland","European flat oyster","Atlantic, Northeast",2012,285.72,420.176470588235,0.000226642877678558,0.68,10,10,7,5,7,10,8.2,7.3
+"12519","Italy","Cupped oysters nei","Mediterranean and Black Sea",2012,2.68,9.63827690625697e-06,5.62263732531142e-06,278058,5,10,10,10,9,10,9,7.6
+"12523","Italy","Gilthead seabream","Mediterranean and Black Sea",2012,2646.18,69.6363157894737,0.0055516829990644,38,10,1,3,5,3,1,3.8,4.7
+"12663","Mexico","Abalones nei","Pacific, Eastern Central",2012,308.54,15427,0.000361819736327297,0.02,5,10,1,7,5,3,5.2,4.6
+"12669","Mexico","Flathead grey mullet","Pacific, Eastern Central",2012,236.13,0.136412478336222,0.000276905731311871,1731,10,3,5,5,5,5,5.5,5.8
+"12695","Morocco","Gilthead seabream","Mediterranean and Black Sea",2012,1848.04,92402,0.0031078558707203,0.02,10,3,4,5,4,5,5.2,5.5
+"12696","Morocco","Marine fishes nei","Mediterranean and Black Sea",2012,0.28,0.00175219023779725,4.70877060995262e-07,159.8,5,4,5,5,4,5,4.7,5.3
+"12716","Namibia","Pacific cupped oyster","Atlantic, Southeast",2012,71181.1,988.626388888889,0.985112956166472,72,1,10,7,4,7,9,6.3,5.5
+"12732","Nigeria","Snappers nei","Atlantic, Eastern Central",2012,686306.44,3466.19414141414,1,198,5,7,3,3,4,3,4.2,4.9
+"12734","Norway","Atlantic cod","Atlantic, Northeast",2012,0,0,0,2453,10,1,3,3,3,1,3.5,4.6
+"12765","Peru","False abalone","Pacific, Southeast",2012,0,0,0,127.19,10,10,7,7,7,5,7.7,7.2
+"12770","Peru","Pacific cupped oyster","Pacific, Southeast",2012,282.83,3.72144736842105,0.0613797698285759,76,1,10,10,5,7,10,7.2,6.5
+"12772","Peru","Whiteleg shrimp","Pacific, Southeast",2012,2880.3,168.045507584597,0.625082738879352,17.14,10,3,1,5,3,3,4.2,4.5
+"12773","Philippines","Banana prawn","Pacific, Western Central",2012,0,0,0,2559.2,10,4,5,1,3,1,4,4.3
+"12777","Philippines","Giant tiger prawn","Pacific, Western Central",2012,0,0,0,1419956,10,1,1,1,1,1,2.5,3.5
+"12797","Portugal","Common cuttlefish","Atlantic, Northeast",2012,401.1,2.865,0.000633686599525378,140,10,5,5,6,7,7,6.7,6.5
+"12798","Portugal","Common edible cockle","Atlantic, Northeast",2012,4426.61,85.1271153846154,0.0069934765353404,52,10,10,7,6,9,6,8,6.9
+"12799","Portugal","Common sole","Atlantic, Northeast",2012,150544.4,290.066281310212,0.237840859919193,519,10,5,3,6,4,5,5.5,5.8
+"12802","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2012,4378.19,757.4723183391,0.0069169791403042,5.78,10,10,7,6,7,9,8.2,7
+"12803","Portugal","Gilthead seabream","Atlantic, Northeast",2012,322178.25,606.396103896104,0.509000348251152,531.3,10,3,3,6,4,3,4.8,5.3
+"12806","Portugal","Grooved carpet shell","Atlantic, Northeast",2012,200,3.98565165404544,0.000315974370244517,50.18,10,10,7,7,8,9,8.5,7.3
+"12808","Portugal","Marine molluscs nei","Atlantic, Northeast",2012,0,0,0,26.57,5,5,5,6,4,5,5,5.3
+"12810","Portugal","Octopuses nei","Atlantic, Northeast",2012,33.8,0.00046438139726592,5.33996685713233e-05,72785,5,5,5,6,8,5,5.7,5.7
+"12814","Portugal","Sargo breams nei","Atlantic, Northeast",2012,3236.65,0.33271484375,0.00511349222725957,9728,6,3,3,6,4,3,4.2,4.8
+"12815","Portugal","Sea mussels nei","Atlantic, Northeast",2012,0,0,0,1664.1,5,10,7,6,7,8,7.2,6.5
+"12864","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2012,409909.66,466.984506368338,0.774172221364674,877.78,10,3,5,5,5,5,5.5,5.7
+"12865","Saudi Arabia","Giant tiger prawn","Indian Ocean, Western",2012,231.4,0.00289318713194384,0.000437031545008687,79981,10,1,1,3,5,1,3.5,4.2
+"12874","Senegal","Gasar cupped oyster","Atlantic, Eastern Central",2012,0,0,0,0.3,10,10,7,4,7,8,7.7,6.5
+"12923","South Africa","Giant tiger prawn","Atlantic, Southeast",2012,385.67,0.0232169086662332,0.00754052442883954,16611.6,1,3,3,7,5,5,4,4.7
+"12929","South Africa","Mullets nei","Atlantic, Southeast",2012,3597.91,102.797428571429,0.0703454462306274,35,5,5,4,6,5,6,5.2,5.4
+"12930","South Africa","Pacific cupped oyster","Atlantic, Southeast",2012,237.06,0.0956272690601049,0.0046349384735673,2479,1,10,7,7,7,9,6.8,6.1
+"12931","South Africa","Perlemoen abalone","Atlantic, Southeast",2012,14953.84,830.768888888889,0.292373780239474,18,10,5,7,6,7,8,7.2,6.7
+"12932","South Africa","Red bait","Atlantic, Southeast",2012,164.5,0.0114410905550146,0.00321626330423446,14378,1,5,4,7,5,6,4.7,5
+"12933","South Africa","Sea mussels nei","Atlantic, Southeast",2012,0,0,0,6510,5,10,7,7,7,8,7.3,6.5
+"12951","Spain","Cupped oysters nei","Atlantic, Northeast",2012,170.46,11.4402684563758,2.26853289567266e-05,14.9,5,10,10,7,8,10,8.3,7.2
+"12953","Spain","European eel","Atlantic, Northeast",2012,74403.41,2400.11,0.00990182935206032,31,10,3,3,3,6,7,5.3,5.9
+"12962","Spain","Gilthead seabream","Atlantic, Northeast",2012,290553.6,1.02000168506193,0.0386677460727511,284856,10,1,1,3,3,1,3.2,4.2
+"12963","Spain","Gilthead seabream","Mediterranean and Black Sea",2012,0,0,0,74583,10,1,1,3,3,1,3.2,4.2
+"12972","Spain","Kuruma prawn","Atlantic, Northeast",2012,0,0,0,1206,1,3,5,5,5,7,4.3,4.8
+"12984","Spain","Pacific cupped oyster","Mediterranean and Black Sea",2012,0,0,0,8754,1,10,7,5,7,10,6.7,6.4
+"13075","Turkey","Atlantic salmon","Mediterranean and Black Sea",2012,1551.76,6.26973737373737,0.0072767283871188,247.5,1,3,3,8,5,5,4.2,4.7
+"13080","Turkey","Gilthead seabream","Mediterranean and Black Sea",2012,761.93,16.9694877505568,0.00357294791720203,44.9,8,3,3,7,5,6,5.3,5.1
+"13083","Turkey","Mediterranean mussel","Mediterranean and Black Sea",2012,24.57,4.914,0.000115217054487491,5,10,10,7,6,7,8,8,6.6
+"13084","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2012,234.23,2.29637254901961,0.00109838382875885,102,5,5,5,6,5,5,5.2,5.1
+"13092","Turkey","Trouts nei","Mediterranean and Black Sea",2012,1567.64,5.25066988210075,0.00735119508737364,298.56,5,3,3,5,5,5,4.3,4.8
+"13096","Ukraine","Flatfishes nei","Mediterranean and Black Sea",2012,233.02,22.6233009708738,0.00767063222969103,10.3,5,3,3,6,5,6,3.8,4.4
+"13118","United Kingdom","Atlantic cod","Atlantic, Northeast",2012,2.65,2.65,0.000106059435707771,1,10,1,3,3,3,1,3.5,4.6
+"13121","United Kingdom","Blue mussel","Atlantic, Northeast",2012,3.21,6.42,0.000128471995706394,0.5,10,10,9,8,8,10,9.2,8.2
+"13124","United Kingdom","European flat oyster","Atlantic, Northeast",2012,1236.23,22.9782527881041,0.0494769268698178,53.8,10,10,7,5,7,10,8.2,7.3
+"13125","United Kingdom","European seabass","Atlantic, Northeast",2012,261.97,6.09232558139535,0.0104846756122131,43,10,3,5,7,5,5,5.8,6
+"13173","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2012,16639.44,31.16,0.438135156079053,534,10,10,10,5,7,10,8.7,7.9
+"13186","Argentina","Blue mussel","Atlantic, Southwest",2013,20.37,3.68354430379747,0.208965941731637,5.53,10,10,7,5,7,10,8.2,7.1
+"13188","Argentina","Pacific cupped oyster","Atlantic, Southwest",2013,44.33,1.65781600598355,0.45475995075913,26.74,3,10,5,7,7,10,7,6.4
+"13189","Argentina","River Plata mussel","Atlantic, Southwest",2013,32.78,3.68314606741573,0.336274107509233,8.9,7,10,7,5,7,10,7.7,7
+"13192","Australia","Atlantic salmon","Pacific, Southwest",2013,479002.1,11.1979170562932,0.585552006441386,42776,1,1,1,3,5,3,2.3,3.7
+"13207","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2013,148585.19,19.8537132549439,0.181636690386064,7484,10,1,1,1,3,1,2.8,4.1
+"13230","Brazil","Cupped oysters nei","Atlantic, Southwest",2013,4035.06,0.0108102329992525,0.0105682078097292,373263,7,10,7,7,7,10,8,7.1
+"13251","Canada","Atlantic bluefin tuna","Atlantic, Northwest",2013,0,0,0,28,10,10,5,1,3,1,5,5
+"13252","Canada","Atlantic cod","Atlantic, Northwest",2013,0,0,0,0.5,10,1,3,3,3,3,3.8,4.7
+"13255","Canada","Blue mussel","Atlantic, Northwest",2013,44692.55,217.344502261343,0.0534963623651426,205.63,10,10,9,8,8,10,9.2,8.2
+"13276","Chile","Atlantic salmon","Pacific, Southeast",2013,0,0,0,138071,1,1,1,1,1,2,1.2,2.5
+"13287","Chile","Pacific cupped oyster","Pacific, Southeast",2013,145114.86,157.050714285714,0.204348473239498,924,1,10,7,5,7,1,5.2,5.6
+"13303","China","Groupers nei","Pacific, Northwest",2013,870,0.356411306841458,0.00185123331610552,2441,9,1,5,5,5,4,4.8,5.3
+"13321","China","Red drum","Pacific, Northwest",2013,0,0,0,1426.88,1,1,2,5,4,5,3,4.4
+"13412","France","Blue mussel","Atlantic, Northeast",2013,260000.02,1.43274381440458,0.220607554175654,181470,10,10,9,8,7,10,9,8.1
+"13413","France","Blue mussel","Mediterranean and Black Sea",2013,560.98,0.0107880769230769,0.000475986216237438,52000,10,10,9,8,7,10,9,8.1
+"13420","France","European flat oyster","Mediterranean and Black Sea",2013,0,0,0,5,10,10,7,5,7,10,8.2,7.3
+"13422","France","European seabass","Mediterranean and Black Sea",2013,31.88,0.0284135472370766,2.70498780235472e-05,1122,10,3,5,7,5,5,5.8,5.7
+"13424","France","Gilthead seabream","Atlantic, Northeast",2013,1087.76,217.552,0.00092295405642703,5,10,1,1,5,3,1,3.5,4.3
+"13425","France","Gilthead seabream","Mediterranean and Black Sea",2013,5.52,0.0505494505494505,4.68366771298559e-06,109.2,10,1,1,5,3,1,3.5,4.3
+"13439","France","Pacific cupped oyster","Mediterranean and Black Sea",2013,0,0,0,395.31,1,10,10,5,5,1,5.3,6.2
+"13468","Greece","European seabass","Mediterranean and Black Sea",2013,14998.5,9.53496503496504,0.124706111052586,1573,10,3,5,5,5,1,4.8,5
+"13469","Greece","Flathead grey mullet","Mediterranean and Black Sea",2013,4234.4,0.931661166116612,0.0352072244985211,4545,10,3,5,5,5,3,5.2,5.7
+"13470","Greece","Gilthead seabream","Mediterranean and Black Sea",2013,1829.59,1.15068553459119,0.0152122581405274,1590,10,1,1,3,3,1,3.2,4.1
+"13471","Greece","Kuruma prawn","Mediterranean and Black Sea",2013,38.11,0.149392395139161,0.000316868346315568,255.1,1,3,5,5,5,5,4,4.6
+"13489","Iceland","Haddock","Atlantic, Northeast",2013,1000,50,0.0095843966023314,20,10,3,5,8,7,5,6.3,6.9
+"13491","Iceland","Spotted wolffish","Atlantic, Northeast",2013,1674.84,167.484,0.0160523308054487,10,10,3,6,8,7,5,6.5,6.9
+"13499","Indonesia","Groupers nei","Pacific, Western Central",2013,2.03,0.000513094007415851,5.96137738123622e-06,3956.39,9,1,5,5,3,4,4.5,5
+"13510","Ireland","Atlantic salmon","Atlantic, Northeast",2013,13366.81,16.7503884711779,0.0102136702371849,798,10,3,3,5,5,5,5.2,5.4
+"13515","Ireland","European flat oyster","Atlantic, Northeast",2013,178.87,283.920634920635,0.000136675780932418,0.63,10,10,7,5,7,10,8.2,7.3
+"13533","Italy","Cupped oysters nei","Mediterranean and Black Sea",2013,1.57,4.66055154807493e-06,2.83810262318775e-06,336870,5,10,10,10,9,10,9,7.6
+"13537","Italy","Gilthead seabream","Mediterranean and Black Sea",2013,2362.93,181.763846153846,0.00427148906459174,13,10,1,3,5,3,1,3.8,4.7
+"13709","Morocco","Gilthead seabream","Mediterranean and Black Sea",2013,2289.26,208.114545454545,0.0033937051206973,11,10,3,4,5,4,5,5.2,5.5
+"13710","Morocco","Marine fishes nei","Mediterranean and Black Sea",2013,0.5,0.00311138767890479,7.41223172705874e-07,160.7,5,4,5,5,4,5,4.7,5.3
+"13730","Namibia","Pacific cupped oyster","Atlantic, Southeast",2013,73540.45,1025.81182870693,0.990923284493089,71.69,1,10,7,4,7,9,6.3,5.5
+"13746","Nigeria","Snappers nei","Atlantic, Eastern Central",2013,549587.4,6039.42197802198,1,91,5,7,3,3,4,3,4.2,4.9
+"13748","Norway","Atlantic cod","Atlantic, Northeast",2013,0,0,0,2826,10,1,3,3,3,1,3.5,4.6
+"13779","Peru","False abalone","Pacific, Southeast",2013,0,0,0,80.92,10,10,7,7,7,5,7.7,7.2
+"13786","Peru","Whiteleg shrimp","Pacific, Southeast",2013,2794.72,47.6508098891731,0.503740126966045,58.65,10,3,1,5,3,3,4.2,4.5
+"13787","Philippines","Banana prawn","Pacific, Western Central",2013,0,0,0,2596.2,10,4,5,1,3,1,4,4.3
+"13791","Philippines","Giant tiger prawn","Pacific, Western Central",2013,0,0,0,1608201,10,1,1,1,1,1,2.5,3.5
+"13798","Philippines","Milkfish","Pacific, Western Central",2013,0,0,0,10,10,7,7,1,3,3,5.2,5.7
+"13811","Portugal","Common cuttlefish","Atlantic, Northeast",2013,398.45,2.84607142857143,0.000581833965190368,140,10,5,5,6,7,7,6.7,6.5
+"13813","Portugal","Common sole","Atlantic, Northeast",2013,156970.7,324.319628099174,0.229215421758584,484,10,5,3,6,4,5,5.5,5.8
+"13816","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2013,4752.87,709.383582089552,0.0069403468393383,6.7,10,10,7,6,7,9,8.2,7
+"13817","Portugal","Gilthead seabream","Atlantic, Northeast",2013,331299.28,575.842177532894,0.483777572461072,575.33,10,3,3,6,4,3,4.8,5.3
+"13820","Portugal","Grooved carpet shell","Atlantic, Northeast",2013,200,2.55427841634738,0.000292048671196069,78.3,10,10,7,7,8,9,8.5,7.3
+"13822","Portugal","Marine molluscs nei","Atlantic, Northeast",2013,0,0,0,73.58,5,5,5,6,4,5,5,5.3
+"13824","Portugal","Octopuses nei","Atlantic, Northeast",2013,8.29,0.000100565300725429,1.21054174210771e-05,82434,5,5,5,6,8,5,5.7,5.7
+"13828","Portugal","Sargo breams nei","Atlantic, Northeast",2013,3280.1,0.268530495292673,0.00478974423195113,12215,6,3,3,6,4,3,4.2,4.8
+"13829","Portugal","Sea mussels nei","Atlantic, Northeast",2013,0,0,0,1648.17,5,10,7,6,7,8,7.2,6.5
+"13878","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2013,462116.53,252.947036832281,0.756116647887142,1826.93,10,3,5,5,5,5,5.5,5.7
+"13879","Saudi Arabia","Giant tiger prawn","Indian Ocean, Western",2013,239.07,0.0032015587963521,0.000391167152169127,74673,10,1,1,3,5,1,3.5,4.2
+"13937","South Africa","Giant tiger prawn","Atlantic, Southeast",2013,398.45,0.0213779079749335,0.0082122162823032,18638.4,1,3,3,7,5,5,4,4.7
+"13943","South Africa","Mullets nei","Atlantic, Southeast",2013,3411.05,72.5755319148936,0.0703031254856327,47,5,5,4,6,5,6,5.2,5.4
+"13944","South Africa","Pacific cupped oyster","Atlantic, Southeast",2013,282.18,0.142900549968096,0.00581584437329732,1974.66,1,10,7,7,7,9,6.8,6.1
+"13945","South Africa","Perlemoen abalone","Atlantic, Southeast",2013,7531.59,313.81625,0.155229127944866,24,10,5,7,6,7,8,7.2,6.7
+"13946","South Africa","Red bait","Atlantic, Southeast",2013,179.75,0.0134795650543682,0.00370472048373447,13335,1,5,4,7,5,6,4.7,5
+"13947","South Africa","Sea mussels nei","Atlantic, Southeast",2013,0,0,0,6689,5,10,7,7,7,8,7.3,6.5
+"13949","South Africa","Smooth mactra","Atlantic, Southeast",2013,1008.17,0.156860884123003,0.0207787930463788,6427.16,10,10,7,6,7,7,7.8,6.7
+"13965","Spain","Cupped oysters nei","Atlantic, Northeast",2013,1050.23,40.3934615384615,0.000113171264865097,26,5,10,10,7,8,10,8.3,7.2
+"13967","Spain","European eel","Atlantic, Northeast",2013,75118.11,25039.37,0.00809461881966378,3,10,3,3,3,6,7,5.3,5.9
+"13976","Spain","Gilthead seabream","Atlantic, Northeast",2013,388916.03,1.6219770288474,0.0419090285379508,239779,10,1,1,3,3,1,3.2,4.2
+"13977","Spain","Gilthead seabream","Mediterranean and Black Sea",2013,0,0,0,71448.6,10,1,1,3,3,1,3.2,4.2
+"13986","Spain","Kuruma prawn","Atlantic, Northeast",2013,0,0,0,1261,1,3,5,5,5,7,4.3,4.8
+"13998","Spain","Pacific cupped oyster","Mediterranean and Black Sea",2013,0,0,0,22500,1,10,7,5,7,10,6.7,6.4
+"14094","Turkey","Gilthead seabream","Mediterranean and Black Sea",2013,2702.82,17.5450827653359,0.0145901584743562,154.05,8,3,3,7,5,6,5.3,5.1
+"14097","Turkey","Mediterranean mussel","Mediterranean and Black Sea",2013,60.23,5.47545454545455,0.000325129030016972,11,10,10,7,6,7,8,8,6.6
+"14098","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2013,224.32,2.28897959183673,0.0012109072557431,98,5,5,5,6,5,5,5.2,5.1
+"14106","Turkey","Trouts nei","Mediterranean and Black Sea",2013,2274.24,4.24401440647918,0.0122766303374697,535.87,5,3,3,5,5,5,4.3,4.8
+"14110","Ukraine","Flatfishes nei","Mediterranean and Black Sea",2013,195.64,23.0164705882353,0.00846333607023306,8.5,5,3,3,6,5,6,3.8,4.4
+"14111","Ukraine","Mediterranean mussel","Mediterranean and Black Sea",2013,18.1,8.15315315315315,0.00078300134364761,2.22,10,10,7,6,7,8,8,6.9
+"14132","United Kingdom","Atlantic cod","Atlantic, Northeast",2013,8.24,2.51987767584098,0.000168501161717354,3.27,10,1,3,3,3,1,3.5,4.6
+"14135","United Kingdom","Blue mussel","Atlantic, Northeast",2013,6.24,4.76335877862595,0.000127602821494695,1.31,10,10,9,8,8,10,9.2,8.2
+"14187","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2013,24449.01,33.63,0.513950376239522,727,10,10,10,5,7,10,8.7,7.9
+"14200","Argentina","Blue mussel","Atlantic, Southwest",2014,12.33,3.35054347826087,0.240350877192982,3.68,10,10,7,5,7,10,8.2,7.1
+"14202","Argentina","Pacific cupped oyster","Atlantic, Southwest",2014,12.66,1.86176470588235,0.246783625730994,6.8,3,10,5,7,7,10,7,6.4
+"14203","Argentina","River Plata mussel","Atlantic, Southwest",2014,7.78,3.35344827586207,0.151656920077973,2.32,7,10,7,5,7,10,7.7,7
+"14206","Australia","Atlantic salmon","Pacific, Southwest",2014,487618.06,11.7242090178814,0.656875931603427,41590.7,1,1,1,3,5,3,2.3,3.7
+"14221","Australia","Southern bluefin tuna","Indian Ocean, Eastern",2014,110491.19,14.6462340933192,0.148843960712245,7544,10,1,1,1,3,1,2.8,4.1
+"14244","Brazil","Cupped oysters nei","Atlantic, Southwest",2014,5020.91,0.0134857954774369,0.0133181904835646,372311,7,10,7,7,7,10,8,7.1
+"14265","Canada","Atlantic bluefin tuna","Atlantic, Northwest",2014,0,0,0,14,10,10,5,1,3,1,5,5
+"14269","Canada","Blue mussel","Atlantic, Northwest",2014,38463.05,278.717753623188,0.0525362320325241,138,10,10,9,8,8,10,9.2,8.2
+"14290","Chile","Atlantic salmon","Pacific, Southeast",2014,0,0,0,140738,1,1,1,1,1,2,1.2,2.5
+"14317","China","Groupers nei","Pacific, Northwest",2014,870,0.362047440699126,0.00167135831674622,2403,9,1,5,5,5,4,4.8,5.3
+"14335","China","Red drum","Pacific, Northwest",2014,0,0,0,1602.14,1,1,2,5,4,5,3,4.4
+"14411","Ecuador","Red drum","Pacific, Southeast",2014,0,0,0,0.4,1,1,3,5,5,5,3.3,4.5
+"14425","France","Atlantic salmon","Atlantic, Northeast",2014,188881,173.118555519912,0.156308189590502,1091.05,10,3,2,5,5,3,4.7,4.8
+"14426","France","Blue mussel","Atlantic, Northeast",2014,220000.02,1.16475463387,0.182060688137369,188881,10,10,9,8,7,10,9,8.1
+"14427","France","Blue mussel","Mediterranean and Black Sea",2014,497.89,0.01244725,0.000412028126255236,40000,10,10,9,8,7,10,9,8.1
+"14436","France","European seabass","Mediterranean and Black Sea",2014,49.03,0.0453981481481481,4.05747033085505e-05,1080,10,3,5,7,5,5,5.8,5.7
+"14438","France","Gilthead seabream","Atlantic, Northeast",2014,956.77,84.6699115044248,0.000791773585244175,11.3,10,1,1,5,3,1,3.5,4.3
+"14439","France","Gilthead seabream","Mediterranean and Black Sea",2014,5.32,0.0443333333333333,4.402558058362e-06,120,10,1,1,5,3,1,3.5,4.3
+"14453","France","Pacific cupped oyster","Mediterranean and Black Sea",2014,0,0,0,569.7,1,10,10,5,5,1,5.3,6.2
+"14482","Greece","European seabass","Mediterranean and Black Sea",2014,10017,6.12286063569682,0.0883439127895563,1636,10,3,5,5,5,1,4.8,5
+"14483","Greece","Flathead grey mullet","Mediterranean and Black Sea",2014,3723.68,1.30107617051013,0.0328406170686049,2862,10,3,5,5,5,3,5.2,5.7
+"14484","Greece","Gilthead seabream","Mediterranean and Black Sea",2014,3702.42,3.88094339622642,0.0326531166607077,954,10,1,1,3,3,1,3.2,4.1
+"14485","Greece","Kuruma prawn","Mediterranean and Black Sea",2014,19.5,0.0367785741229725,0.000171978266885929,530.2,1,3,5,5,5,5,4,4.6
+"14503","Iceland","Haddock","Atlantic, Northeast",2014,1300,65,0.013406429310992,20,10,3,5,8,7,5,6.3,6.9
+"14524","Ireland","Atlantic salmon","Atlantic, Northeast",2014,13354.86,13.1187229862475,0.036216729581747,1018,10,3,3,5,5,5,5.2,5.4
+"14547","Italy","Cupped oysters nei","Mediterranean and Black Sea",2014,1.08,3.0561309382322e-06,1.91131857019071e-06,353388,5,10,10,10,9,10,9,7.6
+"14551","Italy","Gilthead seabream","Mediterranean and Black Sea",2014,2391.35,239.135,0.00423206635446812,10,10,1,3,5,3,1,3.8,4.7
+"14723","Morocco","Gilthead seabream","Mediterranean and Black Sea",2014,1895.04,47.1520278676288,0.00270891141283316,40.19,10,3,4,5,4,5,5.2,5.5
+"14724","Morocco","Marine fishes nei","Mediterranean and Black Sea",2014,1.18,0.00753031269942565,1.68677994508988e-06,156.7,5,4,5,5,4,5,4.7,5.3
+"14727","Morocco","Yesso scallop","Atlantic, Eastern Central",2014,697362.44,9962320.57142857,0.996861845975377,0.07,1,10,7,7,6,9,6.7,6.5
+"14744","Namibia","Pacific cupped oyster","Atlantic, Southeast",2014,74337.66,1358.75817949187,0.996954191637686,54.71,1,10,7,4,7,9,6.3,5.5
+"14760","Nigeria","Snappers nei","Atlantic, Eastern Central",2014,875121.9,8751.219,1,100,5,7,3,3,4,3,4.2,4.9
+"14762","Norway","Atlantic cod","Atlantic, Northeast",2014,0,0,0,3214.72,10,1,3,3,3,1,3.5,4.6
+"14772","Norway","Pacific cupped oyster","Atlantic, Northeast",2014,438,2.46067415730337,0.000357098642018273,178,1,10,7,2,7,10,6.2,6.6
+"14793","Peru","False abalone","Pacific, Southeast",2014,0,0,0,103.68,10,10,7,7,7,5,7.7,7.2
+"14800","Peru","Whiteleg shrimp","Pacific, Southeast",2014,2235.24,20.0830188679245,0.254268927350598,111.3,10,3,1,5,3,3,4.2,4.5
+"14805","Philippines","Giant tiger prawn","Pacific, Western Central",2014,0,0,0,1649399,10,1,1,1,1,1,2.5,3.5
+"14825","Portugal","Common cuttlefish","Atlantic, Northeast",2014,597.98,3.98653333333333,0.000834966144690649,150,10,5,5,6,7,7,6.7,6.5
+"14827","Portugal","Common sole","Atlantic, Northeast",2014,159375.53,166.710805439331,0.222537830432671,956,10,5,3,6,4,5,5.5,5.8
+"14830","Portugal","Flat and cupped oysters nei","Atlantic, Northeast",2014,3885.3,29886.9230769231,0.00542508773197528,0.13,10,10,7,6,7,9,8.2,7
+"14831","Portugal","Gilthead seabream","Atlantic, Northeast",2014,350093.06,769.909086910626,0.48883884509708,454.72,10,3,3,6,4,3,4.8,5.3
+"14834","Portugal","Grooved carpet shell","Atlantic, Northeast",2014,200,2.80112044817927,0.000279262231074835,71.4,10,10,7,7,8,9,8.5,7.3
+"14836","Portugal","Marine molluscs nei","Atlantic, Northeast",2014,0,0,0,111.2,5,5,5,6,4,5,5,5.3
+"14838","Portugal","Octopuses nei","Atlantic, Northeast",2014,8.73,9.90582094632929e-05,1.21897963864165e-05,88130,5,5,5,6,8,5,5.7,5.7
+"14842","Portugal","Sargo breams nei","Atlantic, Northeast",2014,3827.27,0.29900546875,0.00534405979562892,12800,6,3,3,6,4,3,4.2,4.8
+"14843","Portugal","Sea mussels nei","Atlantic, Northeast",2014,0,0,0,1954.9,5,10,7,6,7,8,7.2,6.5
+"14892","Saudi Arabia","Flathead grey mullet","Indian Ocean, Western",2014,344014.38,136.508225864053,0.746763404374626,2520.1,10,3,5,5,5,5,5.5,5.7
+"14893","Saudi Arabia","Giant tiger prawn","Indian Ocean, Western",2014,239.19,0.00435120336177257,0.000519217652158514,54971,10,1,1,3,5,1,3.5,4.2
+"14951","South Africa","Giant tiger prawn","Atlantic, Southeast",2014,370.75,0.0222293505372218,0.00412506415684746,16678.4,1,3,3,7,5,5,4,4.7
+"14952","South Africa","Gracilaria seaweeds","Atlantic, Southeast",2014,244,5.42222222222222,0.00271480958670473,45,10,10,7,6,8,10,8.5,7.3
+"14957","South Africa","Mullets nei","Atlantic, Southeast",2014,1363.42,36.8491891891892,0.0151697774045285,37,5,5,4,6,5,6,5.2,5.4
+"14958","South Africa","Pacific cupped oyster","Atlantic, Southeast",2014,253.58,0.0719375886524823,0.00282139924178929,3525,1,10,7,7,7,9,6.8,6.1
+"14959","South Africa","Perlemoen abalone","Atlantic, Southeast",2014,40612.37,1846.01681818182,0.451864145142622,22,10,5,7,6,7,8,7.2,6.7
+"14960","South Africa","Red bait","Atlantic, Southeast",2014,202.83,0.0122459699329832,0.0022567411002923,16563,1,5,4,7,5,6,4.7,5
+"14961","South Africa","Sea mussels nei","Atlantic, Southeast",2014,10352.83,1.54404623415362,0.11518836939969,6705,5,10,7,7,7,8,7.3,6.5
+"14979","Spain","Cupped oysters nei","Atlantic, Northeast",2014,818.22,39.7194174757282,8.87095249700888e-05,20.6,5,10,10,7,8,10,8.3,7.2
+"14981","Spain","European eel","Atlantic, Northeast",2014,87540.73,17508.146,0.00949096401192197,5,10,3,3,3,6,7,5.3,5.9
+"14990","Spain","Gilthead seabream","Atlantic, Northeast",2014,366035.47,1.29235210004519,0.0396847213046652,283232,10,1,1,3,3,1,3.2,4.2
+"15012","Spain","Pacific cupped oyster","Mediterranean and Black Sea",2014,0,0,0,18675,1,10,7,5,7,10,6.7,6.4
+"15043","Sweden","Atlantic salmon","Atlantic, Northeast",2014,0,0,0,397841,10,3,3,8,5,5,5.7,6
+"15103","Turkey","Atlantic salmon","Mediterranean and Black Sea",2014,1324.99,9.538478151321,0.00871183930802357,138.91,1,3,3,8,5,5,4.2,4.7
+"15108","Turkey","Gilthead seabream","Mediterranean and Black Sea",2014,1135.12,13.5278274341556,0.007463439750733,83.91,8,3,3,7,5,6,5.3,5.1
+"15112","Turkey","Natantian decapods nei","Mediterranean and Black Sea",2014,170.61,2.14065244667503,0.00112176462036838,79.7,5,5,5,6,5,5,5.2,5.1
+"15120","Turkey","Trouts nei","Mediterranean and Black Sea",2014,2373.96,3.94476570289133,0.0156088408544032,601.8,5,3,3,5,5,5,4.3,4.8
+"15124","Ukraine","Flatfishes nei","Mediterranean and Black Sea",2014,197.27,15.41171875,0.00567008916586714,12.8,5,3,3,6,5,6,3.8,4.4
+"15146","United Kingdom","Atlantic cod","Atlantic, Northeast",2014,16.69,2.57959814528594,0.000430600221621085,6.47,10,1,3,3,3,1,3.5,4.6
+"15149","United Kingdom","Blue mussel","Atlantic, Northeast",2014,25.03,4.92716535433071,0.000645771332964395,5.08,10,10,9,8,8,10,9.2,8.2
+"15152","United Kingdom","European flat oyster","Atlantic, Northeast",2014,121.32,23.6491228070175,0.00313004307292211,5.13,10,10,7,5,7,10,8.2,7.3
+"15153","United Kingdom","European seabass","Atlantic, Northeast",2014,59.88,5.13550600343053,0.00154489761957283,11.66,10,3,5,7,5,5,5.8,6
+"15201","Viet Nam","Gracilaria seaweeds","Pacific, Western Central",2014,18537.12,30.24,0.484023439356332,613,10,10,10,5,7,10,8.7,7.9
