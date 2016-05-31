@@ -1,0 +1,264 @@
+"","country","native","fishmeal","intensity","hatchery","habitat","GMO","waste"
+"1","Albania",NA,NA,NA,NA,NA,NA,NA
+"2","Algeria",NA,NA,NA,NA,NA,NA,NA
+"3","Angola",NA,NA,NA,NA,NA,NA,NA
+"4","Antigua and Barbuda",NA,NA,NA,NA,NA,NA,NA
+"5","Argentina",0.67,1,0.58,0.775,0.897435897435897,0.7,1
+"6","Armenia",NA,NA,NA,NA,NA,NA,NA
+"7","Aruba",NA,NA,NA,NA,NA,NA,NA
+"8","Australia",0.33,0.32,0.32,0.5875,0.666666666666667,0.63,0.42
+"9","Austria",NA,NA,NA,NA,NA,NA,NA
+"10","Azerbaijan",NA,NA,NA,NA,NA,NA,NA
+"11","Bahamas",NA,NA,NA,NA,NA,NA,NA
+"12","Bahrain",NA,NA,NA,NA,NA,NA,NA
+"13","Bangladesh",0.5,0.3,0.1,0.375,0.128205128205128,0.6,0.1
+"14","Barbados",NA,NA,NA,NA,NA,NA,NA
+"15","Belarus",NA,NA,NA,NA,NA,NA,NA
+"16","Belgium",NA,NA,NA,NA,NA,NA,NA
+"17","Belize",0.1,0.3,0.3,0.625,0.128205128205128,0.5,0.3
+"18","Benin",NA,NA,NA,NA,NA,NA,NA
+"19","Bermuda",NA,NA,NA,NA,NA,NA,NA
+"20","Bhutan",NA,NA,NA,NA,NA,NA,NA
+"21","Bolivia (Plurinat.State)",NA,NA,NA,NA,NA,NA,NA
+"22","Bosnia and Herzegovina",NA,NA,NA,NA,NA,NA,NA
+"23","Botswana",NA,NA,NA,NA,NA,NA,NA
+"24","Brazil",0.12,0.32,0.31,0.6375,0.153846153846154,0.59,0.13
+"25","Brunei Darussalam",NA,NA,NA,NA,NA,NA,NA
+"26","Bulgaria",NA,NA,NA,NA,NA,NA,NA
+"27","Burkinaaso",NA,NA,NA,NA,NA,NA,NA
+"28","Burundi",NA,NA,NA,NA,NA,NA,NA
+"29","Céte d'Ivoire",NA,NA,NA,NA,NA,NA,NA
+"30","Cabo Verde",NA,NA,NA,NA,NA,NA,NA
+"31","Cambodia",0.5,0.3,0.1,0.375,0.128205128205128,0.7,0.1
+"32","Cameroon",NA,NA,NA,NA,NA,NA,NA
+"33","Canada",0.54,0.41,0.28,0.5125,0.602564102564103,0.6,0.37
+"34","Cayman Islands",NA,NA,NA,NA,NA,NA,NA
+"35","Central African Republic",NA,NA,NA,NA,NA,NA,NA
+"36","Chad",NA,NA,NA,NA,NA,NA,NA
+"37","Chile",0.31,0.32,0.32,0.4375,0.41025641025641,0.52,0.39
+"38","China",0.26,0.99,0.69,0.6125,0.666666666666667,0.71,0.19
+"39","China, Hong Kong SAR",NA,NA,NA,NA,NA,NA,NA
+"40","China, Macao SAR",NA,NA,NA,NA,NA,NA,NA
+"41","Colombia",1,0.3,0.3,0.625,0.384615384615385,0.5,0.3
+"42","Comoros",NA,NA,NA,NA,NA,NA,NA
+"43","Congo",NA,NA,NA,NA,NA,NA,NA
+"44","Congo, Dem. Rep. of the",NA,NA,NA,NA,NA,NA,NA
+"45","Cook Islands",NA,NA,NA,NA,NA,NA,NA
+"46","Costa Rica",1,0.3,0.1,0.625,0.384615384615385,0.5,0.5
+"47","Croatia",NA,NA,NA,NA,NA,NA,NA
+"48","Cuba",NA,NA,NA,NA,NA,NA,NA
+"49","Curaçao",NA,NA,NA,NA,NA,NA,NA
+"50","Cyprus",NA,NA,NA,NA,NA,NA,NA
+"51","Czech Republic",NA,NA,NA,NA,NA,NA,NA
+"52","Czechoslovakia",NA,NA,NA,NA,NA,NA,NA
+"53","Denmark",1,0.33,0.32,0.4,0.769230769230769,0.71,0.71
+"54","Djibouti",NA,NA,NA,NA,NA,NA,NA
+"55","Dominica",NA,NA,NA,NA,NA,NA,NA
+"56","Dominican Republic",NA,NA,NA,NA,NA,NA,NA
+"57","Ecuador",0.99,0.3,0.5,0.625,0.128205128205128,0.5,0.3
+"58","Egypt",0.96,0.29,0.48,0.625,0.628205128205128,0.67,0.48
+"59","El Salvador",NA,NA,NA,NA,NA,NA,NA
+"60","Equatorial Guinea",NA,NA,NA,NA,NA,NA,NA
+"61","Eritrea",NA,NA,NA,NA,NA,NA,NA
+"62","Estonia",NA,NA,NA,NA,NA,NA,NA
+"63","Ethiopia",NA,NA,NA,NA,NA,NA,NA
+"64","Ethiopia PDR",NA,NA,NA,NA,NA,NA,NA
+"65","Falkland Is.(Malvinas)",NA,NA,NA,NA,NA,NA,NA
+"66","Faroe Islands",NA,NA,NA,NA,NA,NA,NA
+"67","Fiji, Republic of",NA,NA,NA,NA,NA,NA,NA
+"68","Finland",1,0.3,0.2,0.625,0.384615384615385,0.6,0.7
+"69","France",0.38,0.98,0.96,0.7375,0.717948717948718,0.78,0.36
+"70","French Guiana",NA,NA,NA,NA,NA,NA,NA
+"71","French Polynesia",NA,NA,NA,NA,NA,NA,NA
+"72","Gabon",NA,NA,NA,NA,NA,NA,NA
+"73","Gambia",NA,NA,NA,NA,NA,NA,NA
+"74","Georgia",NA,NA,NA,NA,NA,NA,NA
+"75","Germany",1,1,0.9,1,0.897435897435897,1,1
+"76","Ghana",NA,NA,NA,NA,NA,NA,NA
+"77","Greece",1,0.19,0.27,0.4875,0.5,0.42,0.1
+"78","Greenland",NA,NA,NA,NA,NA,NA,NA
+"79","Grenada",NA,NA,NA,NA,NA,NA,NA
+"80","Guadeloupe",NA,NA,NA,NA,NA,NA,NA
+"81","Guam",NA,NA,NA,NA,NA,NA,NA
+"82","Guatemala",0.5,0.1,0.3,0.625,0.641025641025641,0.5,0.5
+"83","Guinea",NA,NA,NA,NA,NA,NA,NA
+"84","GuineaBissau",NA,NA,NA,NA,NA,NA,NA
+"85","Guyana",NA,NA,NA,NA,NA,NA,NA
+"86","Haiti",NA,NA,NA,NA,NA,NA,NA
+"87","Honduras",0.5,0.1,0.5,0.375,0.128205128205128,0.5,0.1
+"88","Hungary",NA,NA,NA,NA,NA,NA,NA
+"89","Iceland",0.34,0.46,0.5,1,0.769230769230769,0.74,0.5
+"90","India",1,0.1,0.1,0.375,0.128205128205128,0.7,0.1
+"91","Indonesia",1,0.48,0.66,0.375,0.307692307692308,0.75,0.24
+"92","Iran (Islamic Rep. of)",NA,NA,NA,NA,NA,NA,NA
+"93","Iraq",NA,NA,NA,NA,NA,NA,NA
+"94","Ireland",0.91,0.73,0.64,0.8125,0.858974358974359,0.85,0.81
+"95","Israel",NA,NA,NA,NA,NA,NA,NA
+"96","Italy",1,0.37,0.54,0.6625,0.615384615384615,0.52,0.48
+"97","Jamaica",NA,NA,NA,NA,NA,NA,NA
+"98","Japan",1,0.98,0.69,0.5375,0.794871794871795,0.69,0.8
+"99","Jordan",NA,NA,NA,NA,NA,NA,NA
+"100","Kazakhstan",NA,NA,NA,NA,NA,NA,NA
+"101","Kenya",NA,NA,NA,NA,NA,NA,NA
+"102","Kiribati",1,0.7,0.5,0.125,0.384615384615385,0.8,0.3
+"103","Korea, Dem. People's Rep",NA,NA,NA,NA,NA,NA,NA
+"104","Korea, Republic of",NA,NA,NA,NA,NA,NA,NA
+"105","Kuwait",NA,NA,NA,NA,NA,NA,NA
+"106","Kyrgyzstan",NA,NA,NA,NA,NA,NA,NA
+"107","Lao People's Dem. Rep.",NA,NA,NA,NA,NA,NA,NA
+"108","Latvia",NA,NA,NA,NA,NA,NA,NA
+"109","Lebanon",NA,NA,NA,NA,NA,NA,NA
+"110","Lesotho",NA,NA,NA,NA,NA,NA,NA
+"111","Liberia",NA,NA,NA,NA,NA,NA,NA
+"112","Libya",NA,NA,NA,NA,NA,NA,NA
+"113","Lithuania",NA,NA,NA,NA,NA,NA,NA
+"114","Luxembourg",NA,NA,NA,NA,NA,NA,NA
+"115","Macedonia,mr Yug Rp of",NA,NA,NA,NA,NA,NA,NA
+"116","Madagascar",1,0.1,0.3,0.625,0.128205128205128,0.7,0.1
+"117","Malawi",NA,NA,NA,NA,NA,NA,NA
+"118","Malaysia",1,0.83,0.59,0.3625,0.551282051282051,0.93,0.6
+"119","Maldives",NA,NA,NA,NA,NA,NA,NA
+"120","Mali",NA,NA,NA,NA,NA,NA,NA
+"121","Malta",NA,NA,NA,NA,NA,NA,NA
+"122","Marshall Islands",NA,NA,NA,NA,NA,NA,NA
+"123","Martinique",NA,NA,NA,NA,NA,NA,NA
+"124","Mauritania",NA,NA,NA,NA,NA,NA,NA
+"125","Mauritius",NA,NA,NA,NA,NA,NA,NA
+"126","Mayotte",NA,NA,NA,NA,NA,NA,NA
+"127","Mexico",0.95,0.34,0.34,0.6125,0.41025641025641,0.51,0.53
+"128","Micronesia,ed.States of",NA,NA,NA,NA,NA,NA,NA
+"129","Moldova, Republic of",NA,NA,NA,NA,NA,NA,NA
+"130","Mongolia",NA,NA,NA,NA,NA,NA,NA
+"131","Montenegro",NA,NA,NA,NA,NA,NA,NA
+"132","Morocco",0.83,0.43,0.46,0.625,0.576923076923077,0.57,0.59
+"133","Mozambique",NA,NA,NA,NA,NA,NA,NA
+"134","Myanmar",1,0.1,0.1,0.375,0.128205128205128,0.7,0.1
+"135","Namibia",0.44,1,0.71,0.5,1,0.8,0.94
+"136","Nepal",NA,NA,NA,NA,NA,NA,NA
+"137","Netherlands",0.99,1,0.89,1,0.91025641025641,0.98,1
+"138","Netherlands Antilles",NA,NA,NA,NA,NA,NA,NA
+"139","New Caledonia",NA,NA,NA,NA,NA,NA,NA
+"140","New Zealand",0.1,1,1,0.375,0.897435897435897,0.7,1
+"141","Nicaragua",1,0.3,0.1,0.625,0.384615384615385,0.5,0.3
+"142","Niger",NA,NA,NA,NA,NA,NA,NA
+"143","Nigeria",0.59,0.63,0.3,0.375,0.512820512820513,0.8,0.3
+"144","Norway",1,0.1,0.1,0.625,0.384615384615385,0.5,0.1
+"145","Oman",NA,NA,NA,NA,NA,NA,NA
+"146","Pakistan",0.4,0.3,0.5,0.375,0.641025641025641,0.5,0.3
+"147","Palau",NA,NA,NA,NA,NA,NA,NA
+"148","Palestine, Occupied Tr.",NA,NA,NA,NA,NA,NA,NA
+"149","Panama",1,0.3,0.1,0.625,0.641025641025641,0.5,0.5
+"150","Papua New Guinea",NA,NA,NA,NA,NA,NA,NA
+"151","Paraguay",NA,NA,NA,NA,NA,NA,NA
+"152","Peru",1,0.31,0.11,0.625,0.397435897435897,0.31,0.31
+"153","Philippines",1,0.55,0.55,0.125,0.320512820512821,0.77,0.25
+"154","Poland",0.5,0.5,0.5,0.75,0.641025641025641,0.4,0.5
+"155","Portugal",0.87,0.76,0.56,0.8125,0.846153846153846,0.7,0.7
+"156","Qatar",NA,NA,NA,NA,NA,NA,NA
+"157","R_union",NA,NA,NA,NA,NA,NA,NA
+"158","Romania",NA,NA,NA,NA,NA,NA,NA
+"159","Russianederation",NA,NA,NA,NA,NA,NA,NA
+"160","Rwanda",NA,NA,NA,NA,NA,NA,NA
+"161","Saint Helena",NA,NA,NA,NA,NA,NA,NA
+"162","Saint Kitts and Nevis",NA,NA,NA,NA,NA,NA,NA
+"163","Saint Lucia",NA,NA,NA,NA,NA,NA,NA
+"164","Saint Vincent/Grenadines",NA,NA,NA,NA,NA,NA,NA
+"165","Samoa",NA,NA,NA,NA,NA,NA,NA
+"166","Sao Tome and Principe",NA,NA,NA,NA,NA,NA,NA
+"167","Saudi Arabia",0.97,0.13,0.15,0.4125,0.628205128205128,0.69,0.15
+"168","Senegal",0.7,0.77,0.57,0.5125,0.769230769230769,0.7,0.67
+"169","Serbia",NA,NA,NA,NA,NA,NA,NA
+"170","Serbia and Montenegro",NA,NA,NA,NA,NA,NA,NA
+"171","Seychelles",NA,NA,NA,NA,NA,NA,NA
+"172","Sierra Leone",NA,NA,NA,NA,NA,NA,NA
+"173","Singapore",NA,NA,NA,NA,NA,NA,NA
+"174","Slovakia",NA,NA,NA,NA,NA,NA,NA
+"175","Slovenia",NA,NA,NA,NA,NA,NA,NA
+"176","Solomon Islands",NA,NA,NA,NA,NA,NA,NA
+"177","Somalia",NA,NA,NA,NA,NA,NA,NA
+"178","South Africa",0.24,0.96,0.69,0.85,0.91025641025641,0.72,0.9
+"179","Spain",1,0.96,0.86,0.9625,0.871794871794872,0.98,0.96
+"180","Sri Lanka",1,0.1,0.1,0.125,0.128205128205128,1,0.1
+"181","St. Pierre and Miquelon",NA,NA,NA,NA,NA,NA,NA
+"182","Sudan",NA,NA,NA,NA,NA,NA,NA
+"183","Sudan (former)",NA,NA,NA,NA,NA,NA,NA
+"184","Suriname",NA,NA,NA,NA,NA,NA,NA
+"185","Swaziland",NA,NA,NA,NA,NA,NA,NA
+"186","Sweden",0.33,0.56,0.45,0.95,0.743589743589744,0.58,0.54
+"187","Switzerland",NA,NA,NA,NA,NA,NA,NA
+"188","Syrian Arab Republic",NA,NA,NA,NA,NA,NA,NA
+"189","Taiwan Province of China",NA,NA,NA,NA,NA,NA,NA
+"190","Tanzania, United Rep. of",NA,NA,NA,NA,NA,NA,NA
+"191","Thailand",0.93,0.26,0.2,0.2,0.230769230769231,0.69,0.22
+"192","TimorLeste",NA,NA,NA,NA,NA,NA,NA
+"193","Togo",NA,NA,NA,NA,NA,NA,NA
+"194","Tonga",1,0.7,1,0.125,0.641025641025641,0.8,0.3
+"195","Trinidad and Tobago",NA,NA,NA,NA,NA,NA,NA
+"196","Tunisia",NA,NA,NA,NA,NA,NA,NA
+"197","Turkey",0.64,0.32,0.31,0.8,0.653846153846154,0.51,0.6
+"198","Turkmenistan",NA,NA,NA,NA,NA,NA,NA
+"199","Turks and Caicos Is.",NA,NA,NA,NA,NA,NA,NA
+"200","Tuvalu",NA,NA,NA,NA,NA,NA,NA
+"201","Uganda",NA,NA,NA,NA,NA,NA,NA
+"202","Ukraine",0.77,0.95,0.62,0.7375,0.794871794871795,0.63,0.69
+"203","Un. Sov. Soc. Rep.",NA,NA,NA,NA,NA,NA,NA
+"204","United Arab Emirates",NA,NA,NA,NA,NA,NA,NA
+"205","United Kingdom",0.99,0.19,0.27,0.4375,0.448717948717949,0.55,0.55
+"206","United States of America",NA,NA,NA,NA,NA,NA,NA
+"207","Uruguay",NA,NA,NA,NA,NA,NA,NA
+"208","Uzbekistan",NA,NA,NA,NA,NA,NA,NA
+"209","Vanuatu",NA,NA,NA,NA,NA,NA,NA
+"210","Venezuela, Boliv Rep of",NA,NA,NA,NA,NA,NA,NA
+"211","Viet Nam",0.97,0.28,0.28,0.25,0.282051282051282,0.7,0.27
+"212","Yemen",NA,NA,NA,NA,NA,NA,NA
+"213","Yugoslavia SFR",NA,NA,NA,NA,NA,NA,NA
+"214","Zambia",NA,NA,NA,NA,NA,NA,NA
+"215","Zimbabwe",NA,NA,NA,NA,NA,NA,NA
+"216","Réunion",NA,NA,NA,NA,NA,NA,NA
+"217","South Sudan",NA,NA,NA,NA,NA,NA,NA
+"218","United Republic of Tanzania",NA,NA,NA,NA,NA,NA,NA
+"219","Democratic Republic of the Congo",NA,NA,NA,NA,NA,NA,NA
+"220","Southern Africa",NA,NA,NA,NA,NA,NA,NA
+"221","Burkina Faso",NA,NA,NA,NA,NA,NA,NA
+"222","Côte d'Ivoire",NA,NA,NA,NA,NA,NA,NA
+"223","Guinea-Bissau",NA,NA,NA,NA,NA,NA,NA
+"224","Saint Helena, Ascension and Tristan da Cunha",NA,NA,NA,NA,NA,NA,NA
+"225","Tajikistan",NA,NA,NA,NA,NA,NA,NA
+"226","Democratic People's Republic of Korea",NA,NA,NA,NA,NA,NA,NA
+"227","Republic of Korea",NA,NA,NA,NA,NA,NA,NA
+"228","Eastern Asia (excluding China)",NA,NA,NA,NA,NA,NA,NA
+"229","Afghanistan",NA,NA,NA,NA,NA,NA,NA
+"230","Iran (Islamic Republic of)",NA,NA,NA,NA,NA,NA,NA
+"231","Southern Asia (excluding India)",NA,NA,NA,NA,NA,NA,NA
+"232","Lao People's Democratic Republic",NA,NA,NA,NA,NA,NA,NA
+"233","Timor-Leste",NA,NA,NA,NA,NA,NA,NA
+"234","West Bank and Gaza Strip",NA,NA,NA,NA,NA,NA,NA
+"235","Anguilla",NA,NA,NA,NA,NA,NA,NA
+"236","British Virgin Islands",NA,NA,NA,NA,NA,NA,NA
+"237","Montserrat",NA,NA,NA,NA,NA,NA,NA
+"238","Puerto Rico",NA,NA,NA,NA,NA,NA,NA
+"239","Saint Vincent and the Grenadines",NA,NA,NA,NA,NA,NA,NA
+"240","Turks and Caicos Islands",NA,NA,NA,NA,NA,NA,NA
+"241","United States Virgin Islands",NA,NA,NA,NA,NA,NA,NA
+"242","Bolivia (Plurinational State of)",NA,NA,NA,NA,NA,NA,NA
+"243","Venezuela (Bolivarian Republic of)",NA,NA,NA,NA,NA,NA,NA
+"244","American Samoa",NA,NA,NA,NA,NA,NA,NA
+"245","Fiji",NA,NA,NA,NA,NA,NA,NA
+"246","Micronesia (Federated States of)",NA,NA,NA,NA,NA,NA,NA
+"247","Nauru",NA,NA,NA,NA,NA,NA,NA
+"248","Niue",NA,NA,NA,NA,NA,NA,NA
+"249","Northern Mariana Islands",NA,NA,NA,NA,NA,NA,NA
+"250","Tokelau",NA,NA,NA,NA,NA,NA,NA
+"251","Wallis and Futuna Islands",NA,NA,NA,NA,NA,NA,NA
+"252","Andorra",NA,NA,NA,NA,NA,NA,NA
+"253","Gibraltar",NA,NA,NA,NA,NA,NA,NA
+"254","Holy See",NA,NA,NA,NA,NA,NA,NA
+"255","Liechtenstein",NA,NA,NA,NA,NA,NA,NA
+"256","Monaco",NA,NA,NA,NA,NA,NA,NA
+"257","Republic of Moldova",NA,NA,NA,NA,NA,NA,NA
+"258","Russian Federation",NA,NA,NA,NA,NA,NA,NA
+"259","Saint Pierre and Miquelon",NA,NA,NA,NA,NA,NA,NA
+"260","San Marino",NA,NA,NA,NA,NA,NA,NA
+"261","The former Yugoslav Republic of Macedonia",NA,NA,NA,NA,NA,NA,NA
+"262","RÈunion",NA,NA,NA,NA,NA,NA,NA
+"263","CÙte d'Ivoire",NA,NA,NA,NA,NA,NA,NA

@@ -1,0 +1,53 @@
+---
+title: "trujillo_standardizing"
+author: "Owen Liu"
+date: "May 31, 2016"
+output: html_document
+---
+
+### Standardizing Trujillo ecological data to 0/1 scale
+
+Scaling will be done for a variable x by xi/max(x).  Only selected, high-importance variables from Trujillo data.
+
+```{r dataset importing}
+library(dplyr)
+library(ggplot2)
+lunique <- function(x) length(unique(x))
+
+# Working directory
+W_D <- getwd() # Owen's working directory where all the scripts are.  Data files are in this wd/data
+# countries
+coun <- read.csv(paste0(W_D,"/data/country_data_full.csv")) # full datasets from "master_dataset_construction.Rmd"
+# species
+spe <- read.csv(paste0(W_D,"/data/species_data_full.csv"))
+
+```
+
+Select important variables and only year 2011
+
+```{r select variables}
+# select only highly important trujillo variables (with identifiers), and subset to year 2011 (even though for Trujillo data all years are the same)
+
+coun.sel <- coun %>% filter(year==2011) %>% select(country,native,fishmeal,intensity,hatchery,habitat,GMO,waste)
+spe.sel <- spe %>% filter(year==2011) %>% select(country,species,native,fishmeal,intensity,hatchery,habitat,waste)
+
+```
+
+Standardize variables by x/max(x)
+```{r standardize}
+# simple standardizing function
+stand <- function(x) x/max(x,na.rm=T)
+
+# apply standardization to all columns in country data (except country identifier)
+coun.sel.st <- coun.sel %>% mutate_each(funs(stand),-country) 
+
+# apply standardization to all columns in species data (except country and species identifiers)
+spe.sel.st <- spe.sel %>% mutate_each(funs(stand),-country,-species)
+```
+
+Write output
+
+```{r combine species scores}
+write.csv(coun.sel.st, file=paste0(W_D,"/data/truj_coun_standardized.csv"))
+write.csv(spe.sel.st, file=paste0(W_D,"/data/truj_spe_standardized.csv"))
+```

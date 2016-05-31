@@ -12,6 +12,9 @@ The idea is to produce two different datasets, one organized by species with the
 ```{r dataset importing}
 library(plyr)
 library(dplyr)
+library(RColorBrewer)
+library(ggplot2)
+lunique <- function(x) length(unique(x))
 
 # Working directory
 W_D <- getwd() # Owen's working directory where all the scripts are.  Data files are in this wd/data
@@ -54,5 +57,97 @@ coun.data <- full_join(coun.data,truj.coun,by="country")
 # Save data
 write.csv(spe.data,file=paste0(W_D,"/data/species_data_full.csv"))
 write.csv(coun.data,file=paste0(W_D,"/data/country_data_full.csv"))
+
+```
+
+Rows (countries or species) with "complete" data (data from all sources for a given dataset), just given the data we have:
+
+```{r complete cases}
+coun.data.comp <- coun.data[complete.cases(coun.data),]
+spe.data.comp <- spe.data[complete.cases(spe.data),]
+write.csv(spe.data.comp,file=paste0(W_D,"/data/species_data_complete_cases.csv"))
+write.csv(coun.data.comp,file=paste0(W_D,"/data/country_data_complete_cases.csv"))
+
+```
+
+Rows with complete data for high priority variables (5.25.16)
+
+```{r high priority}
+high.vars <- c("year","country","species","area","value","value.kg","relative.value","production","energy_adequacy","undernourish","total_population","protein","gdp","Q.exp","Q.imp","V.exp","V.imp","Q.balance","V.balance","UV.balance","native","fishmeal","hatchery","habitat","waste","ecol.score")
+
+coun.data.high <- select(coun.data,which(names(coun.data) %in% high.vars)) %>% na.omit()
+spe.data.high <- select(spe.data,which(names(spe.data) %in% high.vars)) %>% na.omit()
+
+```
+
+We can work with these data for now.  Some rankings and summary statistics:
+
+```{r preliminary data viz}
+# Number of species by country in the dataset
+num.spe <- spe.data.high %>% group_by(country) %>% summarise(numspe=n_distinct(species)) %>% arrange(desc(numspe))
+
+num.spe.all <- spe.data %>% group_by(country) %>% summarise(numspe=n_distinct(species)) %>% arrange(desc(numspe))
+
+
+# Countries by max production exported (max exports by country, regardless of year)
+# Countries by max value exported (max exports by country, regardless of year)
+# Countries by largest AVERAGE trade surplus in production
+# Countries by largest AVERAGE trade surplus in value
+# Countries by largest AVERAGE surplus in value PER UNIT
+
+coun.stats <- coun.data.high %>% group_by(country) %>% summarise(Qexp.max=max(Q.exp),Vexp.max=max(V.exp),Qbal.mean=mean(Q.balance),Vbal.mean=mean(V.balance),UVbal.mean=mean(UV.balance))
+
+```
+
+Plotting country ranks
+
+```{r country plots}
+# Multiple plot function
+#
+# ggplot objects can be passed in ..., or to plotlist (as a list of ggplot objects)
+# - cols:   Number of columns in layout
+# - layout: A matrix specifying the layout. If present, 'cols' is ignored.
+#
+# If the layout is something like matrix(c(1,2,3,3), nrow=2, byrow=TRUE),
+# then plot 1 will go in the upper left, 2 will go in the upper right, and
+# 3 will go all the way across the bottom.
+#
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+
+  numPlots = length(plots)
+
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                    ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+
+ if (numPlots==1) {
+    print(plots[[1]])
+
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
+
+Qexp.max.plot <- ggplot(arrange(coun.stats,desc(Qexp.max)),aes(x=country,y=Qexp.max))+geom_bar(stat="identity") + coord_flip()
 
 ```

@@ -1,0 +1,1016 @@
+"","country","species","native","fishmeal","intensity","hatchery","habitat","waste"
+"1","Albania","European seabass",NA,NA,NA,NA,NA,NA
+"2","Albania","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"3","Albania","Kuruma prawn",NA,NA,NA,NA,NA,NA
+"4","Argentina","Blue mussel",1,1,0.7,0.5,0.7,1
+"5","Argentina","Longrayed whiptail",NA,NA,NA,NA,NA,NA
+"6","Argentina","Pacific cupped oyster",0.3,1,0.5,0.7,0.7,1
+"7","Argentina","River Plata mussel",0.7,1,0.7,0.5,0.7,1
+"8","Australia","Abalones nei",NA,NA,NA,NA,NA,NA
+"9","Australia","Aquatic invertebrates nei",NA,NA,NA,NA,NA,NA
+"10","Australia","Atlantic salmon",0.1,0.1,0.1,0.3,0.5,0.3
+"11","Australia","Australian mussel",NA,NA,NA,NA,NA,NA
+"12","Australia","Brown tiger prawn",NA,NA,NA,NA,NA,NA
+"13","Australia","Chinook(=Spring=King) salmon",NA,NA,NA,NA,NA,NA
+"14","Australia","Cupped oysters nei",0.5,1,0.7,0.7,0.9,1
+"15","Australia","Eastern king prawn",NA,NA,NA,NA,NA,NA
+"16","Australia","Flat and cupped oysters nei",NA,NA,NA,NA,NA,NA
+"17","Australia","Flat oysters nei",0.5,1,0.7,0.7,0.7,0.9
+"18","Australia","Giant tiger prawn",1,0.1,0.1,0.5,0.5,0.1
+"19","Australia","Marine crustaceans nei",NA,NA,NA,NA,NA,NA
+"20","Australia","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"21","Australia","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"22","Australia","Pacific cupped oyster",0.1,1,1,1,0.7,1
+"23","Australia","Rainbow trout",NA,NA,NA,NA,NA,NA
+"24","Australia","Southern Australia scallop",NA,NA,NA,NA,NA,NA
+"25","Australia","Southern bluefin tuna",1,0.1,0.1,0.1,0.3,0.1
+"26","Australia","Sydney cupped oyster",NA,NA,NA,NA,NA,NA
+"27","Australia","Sydney cupped oyster",NA,NA,NA,NA,NA,NA
+"28","Bahamas","Brine shrimp",NA,NA,NA,NA,NA,NA
+"29","Bahamas","Cobia",NA,NA,NA,NA,NA,NA
+"30","Bahamas","Florida pompano",NA,NA,NA,NA,NA,NA
+"31","Bahamas","Red drum",NA,NA,NA,NA,NA,NA
+"32","Bahrain","Barramundi(=Giant seaperch)",NA,NA,NA,NA,NA,NA
+"33","Bahrain","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"34","Bahrain","Mangrove red snapper",NA,NA,NA,NA,NA,NA
+"35","Bahrain","Orange-spotted grouper",NA,NA,NA,NA,NA,NA
+"36","Bahrain","Sobaity seabream",NA,NA,NA,NA,NA,NA
+"37","Bahrain","White-spotted spinefoot",NA,NA,NA,NA,NA,NA
+"38","Belize","Cobia",NA,NA,NA,NA,NA,NA
+"39","Belize","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"40","Belize","Palinurid spiny lobsters nei",NA,NA,NA,NA,NA,NA
+"41","Bonaire/S.Eustatius/Saba","Cobia",NA,NA,NA,NA,NA,NA
+"42","Bosnia and Herzegovina","Common dentex",NA,NA,NA,NA,NA,NA
+"43","Bosnia and Herzegovina","European flat oyster",NA,NA,NA,NA,NA,NA
+"44","Bosnia and Herzegovina","European seabass",NA,NA,NA,NA,NA,NA
+"45","Bosnia and Herzegovina","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"46","Bosnia and Herzegovina","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"47","Bosnia and Herzegovina","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"48","Brazil","Cupped oysters nei",0.7,1,0.7,0.7,0.7,1
+"49","Brazil","Elkhorn sea moss",NA,NA,NA,NA,NA,NA
+"50","Brazil","Gracilaria seaweeds",NA,NA,NA,NA,NA,NA
+"51","Brazil","Groupers nei",0.9,0.1,0.5,0.5,0.5,0.4
+"52","Brazil","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"53","Brazil","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"54","Brazil","Mullets nei",NA,NA,NA,NA,NA,NA
+"55","Brazil","Pacific lion's paw",NA,NA,NA,NA,NA,NA
+"56","Brazil","Scallops nei",NA,NA,NA,NA,NA,NA
+"57","Brazil","Snooks(=Robalos) nei",NA,NA,NA,NA,NA,NA
+"58","Brazil","South American rock mussel",NA,NA,NA,NA,NA,NA
+"59","Brazil","Whiteleg shrimp",0.1,0.3,0.3,0.5,0.1,0.1
+"60","Bulgaria","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"61","Cambodia","Barramundi(=Giant seaperch)",NA,NA,NA,NA,NA,NA
+"62","Cambodia","Blood cockle",NA,NA,NA,NA,NA,NA
+"63","Cambodia","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"64","Cambodia","Green mussel",NA,NA,NA,NA,NA,NA
+"65","Cambodia","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"66","Cambodia","Orange-spotted grouper",NA,NA,NA,NA,NA,NA
+"67","Cambodia","Snappers nei",NA,NA,NA,NA,NA,NA
+"68","Canada","American cupped oyster",NA,NA,NA,NA,NA,NA
+"69","Canada","Atlantic bluefin tuna",1,1,0.5,0.1,0.3,0.1
+"70","Canada","Atlantic cod",1,0.1,0.3,0.3,0.3,0.3
+"71","Canada","Atlantic salmon",NA,NA,NA,NA,NA,NA
+"72","Canada","Atlantic salmon",NA,NA,NA,NA,NA,NA
+"73","Canada","Blue mussel",1,1,0.9,0.8,0.8,1
+"74","Canada","Blue mussel",1,1,0.9,0.8,0.8,1
+"75","Canada","Butter clam",NA,NA,NA,NA,NA,NA
+"76","Canada","Chinook(=Spring=King) salmon",NA,NA,NA,NA,NA,NA
+"77","Canada","Coho(=Silver) salmon",NA,NA,NA,NA,NA,NA
+"78","Canada","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"79","Canada","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"80","Canada","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"81","Canada","Pacific cupped oyster",0.1,1,0.1,0.5,0.7,1
+"82","Canada","Rainbow trout",NA,NA,NA,NA,NA,NA
+"83","Canada","Salmonids nei",NA,NA,NA,NA,NA,NA
+"84","Canada","Scallops nei",NA,NA,NA,NA,NA,NA
+"85","Canada","Scallops nei",NA,NA,NA,NA,NA,NA
+"86","Channel Islands","Blue mussel",NA,NA,NA,NA,NA,NA
+"87","Channel Islands","European flat oyster",NA,NA,NA,NA,NA,NA
+"88","Channel Islands","Great Atlantic scallop",NA,NA,NA,NA,NA,NA
+"89","Channel Islands","Grooved carpet shell",NA,NA,NA,NA,NA,NA
+"90","Channel Islands","Pacific cupped oyster",NA,NA,NA,NA,NA,NA
+"91","Channel Islands","Tuberculate abalone",NA,NA,NA,NA,NA,NA
+"92","Channel Islands","Turbot",NA,NA,NA,NA,NA,NA
+"93","Chile","[Porphyra columbina]",NA,NA,NA,NA,NA,NA
+"94","Chile","Atlantic salmon",0.1,0.1,0.1,0.1,0.1,0.2
+"95","Chile","Chilean flat oyster",NA,NA,NA,NA,NA,NA
+"96","Chile","Chilean mussel",NA,NA,NA,NA,NA,NA
+"97","Chile","Chinook(=Spring=King) salmon",NA,NA,NA,NA,NA,NA
+"98","Chile","Cholga mussel",NA,NA,NA,NA,NA,NA
+"99","Chile","Choro mussel",NA,NA,NA,NA,NA,NA
+"100","Chile","Coho(=Silver) salmon",NA,NA,NA,NA,NA,NA
+"101","Chile","Giant kelp",NA,NA,NA,NA,NA,NA
+"102","Chile","Gracilaria seaweeds",1,1,1,0.7,1,1
+"103","Chile","Japanese abalone",NA,NA,NA,NA,NA,NA
+"104","Chile","Masu(=Cherry) salmon",NA,NA,NA,NA,NA,NA
+"105","Chile","Pacific cupped oyster",0.1,1,0.7,0.5,0.7,0.1
+"106","Chile","Peruvian calico scallop",NA,NA,NA,NA,NA,NA
+"107","Chile","Rainbow trout",NA,NA,NA,NA,NA,NA
+"108","Chile","Red abalone",NA,NA,NA,NA,NA,NA
+"109","Chile","Yellowtail amberjack",NA,NA,NA,NA,NA,NA
+"110","China","Abalones nei",NA,NA,NA,NA,NA,NA
+"111","China","Amberjacks nei",NA,NA,NA,NA,NA,NA
+"112","China","Aquatic invertebrates nei",NA,NA,NA,NA,NA,NA
+"113","China","Blood cockle",1,1,0.7,0.3,0.5,0.7
+"114","China","Bright green nori",NA,NA,NA,NA,NA,NA
+"115","China","Cobia",NA,NA,NA,NA,NA,NA
+"116","China","Constricted tagelus",NA,NA,NA,NA,NA,NA
+"117","China","Cupped oysters nei",NA,NA,NA,NA,NA,NA
+"118","China","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"119","China","Fusiform sargassum",NA,NA,NA,NA,NA,NA
+"120","China","Gracilaria seaweeds",NA,NA,NA,NA,NA,NA
+"121","China","Groupers nei",0.9,0.1,0.5,0.5,0.5,0.4
+"122","China","Indo-Pacific swamp crab",NA,NA,NA,NA,NA,NA
+"123","China","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"124","China","Japanese isinglass",NA,NA,NA,NA,NA,NA
+"125","China","Japanese kelp",NA,NA,NA,NA,NA,NA
+"126","China","Japanese sea cucumber",NA,NA,NA,NA,NA,NA
+"127","China","Japanese seabass",NA,NA,NA,NA,NA,NA
+"128","China","Jellyfishes nei",NA,NA,NA,NA,NA,NA
+"129","China","Large yellow croaker",NA,NA,NA,NA,NA,NA
+"130","China","Lefteye flounders nei",NA,NA,NA,NA,NA,NA
+"131","China","Marine crabs nei",NA,NA,NA,NA,NA,NA
+"132","China","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"133","China","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"134","China","Nori nei",NA,NA,NA,NA,NA,NA
+"135","China","Pearl oyster shells nei",NA,NA,NA,NA,NA,NA
+"136","China","Pen shells nei",NA,NA,NA,NA,NA,NA
+"137","China","Porgies, seabreams nei",NA,NA,NA,NA,NA,NA
+"138","China","Portunus swimcrabs nei",NA,NA,NA,NA,NA,NA
+"139","China","Red drum",0.1,0.1,0.2,0.5,0.4,0.5
+"140","China","Righteye flounders nei",NA,NA,NA,NA,NA,NA
+"141","China","Scallops nei",NA,NA,NA,NA,NA,NA
+"142","China","Sea mussels nei",NA,NA,NA,NA,NA,NA
+"143","China","Sea snails",NA,NA,NA,NA,NA,NA
+"144","China","Sea urchins nei",NA,NA,NA,NA,NA,NA
+"145","China","Seaweeds nei",NA,NA,NA,NA,NA,NA
+"146","China","Snubnose pompano",NA,NA,NA,NA,NA,NA
+"147","China","Tiger pufferfish",NA,NA,NA,NA,NA,NA
+"148","China","Turbot",NA,NA,NA,NA,NA,NA
+"149","China","Wakame",NA,NA,NA,NA,NA,NA
+"150","China, Hong Kong SAR","Areolate grouper",NA,NA,NA,NA,NA,NA
+"151","China, Hong Kong SAR","Barramundi(=Giant seaperch)",NA,NA,NA,NA,NA,NA
+"152","China, Hong Kong SAR","Cupped oysters nei",NA,NA,NA,NA,NA,NA
+"153","China, Hong Kong SAR","Goldlined seabream",NA,NA,NA,NA,NA,NA
+"154","China, Hong Kong SAR","Greasy grouper",NA,NA,NA,NA,NA,NA
+"155","China, Hong Kong SAR","Hong Kong grouper",NA,NA,NA,NA,NA,NA
+"156","China, Hong Kong SAR","Mangrove red snapper",NA,NA,NA,NA,NA,NA
+"157","China, Hong Kong SAR","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"158","China, Hong Kong SAR","Orange-spotted grouper",NA,NA,NA,NA,NA,NA
+"159","China, Hong Kong SAR","Russell's snapper",NA,NA,NA,NA,NA,NA
+"160","China, Hong Kong SAR","Silver seabream",NA,NA,NA,NA,NA,NA
+"161","China, Hong Kong SAR","Snappers nei",NA,NA,NA,NA,NA,NA
+"162","China, Hong Kong SAR","Snubnose pompano",NA,NA,NA,NA,NA,NA
+"163","Colombia","Cobia",NA,NA,NA,NA,NA,NA
+"164","Colombia","Cupped oysters nei",0.5,1,0.7,0.7,0.7,1
+"165","Colombia","Tarpon",NA,NA,NA,NA,NA,NA
+"166","Colombia","Whiteleg shrimp",NA,NA,NA,NA,NA,NA
+"167","Colombia","Whiteleg shrimp",NA,NA,NA,NA,NA,NA
+"168","Cook Islands","Blacklip pearl oyster",NA,NA,NA,NA,NA,NA
+"169","Cook Islands","Giant clams nei",NA,NA,NA,NA,NA,NA
+"170","Costa Rica","Natantian decapods nei",NA,NA,NA,NA,NA,NA
+"171","Croatia","Atlantic bluefin tuna",NA,NA,NA,NA,NA,NA
+"172","Croatia","Common dentex",NA,NA,NA,NA,NA,NA
+"173","Croatia","European flat oyster",NA,NA,NA,NA,NA,NA
+"174","Croatia","European seabass",NA,NA,NA,NA,NA,NA
+"175","Croatia","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"176","Croatia","Great Mediterranean scallop",NA,NA,NA,NA,NA,NA
+"177","Croatia","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"178","Croatia","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"179","Croatia","Meagre",NA,NA,NA,NA,NA,NA
+"180","Croatia","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"181","Croatia","Pargo breams nei",NA,NA,NA,NA,NA,NA
+"182","Croatia","Rainbow trout",NA,NA,NA,NA,NA,NA
+"183","Croatia","Sharpsnout seabream",NA,NA,NA,NA,NA,NA
+"184","Croatia","Turbot",NA,NA,NA,NA,NA,NA
+"185","Cuba","Mangrove cupped oyster",NA,NA,NA,NA,NA,NA
+"186","Cuba","Tropical spiny lobsters nei",NA,NA,NA,NA,NA,NA
+"187","Cyprus","Atlantic bluefin tuna",NA,NA,NA,NA,NA,NA
+"188","Cyprus","European seabass",NA,NA,NA,NA,NA,NA
+"189","Cyprus","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"190","Cyprus","Indian white prawn",NA,NA,NA,NA,NA,NA
+"191","Cyprus","Japanese seabream",NA,NA,NA,NA,NA,NA
+"192","Cyprus","Marbled spinefoot",NA,NA,NA,NA,NA,NA
+"193","Cyprus","Meagre",NA,NA,NA,NA,NA,NA
+"194","Cyprus","Red porgy",NA,NA,NA,NA,NA,NA
+"195","Cyprus","Sharpsnout seabream",NA,NA,NA,NA,NA,NA
+"196","Cyprus","Shi drum",NA,NA,NA,NA,NA,NA
+"197","Denmark","Atlantic cod",NA,NA,NA,NA,NA,NA
+"198","Denmark","Atlantic salmon",1,0.3,0.1,0.5,0.5,0.7
+"199","Denmark","Blue mussel",1,1,0.9,0.8,0.7,1
+"200","Denmark","Brown seaweeds",NA,NA,NA,NA,NA,NA
+"201","Denmark","European eel",1,0.3,0.3,0.3,0.6,0.7
+"202","Denmark","European flounder",NA,NA,NA,NA,NA,NA
+"203","Denmark","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"204","Denmark","Rainbow trout",NA,NA,NA,NA,NA,NA
+"205","Denmark","Sea belt",NA,NA,NA,NA,NA,NA
+"206","Denmark","Turbot",NA,NA,NA,NA,NA,NA
+"207","Dominican Republic","American cupped oyster",NA,NA,NA,NA,NA,NA
+"208","Dominican Republic","Cobia",NA,NA,NA,NA,NA,NA
+"209","Dominican Republic","European seabass",NA,NA,NA,NA,NA,NA
+"210","Dominican Republic","Florida pompano",NA,NA,NA,NA,NA,NA
+"211","Dominican Republic","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"212","Dominican Republic","Penaeus shrimps nei",NA,NA,NA,NA,NA,NA
+"213","Ecuador","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"214","Ecuador","Pacific cupped oyster",NA,NA,NA,NA,NA,NA
+"215","Ecuador","Red drum",0.1,0.1,0.3,0.5,0.5,0.5
+"216","Ecuador","Scallops nei",NA,NA,NA,NA,NA,NA
+"217","El Salvador","Black ark",NA,NA,NA,NA,NA,NA
+"218","El Salvador","Cupped oysters nei",NA,NA,NA,NA,NA,NA
+"219","El Salvador","Grand ark",NA,NA,NA,NA,NA,NA
+"220","Estonia","Rainbow trout",NA,NA,NA,NA,NA,NA
+"221","Falkland Is.(Malvinas)","Blue mussel",NA,NA,NA,NA,NA,NA
+"222","Falkland Is.(Malvinas)","Pacific cupped oyster",NA,NA,NA,NA,NA,NA
+"223","Faroe Islands","Atlantic salmon",NA,NA,NA,NA,NA,NA
+"224","Faroe Islands","Rainbow trout",NA,NA,NA,NA,NA,NA
+"225","Fiji, Republic of","Anadara clams nei",NA,NA,NA,NA,NA,NA
+"226","Fiji, Republic of","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"227","Fiji, Republic of","Green mussel",NA,NA,NA,NA,NA,NA
+"228","Fiji, Republic of","Pearl oyster shells nei",NA,NA,NA,NA,NA,NA
+"229","France","Atlantic salmon",1,0.3,0.2,0.5,0.5,0.3
+"230","France","Blue mussel",1,1,0.9,0.8,0.7,1
+"231","France","Blue mussel",1,1,0.9,0.8,0.7,1
+"232","France","Clams, etc. nei",NA,NA,NA,NA,NA,NA
+"233","France","Clams, etc. nei",NA,NA,NA,NA,NA,NA
+"234","France","Coho(=Silver) salmon",NA,NA,NA,NA,NA,NA
+"235","France","Common edible cockle",NA,NA,NA,NA,NA,NA
+"236","France","Common edible cockle",NA,NA,NA,NA,NA,NA
+"237","France","European flat oyster",1,1,0.7,0.5,0.7,1
+"238","France","European flat oyster",1,1,0.7,0.5,0.7,1
+"239","France","European seabass",1,0.3,0.5,0.7,0.5,0.5
+"240","France","European seabass",1,0.3,0.5,0.7,0.5,0.5
+"241","France","Finfishes nei",NA,NA,NA,NA,NA,NA
+"242","France","Gilthead seabream",1,0.1,0.1,0.5,0.3,0.1
+"243","France","Gilthead seabream",1,0.1,0.1,0.5,0.3,0.1
+"244","France","Great Atlantic scallop",NA,NA,NA,NA,NA,NA
+"245","France","Grooved carpet shell",NA,NA,NA,NA,NA,NA
+"246","France","Grooved carpet shell",NA,NA,NA,NA,NA,NA
+"247","France","Harpoon seaweeds",NA,NA,NA,NA,NA,NA
+"248","France","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"249","France","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"250","France","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"251","France","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"252","France","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"253","France","Meagre",NA,NA,NA,NA,NA,NA
+"254","France","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"255","France","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"256","France","Pacific cupped oyster",0.1,1,1,0.5,0.5,0.1
+"257","France","Pacific cupped oyster",0.1,1,1,0.5,0.5,0.1
+"258","France","Periwinkles nei",NA,NA,NA,NA,NA,NA
+"259","France","Rainbow trout",NA,NA,NA,NA,NA,NA
+"260","France","Sea trout",NA,NA,NA,NA,NA,NA
+"261","France","Seaweeds nei",NA,NA,NA,NA,NA,NA
+"262","France","Senegalese sole",NA,NA,NA,NA,NA,NA
+"263","France","Tuberculate abalone",NA,NA,NA,NA,NA,NA
+"264","France","Turbot",NA,NA,NA,NA,NA,NA
+"265","France","Wakame nei",NA,NA,NA,NA,NA,NA
+"266","France","White seabream",NA,NA,NA,NA,NA,NA
+"267","French Polynesia","Barramundi(=Giant seaperch)",NA,NA,NA,NA,NA,NA
+"268","French Polynesia","Blacklip pearl oyster",NA,NA,NA,NA,NA,NA
+"269","French Polynesia","Blue shrimp",NA,NA,NA,NA,NA,NA
+"270","French Polynesia","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"271","French Polynesia","Orbicular batfish",NA,NA,NA,NA,NA,NA
+"272","French Polynesia","Pearl oyster shells nei",NA,NA,NA,NA,NA,NA
+"273","French Polynesia","Sea mussels nei",NA,NA,NA,NA,NA,NA
+"274","French Polynesia","Sixfinger threadfin",NA,NA,NA,NA,NA,NA
+"275","Germany","Bastard halibut",NA,NA,NA,NA,NA,NA
+"276","Germany","Blue mussel",1,1,0.9,0.8,0.7,1
+"277","Germany","Clams, etc. nei",NA,NA,NA,NA,NA,NA
+"278","Germany","Common edible cockle",NA,NA,NA,NA,NA,NA
+"279","Germany","Pacific cupped oyster",0.1,1,1,0.5,0.7,0.1
+"280","Germany","Turbot",NA,NA,NA,NA,NA,NA
+"281","Greece","Atlantic bluefin tuna",NA,NA,NA,NA,NA,NA
+"282","Greece","Common dentex",NA,NA,NA,NA,NA,NA
+"283","Greece","Common pandora",NA,NA,NA,NA,NA,NA
+"284","Greece","European eel",1,0.3,0.3,0.3,0.6,0.7
+"285","Greece","European flat oyster",1,1,0.7,0.5,0.7,1
+"286","Greece","European seabass",1,0.3,0.5,0.5,0.5,0.1
+"287","Greece","Flathead grey mullet",1,0.3,0.5,0.5,0.5,0.3
+"288","Greece","Gilthead seabream",1,0.1,0.1,0.3,0.3,0.1
+"289","Greece","Kuruma prawn",0.1,0.3,0.5,0.5,0.5,0.5
+"290","Greece","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"291","Greece","Meagre",NA,NA,NA,NA,NA,NA
+"292","Greece","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"293","Greece","Red porgy",NA,NA,NA,NA,NA,NA
+"294","Greece","Sciaenas nei",NA,NA,NA,NA,NA,NA
+"295","Greece","Sharpsnout seabream",NA,NA,NA,NA,NA,NA
+"296","Greece","Shi drum",NA,NA,NA,NA,NA,NA
+"297","Greece","Venus clams nei",NA,NA,NA,NA,NA,NA
+"298","Greece","White seabream",NA,NA,NA,NA,NA,NA
+"299","Guadeloupe","Red drum",NA,NA,NA,NA,NA,NA
+"300","Iceland","Abalones nei",0.3,0.7,0.7,0.7,0.7,0.5
+"301","Iceland","Atlantic cod",1,0.4,0.5,0.8,0.6,0.5
+"302","Iceland","Atlantic halibut",1,0.3,0.5,0.8,0.7,0.5
+"303","Iceland","Atlantic salmon",0.1,0.5,0.5,0.8,0.6,0.5
+"304","Iceland","Atlantic wolffish",1,0.3,0.5,0.8,0.7,0.5
+"305","Iceland","Blue mussel",0.7,1,0.7,0.8,0.8,1
+"306","Iceland","European seabass",0.5,NA,0.5,0.8,0.7,0.5
+"307","Iceland","Haddock",1,0.3,0.5,0.8,0.7,0.5
+"308","Iceland","Rainbow trout",1,0.5,0.5,0.8,0.6,0.5
+"309","Iceland","Spotted wolffish",1,0.3,0.6,0.8,0.7,0.5
+"310","Iceland","Turbot",1,0.3,0.6,0.8,0.7,0.5
+"311","India","Elkhorn sea moss",NA,NA,NA,NA,NA,NA
+"312","India","Green mussel",NA,NA,NA,NA,NA,NA
+"313","India","Indian backwater oyster",NA,NA,NA,NA,NA,NA
+"314","India","Rooster venus",NA,NA,NA,NA,NA,NA
+"315","Indonesia","Barramundi(=Giant seaperch)",NA,NA,NA,NA,NA,NA
+"316","Indonesia","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"317","Indonesia","Groupers nei",0.9,0.1,0.5,0.5,0.3,0.4
+"318","Indonesia","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"319","Indonesia","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"320","Indonesia","Milkfish",1,0.7,1,0.3,0.3,0.3
+"321","Indonesia","Pearl oyster shells nei",NA,NA,NA,NA,NA,NA
+"322","Indonesia","Penguin wing oyster",NA,NA,NA,NA,NA,NA
+"323","Indonesia","Red seaweeds",NA,NA,NA,NA,NA,NA
+"324","Indonesia","Sea cucumbers nei",NA,NA,NA,NA,NA,NA
+"325","Indonesia","Tropical spiny lobsters nei",NA,NA,NA,NA,NA,NA
+"326","Ireland","Abalones nei",NA,NA,NA,NA,NA,NA
+"327","Ireland","Aquatic invertebrates nei",NA,NA,NA,NA,NA,NA
+"328","Ireland","Atlantic salmon",1,0.3,0.3,0.5,0.5,0.5
+"329","Ireland","Babberlocks",NA,NA,NA,NA,NA,NA
+"330","Ireland","Blue mussel",1,1,0.9,0.8,0.8,1
+"331","Ireland","Brown seaweeds",NA,NA,NA,NA,NA,NA
+"332","Ireland","Dulse",NA,NA,NA,NA,NA,NA
+"333","Ireland","European flat oyster",1,1,0.7,0.5,0.7,1
+"334","Ireland","Great Atlantic scallop",NA,NA,NA,NA,NA,NA
+"335","Ireland","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"336","Ireland","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"337","Ireland","Pacific cupped oyster",0.1,1,0.7,0.5,0.7,1
+"338","Ireland","Rainbow trout",NA,NA,NA,NA,NA,NA
+"339","Ireland","Stony sea urchin",NA,NA,NA,NA,NA,NA
+"340","Ireland","Tangle",NA,NA,NA,NA,NA,NA
+"341","Ireland","Turbot",NA,NA,NA,NA,NA,NA
+"342","Israel","Cupped oysters nei",NA,NA,NA,NA,NA,NA
+"343","Israel","European seabass",NA,NA,NA,NA,NA,NA
+"344","Israel","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"345","Israel","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"346","Israel","Red drum",NA,NA,NA,NA,NA,NA
+"347","Israel","Striped bass, hybrid",NA,NA,NA,NA,NA,NA
+"348","Israel","Tilapias nei",NA,NA,NA,NA,NA,NA
+"349","Italy","Atlantic bluefin tuna",NA,NA,NA,NA,NA,NA
+"350","Italy","Common sole",NA,NA,NA,NA,NA,NA
+"351","Italy","Cupped oysters nei",0.5,1,1,1,0.9,1
+"352","Italy","European eel",1,0.3,0.3,0.3,0.6,0.7
+"353","Italy","European seabass",1,0.3,0.5,0.5,0.5,0.5
+"354","Italy","Flathead grey mullet",1,0.3,0.5,0.5,0.5,0.5
+"355","Italy","Gilthead seabream",1,0.1,0.3,0.5,0.3,0.1
+"356","Italy","Grooved carpet shell",NA,NA,NA,NA,NA,NA
+"357","Italy","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"358","Italy","Kuruma prawn",0.1,0.3,0.5,0.5,0.5,0.7
+"359","Italy","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"360","Italy","Meagre",NA,NA,NA,NA,NA,NA
+"361","Italy","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"362","Italy","Porgies, seabreams nei",NA,NA,NA,NA,NA,NA
+"363","Italy","Sharpsnout seabream",NA,NA,NA,NA,NA,NA
+"364","Italy","Shi drum",NA,NA,NA,NA,NA,NA
+"365","Italy","Venus clams nei",NA,NA,NA,NA,NA,NA
+"366","Italy","White seabream",NA,NA,NA,NA,NA,NA
+"367","Jamaica","Mangrove cupped oyster",NA,NA,NA,NA,NA,NA
+"368","Japan","Aquatic invertebrates nei",NA,NA,NA,NA,NA,NA
+"369","Japan","Bastard halibut",NA,NA,NA,NA,NA,NA
+"370","Japan","Blackhead seabream",NA,NA,NA,NA,NA,NA
+"371","Japan","Clams, etc. nei",NA,NA,NA,NA,NA,NA
+"372","Japan","Coho(=Silver) salmon",NA,NA,NA,NA,NA,NA
+"373","Japan","Crimson seabream",NA,NA,NA,NA,NA,NA
+"374","Japan","Filefishes nei",NA,NA,NA,NA,NA,NA
+"375","Japan","Flathead grey mullet",1,0.3,0.5,0.5,0.5,0.5
+"376","Japan","Gazami crab",NA,NA,NA,NA,NA,NA
+"377","Japan","Japanese amberjack",NA,NA,NA,NA,NA,NA
+"378","Japan","Japanese jack mackerel",NA,NA,NA,NA,NA,NA
+"379","Japan","Japanese kelp",NA,NA,NA,NA,NA,NA
+"380","Japan","Kuruma prawn",1,0.3,0.5,0.5,0.4,0.7
+"381","Japan","Laver (Nori)",1,1,0.7,0.5,0.7,0.7
+"382","Japan","Marine crustaceans nei",NA,NA,NA,NA,NA,NA
+"383","Japan","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"384","Japan","Octopuses, etc. nei",NA,NA,NA,NA,NA,NA
+"385","Japan","Pacific bluefin tuna",NA,NA,NA,NA,NA,NA
+"386","Japan","Pacific cupped oyster",1,1,0.7,0.3,0.5,1
+"387","Japan","Pearl oyster shells nei",NA,NA,NA,NA,NA,NA
+"388","Japan","Sea squirts nei",NA,NA,NA,NA,NA,NA
+"389","Japan","Seaweeds nei",NA,NA,NA,NA,NA,NA
+"390","Japan","Silver seabream",NA,NA,NA,NA,NA,NA
+"391","Japan","Spiny lobsters nei",NA,NA,NA,NA,NA,NA
+"392","Japan","Tiger pufferfish",NA,NA,NA,NA,NA,NA
+"393","Japan","Wakame",NA,NA,NA,NA,NA,NA
+"394","Japan","White trevally",NA,NA,NA,NA,NA,NA
+"395","Japan","Yesso scallop",NA,NA,NA,NA,NA,NA
+"396","Kenya","Penaeus shrimps nei",NA,NA,NA,NA,NA,NA
+"397","Kenya","Spiny eucheuma",NA,NA,NA,NA,NA,NA
+"398","Kiribati","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"399","Korea, Dem. People's Rep","Gelidium seaweeds",NA,NA,NA,NA,NA,NA
+"400","Korea, Dem. People's Rep","Gracilaria seaweeds",NA,NA,NA,NA,NA,NA
+"401","Korea, Dem. People's Rep","Japanese kelp",NA,NA,NA,NA,NA,NA
+"402","Korea, Dem. People's Rep","Japanese sea cucumber",NA,NA,NA,NA,NA,NA
+"403","Korea, Dem. People's Rep","Laver (Nori)",NA,NA,NA,NA,NA,NA
+"404","Korea, Dem. People's Rep","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"405","Korea, Dem. People's Rep","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"406","Korea, Dem. People's Rep","Wakame",NA,NA,NA,NA,NA,NA
+"407","Korea, Dem. People's Rep","Yesso scallop",NA,NA,NA,NA,NA,NA
+"408","Korea, Republic of","Abalones nei",NA,NA,NA,NA,NA,NA
+"409","Korea, Republic of","Aquatic invertebrates nei",NA,NA,NA,NA,NA,NA
+"410","Korea, Republic of","Aquatic plants nei",NA,NA,NA,NA,NA,NA
+"411","Korea, Republic of","Bastard halibut",NA,NA,NA,NA,NA,NA
+"412","Korea, Republic of","Blackhead seabream",NA,NA,NA,NA,NA,NA
+"413","Korea, Republic of","Blood cockle",NA,NA,NA,NA,NA,NA
+"414","Korea, Republic of","Brown seaweeds",NA,NA,NA,NA,NA,NA
+"415","Korea, Republic of","Dotted gizzard shad",NA,NA,NA,NA,NA,NA
+"416","Korea, Republic of","Filefishes, leatherjackets nei",NA,NA,NA,NA,NA,NA
+"417","Korea, Republic of","Flathead grey mullet",NA,NA,NA,NA,NA,NA
+"418","Korea, Republic of","Fleshy prawn",NA,NA,NA,NA,NA,NA
+"419","Korea, Republic of","Fragile codium",NA,NA,NA,NA,NA,NA
+"420","Korea, Republic of","Globose clam",NA,NA,NA,NA,NA,NA
+"421","Korea, Republic of","Green laver",NA,NA,NA,NA,NA,NA
+"422","Korea, Republic of","Groupers nei",NA,NA,NA,NA,NA,NA
+"423","Korea, Republic of","Horned turban",NA,NA,NA,NA,NA,NA
+"424","Korea, Republic of","Inflated ark",NA,NA,NA,NA,NA,NA
+"425","Korea, Republic of","Japanese amberjack",NA,NA,NA,NA,NA,NA
+"426","Korea, Republic of","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"427","Korea, Republic of","Japanese hard clam",NA,NA,NA,NA,NA,NA
+"428","Korea, Republic of","Japanese jack mackerel",NA,NA,NA,NA,NA,NA
+"429","Korea, Republic of","Japanese kelp",NA,NA,NA,NA,NA,NA
+"430","Korea, Republic of","Japanese seabass",NA,NA,NA,NA,NA,NA
+"431","Korea, Republic of","Korean mussel",NA,NA,NA,NA,NA,NA
+"432","Korea, Republic of","Korean rockfish",NA,NA,NA,NA,NA,NA
+"433","Korea, Republic of","Kuruma prawn",NA,NA,NA,NA,NA,NA
+"434","Korea, Republic of","Laver (Nori)",NA,NA,NA,NA,NA,NA
+"435","Korea, Republic of","Mackerels nei",NA,NA,NA,NA,NA,NA
+"436","Korea, Republic of","Marine crustaceans nei",NA,NA,NA,NA,NA,NA
+"437","Korea, Republic of","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"438","Korea, Republic of","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"439","Korea, Republic of","Okhotsk atka mackerel",NA,NA,NA,NA,NA,NA
+"440","Korea, Republic of","Oriental cyclina",NA,NA,NA,NA,NA,NA
+"441","Korea, Republic of","Pacific cupped oyster",NA,NA,NA,NA,NA,NA
+"442","Korea, Republic of","Porgies, seabreams nei",NA,NA,NA,NA,NA,NA
+"443","Korea, Republic of","Scorpionfishes nei",NA,NA,NA,NA,NA,NA
+"444","Korea, Republic of","Sea squirts nei",NA,NA,NA,NA,NA,NA
+"445","Korea, Republic of","Silver seabream",NA,NA,NA,NA,NA,NA
+"446","Korea, Republic of","Wakame",NA,NA,NA,NA,NA,NA
+"447","Korea, Republic of","Whiteleg shrimp",NA,NA,NA,NA,NA,NA
+"448","Korea, Republic of","Yesso scallop",NA,NA,NA,NA,NA,NA
+"449","Kuwait","European seabass",NA,NA,NA,NA,NA,NA
+"450","Kuwait","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"451","Kuwait","Goldsilk seabream",NA,NA,NA,NA,NA,NA
+"452","Kuwait","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"453","Kuwait","Orange-spotted grouper",NA,NA,NA,NA,NA,NA
+"454","Kuwait","Sobaity seabream",NA,NA,NA,NA,NA,NA
+"455","Libya","European seabass",NA,NA,NA,NA,NA,NA
+"456","Libya","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"457","Madagascar","Brine shrimp",NA,NA,NA,NA,NA,NA
+"458","Madagascar","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"459","Madagascar","Giant tiger prawn",1,0.1,0.3,0.5,0.1,0.1
+"460","Madagascar","Sea cucumbers nei",NA,NA,NA,NA,NA,NA
+"461","Malaysia","Blood cockle",1,1,0.7,0.3,0.5,0.7
+"462","Malaysia","Blood cockle",1,1,0.7,0.3,0.5,0.7
+"463","Malaysia","Cupped oysters nei",0.5,1,0.7,0.5,0.6,1
+"464","Malaysia","Cupped oysters nei",0.5,1,0.7,0.5,0.6,1
+"465","Malaysia","Elkhorn sea moss",NA,NA,NA,NA,NA,NA
+"466","Malaysia","Green mussel",NA,NA,NA,NA,NA,NA
+"467","Malaysia","Green mussel",NA,NA,NA,NA,NA,NA
+"468","Malaysia","Sandfish",NA,NA,NA,NA,NA,NA
+"469","Malaysia","Seaweeds nei",NA,NA,NA,NA,NA,NA
+"470","Malaysia","Spiny eucheuma",NA,NA,NA,NA,NA,NA
+"471","Malta","Atlantic bluefin tuna",NA,NA,NA,NA,NA,NA
+"472","Malta","European eel",NA,NA,NA,NA,NA,NA
+"473","Malta","European seabass",NA,NA,NA,NA,NA,NA
+"474","Malta","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"475","Malta","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"476","Malta","Turbot",NA,NA,NA,NA,NA,NA
+"477","Marshall Islands","Sixfinger threadfin",NA,NA,NA,NA,NA,NA
+"478","Martinique","Cobia",NA,NA,NA,NA,NA,NA
+"479","Martinique","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"480","Martinique","Red drum",NA,NA,NA,NA,NA,NA
+"481","Mauritius","European seabass",NA,NA,NA,NA,NA,NA
+"482","Mauritius","Giant tiger prawn",NA,NA,NA,NA,NA,NA
+"483","Mauritius","Goldlined seabream",NA,NA,NA,NA,NA,NA
+"484","Mauritius","Hooded oyster",NA,NA,NA,NA,NA,NA
+"485","Mauritius","Indo-Pacific swamp crab",NA,NA,NA,NA,NA,NA
+"486","Mauritius","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"487","Mauritius","Red drum",NA,NA,NA,NA,NA,NA
+"488","Mauritius","Spinefeet(=Rabbitfishes) nei",NA,NA,NA,NA,NA,NA
+"489","Mauritius","Tilapias nei",NA,NA,NA,NA,NA,NA
+"490","Mayotte","Cobia",NA,NA,NA,NA,NA,NA
+"491","Mayotte","Goldlined seabream",NA,NA,NA,NA,NA,NA
+"492","Mayotte","Mangrove red snapper",NA,NA,NA,NA,NA,NA
+"493","Mayotte","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"494","Mayotte","Red drum",NA,NA,NA,NA,NA,NA
+"495","Mexico","Abalones nei",0.5,1,0.1,0.7,0.5,0.3
+"496","Mexico","Bastard halibuts nei",NA,NA,NA,NA,NA,NA
+"497","Mexico","Clams, etc. nei",NA,NA,NA,NA,NA,NA
+"498","Mexico","Clams, etc. nei",NA,NA,NA,NA,NA,NA
+"499","Mexico","Common snook",NA,NA,NA,NA,NA,NA
+"500","Mexico","Crevalle jack",NA,NA,NA,NA,NA,NA
+"501","Mexico","Flathead grey mullet",1,0.3,0.5,0.5,0.5,0.5
+"502","Mexico","Gastropods nei",NA,NA,NA,NA,NA,NA
+"503","Mexico","Jacks, crevalles nei",NA,NA,NA,NA,NA,NA
+"504","Mexico","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"505","Mexico","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"506","Mexico","Mojarras(=Silver-biddies) nei",NA,NA,NA,NA,NA,NA
+"507","Mexico","Pacific bluefin tuna",NA,NA,NA,NA,NA,NA
+"508","Mexico","Pacific calico scallop",NA,NA,NA,NA,NA,NA
+"509","Mexico","Pacific cupped oyster",0.1,1,1,0.3,0.7,1
+"510","Mexico","Pacific cupped oyster",0.1,1,1,0.3,0.7,1
+"511","Mexico","Red abalone",NA,NA,NA,NA,NA,NA
+"512","Mexico","Red drum",NA,NA,NA,NA,NA,NA
+"513","Mexico","Sea mussels nei",NA,NA,NA,NA,NA,NA
+"514","Mexico","Snappers nei",NA,NA,NA,NA,NA,NA
+"515","Mexico","Whiteleg shrimp",1,0.3,0.3,0.5,0.3,0.5
+"516","Mexico","Whiteleg shrimp",1,0.3,0.3,0.5,0.3,0.5
+"517","Mexico","Yellowfin tuna",1,0.1,0.1,0.1,0.3,0.1
+"518","Micronesia, Fed.States of","Clams, etc. nei",NA,NA,NA,NA,NA,NA
+"519","Micronesia, Fed.States of","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"520","Montenegro","European flat oyster",NA,NA,NA,NA,NA,NA
+"521","Montenegro","European seabass",NA,NA,NA,NA,NA,NA
+"522","Montenegro","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"523","Montenegro","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"524","Morocco","Atlantic bluefin tuna",NA,NA,NA,NA,NA,NA
+"525","Morocco","European flat oyster",1,1,0.7,0.3,0.7,1
+"526","Morocco","European seabass",1,0.3,0.4,0.5,0.4,0.5
+"527","Morocco","Gilthead seabream",1,0.3,0.4,0.5,0.4,0.5
+"528","Morocco","Marine fishes nei",0.5,0.4,0.5,0.5,0.4,0.5
+"529","Morocco","Mediterranean mussel",1,1,0.7,0.5,0.6,1
+"530","Morocco","Penaeus shrimps nei",0.5,0.3,0.3,0.5,0.4,0.5
+"531","Morocco","Yesso scallop",0.1,1,0.7,0.7,0.6,0.9
+"532","Mozambique","Elkhorn sea moss",NA,NA,NA,NA,NA,NA
+"533","Mozambique","Giant tiger prawn",NA,NA,NA,NA,NA,NA
+"534","Mozambique","Indian white prawn",NA,NA,NA,NA,NA,NA
+"535","Mozambique","Japanese meagre",NA,NA,NA,NA,NA,NA
+"536","Mozambique","Spiny eucheuma",NA,NA,NA,NA,NA,NA
+"537","Myanmar","Aquatic invertebrates nei",NA,NA,NA,NA,NA,NA
+"538","Myanmar","Barramundi(=Giant seaperch)",NA,NA,NA,NA,NA,NA
+"539","Myanmar","Elkhorn sea moss",NA,NA,NA,NA,NA,NA
+"540","Myanmar","Giant tiger prawn",1,0.1,0.1,0.3,0.1,0.1
+"541","Myanmar","Groupers nei",NA,NA,NA,NA,NA,NA
+"542","Myanmar","Indo-Pacific swamp crab",NA,NA,NA,NA,NA,NA
+"543","Myanmar","Orange mud crab",NA,NA,NA,NA,NA,NA
+"544","Namibia","Blue mussel",0.1,1,0.8,0.4,0.7,0.9
+"545","Namibia","European flat oyster",NA,NA,NA,NA,NA,NA
+"546","Namibia","Gracilaria seaweeds",1,1,0.7,0.4,0.9,1
+"547","Namibia","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"548","Namibia","Pacific cupped oyster",0.1,1,0.7,0.4,0.7,0.9
+"549","Namibia","Perlemoen abalone",NA,NA,NA,NA,NA,NA
+"550","Netherlands","Aquatic invertebrates nei",NA,NA,NA,NA,NA,NA
+"551","Netherlands","Blue mussel",1,1,0.9,0.8,0.7,1
+"552","Netherlands","Cupped oysters nei",0.5,1,0.7,0.7,0.9,1
+"553","Netherlands","European flat oyster",1,1,0.7,0.5,0.7,1
+"554","Netherlands","Rainbow trout",NA,NA,NA,NA,NA,NA
+"555","Netherlands","Soles nei",NA,NA,NA,NA,NA,NA
+"556","Netherlands Antilles","Stromboid conchs nei",NA,NA,NA,NA,NA,NA
+"557","New Caledonia","Blue shrimp",NA,NA,NA,NA,NA,NA
+"558","New Caledonia","Pacific cupped oyster",NA,NA,NA,NA,NA,NA
+"559","New Zealand","Abalones nei",0.5,0.5,0.1,0.5,0.5,0.5
+"560","New Zealand","Chinook(=Spring=King) salmon",NA,NA,NA,NA,NA,NA
+"561","New Zealand","New Zealand mussel",NA,NA,NA,NA,NA,NA
+"562","New Zealand","Pacific cupped oyster",0.1,1,1,0.3,0.7,1
+"563","Nicaragua","Blue shrimp",NA,NA,NA,NA,NA,NA
+"564","Nigeria","Snappers nei",0.5,0.7,0.3,0.3,0.4,0.3
+"565","Norway","Arctic char",NA,NA,NA,NA,NA,NA
+"566","Norway","Atlantic cod",1,0.1,0.3,0.3,0.3,0.1
+"567","Norway","Atlantic halibut",NA,NA,NA,NA,NA,NA
+"568","Norway","Atlantic salmon",1,0.1,0.1,0.5,0.3,0.1
+"569","Norway","Blue mussel",1,1,0.9,0.8,0.7,1
+"570","Norway","Chars nei",NA,NA,NA,NA,NA,NA
+"571","Norway","European flat oyster",1,1,0.7,0.5,0.7,1
+"572","Norway","Finfishes nei",NA,NA,NA,NA,NA,NA
+"573","Norway","Great Atlantic scallop",NA,NA,NA,NA,NA,NA
+"574","Norway","Marine crustaceans nei",NA,NA,NA,NA,NA,NA
+"575","Norway","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"576","Norway","Pacific cupped oyster",0.1,1,0.7,0.2,0.7,1
+"577","Norway","Rainbow trout",NA,NA,NA,NA,NA,NA
+"578","Norway","Scallops nei",NA,NA,NA,NA,NA,NA
+"579","Oman","European seabass",NA,NA,NA,NA,NA,NA
+"580","Oman","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"581","Oman","Porgies, seabreams nei",NA,NA,NA,NA,NA,NA
+"582","Oman","Yellowfin seabream",NA,NA,NA,NA,NA,NA
+"583","Oman","Yellowfin tuna",NA,NA,NA,NA,NA,NA
+"584","Pakistan","Penaeus shrimps nei",NA,NA,NA,NA,NA,NA
+"585","Palau","Bear paw clam",NA,NA,NA,NA,NA,NA
+"586","Palau","Crocus giant clam",NA,NA,NA,NA,NA,NA
+"587","Palau","Elongate giant clam",NA,NA,NA,NA,NA,NA
+"588","Palau","Fluted giant clam",NA,NA,NA,NA,NA,NA
+"589","Palau","Giant clam",NA,NA,NA,NA,NA,NA
+"590","Palau","Milkfish",NA,NA,NA,NA,NA,NA
+"591","Palau","Smooth giant clam",NA,NA,NA,NA,NA,NA
+"592","Panama","Cobia",NA,NA,NA,NA,NA,NA
+"593","Papua New Guinea","Elkhorn sea moss",NA,NA,NA,NA,NA,NA
+"594","Papua New Guinea","Pearl oyster shells nei",NA,NA,NA,NA,NA,NA
+"595","Peru","[Chondracanthus chamissoi]",NA,NA,NA,NA,NA,NA
+"596","Peru","Brine shrimp",NA,NA,NA,NA,NA,NA
+"597","Peru","False abalone",1,1,0.7,0.7,0.7,0.5
+"598","Peru","Flatfishes nei",NA,NA,NA,NA,NA,NA
+"599","Peru","Giant kelps nei",NA,NA,NA,NA,NA,NA
+"600","Peru","Gracilaria seaweeds",1,1,1,0.5,1,1
+"601","Peru","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"602","Peru","Pacific cupped oyster",0.1,1,1,0.5,0.7,1
+"603","Peru","Peruvian calico scallop",NA,NA,NA,NA,NA,NA
+"604","Peru","Whiteleg shrimp",1,0.3,0.1,0.5,0.3,0.3
+"605","Philippines","Banana prawn",1,0.4,0.5,0.1,0.3,0.1
+"606","Philippines","Caulerpa seaweeds",NA,NA,NA,NA,NA,NA
+"607","Philippines","Elkhorn sea moss",NA,NA,NA,NA,NA,NA
+"608","Philippines","Flathead lobster",NA,NA,NA,NA,NA,NA
+"609","Philippines","Giant tiger prawn",1,0.1,0.1,0.1,0.1,0.1
+"610","Philippines","Gracilaria seaweeds",1,1,1,0.5,0.7,1
+"611","Philippines","Green mussel",NA,NA,NA,NA,NA,NA
+"612","Philippines","Groupers, seabasses nei",0.9,0.1,0.5,0.5,0.6,0.4
+"613","Philippines","Indo-Pacific swamp crab",NA,NA,NA,NA,NA,NA
+"614","Philippines","Jacks, crevalles nei",NA,NA,NA,NA,NA,NA
+"615","Philippines","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"616","Philippines","Milkfish",1,0.7,0.7,0.1,0.3,0.3
+"617","Philippines","Penaeus shrimps nei",0.5,0.3,0.5,0.3,0.1,0.1
+"618","Philippines","Slipper cupped oyster",NA,NA,NA,NA,NA,NA
+"619","Philippines","Snappers nei",NA,NA,NA,NA,NA,NA
+"620","Philippines","Snubnose pompano",NA,NA,NA,NA,NA,NA
+"621","Philippines","Spinefeet(=Rabbitfishes) nei",NA,NA,NA,NA,NA,NA
+"622","Philippines","Spiny eucheuma",NA,NA,NA,NA,NA,NA
+"623","Philippines","Tilapias nei",NA,NA,NA,NA,NA,NA
+"624","Philippines","Tropical spiny lobsters nei",NA,NA,NA,NA,NA,NA
+"625","Portugal","[Solea spp]",NA,NA,NA,NA,NA,NA
+"626","Portugal","Atlantic bluefin tuna",NA,NA,NA,NA,NA,NA
+"627","Portugal","Atlantic ditch shrimp",NA,NA,NA,NA,NA,NA
+"628","Portugal","Blackspot(=red) seabream",NA,NA,NA,NA,NA,NA
+"629","Portugal","Common cuttlefish",1,0.5,0.5,0.6,0.7,0.7
+"630","Portugal","Common edible cockle",1,1,0.7,0.6,0.9,0.6
+"631","Portugal","Common sole",1,0.5,0.3,0.6,0.4,0.5
+"632","Portugal","Croakers, drums nei",NA,NA,NA,NA,NA,NA
+"633","Portugal","European seabass",1,0.3,0.3,0.6,0.4,0.4
+"634","Portugal","Flat and cupped oysters nei",1,1,0.7,0.6,0.7,0.9
+"635","Portugal","Gilthead seabream",1,0.3,0.3,0.6,0.4,0.3
+"636","Portugal","Golden carpet shell",NA,NA,NA,NA,NA,NA
+"637","Portugal","Green seaweeds",NA,NA,NA,NA,NA,NA
+"638","Portugal","Grooved carpet shell",1,1,0.7,0.7,0.8,0.9
+"639","Portugal","Marine fishes nei",0.5,0.5,0.5,0.6,0.4,0.5
+"640","Portugal","Marine molluscs nei",0.5,0.5,0.5,0.6,0.4,0.5
+"641","Portugal","Meagre",NA,NA,NA,NA,NA,NA
+"642","Portugal","Octopuses nei",0.5,0.5,0.5,0.6,0.8,0.5
+"643","Portugal","Peppery furrow",NA,NA,NA,NA,NA,NA
+"644","Portugal","Pullet carpet shell",1,1,0.7,0.6,0.8,0.9
+"645","Portugal","Red seaweeds",NA,NA,NA,NA,NA,NA
+"646","Portugal","Sargo breams nei",0.6,0.3,0.3,0.6,0.4,0.3
+"647","Portugal","Sea mussels nei",0.5,1,0.7,0.6,0.7,0.8
+"648","Portugal","Solen razor clams nei",NA,NA,NA,NA,NA,NA
+"649","Portugal","Spotted seabass",NA,NA,NA,NA,NA,NA
+"650","Portugal","Turbot",1,0.3,0.3,0.6,0.4,0.5
+"651","Portugal","White seabream",NA,NA,NA,NA,NA,NA
+"652","Puerto Rico","Bluegill",NA,NA,NA,NA,NA,NA
+"653","Puerto Rico","Cobia",NA,NA,NA,NA,NA,NA
+"654","Puerto Rico","Mangrove cupped oyster",NA,NA,NA,NA,NA,NA
+"655","Puerto Rico","Penaeus shrimps nei",NA,NA,NA,NA,NA,NA
+"656","Qatar","White-spotted spinefoot",NA,NA,NA,NA,NA,NA
+"657","Qatar","Yellowfin seabream",NA,NA,NA,NA,NA,NA
+"658","Romania","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"659","Romania","Turbot",NA,NA,NA,NA,NA,NA
+"660","Russian Federation","Aquatic invertebrates nei",NA,NA,NA,NA,NA,NA
+"661","Russian Federation","Atlantic cod",NA,NA,NA,NA,NA,NA
+"662","Russian Federation","Atlantic salmon",NA,NA,NA,NA,NA,NA
+"663","Russian Federation","Brown seaweeds",NA,NA,NA,NA,NA,NA
+"664","Russian Federation","Brown seaweeds",NA,NA,NA,NA,NA,NA
+"665","Russian Federation","Cupped oysters nei",NA,NA,NA,NA,NA,NA
+"666","Russian Federation","Cupped oysters nei",NA,NA,NA,NA,NA,NA
+"667","Russian Federation","Flatfishes nei",NA,NA,NA,NA,NA,NA
+"668","Russian Federation","Japanese sea cucumber",NA,NA,NA,NA,NA,NA
+"669","Russian Federation","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"670","Russian Federation","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"671","Russian Federation","Mullets nei",NA,NA,NA,NA,NA,NA
+"672","Russian Federation","Sea cucumbers nei",NA,NA,NA,NA,NA,NA
+"673","Russian Federation","Sea mussels nei",NA,NA,NA,NA,NA,NA
+"674","Russian Federation","Sea mussels nei",NA,NA,NA,NA,NA,NA
+"675","Russian Federation","Sea mussels nei",NA,NA,NA,NA,NA,NA
+"676","Russian Federation","Sea trout",NA,NA,NA,NA,NA,NA
+"677","Russian Federation","Sea trout",NA,NA,NA,NA,NA,NA
+"678","Russian Federation","Sea urchins nei",NA,NA,NA,NA,NA,NA
+"679","Russian Federation","Silver carp",NA,NA,NA,NA,NA,NA
+"680","Russian Federation","Sturgeons nei",NA,NA,NA,NA,NA,NA
+"681","Russian Federation","Yesso scallop",NA,NA,NA,NA,NA,NA
+"682","R_union","Cobia",NA,NA,NA,NA,NA,NA
+"683","R_union","Drums nei",NA,NA,NA,NA,NA,NA
+"684","R_union","Mangrove red snapper",NA,NA,NA,NA,NA,NA
+"685","R_union","Pargo breams nei",NA,NA,NA,NA,NA,NA
+"686","R_union","Red drum",NA,NA,NA,NA,NA,NA
+"687","Saint Lucia","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"688","Saint Lucia","Gracilaria seaweeds",NA,NA,NA,NA,NA,NA
+"689","Samoa","Bear paw clam",NA,NA,NA,NA,NA,NA
+"690","Samoa","Elongate giant clam",NA,NA,NA,NA,NA,NA
+"691","Samoa","Fluted giant clam",NA,NA,NA,NA,NA,NA
+"692","Samoa","Giant clam",NA,NA,NA,NA,NA,NA
+"693","Samoa","Smooth giant clam",NA,NA,NA,NA,NA,NA
+"694","Saudi Arabia","Barramundi(=Giant seaperch)",NA,NA,NA,NA,NA,NA
+"695","Saudi Arabia","Croakers, drums nei",NA,NA,NA,NA,NA,NA
+"696","Saudi Arabia","Flathead grey mullet",1,0.3,0.5,0.5,0.5,0.5
+"697","Saudi Arabia","Giant tiger prawn",1,0.1,0.1,0.3,0.5,0.1
+"698","Saudi Arabia","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"699","Saudi Arabia","Goldlined seabream",NA,NA,NA,NA,NA,NA
+"700","Saudi Arabia","Groupers nei",0.9,0.1,0.5,0.5,0.5,0.4
+"701","Saudi Arabia","Indian white prawn",NA,NA,NA,NA,NA,NA
+"702","Saudi Arabia","Sobaity seabream",NA,NA,NA,NA,NA,NA
+"703","Saudi Arabia","Spinefeet(=Rabbitfishes) nei",NA,NA,NA,NA,NA,NA
+"704","Saudi Arabia","Whiteleg shrimp",NA,NA,NA,NA,NA,NA
+"705","Senegal","Blue mussel",NA,NA,NA,NA,NA,NA
+"706","Senegal","Gasar cupped oyster",1,1,0.7,0.4,0.7,0.8
+"707","Senegal","Pacific cupped oyster",0.1,1,0.7,0.4,0.7,0.8
+"708","Serbia and Montenegro","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"709","Seychelles","Giant tiger prawn",NA,NA,NA,NA,NA,NA
+"710","Singapore","Banana prawn",NA,NA,NA,NA,NA,NA
+"711","Singapore","Barramundi(=Giant seaperch)",NA,NA,NA,NA,NA,NA
+"712","Singapore","Bigeye trevally",NA,NA,NA,NA,NA,NA
+"713","Singapore","Black grouper",NA,NA,NA,NA,NA,NA
+"714","Singapore","Brown-marbled grouper",NA,NA,NA,NA,NA,NA
+"715","Singapore","Cobia",NA,NA,NA,NA,NA,NA
+"716","Singapore","Flathead grey mullet",NA,NA,NA,NA,NA,NA
+"717","Singapore","Fourfinger threadfin",NA,NA,NA,NA,NA,NA
+"718","Singapore","Giant grouper",NA,NA,NA,NA,NA,NA
+"719","Singapore","Giant tiger prawn",NA,NA,NA,NA,NA,NA
+"720","Singapore","Golden trevally",NA,NA,NA,NA,NA,NA
+"721","Singapore","Green humphead parrotfish",NA,NA,NA,NA,NA,NA
+"722","Singapore","Green mussel",NA,NA,NA,NA,NA,NA
+"723","Singapore","Groupers nei",NA,NA,NA,NA,NA,NA
+"724","Singapore","Humpback grouper",NA,NA,NA,NA,NA,NA
+"725","Singapore","Indo-Pacific swamp crab",NA,NA,NA,NA,NA,NA
+"726","Singapore","John's snapper",NA,NA,NA,NA,NA,NA
+"727","Singapore","Kuruma prawn",NA,NA,NA,NA,NA,NA
+"728","Singapore","Malabar grouper",NA,NA,NA,NA,NA,NA
+"729","Singapore","Mangrove red snapper",NA,NA,NA,NA,NA,NA
+"730","Singapore","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"731","Singapore","Milkfish",NA,NA,NA,NA,NA,NA
+"732","Singapore","Mozambique tilapia",NA,NA,NA,NA,NA,NA
+"733","Singapore","Mud spiny lobster",NA,NA,NA,NA,NA,NA
+"734","Singapore","Orange-spotted grouper",NA,NA,NA,NA,NA,NA
+"735","Singapore","Pacific cupped oyster",NA,NA,NA,NA,NA,NA
+"736","Singapore","Papuan black snapper",NA,NA,NA,NA,NA,NA
+"737","Singapore","Penaeus shrimps nei",NA,NA,NA,NA,NA,NA
+"738","Singapore","Snappers nei",NA,NA,NA,NA,NA,NA
+"739","Singapore","Snubnose pompano",NA,NA,NA,NA,NA,NA
+"740","Singapore","Spinefeet(=Rabbitfishes) nei",NA,NA,NA,NA,NA,NA
+"741","Singapore","Spotted coralgrouper",NA,NA,NA,NA,NA,NA
+"742","Singapore","Streaked spinefoot",NA,NA,NA,NA,NA,NA
+"743","Singapore","White-spotted spinefoot",NA,NA,NA,NA,NA,NA
+"744","Slovenia","Clams, etc. nei",NA,NA,NA,NA,NA,NA
+"745","Slovenia","European seabass",NA,NA,NA,NA,NA,NA
+"746","Slovenia","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"747","Slovenia","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"748","Slovenia","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"749","Slovenia","Sharpsnout seabream",NA,NA,NA,NA,NA,NA
+"750","Slovenia","Warty venus",NA,NA,NA,NA,NA,NA
+"751","Solomon Islands","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"752","Solomon Islands","Giant tiger prawn",NA,NA,NA,NA,NA,NA
+"753","South Africa","Carpet shells nei",0.7,1,0.7,0.6,0.7,0.8
+"754","South Africa","European flat oyster",0.1,1,0.7,0.7,0.7,0.8
+"755","South Africa","Giant tiger prawn",0.1,0.3,0.3,0.7,0.5,0.5
+"756","South Africa","Gracilaria seaweeds",1,1,0.7,0.6,0.8,1
+"757","South Africa","Indian white prawn",0.1,0.3,0.3,0.7,0.5,0.5
+"758","South Africa","Kuruma prawn",0.1,0.3,0.3,0.7,0.5,0.5
+"759","South Africa","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"760","South Africa","Mediterranean mussel",0.1,1,0.7,0.7,0.7,0.9
+"761","South Africa","Mullets nei",0.5,0.5,0.4,0.6,0.5,0.6
+"762","South Africa","Pacific cupped oyster",0.1,1,0.7,0.7,0.7,0.9
+"763","South Africa","Perlemoen abalone",1,0.5,0.7,0.6,0.7,0.8
+"764","South Africa","Red bait",0.1,0.5,0.4,0.7,0.5,0.6
+"765","South Africa","Sea mussels nei",0.5,1,0.7,0.7,0.7,0.8
+"766","South Africa","Seaweeds nei",NA,NA,NA,NA,NA,NA
+"767","South Africa","Smooth mactra",1,1,0.7,0.6,0.7,0.7
+"768","South Africa","Turbot",NA,NA,NA,NA,NA,NA
+"769","Spain","Aquatic invertebrates nei",NA,NA,NA,NA,NA,NA
+"770","Spain","Atlantic bluefin tuna",NA,NA,NA,NA,NA,NA
+"771","Spain","Atlantic ditch shrimp",NA,NA,NA,NA,NA,NA
+"772","Spain","Atlantic salmon",1,0.1,0.2,0.3,0.3,0.1
+"773","Spain","Banded carpet shell",NA,NA,NA,NA,NA,NA
+"774","Spain","Big-scale sand smelt",NA,NA,NA,NA,NA,NA
+"775","Spain","Blackspot(=red) seabream",NA,NA,NA,NA,NA,NA
+"776","Spain","Caramote prawn",NA,NA,NA,NA,NA,NA
+"777","Spain","Common cuttlefish",NA,NA,NA,NA,NA,NA
+"778","Spain","Common dentex",NA,NA,NA,NA,NA,NA
+"779","Spain","Common edible cockle",NA,NA,NA,NA,NA,NA
+"780","Spain","Common edible cockle",NA,NA,NA,NA,NA,NA
+"781","Spain","Common sole",NA,NA,NA,NA,NA,NA
+"782","Spain","Common sole",NA,NA,NA,NA,NA,NA
+"783","Spain","Cupped oysters nei",0.5,1,1,0.7,0.8,1
+"784","Spain","Donax clams",NA,NA,NA,NA,NA,NA
+"785","Spain","European eel",1,0.3,0.3,0.3,0.6,0.7
+"786","Spain","European flat oyster",1,1,0.7,0.5,0.7,1
+"787","Spain","European flat oyster",1,1,0.7,0.5,0.7,1
+"788","Spain","European seabass",1,0.3,0.5,0.5,0.5,0.5
+"789","Spain","European seabass",1,0.3,0.5,0.5,0.5,0.5
+"790","Spain","European seabass",1,0.3,0.5,0.5,0.5,0.5
+"791","Spain","Flathead grey mullet",1,0.3,0.5,0.5,0.5,0.5
+"792","Spain","Gastropods nei",NA,NA,NA,NA,NA,NA
+"793","Spain","Gilthead seabream",1,0.1,0.1,0.3,0.3,0.1
+"794","Spain","Gilthead seabream",1,0.1,0.1,0.3,0.3,0.1
+"795","Spain","Gilthead seabream",1,0.1,0.1,0.3,0.3,0.1
+"796","Spain","Great Atlantic scallop",NA,NA,NA,NA,NA,NA
+"797","Spain","Greater amberjack",NA,NA,NA,NA,NA,NA
+"798","Spain","Green crab",NA,NA,NA,NA,NA,NA
+"799","Spain","Grooved carpet shell",NA,NA,NA,NA,NA,NA
+"800","Spain","Grooved carpet shell",NA,NA,NA,NA,NA,NA
+"801","Spain","Groundfishes nei",NA,NA,NA,NA,NA,NA
+"802","Spain","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"803","Spain","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"804","Spain","Kuruma prawn",0.1,0.3,0.5,0.5,0.5,0.7
+"805","Spain","Kuruma prawn",0.1,0.3,0.5,0.5,0.5,0.7
+"806","Spain","Mackerels nei",NA,NA,NA,NA,NA,NA
+"807","Spain","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"808","Spain","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"809","Spain","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"810","Spain","Meagre",NA,NA,NA,NA,NA,NA
+"811","Spain","Meagre",NA,NA,NA,NA,NA,NA
+"812","Spain","Mullets nei",NA,NA,NA,NA,NA,NA
+"813","Spain","Octopuses nei",NA,NA,NA,NA,NA,NA
+"814","Spain","Octopuses nei",NA,NA,NA,NA,NA,NA
+"815","Spain","Pacific cupped oyster",0.1,1,0.7,0.5,0.7,1
+"816","Spain","Pacific cupped oyster",0.1,1,0.7,0.5,0.7,1
+"817","Spain","Palaemonid shrimps nei",NA,NA,NA,NA,NA,NA
+"818","Spain","Palinurid spiny lobsters nei",NA,NA,NA,NA,NA,NA
+"819","Spain","Pollack",NA,NA,NA,NA,NA,NA
+"820","Spain","Pullet carpet shell",NA,NA,NA,NA,NA,NA
+"821","Spain","Queen scallop",NA,NA,NA,NA,NA,NA
+"822","Spain","Rainbow trout",NA,NA,NA,NA,NA,NA
+"823","Spain","Rainbow trout",NA,NA,NA,NA,NA,NA
+"824","Spain","Sea belt",NA,NA,NA,NA,NA,NA
+"825","Spain","Sea mussels nei",NA,NA,NA,NA,NA,NA
+"826","Spain","Sea mussels nei",NA,NA,NA,NA,NA,NA
+"827","Spain","Seabasses nei",NA,NA,NA,NA,NA,NA
+"828","Spain","Seaweeds nei",NA,NA,NA,NA,NA,NA
+"829","Spain","Senegalese sole",NA,NA,NA,NA,NA,NA
+"830","Spain","Senegalese sole",NA,NA,NA,NA,NA,NA
+"831","Spain","Senegalese sole",NA,NA,NA,NA,NA,NA
+"832","Spain","Solen razor clams nei",NA,NA,NA,NA,NA,NA
+"833","Spain","Soles nei",NA,NA,NA,NA,NA,NA
+"834","Spain","Spinous spider crab",NA,NA,NA,NA,NA,NA
+"835","Spain","Spotted seabass",NA,NA,NA,NA,NA,NA
+"836","Spain","Striped bass, hybrid",NA,NA,NA,NA,NA,NA
+"837","Spain","Striped venus",NA,NA,NA,NA,NA,NA
+"838","Spain","Turbot",NA,NA,NA,NA,NA,NA
+"839","Spain","Turbot",NA,NA,NA,NA,NA,NA
+"840","Spain","Variegated scallop",NA,NA,NA,NA,NA,NA
+"841","Spain","Variegated scallop",NA,NA,NA,NA,NA,NA
+"842","Spain","Wakame",NA,NA,NA,NA,NA,NA
+"843","Spain","Warty venus",NA,NA,NA,NA,NA,NA
+"844","Spain","White seabream",NA,NA,NA,NA,NA,NA
+"845","St. Pierre and Miquelon","Scallops nei",NA,NA,NA,NA,NA,NA
+"846","St. Pierre and Miquelon","Sea mussels nei",NA,NA,NA,NA,NA,NA
+"847","Sweden","Atlantic salmon",1,0.3,0.3,0.8,0.5,0.5
+"848","Sweden","Blue mussel",0.7,1,0.7,0.7,0.7,0.6
+"849","Sweden","European flat oyster",1,1,0.7,0.8,0.7,0.8
+"850","Sweden","Rainbow trout",0.1,0.3,0.3,0.8,0.5,0.5
+"851","Taiwan Province of China","Abalones nei",NA,NA,NA,NA,NA,NA
+"852","Taiwan Province of China","Amberjacks nei",NA,NA,NA,NA,NA,NA
+"853","Taiwan Province of China","Barramundi(=Giant seaperch)",NA,NA,NA,NA,NA,NA
+"854","Taiwan Province of China","Blackhead seabream",NA,NA,NA,NA,NA,NA
+"855","Taiwan Province of China","Blood cockle",NA,NA,NA,NA,NA,NA
+"856","Taiwan Province of China","Clams, etc. nei",NA,NA,NA,NA,NA,NA
+"857","Taiwan Province of China","Cobia",NA,NA,NA,NA,NA,NA
+"858","Taiwan Province of China","Croakers, drums nei",NA,NA,NA,NA,NA,NA
+"859","Taiwan Province of China","Daggertooth pike conger",NA,NA,NA,NA,NA,NA
+"860","Taiwan Province of China","Diphos sanguin",NA,NA,NA,NA,NA,NA
+"861","Taiwan Province of China","Flathead grey mullet",NA,NA,NA,NA,NA,NA
+"862","Taiwan Province of China","Greater amberjack",NA,NA,NA,NA,NA,NA
+"863","Taiwan Province of China","Groupers nei",NA,NA,NA,NA,NA,NA
+"864","Taiwan Province of China","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"865","Taiwan Province of China","Japanese hard clam",NA,NA,NA,NA,NA,NA
+"866","Taiwan Province of China","Japanese seabream",NA,NA,NA,NA,NA,NA
+"867","Taiwan Province of China","Japanese spiny lobster",NA,NA,NA,NA,NA,NA
+"868","Taiwan Province of China","Kuruma prawn",NA,NA,NA,NA,NA,NA
+"869","Taiwan Province of China","Laver (Nori)",NA,NA,NA,NA,NA,NA
+"870","Taiwan Province of China","Malabar trevally",NA,NA,NA,NA,NA,NA
+"871","Taiwan Province of China","Marine crabs nei",NA,NA,NA,NA,NA,NA
+"872","Taiwan Province of China","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"873","Taiwan Province of China","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"874","Taiwan Province of China","Mi-iuy (brown) croaker",NA,NA,NA,NA,NA,NA
+"875","Taiwan Province of China","Milkfish",NA,NA,NA,NA,NA,NA
+"876","Taiwan Province of China","Pacific cupped oyster",NA,NA,NA,NA,NA,NA
+"877","Taiwan Province of China","Porgies, seabreams nei",NA,NA,NA,NA,NA,NA
+"878","Taiwan Province of China","Silver seabream",NA,NA,NA,NA,NA,NA
+"879","Taiwan Province of China","Snappers, jobfishes nei",NA,NA,NA,NA,NA,NA
+"880","Taiwan Province of China","Trumpet emperor",NA,NA,NA,NA,NA,NA
+"881","Taiwan Province of China","Warty gracilaria",NA,NA,NA,NA,NA,NA
+"882","Taiwan Province of China","Yellowback seabream",NA,NA,NA,NA,NA,NA
+"883","Tanzania, United Rep. of","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"884","Thailand","Blood cockle",1,1,0.7,0.3,0.5,0.7
+"885","Thailand","Blood cockle",1,1,0.7,0.3,0.5,0.7
+"886","Thailand","Cupped oysters nei",0.5,1,0.7,0.5,0.6,1
+"887","Thailand","Cupped oysters nei",0.5,1,0.7,0.5,0.6,1
+"888","Thailand","Green mussel",NA,NA,NA,NA,NA,NA
+"889","Thailand","Green mussel",NA,NA,NA,NA,NA,NA
+"890","Thailand","Horse mussels nei",NA,NA,NA,NA,NA,NA
+"891","Timor-Leste","Eucheuma seaweeds nei",NA,NA,NA,NA,NA,NA
+"892","Tonga","Bear paw clam",NA,NA,NA,NA,NA,NA
+"893","Tonga","Elongate giant clam",NA,NA,NA,NA,NA,NA
+"894","Tonga","Fluted giant clam",NA,NA,NA,NA,NA,NA
+"895","Tonga","Giant clam",NA,NA,NA,NA,NA,NA
+"896","Tonga","Smooth giant clam",NA,NA,NA,NA,NA,NA
+"897","Tunisia","Atlantic bluefin tuna",NA,NA,NA,NA,NA,NA
+"898","Tunisia","Carpet shells nei",NA,NA,NA,NA,NA,NA
+"899","Tunisia","Common cuttlefish",NA,NA,NA,NA,NA,NA
+"900","Tunisia","Common sole",NA,NA,NA,NA,NA,NA
+"901","Tunisia","Groupers nei",NA,NA,NA,NA,NA,NA
+"902","Tunisia","Marine crustaceans nei",NA,NA,NA,NA,NA,NA
+"903","Tunisia","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"904","Tunisia","Octopuses nei",NA,NA,NA,NA,NA,NA
+"905","Tunisia","Sargo breams nei",NA,NA,NA,NA,NA,NA
+"906","Turkey","Atlantic bluefin tuna",NA,NA,NA,NA,NA,NA
+"907","Turkey","Atlantic salmon",0.1,0.3,0.3,0.8,0.5,0.5
+"908","Turkey","Common dentex",NA,NA,NA,NA,NA,NA
+"909","Turkey","Common two-banded seabream",NA,NA,NA,NA,NA,NA
+"910","Turkey","European seabass",NA,NA,NA,NA,NA,NA
+"911","Turkey","Frogs",NA,NA,NA,NA,NA,NA
+"912","Turkey","Gilthead seabream",0.8,0.3,0.3,0.7,0.5,0.6
+"913","Turkey","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"914","Turkey","Meagre",NA,NA,NA,NA,NA,NA
+"915","Turkey","Mediterranean mussel",1,1,0.7,0.6,0.7,0.8
+"916","Turkey","Natantian decapods nei",0.5,0.5,0.5,0.6,0.5,0.5
+"917","Turkey","Pink dentex",NA,NA,NA,NA,NA,NA
+"918","Turkey","Porgies, seabreams nei",NA,NA,NA,NA,NA,NA
+"919","Turkey","Rainbow trout",NA,NA,NA,NA,NA,NA
+"920","Turkey","Red porgy",NA,NA,NA,NA,NA,NA
+"921","Turkey","Sciaenas nei",NA,NA,NA,NA,NA,NA
+"922","Turkey","Sharpsnout seabream",NA,NA,NA,NA,NA,NA
+"923","Turkey","Shi drum",NA,NA,NA,NA,NA,NA
+"924","Turkey","Trouts nei",0.5,0.3,0.3,0.5,0.5,0.5
+"925","Turks and Caicos Is.","Marine crabs nei",NA,NA,NA,NA,NA,NA
+"926","Turks and Caicos Is.","Queen conch",NA,NA,NA,NA,NA,NA
+"927","Tuvalu","Milkfish",NA,NA,NA,NA,NA,NA
+"928","Ukraine","Flatfishes nei",0.5,0.3,0.3,0.6,0.5,0.6
+"929","Ukraine","Mediterranean mussel",1,1,0.7,0.6,0.7,0.8
+"930","Ukraine","Mullets nei",0.5,1,0.5,0.5,0.5,0.5
+"931","Un. Sov. Soc. Rep.","Brown seaweeds",NA,NA,NA,NA,NA,NA
+"932","Un. Sov. Soc. Rep.","Chum(=Keta=Dog) salmon",NA,NA,NA,NA,NA,NA
+"933","Un. Sov. Soc. Rep.","Common carp",NA,NA,NA,NA,NA,NA
+"934","Un. Sov. Soc. Rep.","Flatfishes nei",NA,NA,NA,NA,NA,NA
+"935","Un. Sov. Soc. Rep.","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"936","Un. Sov. Soc. Rep.","Mullets nei",NA,NA,NA,NA,NA,NA
+"937","Un. Sov. Soc. Rep.","Salmonoids nei",NA,NA,NA,NA,NA,NA
+"938","Un. Sov. Soc. Rep.","Sockeye(=Red) salmon",NA,NA,NA,NA,NA,NA
+"939","Un. Sov. Soc. Rep.","Yesso scallop",NA,NA,NA,NA,NA,NA
+"940","United Arab Emirates","European seabass",NA,NA,NA,NA,NA,NA
+"941","United Arab Emirates","Giant tiger prawn",NA,NA,NA,NA,NA,NA
+"942","United Arab Emirates","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"943","United Arab Emirates","Goldlined seabream",NA,NA,NA,NA,NA,NA
+"944","United Arab Emirates","Greasy grouper",NA,NA,NA,NA,NA,NA
+"945","United Arab Emirates","Green tiger prawn",NA,NA,NA,NA,NA,NA
+"946","United Arab Emirates","Indian white prawn",NA,NA,NA,NA,NA,NA
+"947","United Arab Emirates","Mullets nei",NA,NA,NA,NA,NA,NA
+"948","United Arab Emirates","Sobaity seabream",NA,NA,NA,NA,NA,NA
+"949","United Arab Emirates","White-spotted spinefoot",NA,NA,NA,NA,NA,NA
+"950","United Kingdom","Atlantic cod",1,0.1,0.3,0.3,0.3,0.1
+"951","United Kingdom","Atlantic halibut",NA,NA,NA,NA,NA,NA
+"952","United Kingdom","Atlantic salmon",1,0.1,0.2,0.3,0.3,0.5
+"953","United Kingdom","Blue mussel",1,1,0.9,0.8,0.8,1
+"954","United Kingdom","Common edible cockle",NA,NA,NA,NA,NA,NA
+"955","United Kingdom","Cupped oysters nei",0.5,1,0.7,0.6,0.8,1
+"956","United Kingdom","European flat oyster",1,1,0.7,0.5,0.7,1
+"957","United Kingdom","European seabass",1,0.3,0.5,0.7,0.5,0.5
+"958","United Kingdom","Great Atlantic scallop",NA,NA,NA,NA,NA,NA
+"959","United Kingdom","Grooved carpet shell",NA,NA,NA,NA,NA,NA
+"960","United Kingdom","Haddock",NA,NA,NA,NA,NA,NA
+"961","United Kingdom","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"962","United Kingdom","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"963","United Kingdom","Northern quahog(=Hard clam)",NA,NA,NA,NA,NA,NA
+"964","United Kingdom","Pacific cupped oyster",0.1,1,0.7,0.5,0.7,1
+"965","United Kingdom","Queen scallop",NA,NA,NA,NA,NA,NA
+"966","United Kingdom","Rainbow trout",NA,NA,NA,NA,NA,NA
+"967","United Kingdom","Sea trout",NA,NA,NA,NA,NA,NA
+"968","United Kingdom","Turbot",NA,NA,NA,NA,NA,NA
+"969","United States of America","Abalones nei",NA,NA,NA,NA,NA,NA
+"970","United States of America","American cupped oyster",NA,NA,NA,NA,NA,NA
+"971","United States of America","Atlantic salmon",NA,NA,NA,NA,NA,NA
+"972","United States of America","Blue mussel",NA,NA,NA,NA,NA,NA
+"973","United States of America","Butter clam",NA,NA,NA,NA,NA,NA
+"974","United States of America","Chinook(=Spring=King) salmon",NA,NA,NA,NA,NA,NA
+"975","United States of America","Clams, etc. nei",NA,NA,NA,NA,NA,NA
+"976","United States of America","Cockles nei",NA,NA,NA,NA,NA,NA
+"977","United States of America","Coho(=Silver) salmon",NA,NA,NA,NA,NA,NA
+"978","United States of America","Cupped oysters nei",NA,NA,NA,NA,NA,NA
+"979","United States of America","European flat oyster",NA,NA,NA,NA,NA,NA
+"980","United States of America","Flat oysters nei",NA,NA,NA,NA,NA,NA
+"981","United States of America","Japanese carpet shell",NA,NA,NA,NA,NA,NA
+"982","United States of America","Longfin yellowtail",NA,NA,NA,NA,NA,NA
+"983","United States of America","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"984","United States of America","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"985","United States of America","Northern quahog(=Hard clam)",NA,NA,NA,NA,NA,NA
+"986","United States of America","Northern white shrimp",NA,NA,NA,NA,NA,NA
+"987","United States of America","Olympia oyster",NA,NA,NA,NA,NA,NA
+"988","United States of America","Pacific cupped oyster",NA,NA,NA,NA,NA,NA
+"989","United States of America","Pacific geoduck",NA,NA,NA,NA,NA,NA
+"990","United States of America","Pacific horse clam",NA,NA,NA,NA,NA,NA
+"991","United States of America","Pacific littleneck clam",NA,NA,NA,NA,NA,NA
+"992","United States of America","Rainbow trout",NA,NA,NA,NA,NA,NA
+"993","United States of America","Red drum",NA,NA,NA,NA,NA,NA
+"994","United States of America","Sand gaper",NA,NA,NA,NA,NA,NA
+"995","United States of America","Scallops nei",NA,NA,NA,NA,NA,NA
+"996","United States of America","Whiteleg shrimp",NA,NA,NA,NA,NA,NA
+"997","Venezuela, Boliv Rep of","Atlantic spadefish",NA,NA,NA,NA,NA,NA
+"998","Venezuela, Boliv Rep of","Blue shrimp",NA,NA,NA,NA,NA,NA
+"999","Venezuela, Boliv Rep of","Elkhorn sea moss",NA,NA,NA,NA,NA,NA
+"1000","Venezuela, Boliv Rep of","Giant river prawn",NA,NA,NA,NA,NA,NA
+"1001","Venezuela, Boliv Rep of","South American rock mussel",NA,NA,NA,NA,NA,NA
+"1002","Venezuela, Boliv Rep of","Spiny eucheuma",NA,NA,NA,NA,NA,NA
+"1003","Viet Nam","Cobia",NA,NA,NA,NA,NA,NA
+"1004","Viet Nam","Elkhorn sea moss",NA,NA,NA,NA,NA,NA
+"1005","Viet Nam","Gracilaria seaweeds",1,1,1,0.5,0.7,1
+"1006","Viet Nam","Marine fishes nei",NA,NA,NA,NA,NA,NA
+"1007","Viet Nam","Marine molluscs nei",NA,NA,NA,NA,NA,NA
+"1008","Viet Nam","Tropical spiny lobsters nei",NA,NA,NA,NA,NA,NA
+"1009","Yugoslavia SFR","European flat oyster",NA,NA,NA,NA,NA,NA
+"1010","Yugoslavia SFR","European seabass",NA,NA,NA,NA,NA,NA
+"1011","Yugoslavia SFR","Gilthead seabream",NA,NA,NA,NA,NA,NA
+"1012","Yugoslavia SFR","Mediterranean mussel",NA,NA,NA,NA,NA,NA
+"1013","Zanzibar","Elkhorn sea moss",NA,NA,NA,NA,NA,NA
+"1014","Zanzibar","Spiny eucheuma",NA,NA,NA,NA,NA,NA
+"1015","Tunisia","European eel",NA,NA,NA,NA,NA,NA
