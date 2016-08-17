@@ -16,36 +16,57 @@ lunique <- function(x) length(unique(x))
 W_D <- getwd() # Owen's working directory where all the scripts are.  Data files are in this wd/data
 
 # Renato's world trade dataset
-trade <- read.csv(file=paste0(W_D,"/data/WORLD_TRADE.csv"))
+trade <- read.csv(file=paste0(W_D,"/data/WORLD_TRADE.csv"),stringsAsFactors = F)
 
 # Trujillo ecological data
 # By country
-truj.coun <- read.csv(file=paste0(W_D,"/data/trujillo_countries.csv"))
+truj.coun <- read.csv(file=paste0(W_D,"/data/trujillo_countries.csv"),stringsAsFactors = F)
 # Fix the names (for descriptions of variables, see Trujillo 2008 in Alder and Pauly, 2008)
 names(truj.coun) <- c("country","native","ex.imp","fishmeal","intensity","nutri","hatchery","antibiotic","habitat","GMO","code","trace","employment","waste")
 
-# By species
-truj.spe <- read.csv(file=paste0(W_D,"/data/trujillo_species.csv"))
-# Fix the names
-names(truj.spe) <- c("country","species","native","fishmeal","intensity","hatchery","habitat","waste","ecol.score","msi")
-
 # Nutritional status and food security by country
-foodsecurity <- read.csv(file=paste0(W_D,"/data/FOOD SECURITY and NUTRIENT INTAKES.csv")) %>% select(-X,-X.1)
+foodsecurity <- read.csv(file=paste0(W_D,"/data/FOOD SECURITY and NUTRIENT INTAKES.csv"),stringsAsFactors = F) %>% select(-X,-X.1)
 ```
 
 
-Pull out 2011 data, and join all datasets by country
+Pull out 2011 data, and join all datasets by country.  We'll also do a name check.
 
 ```{r join data}
-
-# Join nutritional status data to trade and Trujillo country data and remove excess columns
 trade <- trade %>% filter(year==2011) # Just year 2011
 
-coun.data <- full_join(trade,foodsecurity,by=c("country","year"))
+# ************************Name checks***************************
+# Going to do this manually in Excel
+truj_names <- select(truj.coun,country) %>% rename(truj=country) %>% arrange(truj)
+trade_names <- select(trade,country) %>% rename(trade=country) %>% arrange(trade)
+foodsecurity_names <- select(foodsecurity,country) %>% rename(nutri=country) %>% arrange(nutri)
+write.csv(truj_names,file=paste0(W_D,"/data/nameconversion/truj_names.csv"),row.names=F)
+write.csv(trade_names,file=paste0(W_D,"/data/nameconversion/trade_names.csv"),row.names=F)
+write.csv(foodsecurity_names,file=paste0(W_D,"/data/nameconversion/nutri_names.csv"),row.names=F)
+
+# Key, matched by hand. Converts all data to common country names
+names_conv <- read.csv(paste0(W_D,"/data/nameconversion/name_conversion.csv"),stringsAsFactors = F)
+trade2 <- trade %>% 
+  left_join(names_conv, by=c("country"="trade")) %>%
+  select(-country,-truj,-nutri) %>%
+  rename(country=MASTER) %>%
+  distinct()
+foodsecurity2 <- foodsecurity %>% 
+  left_join(names_conv, by=c("country"="nutri")) %>%
+  select(-country,-trade,-truj) %>%
+  rename(country=MASTER) %>%
+  distinct()
+truj2 <- truj.coun %>% 
+  left_join(names_conv, by=c("country"="truj")) %>%
+  select(-country,-nutri.y,-trade) %>%
+  rename(country=MASTER,nutri=nutri.x) %>%
+  distinct()
+
+# Join nutritional status data to trade and Trujillo country data and remove excess columns
+coun.data <- full_join(trade2,foodsecurity2,by=c("country","year"))
 coun.data <- coun.data[,-1]
-coun.data <- full_join(coun.data,truj.coun,by="country")
+coun.data <- full_join(coun.data,truj2,by="country")
 
 # Save data
-write.csv(coun.data,file=paste0(W_D,"/data/country_data_2011_full.csv"))
+write.csv(coun.data,file=paste0(W_D,"/data/country_data_2011_full.csv"),row.names = F)
 
 ```
