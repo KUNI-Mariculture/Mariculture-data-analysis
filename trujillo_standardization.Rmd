@@ -9,7 +9,8 @@ output: html_document
 
 Scaling will be done for a variable x by xi/max(x).  Only selected, high-importance variables from Trujillo data.
 
-```{r dataset importing}
+```{r dataset importing,message=F}
+library(knitr)
 library(dplyr)
 library(ggplot2)
 lunique <- function(x) length(unique(x))
@@ -23,7 +24,7 @@ spe <- read.csv(paste0(W_D,"/data/species_data_full.csv"))
 
 ```
 
-Select important variables and only year 2011
+Select important variables and only year 2011.
 
 ```{r select variables}
 # select only highly important trujillo variables (with identifiers), and subset to year 2011 (even though for Trujillo data all years are the same)

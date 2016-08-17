@@ -35,8 +35,8 @@ truj.spe <- read.csv(file=paste0(W_D,"/data/trujillo_species.csv"))
 # Fix the names
 names(truj.spe) <- c("country","species","native","fishmeal","intensity","hatchery","habitat","waste","ecol.score","msi")
 
-# Nutritional status by country
-foodsecurity <- read.csv(file=paste0(W_D,"/data/Food Security Data/FOODSECURITY.csv"))
+# Nutritional status and food security by country
+foodsecurity <- read.csv(file=paste0(W_D,"/data/FOOD SECURITY and NUTRIENT INTAKES.csv")) %>% select(-X,-X.1)
 ```
 
 Now we can join the various data sets into two Master datasets; one organized by country/year/species for species-specific variables, and one by country/year for country-specific (non species-specific) variables
@@ -99,55 +99,14 @@ coun.stats <- coun.data.high %>% group_by(country) %>% summarise(Qexp.max=max(Q.
 
 ```
 
-Plotting country ranks
+### Just data from 2011 (most recent fully available year)
 
-```{r country plots}
-# Multiple plot function
-#
-# ggplot objects can be passed in ..., or to plotlist (as a list of ggplot objects)
-# - cols:   Number of columns in layout
-# - layout: A matrix specifying the layout. If present, 'cols' is ignored.
-#
-# If the layout is something like matrix(c(1,2,3,3), nrow=2, byrow=TRUE),
-# then plot 1 will go in the upper left, 2 will go in the upper right, and
-# 3 will go all the way across the bottom.
-#
-multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
-  library(grid)
+We'll also standardize the variables, where appropriate, to a 0-1 scale (x/max(x))
 
-  # Make a list from the ... arguments and plotlist
-  plots <- c(list(...), plotlist)
+```{r filter and standardize}
+# 2011 data, keeping rows with NAs for now
+spe.data.2011 <- spe.data %>% filter(year==2011) %>% select(which(names(spe.data) %in% high.vars))
+coun.data.2011 <- coun.data %>% filter(year==2011) %>% select(which(names(coun.data) %in% high.vars))
 
-  numPlots = length(plots)
-
-  # If layout is NULL, then use 'cols' to determine layout
-  if (is.null(layout)) {
-    # Make the panel
-    # ncol: Number of columns of plots
-    # nrow: Number of rows needed, calculated from # of cols
-    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
-                    ncol = cols, nrow = ceiling(numPlots/cols))
-  }
-
- if (numPlots==1) {
-    print(plots[[1]])
-
-  } else {
-    # Set up the page
-    grid.newpage()
-    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
-
-    # Make each plot, in the correct location
-    for (i in 1:numPlots) {
-      # Get the i,j matrix positions of the regions that contain this subplot
-      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
-
-      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
-                                      layout.pos.col = matchidx$col))
-    }
-  }
-}
-
-Qexp.max.plot <- ggplot(arrange(coun.stats,desc(Qexp.max)),aes(x=country,y=Qexp.max))+geom_bar(stat="identity") + coord_flip()
 
 ```
