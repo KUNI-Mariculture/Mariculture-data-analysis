@@ -1,0 +1,21 @@
+---
+title: "2011_initial_analysis"
+author: "Owen Liu"
+date: "August 22, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(plyr)
+library(dplyr)
+library(RColorBrewer)
+library(ggplot2)
+lunique <- function(x) length(unique(x))
+
+# Working directory
+W_D <- getwd() # Owen's working directory where all the scripts are.  Data files are in this wd/data
+
+# 2011 dataset
+dat <- read.csv(file=paste0(W_D,"/data/country_data_2011_full.csv"))
+
+```
