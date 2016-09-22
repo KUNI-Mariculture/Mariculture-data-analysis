@@ -67,6 +67,6 @@ coun.data <- coun.data[,-1]
 coun.data <- full_join(coun.data,truj2,by="country")
 
 # Save data
-write.csv(coun.data,file=paste0(W_D,"/data/country_data_2011_full.csv"),row.names = F)
+#write.csv(coun.data,file=paste0(W_D,"/data/country_data_2011_full.csv"),row.names = F)
 
 ```

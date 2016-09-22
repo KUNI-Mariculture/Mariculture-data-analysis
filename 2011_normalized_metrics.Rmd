@@ -1,0 +1,82 @@
+---
+title: "2011_normalized_metrics"
+author: "Owen Liu"
+date: "September 22, 2016"
+output: html_document
+---
+
+Following our meeting on September 20, 2016, we agreed on a reduced set of variables of interest, and agreed how to normalize them (to a 0 to 1 scale).  This script performs that normalization and produces a clean dataset for mapping.
+
+The variables are:
+
+* __TRADE DATA__
+    + Q.balance: Export/import ratio in quantity
+    + UV.balance: Export/import ratio in value, *per unit production*
+    + prod_ratio: Aquaculture/fisheries production (have to add this)
+    + num_spe: Total number of species harvested
+  
+* __FOOD SECURITY DATA__
+    + energy_adequacy: index of adequacy of the food supply in terms of calories
+    + gdp: GDP per capita
+  
+* __NUTRITION DATA__: all are percent from seafood/total nutrient intake
+    + polyunsatFA: polyunsatured fatty acids
+    + calories
+    + protein
+  
+* *the following will be grouped into a normalized "vitamins" metric*:
+    + vitaminA
+    + thiamin
+    + niacin
+    + riboflavin
+    + B6
+    + iron
+    + calcium
+    + zinc
+
+* __ECOLOGICAL DATA__ (all need to be updated eventually)
+    + native: native vs. introduced species
+    + fishmeal: use of fishmeal in the diet
+    + trophic_level: species trophic level(*data does not exist yet*)
+    + food_conv: protein conversion ratio (*data does not exist yet*) 
+    + habitat: local habitat/environmental impacts
+    
+### Selecting and Joining Relevant Variables
+
+Import the data
+
+```{r setup, include=FALSE}
+library(dplyr)
+W_D <- getwd()
+dat<- read.csv(file=paste0(W_D,"/data/country_data_2011_full.csv"))
+```
+
+Select relevant variables
+```{r choose vars}
+dat <- dat %>%
+  select(country,year,
+         Q.balance,UV.balance,energy_adequacy,
+         gdp,polyunsatFA_percentseafood,
+         calories_percentseafood,protein_percentseafood,
+         vitaminA_percentseafood,thiamin_percentseafood,
+         niacin_percentseafood,riboflavin_percentseafood,
+         B6_percentseafood,iron_percentseafood,
+         calcium_percentseafood,zinc_percentseafood,
+         native, fishmeal, habitat)
+```
+
+Join prod_ratio data
+```{r join prod ratio}
+PD <- read.csv(paste0(W_D,"/data/Production datasets/PD.csv"))
+dat2 <- dat %>% 
+  left_join(PD,by=c("year"="year","country"="country")) %>%
+  select(-X,-f.production,-a.production) %>%
+  rename(prod_ratio=ratio)
+```
+
+### Variable normalization
+
+Normalize trade metrics. Normalization for for Q.balance and UV.balance is $Norm = |Raw-1|$, because we want a perfect trade balance to equal 1, and everything else to be closer to zero
+```{r norm trade}
+#
+```

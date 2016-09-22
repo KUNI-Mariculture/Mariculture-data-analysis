@@ -1,0 +1,53 @@
+---
+title: "FS_2011_standar"
+author: "Patricia Faundez"
+date: "May 29, 2016"
+output: html_document
+ toc: true
+    toc_depth: 3
+---
+
+## Food Security 2011 data standarization from 0 to 1 per variable
+```{r setup, include=FALSE}
+W_D <- getwd()
+
+library(readr)
+library(dplyr)
+library(reshape2)
+library(ggplot2)
+
+FOODSECURITY = read.csv(paste0(W_D,"/data/Food Security Data/FOODSECURITY.csv"))
+
+str(FOODSECURITY)
+
+FOODSECURITY_2011 <- FOODSECURITY[FOODSECURITY$year == 2011 & !is.na(FOODSECURITY$year),]
+
+FOODSECURITY_2011$energy_adequacy <- FOODSECURITY_2011$energy_adequacy/max(FOODSECURITY_2011$energy_adequacy, na.rm=T)
+FOODSECURITY_2011$food_deficit <- FOODSECURITY_2011$food_deficit/max(FOODSECURITY_2011$food_deficit, na.rm=T)
+FOODSECURITY_2011$food_price <- FOODSECURITY_2011$food_price/max(FOODSECURITY_2011$food_price, na.rm=T)
+FOODSECURITY_2011$food_production <- FOODSECURITY_2011$food_production/max(FOODSECURITY_2011$food_production, na.rm=T)
+FOODSECURITY_2011$gdp <- FOODSECURITY_2011$gdp/max(FOODSECURITY_2011$gdp, na.rm=T)
+FOODSECURITY_2011$protein <- FOODSECURITY_2011$protein/max(FOODSECURITY_2011$protein, na.rm=T)
+FOODSECURITY_2011$protein_animal  <- FOODSECURITY_2011$protein_animal/max(FOODSECURITY_2011$protein_animal, na.rm=T)
+FOODSECURITY_2011$food_price_volatility <- FOODSECURITY_2011$food_price_volatility/max(FOODSECURITY_2011$food_price_volatility, na.rm=T)
+FOODSECURITY_2011$food_supply_variability <- FOODSECURITY_2011$food_supply_variability/max(FOODSECURITY_2011$food_supply_variability, na.rm=T)
+FOODSECURITY_2011$total_population <- FOODSECURITY_2011$total_population/max(FOODSECURITY_2011$total_population, na.rm=T)
+FOODSECURITY_2011$dietary_energy_supply <- FOODSECURITY_2011$dietary_energy_supply/max(FOODSECURITY_2011$dietary_energy_supply, na.rm=T)
+FOODSECURITY_2011$fat_supply <- FOODSECURITY_2011$fat_supply/max(FOODSECURITY_2011$fat_supply, na.rm=T)
+FOODSECURITY_2011$food_over_acquisition <- FOODSECURITY_2011$food_over_acquisition/max(FOODSECURITY_2011$food_over_acquisition, na.rm=T)
+FOODSECURITY_2011$food_production_variability <- FOODSECURITY_2011$food_production_variability/max(FOODSECURITY_2011$food_production_variability, na.rm=T)
+
+#FOODSECURITY_2011$number_undernourished <- FOODSECURITY_2011$number_undernourished/max(FOODSECURITY_2011$number_undernourished, na.rm=T)
+
+#dealing with factor <5.0 UNDERNOURISH variable 
+FOODSECURITY_2011$u <- as.numeric(as.character(FOODSECURITY_2011$undernourish))              #transform <5.0 to NA
+
+FOODSECURITY_2011$u2 <- as.character(FOODSECURITY_2011$u/max(FOODSECURITY_2011$u, na.rm=T))  #standarization
+
+FOODSECURITY_2011$u2 <- ifelse(as.character(FOODSECURITY_2011$undernourish) == "<5.0", as.character('<0.097'), FOODSECURITY_2011$u2) # <0.097 comes from 5.0/max(FOODSECURITY_2011$u, na.rm=T)
+  
+head(FOODSECURITY_2011)
+write.csv(FOODSECURITY_2011,file=paste0(W_D,"/data/FOODSECURITY_2011.csv"))  # write out csv
+
+```
+
