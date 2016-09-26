@@ -1,7 +1,7 @@
 ---
-title: "2011_normalized_metrics"
+title: "Normalizing Mariculture Metrics"
 author: "Owen Liu"
-date: "September 22, 2016"
+date: "September 26, 2016"
 output: pdf_document
 ---
 
@@ -40,7 +40,7 @@ The variables are (S indicates it will be scaled/normalized, T means transformed
     + (S) food_conv: protein conversion ratio (*data does not exist yet*) 
     + (S) habitat: local habitat/environmental impacts
     
-```{r global options,include=F}
+```{r global options,echo=F}
 library(knitr)
 opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
 ```
@@ -87,7 +87,7 @@ Join prod_ratio data
 ```{r join prod ratio,warning=F}
 dat2 <- dat %>% 
   left_join(PD,by=c("year"="year","country"="country")) %>%
-  select(-(X:a.production)) %>%
+  select(-(X:a.production),-p.species) %>%
   rename(prod_ratio=p.ratio,spp_farmed=a.species)
 
 # New dataset for normalized data
