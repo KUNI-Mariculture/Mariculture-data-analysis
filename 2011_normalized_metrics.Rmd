@@ -58,7 +58,7 @@ Select relevant variables
 ```{r choose vars}
 dat <- dat %>%
   select(country,year,
-         Q.balance,UV.balance,energy_adequacy,
+         Q.balance,UV.balance,energy_adequacy,undernourish,
          gdp,polyunsatFA_percentseafood,
          calories_percentseafood,protein_percentseafood,
          vitaminA_percentseafood,thiamin_percentseafood,
@@ -84,14 +84,23 @@ names_conv <- read.csv(paste0(W_D,"/data/nameconversion/name_conversion.csv"),st
 
 Join prod_ratio data
 
-```{r join prod ratio,warning=F}
+```{r join prod ratio,warning=F,message=F}
 dat2 <- dat %>% 
   left_join(PD,by=c("year"="year","country"="country")) %>%
   select(-(X:a.production),-p.species) %>%
   rename(prod_ratio=p.ratio,spp_farmed=a.species)
 
 # New dataset for normalized data
-dat.norm <- dat2
+dat.norm <- dat2 %>% distinct(country)
+```
+
+#### Remove landlocked countries
+
+Manually remove landlocked countries
+
+```{r remove landlocked}
+dat.norm <- dat.norm [ ! dat.norm$country %in% c("Afghanistan", "Andorra","Armenia","Austria","Azerbaijan","Belarus","Bhutan","Bolivia","Botswana","Burkina Faso", "Burundi", "Central African Republic","Chad","Czech Republic","Czechoslovakia","Ethiopia","Ethiopia PDR","Hungary","Kazakhstan","Kosovo","Kyrgyzstan","Laos","Lesotho","Liechtenstein","Luxembourg","Macedonia","Malawi","Mali","Moldova","Mongolia","Nepal","Niger","Paraguay","Rwanda","San Marino","Serbia","Serbia and Montenegro","Slovakia","South Ossetia","South Sudan","Swaziland","Switzerland","Tajikistan","Turkmenistan","Uganda","Uzbekistan","Vatican City","Zambia","Zimbabwe"),]
+
 ```
 
 ### Variable Normalization
@@ -155,19 +164,31 @@ hist(dat.norm$spp_farmed,xlab="Normalized Species Farmed Score",main="")
 
 #### Food Security Data
 
-energy_adequacy, scaled such that 100% or over is equal to 1.
+energy_adequacy, scaled relative to maximum in the data
 
 ```{r energy ad}
-norm_energy_ad <- function(x) {
-  x[x>100]<-100
-  out <- normalize(x)
-  return(out)
-}
-dat.norm <- mutate(dat.norm,energy_adequacy=norm_energy_ad(energy_adequacy))
+# DEFUNCT FOR NOW 10/11/16
+# norm_energy_ad <- function(x) {
+#   x[x>100]<-100
+#   out <- normalize(x)
+#   return(out)
+# }
+dat.norm <- mutate(dat.norm,energy_adequacy=normalize(energy_adequacy))
 hist(dat.norm$energy_adequacy,xlab="Normalized Energy Adequacy Score",main="")
 ```
 
 The problem here is that most diets are energy adequate...
+
+***
+
+chance that a random person from the population will be undernourished, scaled relative to maximum in the data.
+
+```{r undernourished}
+# Character vector right now (remove "<5.0")
+dat.norm$undernourish <- sapply(dat.norm$undernourish,function(x) gsub("<","",x)) %>% as.numeric()
+dat.norm <- mutate(dat.norm,undernourish=normalize(undernourish))
+hist(dat.norm$undernourish,xlab="Normalized Undernourished Score",main="")
+```
 
 ***
 
@@ -203,7 +224,7 @@ hist(dat.norm$vitamins_all,main="",xlab="Normalized Average Vitamins Score")
 Protein, calories, fatty acids all scaled relative to max.
 
 ```{r standard nutrition}
-dat.norm <- dat.norm %>% mutate_each(funs(normalize),polyunsatFA_percentseafood:protein_percentseafood)
+dat.norm <- dat.norm %>% mutate_each(funs(normalize), polyunsatFA_percentseafood:protein_percentseafood)
 ```
 
 ***
@@ -218,10 +239,25 @@ dat.norm <- dat.norm %>% mutate_each(funs(normalize),native:habitat)
 
 ***
 
+#### Averages
+
+First-cut means across the categories
+
+```{r }
+# gm_mean = function(x, na.rm=FALSE){
+#   exp(sum(log(x[x > 0]), na.rm=na.rm) / length(x))
+# }
+
+dat.norm$trade <- dat.norm %>% select(Q.balance,UV.balance,prod_ratio) %>% apply(.,1,FUN=mean)
+dat.norm$fs <- dat.norm %>% select(energy_adequacy,gdp,undernourish) %>% apply(.,1,FUN=mean)
+dat.norm$nutrition <- dat.norm %>% select(polyunsatFA_percentseafood:zinc_percentseafood) %>% apply(.,1,FUN=mean)
+dat.norm$ecol <- dat.norm %>% select(native:habitat) %>% apply(.,1,FUN=mean)
+```
+
 ### Output data
 
 Write output
 
 ```{r output}
-write.csv(dat.norm,file=paste0(W_D,"/data/data_normalized_092616.csv"))
+write.csv(dat.norm,file=paste0(W_D,"/data/data_normalized_101116.csv"))
 ```
