@@ -58,7 +58,7 @@ Select relevant variables
 ```{r choose vars}
 dat <- dat %>%
   select(country,year,
-         Q.balance,UV.balance,energy_adequacy,undernourish,
+         Q.balance,UV.balance,energy_adequacy,
          gdp,polyunsatFA_percentseafood,
          calories_percentseafood,protein_percentseafood,
          vitaminA_percentseafood,thiamin_percentseafood,
@@ -91,7 +91,7 @@ dat2 <- dat %>%
   rename(prod_ratio=p.ratio,spp_farmed=a.species)
 
 # New dataset for normalized data
-dat.norm <- dat2 %>% distinct(country)
+dat.norm <- dat2 %>% distinct(country,.keep_all=TRUE)
 ```
 
 #### Remove landlocked countries
@@ -181,18 +181,6 @@ The problem here is that most diets are energy adequate...
 
 ***
 
-chance that a random person from the population will be undernourished, scaled relative to maximum in the data.
-
-```{r undernourished}
-# Character vector right now (remove "<5.0")
-dat.norm$undernourish <- sapply(dat.norm$undernourish,function(x) gsub("<","",x)) %>% as.numeric()
-# Use - undernourish to switch direction of scale (so least undernourished gets closer to 1)
-dat.norm <- mutate(dat.norm,undernourish=normalize(-undernourish))
-hist(dat.norm$undernourish,xlab="Normalized Undernourished Score",main="")
-```
-
-***
-
 GDP per capita, scaled relative to richest country.
 
 ```{r gdp}
@@ -250,7 +238,7 @@ First-cut means across the categories
 # }
 
 dat.norm$trade <- dat.norm %>% select(Q.balance,UV.balance,prod_ratio) %>% apply(.,1,FUN=mean)
-dat.norm$fs <- dat.norm %>% select(energy_adequacy,gdp,undernourish) %>% apply(.,1,FUN=mean)
+dat.norm$fs <- dat.norm %>% select(energy_adequacy,gdp) %>% apply(.,1,FUN=mean)
 dat.norm$nutrition <- dat.norm %>% select(polyunsatFA_percentseafood:zinc_percentseafood) %>% apply(.,1,FUN=mean)
 dat.norm$ecol <- dat.norm %>% select(native:habitat) %>% apply(.,1,FUN=mean)
 ```

@@ -1,0 +1,213 @@
+---
+title: "Quantizing Mariculture Metrics"
+author: "Owen Liu"
+date: "September 26, 2016"
+output: pdf_document
+---
+
+THIS IS A CLONE OF THE NORMALIZATION SCRIPT, BUT WITH QUANTILES INSTEAD OF ZERO TO 1 NORMALIZATION
+    
+```{r global options,echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+### Selecting and Joining Relevant Variables
+
+Import the data
+
+```{r setup, include=FALSE,message=F}
+library(dplyr)
+library(Hmisc)
+W_D <- getwd()
+dat<- read.csv(file=paste0(W_D,"/data/country_data_2011_full.csv"))
+```
+
+Select relevant variables
+```{r choose vars}
+dat <- dat %>%
+  select(country,year,
+         Q.balance,UV.balance,energy_adequacy,
+         gdp,polyunsatFA_percentseafood,
+         calories_percentseafood,protein_percentseafood,
+         vitaminA_percentseafood,thiamin_percentseafood,
+         niacin_percentseafood,riboflavin_percentseafood,
+         B6_percentseafood,iron_percentseafood,
+         calcium_percentseafood,zinc_percentseafood,
+         native, fishmeal, habitat)
+```
+
+Production ratio data
+
+```{r production ratio data}
+PD <- read.csv(paste0(W_D,"/data/Production datasets/PD.csv"))
+```
+
+Fix names to common:
+```{r fix names}
+# have to make sure country names line up
+PD_names <- select(PD,country) %>% rename(PDname=country) %>% arrange(PDname) %>% distinct()
+#write.csv(PD_names,file=paste0(W_D,"/data/nameconversion/PD_names.csv"),row.names=F)
+names_conv <- read.csv(paste0(W_D,"/data/nameconversion/name_conversion.csv"),stringsAsFactors = F)
+```
+
+Join prod_ratio data
+
+```{r join prod ratio,warning=F,message=F}
+dat2 <- dat %>% 
+  left_join(PD,by=c("year"="year","country"="country")) %>%
+  select(-(X:a.production),-p.species) %>%
+  rename(prod_ratio=p.ratio,spp_farmed=a.species)
+
+# New dataset for quantized data
+dat.quant <- dat2 %>% distinct(country,.keep_all=TRUE)
+```
+
+#### Remove landlocked countries
+
+Manually remove landlocked countries
+
+```{r remove landlocked}
+dat.quant <- dat.quant [ ! dat.quant$country %in% c("Afghanistan", "Andorra","Armenia","Austria","Azerbaijan","Belarus","Bhutan","Bolivia","Botswana","Burkina Faso", "Burundi", "Central African Republic","Chad","Czech Republic","Czechoslovakia","Ethiopia","Ethiopia PDR","Hungary","Kazakhstan","Kosovo","Kyrgyzstan","Laos","Lesotho","Liechtenstein","Luxembourg","Macedonia","Malawi","Mali","Moldova","Mongolia","Nepal","Niger","Paraguay","Rwanda","San Marino","Serbia","Serbia and Montenegro","Slovakia","South Ossetia","South Sudan","Swaziland","Switzerland","Tajikistan","Turkmenistan","Uganda","Uzbekistan","Vatican City","Zambia","Zimbabwe"),]
+
+```
+
+### Variable Quantiles
+
+All variables will be broken into quintiles (5 categories).
+
+#### Trade metrics
+
+
+```{r trade}
+quantize <- function(x) {
+  cats<-Hmisc::cut2(x,g=5)
+  as.numeric(cats)
+}
+# compare distribution of raw/quantized data, for Q.balance
+test <- quantize(dat2$Q.balance)
+par(mfrow=c(2,1))
+# hist(dat2$Q.balance, xlab="Raw Trade Balance (Exports/Imports in tonnes)",main="",breaks=20)
+# hist(as.numeric(test), xlab="Normalized Trade Balance Score")
+
+# Looks good
+dat.quant <- mutate(dat.quant,Q.balance_q=quantize(Q.balance),UV.balance_q=quantize(UV.balance))
+```
+
+***
+
+Production balance, prod_ratio, if aquaculture to fisheries production
+
+```{r norm production}
+# norm_prod_ratio <- function(x) {
+#   nrm <- log10(x)
+#   out <- (nrm-min(nrm[is.finite(nrm)]))/(max(nrm[is.finite(nrm)])-min(nrm[is.finite(nrm)]))
+#   out[is.infinite(nrm)] <- 0
+#   return(out)
+# }
+
+dat.quant <- mutate(dat.quant,prod_ratio_q=quantize(prod_ratio))
+```
+
+Not sure how much I like this one (normalization on top of log transformation really distorts the scale to where a country with still a very small production ratio).
+
+***
+
+Total number of species harvested, relative to the most observed.
+
+```{r num species}
+#normalize <- function(x) (x-min(x,na.rm=T))/(max(x,na.rm=T)-min(x,na.rm=T))
+dat.quant <- mutate(dat.quant,spp_farmed_q=quantize(spp_farmed))
+
+```
+
+***
+
+#### Food Security Data
+
+energy_adequacy, scaled relative to maximum in the data
+
+```{r energy ad}
+# DEFUNCT FOR NOW 10/11/16
+# norm_energy_ad <- function(x) {
+#   x[x>100]<-100
+#   out <- normalize(x)
+#   return(out)
+# }
+dat.quant <- mutate(dat.quant,energy_adequacy_q=quantize(energy_adequacy))
+```
+
+The problem here is that most diets are energy adequate...
+
+***
+
+GDP per capita, scaled relative to richest country.
+
+```{r gdp}
+dat.quant <- mutate(dat.quant,gdp_q=quantize(gdp))
+# hist(dat.quant$gdp,xlab="quantized GDP Score",main="")
+```
+
+***
+
+#### Nutrition Data
+
+We first need to combine all of the vitamins into one metric. We do this by normalizing them individually and then taking a mean for each country across the individual scores
+
+```{r vitamins}
+# Scale each vitamin
+dat.quant <- dat.quant %>% mutate_each(funs(q=quantize(.)),vitaminA_percentseafood:zinc_percentseafood)
+
+# Calculate a mean vitamin score
+dat.quant$vitamins_all <- dat.quant %>% 
+  select(vitaminA_percentseafood_q:zinc_percentseafood_q) %>% 
+  rowMeans(na.rm=TRUE)
+
+dat.quant$vitamins_all[is.nan(dat.quant$vitamins_all)] <- NA
+
+```
+
+***
+
+Protein, calories, fatty acids all quantized.
+
+```{r standard nutrition}
+dat.quant <- dat.quant %>% mutate_each(funs(q=quantize(.)), polyunsatFA_percentseafood:protein_percentseafood)
+```
+
+***
+
+#### Ecological Data
+
+All of the ecological metrics are scaled to 0 to 10. We just redefine this to a 0 to 1 scale.
+
+```{r ecological data}
+dat.quant <- dat.quant %>% mutate_each(funs(q=quantize(.)),native:habitat)
+```
+
+***
+
+#### Averages
+
+First-cut means across the categories
+
+```{r }
+# gm_mean = function(x, na.rm=FALSE){
+#   exp(sum(log(x[x > 0]), na.rm=na.rm) / length(x))
+# }
+
+dat.quant$trade <- dat.quant %>% select(Q.balance_q,UV.balance_q,prod_ratio_q) %>% apply(.,1,FUN=mean)
+dat.quant$fs <- dat.quant %>% select(energy_adequacy_q,gdp_q) %>% apply(.,1,FUN=mean)
+dat.quant$nutrition <- dat.quant %>% select(polyunsatFA_percentseafood_q:zinc_percentseafood_q) %>% apply(.,1,FUN=mean)
+dat.quant$ecol <- dat.quant %>% select(native_q:habitat_q) %>% apply(.,1,FUN=mean)
+
+## Overall mean (excluding ecological score)
+dat.quant$totscore <- dat.quant %>% select(trade:nutrition) %>% apply(.,1,FUN=mean)
+```
+
+### Output data
+
+Write output
+
+```{r output}
+write.csv(dat.quant,file=paste0(W_D,"/data/data_quantized_101116.csv"))
+```
