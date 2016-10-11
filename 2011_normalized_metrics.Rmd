@@ -186,7 +186,8 @@ chance that a random person from the population will be undernourished, scaled r
 ```{r undernourished}
 # Character vector right now (remove "<5.0")
 dat.norm$undernourish <- sapply(dat.norm$undernourish,function(x) gsub("<","",x)) %>% as.numeric()
-dat.norm <- mutate(dat.norm,undernourish=normalize(undernourish))
+# Use - undernourish to switch direction of scale (so least undernourished gets closer to 1)
+dat.norm <- mutate(dat.norm,undernourish=normalize(-undernourish))
 hist(dat.norm$undernourish,xlab="Normalized Undernourished Score",main="")
 ```
 
