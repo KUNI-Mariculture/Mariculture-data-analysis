@@ -11,6 +11,7 @@ THIS IS A CLONE OF THE NORMALIZATION SCRIPT, BUT WITH QUANTILES INSTEAD OF ZERO 
 library(knitr)
 opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
 ```
+
 ### Selecting and Joining Relevant Variables
 
 Import the data
@@ -19,56 +20,17 @@ Import the data
 library(dplyr)
 library(Hmisc)
 W_D <- getwd()
-dat<- read.csv(file=paste0(W_D,"/data/country_data_2011_full.csv"))
+dat<- read.csv(file=paste0(W_D,"/data/data_full_prenorm_101716.csv"))
 ```
 
 Select relevant variables
 ```{r choose vars}
-dat <- dat %>%
+dat2 <- dat %>%
   select(country,year,
          Q.balance,UV.balance,energy_adequacy,
-         gdp,polyunsatFA_percentseafood,
-         calories_percentseafood,protein_percentseafood,
-         vitaminA_percentseafood,thiamin_percentseafood,
-         niacin_percentseafood,riboflavin_percentseafood,
-         B6_percentseafood,iron_percentseafood,
-         calcium_percentseafood,zinc_percentseafood,
-         native, fishmeal, habitat)
-```
-
-Production ratio data
-
-```{r production ratio data}
-PD <- read.csv(paste0(W_D,"/data/Production datasets/PD.csv"))
-```
-
-Fix names to common:
-```{r fix names}
-# have to make sure country names line up
-PD_names <- select(PD,country) %>% rename(PDname=country) %>% arrange(PDname) %>% distinct()
-#write.csv(PD_names,file=paste0(W_D,"/data/nameconversion/PD_names.csv"),row.names=F)
-names_conv <- read.csv(paste0(W_D,"/data/nameconversion/name_conversion.csv"),stringsAsFactors = F)
-```
-
-Join prod_ratio data
-
-```{r join prod ratio,warning=F,message=F}
-dat2 <- dat %>% 
-  left_join(PD,by=c("year"="year","country"="country")) %>%
-  select(-(X:a.production),-p.species) %>%
-  rename(prod_ratio=p.ratio,spp_farmed=a.species)
-
-# New dataset for quantized data
-dat.quant <- dat2 %>% distinct(country,.keep_all=TRUE)
-```
-
-#### Remove landlocked countries
-
-Manually remove landlocked countries
-
-```{r remove landlocked}
-dat.quant <- dat.quant [ ! dat.quant$country %in% c("Afghanistan", "Andorra","Armenia","Austria","Azerbaijan","Belarus","Bhutan","Bolivia","Botswana","Burkina Faso", "Burundi", "Central African Republic","Chad","Czech Republic","Czechoslovakia","Ethiopia","Ethiopia PDR","Hungary","Kazakhstan","Kosovo","Kyrgyzstan","Laos","Lesotho","Liechtenstein","Luxembourg","Macedonia","Malawi","Mali","Moldova","Mongolia","Nepal","Niger","Paraguay","Rwanda","San Marino","Serbia","Serbia and Montenegro","Slovakia","South Ossetia","South Sudan","Swaziland","Switzerland","Tajikistan","Turkmenistan","Uganda","Uzbekistan","Vatican City","Zambia","Zimbabwe"),]
-
+         gdp,calories:polyunsatFA,
+         polyunsatFA_percentseafood:prod_ratio,
+         aq_gdp)
 ```
 
 ### Variable Quantiles
@@ -90,12 +52,12 @@ par(mfrow=c(2,1))
 # hist(as.numeric(test), xlab="Normalized Trade Balance Score")
 
 # Looks good
-dat.quant <- mutate(dat.quant,Q.balance_q=quantize(Q.balance),UV.balance_q=quantize(UV.balance))
+dat.quant <- mutate(dat2,Q.balance_q=quantize(Q.balance),UV.balance_q=quantize(UV.balance))
 ```
 
 ***
 
-Production balance, prod_ratio, if aquaculture to fisheries production
+Production balance, prod_ratio, of aquaculture to fisheries production
 
 ```{r norm production}
 # norm_prod_ratio <- function(x) {
@@ -136,7 +98,6 @@ energy_adequacy, scaled relative to maximum in the data
 dat.quant <- mutate(dat.quant,energy_adequacy_q=quantize(energy_adequacy))
 ```
 
-The problem here is that most diets are energy adequate...
 
 ***
 
@@ -147,15 +108,21 @@ dat.quant <- mutate(dat.quant,gdp_q=quantize(gdp))
 # hist(dat.quant$gdp,xlab="quantized GDP Score",main="")
 ```
 
+Aquaculture as percent of GDP
+
+```{r aq gdp}
+dat.quant <- mutate(dat.quant,aq_gdp_q=quantize(aq_gdp))
+```
+
 ***
 
 #### Nutrition Data
 
-We first need to combine all of the vitamins into one metric. We do this by normalizing them individually and then taking a mean for each country across the individual scores
+We first need to combine all of the vitamins into one metric. We do this by normalizing them individually and then taking a mean for each country across the individual scores. Also quantize calories, proteins, FAs
 
 ```{r vitamins}
 # Scale each vitamin
-dat.quant <- dat.quant %>% mutate_each(funs(q=quantize(.)),vitaminA_percentseafood:zinc_percentseafood)
+dat.quant <- dat.quant %>% mutate_each(funs(q=quantize(.)),calories:zinc_percentseafood)
 
 # Calculate a mean vitamin score
 dat.quant$vitamins_all <- dat.quant %>% 
@@ -163,18 +130,10 @@ dat.quant$vitamins_all <- dat.quant %>%
   rowMeans(na.rm=TRUE)
 
 dat.quant$vitamins_all[is.nan(dat.quant$vitamins_all)] <- NA
-
 ```
 
 ***
 
-Protein, calories, fatty acids all quantized.
-
-```{r standard nutrition}
-dat.quant <- dat.quant %>% mutate_each(funs(q=quantize(.)), polyunsatFA_percentseafood:protein_percentseafood)
-```
-
-***
 
 #### Ecological Data
 
@@ -195,9 +154,10 @@ First-cut means across the categories
 #   exp(sum(log(x[x > 0]), na.rm=na.rm) / length(x))
 # }
 
-dat.quant$trade <- dat.quant %>% select(Q.balance_q,UV.balance_q,prod_ratio_q) %>% apply(.,1,FUN=mean)
+dat.quant$trade <- dat.quant %>% select(Q.balance_q,UV.balance_q,prod_ratio_q,aq_gdp_q) %>% apply(.,1,FUN=mean)
 dat.quant$fs <- dat.quant %>% select(energy_adequacy_q,gdp_q) %>% apply(.,1,FUN=mean)
-dat.quant$nutrition <- dat.quant %>% select(polyunsatFA_percentseafood_q:zinc_percentseafood_q) %>% apply(.,1,FUN=mean)
+dat.quant$reliance <- dat.quant %>% select(polyunsatFA_percentseafood_q:zinc_percentseafood_q) %>% apply(.,1,FUN=mean)
+dat.quant$nutrition <- dat.quant %>% select(calories_q:polyunsatFA_q) %>% apply(.,1,FUN=mean)
 dat.quant$ecol <- dat.quant %>% select(native_q:habitat_q) %>% apply(.,1,FUN=mean)
 
 ## Overall mean (excluding ecological score)
@@ -209,5 +169,28 @@ dat.quant$totscore <- dat.quant %>% select(trade:nutrition) %>% apply(.,1,FUN=me
 Write output
 
 ```{r output}
-write.csv(dat.quant,file=paste0(W_D,"/data/data_quantized_101116.csv"))
+write.csv(dat.quant,file=paste0(W_D,"/data/data_quantized_101716.csv"))
+```
+
+Graph of country scores along different axes
+
+```{r graph}
+summary_dat <- dat.quant %>% select(country,trade:nutrition)
+
+ggplot(summary_dat,aes(x=trade,y=nutrition)) +
+  geom_point()+
+  geom_text(aes(label=country),size=2,vjust=1.5)+
+  xlim(5,1)+ylim(5,1)+
+  theme_minimal()+
+  xlab("Economic Potential")+
+  ylab("Nutrition Potential")
+
+ggplot(summary_dat,aes(x=reliance,y=nutrition)) +
+  geom_point()+
+  geom_text(aes(label=country),size=2,vjust=1.5)+
+  xlim(1,5)+ylim(5,1)+
+  theme_minimal()+
+  xlab("Reliance on Seafood")+
+  ylab("Nutrition Potential")
+
 ```

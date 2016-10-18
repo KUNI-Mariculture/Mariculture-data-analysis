@@ -14,6 +14,7 @@ The variables are (S indicates it will be scaled/normalized, T means transformed
     + (S,T) UV.balance: Export/import ratio in value, *per unit production*
     + (S,T) prod_ratio: Aquaculture/fisheries production (have to add this)
     + (S) spp_farmed: Total number of species harvested
+    + (S) aq_gdp: aquaculture as a percentage of gdp
   
 * __FOOD SECURITY DATA__
     + (S,T) energy_adequacy: index of adequacy of the food supply in terms of calories
@@ -68,26 +69,60 @@ dat <- dat %>%
          native, fishmeal, habitat)
 ```
 
-Production ratio data
+Production ratio data (includes freshwater species)
 
 ```{r production ratio data}
 PD <- read.csv(paste0(W_D,"/data/Production datasets/PD.csv"))
 ```
 
+Aquaculture value data. From FishStat and excluding freshwater species
+```{r aquaculture value}
+library(tidyr)
+AV <- read.csv(paste0(W_D,"/data/Aquaculture value/mariculture_value_raw.csv"))
+AV <- AV %>% gather("year","value",-country,-species,-area,-environment,-unit)
+
+AV$value <- as.numeric(AV$value)
+AV$year <- as.numeric(gsub( "X", "", as.character(AV$year)))
+
+AV <- AV %>% group_by(country,year) %>%
+  summarise(tot_value=sum(value,na.rm=T))
+```
+
 Fix names to common:
 ```{r fix names}
 # have to make sure country names line up
-PD_names <- select(PD,country) %>% rename(PDname=country) %>% arrange(PDname) %>% distinct()
+PD_names <- select(PD,country) %>% rename(PDname=country) %>% arrange(PDname) %>% distinct(.keep_all=TRUE)
 #write.csv(PD_names,file=paste0(W_D,"/data/nameconversion/PD_names.csv"),row.names=F)
 names_conv <- read.csv(paste0(W_D,"/data/nameconversion/name_conversion.csv"),stringsAsFactors = F)
+
+# Master names
+PD$country <- names_conv$MASTER[match(PD$country,names_conv$PDname)]
+AV$country <- names_conv$MASTER[match(AV$country,names_conv$PDname)]
 ```
 
-Join prod_ratio data
+Population data
+```{r population}
+popdat <- read.csv(paste0(W_D,"/data/Population2011_Coastal.csv")) %>% select(-X)
+popdat$country <- names_conv$MASTER[match(popdat$country,names_conv$nutri)]
+```
+
+New nutrition data (as of 10.16.16)
+```{r total nutrient data}
+nutdat <- read.csv(paste0(W_D,"/data/Nutrients_Coastal.csv"))
+nutdat$country <- names_conv$MASTER[match(nutdat$country,names_conv$nutri)]
+nutdat$country[29] <- "Cote dIvoire"
+```
+
+
+Join prod_ratio, aquaculture value, population, and nutrition data
 
 ```{r join prod ratio,warning=F,message=F}
 dat2 <- dat %>% 
   left_join(PD,by=c("year"="year","country"="country")) %>%
-  select(-(X:a.production),-p.species) %>%
+  left_join(AV,by=c("year"="year","country"="country")) %>%
+  left_join(popdat,by=c("country"="country","year"="year")) %>%
+  left_join(nutdat,by=c("country"="country")) %>%
+  select(-(X:f.species),-p.species,-a.production) %>%
   rename(prod_ratio=p.ratio,spp_farmed=a.species)
 
 # New dataset for normalized data
@@ -100,9 +135,19 @@ Manually remove landlocked countries
 
 ```{r remove landlocked}
 dat.norm <- dat.norm [ ! dat.norm$country %in% c("Afghanistan", "Andorra","Armenia","Austria","Azerbaijan","Belarus","Bhutan","Bolivia","Botswana","Burkina Faso", "Burundi", "Central African Republic","Chad","Czech Republic","Czechoslovakia","Ethiopia","Ethiopia PDR","Hungary","Kazakhstan","Kosovo","Kyrgyzstan","Laos","Lesotho","Liechtenstein","Luxembourg","Macedonia","Malawi","Mali","Moldova","Mongolia","Nepal","Niger","Paraguay","Rwanda","San Marino","Serbia","Serbia and Montenegro","Slovakia","South Ossetia","South Sudan","Swaziland","Switzerland","Tajikistan","Turkmenistan","Uganda","Uzbekistan","Vatican City","Zambia","Zimbabwe"),]
-
 ```
 
+Aquaculture as a percent of gdp
+```{r aq gdp}
+dat.norm <- mutate(dat.norm,aq_gdp=(tot_value*1000)/(gdp*(population*1E6))*100)
+par(mfrow=c(2,1))
+dat.norm$aq_gdp[is.infinite(dat.norm$aq_gdp)] <- NA
+```
+
+Output a version of the data
+```{r output pre-norm}
+write.csv(dat.norm,file=paste0(W_D,"/data/data_full_prenorm_101716.csv"))
+```
 ### Variable Normalization
 
 #### Trade metrics
@@ -162,6 +207,15 @@ hist(dat.norm$spp_farmed,xlab="Normalized Species Farmed Score",main="")
 
 ***
 
+Aquaculture as a percent of gdp. Calculated as aquaculture value divided [GDP times (Population*1E6)]
+
+```{r aq_gdp}
+hist(dat.norm$aq_gdp,xlab="Raw Aquaculture/GDP Score",main="")
+
+dat.norm <- mutate(dat.norm,aq_gdp=normalize(aq_gdp))
+hist(dat.norm$aq_gdp,xlab="Normalized Aquaculture/GDP Score",main="")
+```
+
 #### Food Security Data
 
 energy_adequacy, scaled relative to maximum in the data
@@ -177,8 +231,6 @@ dat.norm <- mutate(dat.norm,energy_adequacy=normalize(energy_adequacy))
 hist(dat.norm$energy_adequacy,xlab="Normalized Energy Adequacy Score",main="")
 ```
 
-The problem here is that most diets are energy adequate...
-
 ***
 
 GDP per capita, scaled relative to richest country.
@@ -190,15 +242,17 @@ hist(dat.norm$gdp,xlab="Normalized GDP Score",main="")
 
 ***
 
+
 #### Nutrition Data
 
 We first need to combine all of the vitamins into one metric. We do this by normalizing them individually and then taking a mean for each country across the individual scores
 
+
 ```{r vitamins}
 # Scale each vitamin
-dat.norm <- dat.norm %>% mutate_each(funs(normalize),vitaminA_percentseafood:zinc_percentseafood)
+dat.norm <- dat.norm %>% mutate_each(funs(normalize),vitaminA_percentseafood:zinc_percentseafood,vitaminA:magnesium)
 
-# Calculate a mean vitamin score
+# Calculate a mean vitamin score for % from seafood
 dat.norm$vitamins_all <- dat.norm %>% 
   select(vitaminA_percentseafood:zinc_percentseafood) %>% 
   rowMeans(na.rm=TRUE)
@@ -213,7 +267,7 @@ hist(dat.norm$vitamins_all,main="",xlab="Normalized Average Vitamins Score")
 Protein, calories, fatty acids all scaled relative to max.
 
 ```{r standard nutrition}
-dat.norm <- dat.norm %>% mutate_each(funs(normalize), polyunsatFA_percentseafood:protein_percentseafood)
+dat.norm <- dat.norm %>% mutate_each(funs(normalize), polyunsatFA_percentseafood:protein_percentseafood,calories,protein,polyunsatFA)
 ```
 
 ***
@@ -232,14 +286,15 @@ dat.norm <- dat.norm %>% mutate_each(funs(normalize),native:habitat)
 
 First-cut means across the categories
 
-```{r }
+```{r averages}
 # gm_mean = function(x, na.rm=FALSE){
 #   exp(sum(log(x[x > 0]), na.rm=na.rm) / length(x))
 # }
 
-dat.norm$trade <- dat.norm %>% select(Q.balance,UV.balance,prod_ratio) %>% apply(.,1,FUN=mean)
+dat.norm$trade <- dat.norm %>% select(Q.balance,UV.balance,prod_ratio,aq_gdp) %>% apply(.,1,FUN=mean)
 dat.norm$fs <- dat.norm %>% select(energy_adequacy,gdp) %>% apply(.,1,FUN=mean)
-dat.norm$nutrition <- dat.norm %>% select(polyunsatFA_percentseafood:zinc_percentseafood) %>% apply(.,1,FUN=mean)
+dat.norm$reliance <- dat.norm %>% select(polyunsatFA_percentseafood:zinc_percentseafood) %>% apply(.,1,FUN=mean)
+dat.norm$nutrition <- dat.norm %>% select(calories:polyunsatFA) %>% apply(.,1,FUN=mean)
 dat.norm$ecol <- dat.norm %>% select(native:habitat) %>% apply(.,1,FUN=mean)
 ```
 
@@ -248,5 +303,5 @@ dat.norm$ecol <- dat.norm %>% select(native:habitat) %>% apply(.,1,FUN=mean)
 Write output
 
 ```{r output}
-write.csv(dat.norm,file=paste0(W_D,"/data/data_normalized_101116.csv"))
+write.csv(dat.norm,file=paste0(W_D,"/data/data_normalized_101816.csv"))
 ```
