@@ -1,0 +1,142 @@
+---
+title: "final mariculture opportunity metrics"
+output: pdf_document
+---
+
+## Final "Mariculture Opportunity" Global Metrics
+
+* __ECONOMIC OPPORTUNITY__
+    + prod_ratio: Aquaculture/fisheries production in quantity
+    + prod_diversity: Diversity of aquaculture production (weighted by relative production)
+    + Q.balance: Export/import ratio in quantity
+    + UV.balance: Export/import ratio in value, *per unit production*
+
+  
+* __OPPORTUNITY TO IMPROVE MALNUTRTION__
+    + energy_adequacy: index of adequacy of the food supply in terms of calories
+    + polyunsatFA: polyunsatured fatty acids
+    + calories
+    + protein
+    + vitaminA
+    + iron
+    + zinc
+  
+* __RELIANCE ON SEAFOOD__: all are percent from seafood/total nutrient intake, and normalized to the 90th percentile country. All countries above the 90th percentile receive a score of 1 (the maximum).
+    + polyunsatFA_percentseafood_norm: polyunsatured fatty acids
+    + calories_percentseafood_norm
+    + protein_percentseafood_norm
+    + vitaminA_percentseafood_norm
+    + iron_percentseafood_norm
+    + zinc_percentseafood_norm
+    + mean_reliance: mean of all reliance metrics
+
+```{r global options,echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+
+### Selecting and Joining Relevant Variables
+
+Import the data
+
+```{r setup, include=T}
+library(dplyr)
+WD <- getwd()
+
+# Economic and malnutrition variables. These are in a couple of different tables.
+# The first has trade balance, energy adequacy, and raw nutrient intakes
+dat1 <- read.csv(file=paste0(WD,"/data/country_data_2011_full.csv")) %>% 
+  select(country,Q.balance,UV.balance,energy_adequacy,polyunsatFA,calories,protein,vitaminA,iron,zinc)
+
+# this has aquaculture diversity of production
+dat2 <- read.csv(paste0(WD,"/data/production_diversity_2014.csv"))
+
+# this has production ratio. Note that this includes freshwater aquaculture production, while the diversity metric above does not
+prod_ratio <- read.csv(paste0(WD,"/data/production_ratio_2014.csv")) %>%
+  select(country,prod_ratio)
+
+# reliance data
+reliance <- read.csv(paste0(WD,"/data/reliance_norm.csv"))
+```
+
+Name conversion key to match countries
+
+```{r next chunk}
+names_conv <- read.csv(paste0(WD,"/data/nameconversion/name_conversion.csv"),stringsAsFactors = F)
+
+# Master names
+dat2$country <- names_conv$MASTER[match(dat2$country,names_conv$PDname)]
+prod_ratio$country <- names_conv$MASTER[match(prod_ratio$country,names_conv$PDname)]
+reliance$country <- names_conv$MASTER[match(reliance$country,names_conv$nutri)]
+```
+
+Join the datasets by country
+
+```{r join data}
+dat.all <- dat1 %>% full_join(dat2,by="country") %>% distinct(country,.keep_all=T) %>%
+  full_join(prod_ratio,by="country") %>%
+  full_join(reliance,by="country") %>%
+  filter(country != "") %>%
+  distinct(country,.keep_all=T)
+  
+# Remove empty rows
+all.na.rows <- apply(dat.all,1,function(x){all(is.na(x[2:length(x)]))})
+dat.all <- dat.all[!all.na.rows,]
+```
+
+Manually remove landlocked countries
+
+```{r remove landlocked}
+dat.all <- dat.all [ ! dat.all$country %in% c("Afghanistan", "Andorra","Armenia","Austria","Azerbaijan","Belarus","Bhutan","Bolivia","Botswana","Burkina Faso", "Burundi", "Central African Republic","Chad","Czech Republic","Czechoslovakia","Ethiopia","Ethiopia PDR","Hungary","Kazakhstan","Kosovo","Kyrgyzstan","Laos","Lesotho","Liechtenstein","Luxembourg","Macedonia","Malawi","Mali","Moldova","Mongolia","Nepal","Niger","Paraguay","Rwanda","San Marino","Serbia","Serbia and Montenegro","Slovakia","South Ossetia","South Sudan","Swaziland","Switzerland","Tajikistan","Turkmenistan","Uganda","Uzbekistan","Vatican City","Zambia","Zimbabwe","Southern Africa","Southern Asia","Eastern Asia"),]
+```
+
+Reorder the data into categories
+
+```{r reorder}
+dat.all <- dat.all %>% select(country,Q.balance,UV.balance,prod_diversity,prod_ratio,energy_adequacy,polyunsatFA:zinc,calories_percentseafood:mean_reliance)
+```
+
+### Aggregation and Composite Scores
+
+Norm to 90th percentile country (this is already done for reliance metrics)
+
+```{r norm to 90th percentile}
+# normalize to 90th percentile. This means that we'll divide everything by the 90th percentile country in the data. All countries above this
+# cutoff get forced to 1.
+norm_90 <- function(variable) {
+ quant90 <- quantile(variable,probs=.9,na.rm=T)
+ out <- variable/quant90
+ out[out>1] <- 1
+ return(out)
+}
+
+# Add new, normalized columns for all variables (except those that have already been normalized)
+dat.norm <- dat.all %>%
+  mutate_at(vars(Q.balance:zinc),funs("norm"=norm_90)) %>%
+  
+  # reorder again
+  select(country:iron_percentseafood,Q.balance_norm:zinc_norm,calories_percentseafood_norm:iron_percentseafood_norm,mean_reliance)
+```
+
+Add aggregated scores for each category, based on 90th percentile normalized scores. For these scores, disregard NA values (although this is an important step and worth revisiting)
+
+```{r aggregate scores}
+dat.norm$mean_econ <- rowMeans(select(dat.norm,Q.balance_norm:prod_ratio_norm),na.rm=T)
+dat.norm$mean_nutrition <- rowMeans(select(dat.norm,energy_adequacy_norm:zinc_norm),na.rm=T)
+dat.norm$mean_nutrition[is.nan(dat.norm$mean_nutrition)] <- NA
+```
+
+A final mariculture opportunity score is calculated as a mean of the other aggregated values. However, because we define the greatest opportunity as a combination of a low economic score (i.e. low value of exports/imports, low production diversity, and low production ratio), a low nutrition score (i.e., low relative nutrient consumption, low energy adequacy), and a HIGH reliance score, we use 1 minus the econ and nutrition scores to do the aggregation, such that a HIGH FINAL SCORE CORRESPONDS TO GREATEST OPPORTUNITY.
+
+```{r final score}
+dat.norm <- dat.norm %>% mutate(econ_opportunity=1-mean_econ,mean_malnutrition=1-mean_nutrition)
+
+# Final score
+dat.norm$mariculture_opportunity <- rowMeans(select(dat.norm,mean_reliance,econ_opportunity,mean_malnutrition))
+```
+
+Write output file
+
+```{r write file}
+write.csv(dat.norm,file="mariculture_opportunity_metrics_10.23.16.csv")
+```
