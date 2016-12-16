@@ -1,6 +1,8 @@
 ---
-title: "final mariculture opportunity metrics"
-output: pdf_document
+title: "Global Mariculture Opportunity Metrics"
+output: 
+  pdf_document: 
+    latex_engine: xelatex
 ---
 
 ## Final "Mariculture Opportunity" Global Metrics
@@ -39,7 +41,7 @@ opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
 
 Import the data
 
-```{r setup, include=T}
+```{r setup, message=F,include=T}
 library(dplyr)
 WD <- getwd()
 
@@ -61,7 +63,7 @@ reliance <- read.csv(paste0(WD,"/data/reliance_norm.csv"))
 
 Name conversion key to match countries
 
-```{r next chunk}
+```{r next chunk,warning=F}
 names_conv <- read.csv(paste0(WD,"/data/nameconversion/name_conversion.csv"),stringsAsFactors = F)
 
 # Master names
@@ -118,12 +120,16 @@ dat.norm <- dat.all %>%
   select(country:iron_percentseafood,Q.balance_norm:zinc_norm,calories_percentseafood_norm:iron_percentseafood_norm,mean_reliance)
 ```
 
+
 Add aggregated scores for each category, based on 90th percentile normalized scores. For these scores, disregard NA values (although this is an important step and worth revisiting)
 
 ```{r aggregate scores}
 dat.norm$mean_econ <- rowMeans(select(dat.norm,Q.balance_norm:prod_ratio_norm),na.rm=T)
 dat.norm$mean_nutrition <- rowMeans(select(dat.norm,energy_adequacy_norm:zinc_norm),na.rm=T)
+
+## FOR NUTRITION, RESCALE TO 0-1. BECAUSE CALORIES, ETC. DON'T SCALE DOWN TO ZERO
 dat.norm$mean_nutrition[is.nan(dat.norm$mean_nutrition)] <- NA
+dat.norm$mean_nutrition <- (dat.norm$mean_nutrition-min(dat.norm$mean_nutrition,na.rm=T))/(max(dat.norm$mean_nutrition,na.rm=T)-min(dat.norm$mean_nutrition,na.rm=T))
 ```
 
 A final mariculture opportunity score is calculated as a mean of the other aggregated values. However, because we define the greatest opportunity as a combination of a low economic score (i.e. low value of exports/imports, low production diversity, and low production ratio), a low nutrition score (i.e., low relative nutrient consumption, low energy adequacy), and a HIGH reliance score, we use 1 minus the econ and nutrition scores to do the aggregation, such that a HIGH FINAL SCORE CORRESPONDS TO GREATEST OPPORTUNITY.
@@ -138,5 +144,86 @@ dat.norm$mariculture_opportunity <- rowMeans(select(dat.norm,mean_reliance,econ_
 Write output file
 
 ```{r write file}
-write.csv(dat.norm,file="mariculture_opportunity_metrics_10.23.16.csv",row.names = F)
+write.csv(dat.norm,file="mariculture_opportunity_metrics_12.16.16.csv",row.names = F)
+```
+
+## Visualizing Mariculture Opportunity
+
+Table of final scores
+
+```{r final table}
+finalmetrics <- select(dat.norm,country,mean_reliance,econ_opportunity:mariculture_opportunity) %>%
+  arrange(desc(mariculture_opportunity))
+
+kable(finalmetrics,
+      col.names=c("Country","Reliance Score","Econ Score","Malnutrition Score","Total Score"))
+```
+
+## Number of NAs
+```{r missing dat}
+NA_count <- dat.norm %>% summarise_all(funs(sum(is.na(.))))
+```
+
+Scatterplots of countries along opportunity axes
+
+```{r scatterplots,warning=F}
+# Table of final backgrounds
+# Colors for background
+library(grid)
+library(scales)
+library(ggplot2)
+
+#Background raster
+m <- tcrossprod(seq(1,2,length=50), seq(2, 1, length=50))
+pal <- gradient_n_pal(c("#086D30","#E6F4E9"),values=c(1,4))
+cols <- matrix(pal(m), nrow(m))
+rast <- rasterGrob(cols,x=unit(0.5,"npc"),y=unit(0.5,"npc"))
+
+# econ vs. malnutrition
+ggplot(dat.norm, aes(x=econ_opportunity,y=mean_malnutrition)) + 
+  # add gradient background 
+  annotation_custom(rast, xmin=-Inf, xmax=Inf, ymin=-Inf, ymax=Inf) + 
+  geom_point(size=0.5)+
+  geom_text(aes(label=country),size=1.8,vjust=1.2)+
+  xlab("Normalized Economic Opportunity")+
+  ylab("Normalized Malnutrition")+
+  coord_fixed(xlim=c(0,1),ylim=c(0,1))
+ggsave("econ_malnutrition.png")
+
+# econ vs. reliance
+ggplot(dat.norm, aes(x=econ_opportunity,y=mean_reliance)) + 
+  # add gradient background 
+  annotation_custom(rast, xmin=-Inf, xmax=Inf, ymin=-Inf, ymax=Inf) + 
+  geom_point(size=0.5)+
+  geom_text(aes(label=country),size=1.8,vjust=1.2)+
+  xlab("Normalized Economic Opportunity")+
+  ylab("Normalized Seafood Reliance")+
+  coord_fixed(xlim=c(0,1),ylim=c(0,1))
+ggsave("econ_reliance.png")
+
+# malnutriation vs. reliance
+ggplot(dat.norm, aes(x=mean_malnutrition,y=mean_reliance)) + 
+  # add gradient background 
+  annotation_custom(rast, xmin=-Inf, xmax=Inf, ymin=-Inf, ymax=Inf) + 
+  geom_point(size=0.5)+
+  geom_text(aes(label=country),size=1.8,vjust=1.2)+
+  xlab("Normalized Malnutrition")+
+  ylab("Normalized Seafood Reliance")+
+  coord_fixed(xlim=c(0,1),ylim=c(0,1))
+ggsave("nutrition_reliance.png")
+
+
+# econ vs. (reliance*malnutrition)
+dat.norm <- dat.norm %>% mutate(reliance_mal=sqrt(mean_reliance*mean_malnutrition))
+ggplot(dat.norm, aes(x=econ_opportunity,y=reliance_mal)) + 
+  # add gradient background 
+  annotation_custom(rast, xmin=-Inf, xmax=Inf, ymin=-Inf, ymax=Inf) + 
+  geom_point(size=0.5)+
+  geom_text(aes(label=country),size=1.8,vjust=1.2)+
+  xlab("Normalized Economic Opportunity")+
+  ylab("Geometric Mean of Reliance and Malnutrition")+
+  coord_fixed(xlim=c(0,1),ylim=c(0,1))+
+  geom_hline(yintercept=0.5,linetype=2)+
+  geom_vline(xintercept = 0.5,linetype=2)
+ggsave("econ_reliance_mal.png")
 ```

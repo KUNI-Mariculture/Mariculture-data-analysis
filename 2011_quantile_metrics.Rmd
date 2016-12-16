@@ -184,7 +184,7 @@ ggplot(summary_dat,aes(x=trade,y=nutrition)) +
   theme_minimal()+
   xlab("Economic Potential")+
   ylab("Nutrition Potential")
-
+ggsave("econ_nutrtion_scores.png")
 ggplot(summary_dat,aes(x=reliance,y=nutrition)) +
   geom_point()+
   geom_text(aes(label=country),size=2,vjust=1.5)+
@@ -192,5 +192,5 @@ ggplot(summary_dat,aes(x=reliance,y=nutrition)) +
   theme_minimal()+
   xlab("Reliance on Seafood")+
   ylab("Nutrition Potential")
-
+ggsave("reliance_nutrition_scores.png")
 ```
