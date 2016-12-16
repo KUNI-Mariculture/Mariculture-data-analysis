@@ -31,18 +31,19 @@ calc_scores <- function(dat) {
 }
 
 # calculate differences from full model
-calc_diffs <- function(dat.full,dat.reduced) {
+calc_diffs <- function(dat.full,dat.reduced,title) {
   # for each aggregate score, calculate mean change across countries
   econdiff <- dat.reduced$mean_econ - dat.full$mean_econ
   nutdiff <- dat.reduced$mean_nutrition - dat.full$mean_nutrition
   reliancediff <- dat.reduced$mean_reliance - dat.full$mean_reliance
   oppdiff <- dat.reduced$mariculture_opportunity-dat.full$mariculture_opportunity
-  par(mfrow=c(2,2))
+  par(mfrow=c(2,2),oma=c(0,0,2,0))
   
   hist(econdiff,main="Econ Change",xlim=c(-0.5,0.5))
   hist(nutdiff,main="Nutrition Change",xlim=c(-0.5,0.5))
   hist(reliancediff,main="Rel Change",xlim=c(-0.5,0.5))
   hist(oppdiff,main="Opp change",xlim=c(-0.5,0.5))
+  title(title,outer=T)
   #out <- c(econdiff,nutdiff,reliancediff,oppdiff)
   
   # names(out) <- c("econdiff","nutdiff","reliancediff","oppdiff")
@@ -50,13 +51,12 @@ calc_diffs <- function(dat.full,dat.reduced) {
 }
 
 # test for removing one variable
-test <- dat.new %>% select(-prod_diversity_norm) %>% calc_scores(.) %>% calc_diffs(dat.norm,.)
+test <- dat.new %>% select(-prod_diversity_norm) %>% calc_scores(.) %>% calc_diffs(dat.norm,.,title="prod_diversity_norm")
 
-
-sens.mat <- data_frame(variable=testvars,econdiff=NA,nutdiff=NA,reliancediff=NA,oppdiff=NA)
-
+setwd(paste0(getwd(),"/sensitivity data"))
 for(i in 1:length(testvars)) {
-  sens.mat[i,2:5] <- dat.new[-i] %>% calc_scores(.) %>% calc_diffs(dat.norm,.)
+  filename <- paste0(testvars[i],"_sens.png")
+  png(filename)
+  dat.new[-i] %>% calc_scores(.) %>% calc_diffs(dat.norm,.,title=testvars[i])
+  dev.off()
 }
-# remove very small numbers that are basically zero
-sens.mat[,2:5][abs(sens.mat[,2:5])<1E-5] <- 0
