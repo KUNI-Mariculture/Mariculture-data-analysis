@@ -3,7 +3,7 @@
 library(dplyr)
 library(ggplot2)
 
-dat.norm <- read.csv(paste0(getwd(),"/mariculture_opportunity_metrics_12.16.16.csv"))
+dat.norm <- read.csv(paste0(getwd(),"/mariculture_opportunity_metrics_12.20.16.csv"))
 dat.new <- dat.norm %>% select(country,contains("_norm")) #just the normalized variables
 
 # variables to test, and categories of variables

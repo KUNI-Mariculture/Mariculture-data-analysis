@@ -4,7 +4,10 @@ library(dplyr)
 ## Capture fisheries dataset
 
 WD <- getwd()
-capture <- read.csv(paste0(WD,"/data/Production datasets/capture_production_1950_2014.csv"))
+capture <- read.csv(paste0(WD,"/data/global_capture_production_filtered.csv"))
+capture[capture=="..."]<-NA
+capture[capture=="-"]<-NA
+capture$X2014 <- as.numeric(capture$X2014)
 
 ## Aquaculture dataset
 aquaculture <- read.csv(paste0(getwd(),"/data/Production datasets/aquaculture_production_1950_2014.csv"))

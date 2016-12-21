@@ -144,7 +144,7 @@ dat.norm$mariculture_opportunity <- rowMeans(select(dat.norm,mean_reliance,econ_
 Write output file
 
 ```{r write file}
-write.csv(dat.norm,file="mariculture_opportunity_metrics_12.16.16.csv",row.names = F)
+write.csv(dat.norm,file="mariculture_opportunity_metrics_12.20.16.csv",row.names = F)
 ```
 
 ## Visualizing Mariculture Opportunity

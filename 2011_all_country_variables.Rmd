@@ -16,7 +16,7 @@ lunique <- function(x) length(unique(x))
 W_D <- getwd() # Owen's working directory where all the scripts are.  Data files are in this wd/data
 
 # Renato's world trade dataset
-trade <- read.csv(file=paste0(W_D,"/data/WORLD_TRADE.csv"),stringsAsFactors = F)
+trade <- read.csv(file=paste0(W_D,"/WORLD_TRADE_122016.csv"),stringsAsFactors = F)
 
 # Trujillo ecological data
 # By country
@@ -36,12 +36,12 @@ trade <- trade %>% filter(year==2011) # Just year 2011
 
 # ************************Name checks***************************
 # Going to do this manually in Excel
-truj_names <- select(truj.coun,country) %>% rename(truj=country) %>% arrange(truj)
-trade_names <- select(trade,country) %>% rename(trade=country) %>% arrange(trade)
-foodsecurity_names <- select(foodsecurity,country) %>% rename(nutri=country) %>% arrange(nutri)
-write.csv(truj_names,file=paste0(W_D,"/data/nameconversion/truj_names.csv"),row.names=F)
-write.csv(trade_names,file=paste0(W_D,"/data/nameconversion/trade_names.csv"),row.names=F)
-write.csv(foodsecurity_names,file=paste0(W_D,"/data/nameconversion/nutri_names.csv"),row.names=F)
+# truj_names <- select(truj.coun,country) %>% rename(truj=country) %>% arrange(truj)
+# trade_names <- select(trade,country) %>% rename(trade=country) %>% arrange(trade)
+# foodsecurity_names <- select(foodsecurity,country) %>% rename(nutri=country) %>% arrange(nutri)
+# write.csv(truj_names,file=paste0(W_D,"/data/nameconversion/truj_names.csv"),row.names=F)
+# write.csv(trade_names,file=paste0(W_D,"/data/nameconversion/trade_names.csv"),row.names=F)
+# write.csv(foodsecurity_names,file=paste0(W_D,"/data/nameconversion/nutri_names.csv"),row.names=F)
 
 # Key, matched by hand. Converts all data to common country names
 names_conv <- read.csv(paste0(W_D,"/data/nameconversion/name_conversion.csv"),stringsAsFactors = F)
@@ -67,6 +67,6 @@ coun.data <- coun.data[,-1]
 coun.data <- full_join(coun.data,truj2,by="country")
 
 # Save data
-#write.csv(coun.data,file=paste0(W_D,"/data/country_data_2011_full.csv"),row.names = F)
+write.csv(coun.data,file=paste0(W_D,"/data/country_data_2011_full.csv"),row.names = F)
 
 ```
