@@ -1,0 +1,306 @@
+country_ID,master
+1,Afghanistan
+2,Albania
+3,Algeria
+4,American Samoa
+5,Andorra
+6,Angola
+7,Anguilla
+8,Antigua and Barbuda
+10,Arab World
+11,Argentina
+12,Armenia
+13,Aruba
+14,Australia
+15,Austria
+16,Azerbaijan
+17,Bahamas
+19,Bahrain
+20,Bangladesh
+23,Barbados
+24,Belarus
+25,Belgium
+26,Belize
+27,Benin
+28,Bermuda
+29,Bhutan
+30,Bolivia
+33,Bonaire/S.Eustatius/Saba
+34,Bosnia and Herzegovina
+36,Botswana
+37,Brazil
+40,British Indian Ocean Ter
+41,British Virgin Islands
+42,Brunei Darussalam
+43,Bulgaria
+44,Burkina Faso
+46,Burundi
+48,Cabo Verde
+49,Cambodia
+50,Cameroon
+51,Canada
+52,Cape Verde
+53,Caribbean small states
+54,Cayman Islands
+55,Central African Republic
+56,Central Europe and the Baltics
+58,Chad
+59,Channel Islands
+60,Chile
+61,China
+64,Hong Kong
+65,Macao
+67,Colombia
+68,Comoros
+69,Congo
+75,Cook Islands
+76,Costa Rica
+47,Cote dIvoire
+80,Croatia
+82,Cuba
+83,Curacao
+85,Cyprus
+86,Czech Republic
+87,Czechoslovakia
+88,North Korea
+70,Democratic Republic of the Congo
+90,Denmark
+91,Djibouti
+92,Dominica
+93,Dominican Republic
+94,Early-demographic dividend
+95,East Asia & Pacific
+96,East Asia & Pacific (excluding high income)
+97,East Asia & Pacific (IDA & IBRD countries)
+98,Eastern Asia (excluding China)
+99,Ecuador
+100,Egypt
+103,El Salvador
+104,Equatorial Guinea
+105,Eritrea
+106,Estonia
+107,Ethiopia
+109,Euro area
+110,Europe & Central Asia
+111,Europe & Central Asia (excluding high income)
+112,Europe & Central Asia (IDA & IBRD countries)
+113,European Union
+114,Falkland Is.(Malvinas)
+115,Faroe Islands
+116,Fiji
+118,Finland
+119,Fragile and conflict affected situations
+120,France
+121,French Guiana
+122,French Polynesia
+123,French Southern Terr
+124,Gabon
+125,The Gambia
+127,Georgia
+128,Germany
+129,Ghana
+130,Gibraltar
+131,Greece
+132,Greenland
+133,Grenada
+134,Guadeloupe
+135,Guam
+136,Guatemala
+137,Guinea
+138,Guinea-Bissau
+140,Guyana
+141,Haiti
+142,Heavily indebted poor countries (HIPC)
+143,High income
+144,Holy See
+145,Honduras
+148,Hungary
+149,IBRD only
+150,Iceland
+151,IDA & IBRD total
+152,IDA blend
+153,IDA only
+154,IDA total
+155,India
+158,Indonesia
+161,Iran
+165,Iraq
+166,Ireland
+167,Isle of Man
+168,Israel
+169,Italy
+170,Jamaica
+171,Japan
+174,"Jersey, Channel Islands"
+175,Jordan
+176,Kazakhstan
+177,Kenya
+178,Kiribati
+183,South Korea
+186,Kosovo
+187,Kuwait
+188,Kyrgyz Republic
+189,Kyrgyzstan
+190,Laos
+194,Late-demographic dividend
+195,Latin America & Caribbean
+196,Latin America & Caribbean (excluding high income)
+197,Latin America & the Caribbean (IDA & IBRD countries)
+198,Latvia
+199,Least developed countries: UN classification
+200,Lebanon
+201,Lesotho
+202,Liberia
+203,Libya
+204,Liechtenstein
+205,Lithuania
+206,Low & middle income
+207,Low income
+208,Lower middle income
+209,Luxembourg
+212,Macedonia
+215,Madagascar
+216,Malawi
+217,Malaysia
+218,Maldives
+219,Mali
+220,Malta
+221,Marshall Islands
+222,Martinique
+223,Mauritania
+224,Mauritius
+225,Mayotte
+226,Mexico
+229,Micronesia
+233,Middle East & North Africa
+234,Middle East & North Africa (excluding high income)
+235,Middle East & North Africa (IDA & IBRD countries)
+236,Middle income
+237,Moldova
+239,Monaco
+240,Mongolia
+241,Montenegro
+242,Montserrat
+243,Morocco
+244,Mozambique
+245,Myanmar
+246,Namibia
+247,Nauru
+248,Nepal
+249,Netherlands
+250,Netherlands Antilles
+251,Netherlands Antilles (Former)
+252,New Caledonia
+253,New Zealand
+254,Nicaragua
+255,Niger
+256,Nigeria
+259,Niue
+260,North America
+261,Northern Mariana Islands
+263,Norway
+264,Not classified
+265,OECD members
+266,Oman
+267,Other nei
+268,Other small states
+269,Pacific island small states
+270,Pakistan
+273,Palau
+274,Palestine
+275,Panama
+276,Papua New Guinea
+277,Paraguay
+278,Peru
+279,Philippines
+280,Poland
+281,Portugal
+282,Post-demographic dividend
+283,Pre-demographic dividend
+284,Puerto Rico
+286,Qatar
+287,Reunion
+292,Romania
+293,Russian Federation
+297,Rwanda
+299,Saint Helena
+301,Saint Kitts and Nevis
+302,Saint Lucia
+303,Saint Pierre and Miquelon
+304,Saint Vincent and the Grenadines
+306,Samoa
+307,San Marino
+308,Sao Tome and Principe
+309,Saudi Arabia
+310,Senegal
+311,Serbia
+312,Serbia and Montenegro
+313,Seychelles
+316,Sierra Leone
+317,Singapore
+318,Sint Maarten
+319,Sint Maarten (Dutch part)
+320,Slovak Republic
+321,Slovakia
+322,Slovenia
+323,Small states
+324,Solomon Islands
+325,Somalia
+326,South Africa
+327,South Asia
+328,South Asia (IDA & IBRD)
+329,South Sudan
+330,Southern Africa
+331,Southern Asia (excluding India)
+332,Spain
+333,Sri Lanka
+340,St. Martin (French part)
+344,Sub-Saharan Africa
+345,Sub-Saharan Africa (excluding high income)
+346,Sub-Saharan Africa (IDA & IBRD countries)
+347,Sudan
+348,Sudan (former)
+349,Suriname
+350,Swaziland
+351,Sweden
+352,Switzerland
+353,Syrian Arab Republic
+354,Taiwan
+356,Tajikistan
+357,Tanzania
+359,Thailand
+361,Timor-Leste
+364,Togo
+365,Tokelau
+366,Tonga
+367,Totals
+368,Totals  Quantity (number)
+369,Totals  Quantity (tonnes)
+370,Trinidad and Tobago
+372,Tunisia
+373,Turkey
+374,Turkmenistan
+375,Turks and Caicos Is.
+377,Tuvalu
+378,Uganda
+379,Ukraine
+380,Un. Sov. Soc. Rep.
+381,United Arab Emirates
+382,United Kingdom
+384,United States
+388,United States Virgin Islands
+389,Upper middle income
+390,Uruguay
+392,Uzbekistan
+393,Vanuatu
+394,Venezuela
+398,Vietnam
+401,Wallis and Futuna Islands
+403,West Bank and Gaza
+406,Western Sahara
+407,World
+408,Yemen
+411,Yugoslavia SFR
+412,Zambia
+413,Zanzibar
+414,Zimbabwe

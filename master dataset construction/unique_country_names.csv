@@ -1,0 +1,415 @@
+"","name","country_ID"
+"1","Afghanistan",0
+"2","Albania",0
+"3","Algeria",0
+"4","American Samoa",0
+"5","Andorra",0
+"6","Angola",0
+"7","Anguilla",0
+"8","Antigua and Barbuda",0
+"9","Antigua And Barbuda",0
+"10","Arab World",0
+"11","Argentina",0
+"12","Armenia",0
+"13","Aruba",0
+"14","Australia",0
+"15","Austria",0
+"16","Azerbaijan",0
+"17","Bahamas",0
+"18","Bahamas, The",0
+"19","Bahrain",0
+"20","Bangladesh",0
+"21","Bangladesh - Chittagong",0
+"22","Bangladesh - Dhaka ",0
+"23","Barbados",0
+"24","Belarus",0
+"25","Belgium",0
+"26","Belize",0
+"27","Benin",0
+"28","Bermuda",0
+"29","Bhutan",0
+"30","Bolivia",0
+"31","Bolivia (Plurinat.State)",0
+"32","Bolivia (Plurinational State of)",0
+"33","Bonaire/S.Eustatius/Saba",0
+"34","Bosnia and Herzegovina",0
+"35","Bosnia And Herzegovina",0
+"36","Botswana",0
+"37","Brazil",0
+"38","Brazil - Rio de Janeiro",0
+"39","Brazil - SÃ£o Paulo ",0
+"40","British Indian Ocean Ter",0
+"41","British Virgin Islands",0
+"42","Brunei Darussalam",0
+"43","Bulgaria",0
+"44","Burkina Faso",0
+"45","Burkinaaso",0
+"46","Burundi",0
+"47","Cªte d'Ivoire",0
+"48","Cabo Verde",0
+"49","Cambodia",0
+"50","Cameroon",0
+"51","Canada",0
+"52","Cape Verde",0
+"53","Caribbean small states",0
+"54","Cayman Islands",0
+"55","Central African Republic",0
+"56","Central Europe and the Baltics",0
+"57","C»te d'Ivoire",0
+"58","Chad",0
+"59","Channel Islands",0
+"60","Chile",0
+"61","China",0
+"62","China - Beijing",0
+"63","China - Shanghai",0
+"64","China, Hong Kong SAR",0
+"65","China, Macao SAR",0
+"66","CÃ´te D'Ivoire",0
+"67","Colombia",0
+"68","Comoros",0
+"69","Congo",0
+"70","Congo, Dem Rep",0
+"71","Congo, Dem. Rep.",0
+"72","Congo, Dem. Rep. of the",0
+"73","Congo, Rep",0
+"74","Congo, Rep.",0
+"75","Cook Islands",0
+"76","Costa Rica",0
+"77","Cote d'Ivoire",0
+"78","CÙte d'Ivoire",0
+"79","Cote dâ€™Ivoire",0
+"80","Croatia",0
+"81","Côte d'Ivoire",0
+"82","Cuba",0
+"83","Curaçao",0
+"84","Curacao",0
+"85","Cyprus",0
+"86","Czech Republic",0
+"87","Czechoslovakia",0
+"88","Democratic People's Republic of Korea",0
+"89","Democratic Republic of the Congo",0
+"90","Denmark",0
+"91","Djibouti",0
+"92","Dominica",0
+"93","Dominican Republic",0
+"94","Early-demographic dividend",0
+"95","East Asia & Pacific",0
+"96","East Asia & Pacific (excluding high income)",0
+"97","East Asia & Pacific (IDA & IBRD countries)",0
+"98","Eastern Asia (excluding China)",0
+"99","Ecuador",0
+"100","Egypt",0
+"101","Egypt, Arab Rep",0
+"102","Egypt, Arab Rep.",0
+"103","El Salvador",0
+"104","Equatorial Guinea",0
+"105","Eritrea",0
+"106","Estonia",0
+"107","Ethiopia",0
+"108","Ethiopia PDR",0
+"109","Euro area",0
+"110","Europe & Central Asia",0
+"111","Europe & Central Asia (excluding high income)",0
+"112","Europe & Central Asia (IDA & IBRD countries)",0
+"113","European Union",0
+"114","Falkland Is.(Malvinas)",0
+"115","Faroe Islands",0
+"116","Fiji",0
+"117","Fiji, Republic of",0
+"118","Finland",0
+"119","Fragile and conflict affected situations",0
+"120","France",0
+"121","French Guiana",0
+"122","French Polynesia",0
+"123","French Southern Terr",0
+"124","Gabon",0
+"125","Gambia",0
+"126","Gambia, The",0
+"127","Georgia",0
+"128","Germany",0
+"129","Ghana",0
+"130","Gibraltar",0
+"131","Greece",0
+"132","Greenland",0
+"133","Grenada",0
+"134","Guadeloupe",0
+"135","Guam",0
+"136","Guatemala",0
+"137","Guinea",0
+"138","Guinea-Bissau",0
+"139","GuineaBissau",0
+"140","Guyana",0
+"141","Haiti",0
+"142","Heavily indebted poor countries (HIPC)",0
+"143","High income",0
+"144","Holy See",0
+"145","Honduras",0
+"146","Hong Kong Sar, China",0
+"147","Hong Kong SAR, China",0
+"148","Hungary",0
+"149","IBRD only",0
+"150","Iceland",0
+"151","IDA & IBRD total",0
+"152","IDA blend",0
+"153","IDA only",0
+"154","IDA total",0
+"155","India",0
+"156","India - Delhi",0
+"157","India - Mumbai",0
+"158","Indonesia",0
+"159","Indonesia - Jakarta",0
+"160","Indonesia - Surabaya",0
+"161","Iran (Islamic Rep. of)",0
+"162","Iran (Islamic Republic of)",0
+"163","Iran, Islamic Rep",0
+"164","Iran, Islamic Rep.",0
+"165","Iraq",0
+"166","Ireland",0
+"167","Isle of Man",0
+"168","Israel",0
+"169","Italy",0
+"170","Jamaica",0
+"171","Japan",0
+"172","Japan - Osaka",0
+"173","Japan - Tokyo",0
+"174","Jersey, Channel Islands",0
+"175","Jordan",0
+"176","Kazakhstan",0
+"177","Kenya",0
+"178","Kiribati",0
+"179","Korea, Dem. People's Rep",0
+"180","Korea, Dem. Peopleâ€™s Rep.",0
+"181","Korea, Dem. People‰Ûªs Rep.",0
+"182","Korea, Dem. Rep.",0
+"183","Korea, Rep",0
+"184","Korea, Rep.",0
+"185","Korea, Republic of",0
+"186","Kosovo",0
+"187","Kuwait",0
+"188","Kyrgyz Republic",0
+"189","Kyrgyzstan",0
+"190","Lao Pdr",0
+"191","Lao PDR",0
+"192","Lao People's Dem. Rep.",0
+"193","Lao People's Democratic Republic",0
+"194","Late-demographic dividend",0
+"195","Latin America & Caribbean",0
+"196","Latin America & Caribbean (excluding high income)",0
+"197","Latin America & the Caribbean (IDA & IBRD countries)",0
+"198","Latvia",0
+"199","Least developed countries: UN classification",0
+"200","Lebanon",0
+"201","Lesotho",0
+"202","Liberia",0
+"203","Libya",0
+"204","Liechtenstein",0
+"205","Lithuania",0
+"206","Low & middle income",0
+"207","Low income",0
+"208","Lower middle income",0
+"209","Luxembourg",0
+"210","Macao Sar, China",0
+"211","Macao SAR, China",0
+"212","Macedonia, Fyr",0
+"213","Macedonia, FYR",0
+"214","Macedonia,mr Yug Rp of",0
+"215","Madagascar",0
+"216","Malawi",0
+"217","Malaysia",0
+"218","Maldives",0
+"219","Mali",0
+"220","Malta",0
+"221","Marshall Islands",0
+"222","Martinique",0
+"223","Mauritania",0
+"224","Mauritius",0
+"225","Mayotte",0
+"226","Mexico",0
+"227","Mexico - Mexico City",0
+"228","Mexico - Monterrey",0
+"229","Micronesia (Federated States of)",0
+"230","Micronesia, Fed Sts",0
+"231","Micronesia, Fed. Sts.",0
+"232","Micronesia,ed.States of",0
+"233","Middle East & North Africa",0
+"234","Middle East & North Africa (excluding high income)",0
+"235","Middle East & North Africa (IDA & IBRD countries)",0
+"236","Middle income",0
+"237","Moldova",0
+"238","Moldova, Republic of",0
+"239","Monaco",0
+"240","Mongolia",0
+"241","Montenegro",0
+"242","Montserrat",0
+"243","Morocco",0
+"244","Mozambique",0
+"245","Myanmar",0
+"246","Namibia",0
+"247","Nauru",0
+"248","Nepal",0
+"249","Netherlands",0
+"250","Netherlands Antilles",0
+"251","Netherlands Antilles (Former)",0
+"252","New Caledonia",0
+"253","New Zealand",0
+"254","Nicaragua",0
+"255","Niger",0
+"256","Nigeria",0
+"257","Nigeria - Kano",0
+"258","Nigeria - Lagos",0
+"259","Niue",0
+"260","North America",0
+"261","Northern Mariana Is.",0
+"262","Northern Mariana Islands",0
+"263","Norway",0
+"264","Not classified",0
+"265","OECD members",0
+"266","Oman",0
+"267","Other nei",0
+"268","Other small states",0
+"269","Pacific island small states",0
+"270","Pakistan",0
+"271","Pakistan - Karachi",0
+"272","Pakistan - Lahore",0
+"273","Palau",0
+"274","Palestine, Occupied Tr.",0
+"275","Panama",0
+"276","Papua New Guinea",0
+"277","Paraguay",0
+"278","Peru",0
+"279","Philippines",0
+"280","Poland",0
+"281","Portugal",0
+"282","Post-demographic dividend",0
+"283","Pre-demographic dividend",0
+"284","Puerto Rico",0
+"285","Puerto Rico US",0
+"286","Qatar",0
+"287","R_union",0
+"288","Republic of Korea",0
+"289","Republic of Moldova",0
+"290","RÈunion",0
+"291","RÃ©union",0
+"292","Romania",0
+"293","Russian Federation",0
+"294","Russian Federation - Moscow",0
+"295","Russian Federation - Saint Petersburg",0
+"296","Russianederation",0
+"297","Rwanda",0
+"298","Réunion",0
+"299","Saint Helena",0
+"300","Saint Helena, Ascension and Tristan da Cunha",0
+"301","Saint Kitts and Nevis",0
+"302","Saint Lucia",0
+"303","Saint Pierre and Miquelon",0
+"304","Saint Vincent and the Grenadines",0
+"305","Saint Vincent/Grenadines",0
+"306","Samoa",0
+"307","San Marino",0
+"308","Sao Tome and Principe",0
+"309","Saudi Arabia",0
+"310","Senegal",0
+"311","Serbia",0
+"312","Serbia and Montenegro",0
+"313","Seychelles",0
+"314","SÃ£o TomÃ© and PrÃ_ncipe",0
+"315","SÃ£o TomÃ© And Principe",0
+"316","Sierra Leone",0
+"317","Singapore",0
+"318","Sint Maarten",0
+"319","Sint Maarten (Dutch part)",0
+"320","Slovak Republic",0
+"321","Slovakia",0
+"322","Slovenia",0
+"323","Small states",0
+"324","Solomon Islands",0
+"325","Somalia",0
+"326","South Africa",0
+"327","South Asia",0
+"328","South Asia (IDA & IBRD)",0
+"329","South Sudan",0
+"330","Southern Africa",0
+"331","Southern Asia (excluding India)",0
+"332","Spain",0
+"333","Sri Lanka",0
+"334","St Kitts and Nevis",0
+"335","St Lucia",0
+"336","St Vincent and the Grenadines",0
+"337","St. Kitts and Nevis",0
+"338","St. Kitts And Nevis",0
+"339","St. Lucia",0
+"340","St. Martin (French part)",0
+"341","St. Pierre and Miquelon",0
+"342","St. Vincent and the Grenadines",0
+"343","St. Vincent And The Grenadines",0
+"344","Sub-Saharan Africa",0
+"345","Sub-Saharan Africa (excluding high income)",0
+"346","Sub-Saharan Africa (IDA & IBRD countries)",0
+"347","Sudan",0
+"348","Sudan (former)",0
+"349","Suriname",0
+"350","Swaziland",0
+"351","Sweden",0
+"352","Switzerland",0
+"353","Syrian Arab Republic",0
+"354","Taiwan Province of China",0
+"355","Taiwan, China",0
+"356","Tajikistan",0
+"357","Tanzania",0
+"358","Tanzania, United Rep. of",0
+"359","Thailand",0
+"360","The former Yugoslav Republic of Macedonia",0
+"361","Timor-Leste",0
+"362","TimorLeste",0
+"363","TimorNALeste",0
+"364","Togo",0
+"365","Tokelau",0
+"366","Tonga",0
+"367","Totals",0
+"368","Totals  Quantity (number)",0
+"369","Totals  Quantity (tonnes)",0
+"370","Trinidad and Tobago",0
+"371","Trinidad And Tobago",0
+"372","Tunisia",0
+"373","Turkey",0
+"374","Turkmenistan",0
+"375","Turks and Caicos Is.",0
+"376","Turks and Caicos Islands",0
+"377","Tuvalu",0
+"378","Uganda",0
+"379","Ukraine",0
+"380","Un. Sov. Soc. Rep.",0
+"381","United Arab Emirates",0
+"382","United Kingdom",0
+"383","United Republic of Tanzania",0
+"384","United States",0
+"385","United States - Los Angeles",0
+"386","United States - New York City",0
+"387","United States of America",0
+"388","United States Virgin Islands",0
+"389","Upper middle income",0
+"390","Uruguay",0
+"391","US Virgin Islands",0
+"392","Uzbekistan",0
+"393","Vanuatu",0
+"394","Venezuela (Bolivarian Republic of)",0
+"395","Venezuela, Boliv Rep of",0
+"396","Venezuela, Rb",0
+"397","Venezuela, RB",0
+"398","Viet Nam",0
+"399","Vietnam",0
+"400","Virgin Islands (U.S.)",0
+"401","Wallis and Futuna Islands",0
+"402","Wallis andutuna Is.",0
+"403","West Bank and Gaza",0
+"404","West Bank And Gaza",0
+"405","West Bank and Gaza Strip",0
+"406","Western Sahara",0
+"407","World",0
+"408","Yemen",0
+"409","Yemen, Rep",0
+"410","Yemen, Rep.",0
+"411","Yugoslavia SFR",0
+"412","Zambia",0
+"413","Zanzibar",0
+"414","Zimbabwe",0

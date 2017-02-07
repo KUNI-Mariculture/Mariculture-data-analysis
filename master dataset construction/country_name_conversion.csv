@@ -1,0 +1,415 @@
+name,country_ID
+Afghanistan,1
+Albania,2
+Algeria,3
+American Samoa,4
+Andorra,5
+Angola,6
+Anguilla,7
+Antigua and Barbuda,8
+Antigua And Barbuda,8
+Arab World,10
+Argentina,11
+Armenia,12
+Aruba,13
+Australia,14
+Austria,15
+Azerbaijan,16
+Bahamas,17
+"Bahamas, The",17
+Bahrain,19
+Bangladesh,20
+Bangladesh - Chittagong,20
+Bangladesh - Dhaka ,20
+Barbados,23
+Belarus,24
+Belgium,25
+Belize,26
+Benin,27
+Bermuda,28
+Bhutan,29
+Bolivia,30
+Bolivia (Plurinat.State),30
+Bolivia (Plurinational State of),30
+Bonaire/S.Eustatius/Saba,33
+Bosnia and Herzegovina,34
+Bosnia And Herzegovina,34
+Botswana,36
+Brazil,37
+Brazil - Rio de Janeiro,37
+Brazil - SÃ£o Paulo ,37
+British Indian Ocean Ter,40
+British Virgin Islands,41
+Brunei Darussalam,42
+Bulgaria,43
+Burkina Faso,44
+Burkinaaso,44
+Burundi,46
+Cªte d'Ivoire,47
+Cabo Verde,48
+Cambodia,49
+Cameroon,50
+Canada,51
+Cape Verde,52
+Caribbean small states,53
+Cayman Islands,54
+Central African Republic,55
+Central Europe and the Baltics,56
+C»te d'Ivoire,47
+Chad,58
+Channel Islands,59
+Chile,60
+China,61
+China - Beijing,61
+China - Shanghai,61
+"China, Hong Kong SAR",64
+"China, Macao SAR",65
+CÃ´te D'Ivoire,47
+Colombia,67
+Comoros,68
+Congo,69
+"Congo, Dem Rep",70
+"Congo, Dem. Rep.",70
+"Congo, Dem. Rep. of the",70
+"Congo, Rep",69
+"Congo, Rep.",69
+Cook Islands,75
+Costa Rica,76
+Cote d'Ivoire,47
+CÙte d'Ivoire,47
+Cote dâ€™Ivoire,47
+Croatia,80
+Côte d'Ivoire,47
+Cuba,82
+Curaçao,83
+Curacao,83
+Cyprus,85
+Czech Republic,86
+Czechoslovakia,87
+Democratic People's Republic of Korea,88
+Democratic Republic of the Congo,70
+Denmark,90
+Djibouti,91
+Dominica,92
+Dominican Republic,93
+Early-demographic dividend,94
+East Asia & Pacific,95
+East Asia & Pacific (excluding high income),96
+East Asia & Pacific (IDA & IBRD countries),97
+Eastern Asia (excluding China),98
+Ecuador,99
+Egypt,100
+"Egypt, Arab Rep",100
+"Egypt, Arab Rep.",100
+El Salvador,103
+Equatorial Guinea,104
+Eritrea,105
+Estonia,106
+Ethiopia,107
+Ethiopia PDR,107
+Euro area,109
+Europe & Central Asia,110
+Europe & Central Asia (excluding high income),111
+Europe & Central Asia (IDA & IBRD countries),112
+European Union,113
+Falkland Is.(Malvinas),114
+Faroe Islands,115
+Fiji,116
+"Fiji, Republic of",116
+Finland,118
+Fragile and conflict affected situations,119
+France,120
+French Guiana,121
+French Polynesia,122
+French Southern Terr,123
+Gabon,124
+Gambia,125
+"Gambia, The",125
+Georgia,127
+Germany,128
+Ghana,129
+Gibraltar,130
+Greece,131
+Greenland,132
+Grenada,133
+Guadeloupe,134
+Guam,135
+Guatemala,136
+Guinea,137
+Guinea-Bissau,138
+GuineaBissau,138
+Guyana,140
+Haiti,141
+Heavily indebted poor countries (HIPC),142
+High income,143
+Holy See,144
+Honduras,145
+"Hong Kong Sar, China",64
+"Hong Kong SAR, China",64
+Hungary,148
+IBRD only,149
+Iceland,150
+IDA & IBRD total,151
+IDA blend,152
+IDA only,153
+IDA total,154
+India,155
+India - Delhi,155
+India - Mumbai,155
+Indonesia,158
+Indonesia - Jakarta,158
+Indonesia - Surabaya,158
+Iran (Islamic Rep. of),161
+Iran (Islamic Republic of),161
+"Iran, Islamic Rep",161
+"Iran, Islamic Rep.",161
+Iraq,165
+Ireland,166
+Isle of Man,167
+Israel,168
+Italy,169
+Jamaica,170
+Japan,171
+Japan - Osaka,171
+Japan - Tokyo,171
+"Jersey, Channel Islands",174
+Jordan,175
+Kazakhstan,176
+Kenya,177
+Kiribati,178
+"Korea, Dem. People's Rep",88
+"Korea, Dem. Peopleâ€™s Rep.",88
+"Korea, Dem. People‰Ûªs Rep.",88
+"Korea, Dem. Rep.",88
+"Korea, Rep",183
+"Korea, Rep.",183
+"Korea, Republic of",183
+Kosovo,186
+Kuwait,187
+Kyrgyz Republic,188
+Kyrgyzstan,189
+Lao Pdr,190
+Lao PDR,190
+Lao People's Dem. Rep.,190
+Lao People's Democratic Republic,190
+Late-demographic dividend,194
+Latin America & Caribbean,195
+Latin America & Caribbean (excluding high income),196
+Latin America & the Caribbean (IDA & IBRD countries),197
+Latvia,198
+Least developed countries: UN classification,199
+Lebanon,200
+Lesotho,201
+Liberia,202
+Libya,203
+Liechtenstein,204
+Lithuania,205
+Low & middle income,206
+Low income,207
+Lower middle income,208
+Luxembourg,209
+"Macao Sar, China",65
+"Macao SAR, China",65
+"Macedonia, Fyr",212
+"Macedonia, FYR",212
+"Macedonia,mr Yug Rp of",212
+Madagascar,215
+Malawi,216
+Malaysia,217
+Maldives,218
+Mali,219
+Malta,220
+Marshall Islands,221
+Martinique,222
+Mauritania,223
+Mauritius,224
+Mayotte,225
+Mexico,226
+Mexico - Mexico City,226
+Mexico - Monterrey,226
+Micronesia (Federated States of),229
+"Micronesia, Fed Sts",229
+"Micronesia, Fed. Sts.",229
+"Micronesia,ed.States of",229
+Middle East & North Africa,233
+Middle East & North Africa (excluding high income),234
+Middle East & North Africa (IDA & IBRD countries),235
+Middle income,236
+Moldova,237
+"Moldova, Republic of",237
+Monaco,239
+Mongolia,240
+Montenegro,241
+Montserrat,242
+Morocco,243
+Mozambique,244
+Myanmar,245
+Namibia,246
+Nauru,247
+Nepal,248
+Netherlands,249
+Netherlands Antilles,250
+Netherlands Antilles (Former),251
+New Caledonia,252
+New Zealand,253
+Nicaragua,254
+Niger,255
+Nigeria,256
+Nigeria - Kano,256
+Nigeria - Lagos,256
+Niue,259
+North America,260
+Northern Mariana Is.,261
+Northern Mariana Islands,261
+Norway,263
+Not classified,264
+OECD members,265
+Oman,266
+Other nei,267
+Other small states,268
+Pacific island small states,269
+Pakistan,270
+Pakistan - Karachi,270
+Pakistan - Lahore,270
+Palau,273
+"Palestine, Occupied Tr.",274
+Panama,275
+Papua New Guinea,276
+Paraguay,277
+Peru,278
+Philippines,279
+Poland,280
+Portugal,281
+Post-demographic dividend,282
+Pre-demographic dividend,283
+Puerto Rico,284
+Puerto Rico US,284
+Qatar,286
+R_union,287
+Republic of Korea,183
+Republic of Moldova,237
+RÈunion,287
+RÃ©union,287
+Romania,292
+Russian Federation,293
+Russian Federation - Moscow,293
+Russian Federation - Saint Petersburg,293
+Russianederation,293
+Rwanda,297
+Réunion,287
+Saint Helena,299
+"Saint Helena, Ascension and Tristan da Cunha",299
+Saint Kitts and Nevis,301
+Saint Lucia,302
+Saint Pierre and Miquelon,303
+Saint Vincent and the Grenadines,304
+Saint Vincent/Grenadines,304
+Samoa,306
+San Marino,307
+Sao Tome and Principe,308
+Saudi Arabia,309
+Senegal,310
+Serbia,311
+Serbia and Montenegro,312
+Seychelles,313
+SÃ£o TomÃ© and PrÃ_ncipe,308
+SÃ£o TomÃ© And Principe,308
+Sierra Leone,316
+Singapore,317
+Sint Maarten,318
+Sint Maarten (Dutch part),319
+Slovak Republic,320
+Slovakia,321
+Slovenia,322
+Small states,323
+Solomon Islands,324
+Somalia,325
+South Africa,326
+South Asia,327
+South Asia (IDA & IBRD),328
+South Sudan,329
+Southern Africa,330
+Southern Asia (excluding India),331
+Spain,332
+Sri Lanka,333
+St Kitts and Nevis,301
+St Lucia,302
+St Vincent and the Grenadines,304
+St. Kitts and Nevis,301
+St. Kitts And Nevis,301
+St. Lucia,302
+St. Martin (French part),340
+St. Pierre and Miquelon,303
+St. Vincent and the Grenadines,304
+St. Vincent And The Grenadines,304
+Sub-Saharan Africa,344
+Sub-Saharan Africa (excluding high income),345
+Sub-Saharan Africa (IDA & IBRD countries),346
+Sudan,347
+Sudan (former),348
+Suriname,349
+Swaziland,350
+Sweden,351
+Switzerland,352
+Syrian Arab Republic,353
+Taiwan Province of China,354
+"Taiwan, China",354
+Tajikistan,356
+Tanzania,357
+"Tanzania, United Rep. of",357
+Thailand,359
+The former Yugoslav Republic of Macedonia,212
+Timor-Leste,361
+TimorLeste,361
+TimorNALeste,361
+Togo,364
+Tokelau,365
+Tonga,366
+Totals,367
+Totals  Quantity (number),368
+Totals  Quantity (tonnes),369
+Trinidad and Tobago,370
+Trinidad And Tobago,370
+Tunisia,372
+Turkey,373
+Turkmenistan,374
+Turks and Caicos Is.,375
+Turks and Caicos Islands,375
+Tuvalu,377
+Uganda,378
+Ukraine,379
+Un. Sov. Soc. Rep.,380
+United Arab Emirates,381
+United Kingdom,382
+United Republic of Tanzania,357
+United States,384
+United States - Los Angeles,384
+United States - New York City,384
+United States of America,384
+United States Virgin Islands,388
+Upper middle income,389
+Uruguay,390
+US Virgin Islands,388
+Uzbekistan,392
+Vanuatu,393
+Venezuela (Bolivarian Republic of),394
+"Venezuela, Boliv Rep of",394
+"Venezuela, Rb",394
+"Venezuela, RB",394
+Viet Nam,398
+Vietnam,398
+Virgin Islands (U.S.),388
+Wallis and Futuna Islands,401
+Wallis andutuna Is.,401
+West Bank and Gaza,403
+West Bank And Gaza,403
+West Bank and Gaza Strip,403
+Western Sahara,406
+World,407
+Yemen,408
+"Yemen, Rep",408
+"Yemen, Rep.",408
+Yugoslavia SFR,411
+Zambia,412
+Zanzibar,413
+Zimbabwe,414
