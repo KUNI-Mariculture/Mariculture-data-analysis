@@ -202,14 +202,14 @@ ECON <- merge(ECON, GDP,by.x=c('country_ID','year'),by.y=c('country_ID','year'),
 # production ratio aquaculture divided by fisheries
 ECON$gross.production.ratio <- ECON$Aq.prod/ECON$F.prod   
 
-# trade balance in quantity, imports divided by exports
-ECON$Q.trade.deficit <- ECON$Q.imp/ECON$Q.Exp
+# trade balance in quantity, exports divided by imports
+ECON$Q.trade.deficit <- ECON$Q.Exp/ECON$Q.imp
 
-# trade balance in value, imports divided by exports
-ECON$V.trade.deficit <- ECON$V.imp/ECON$V.Exp
+# trade balance in value, exports divided by imports
+ECON$V.trade.deficit <- ECON$V.Exp/ECON$V.imp
 
-# "willingness to pay", equal to total value of imports divided by population
-ECON$willingness <- ECON$V.imp/ECON$Population
+# "willingness to pay", equal to total value of imports divided by GDP
+ECON$willingness <- ECON$GDP/ECON$V.imp
 
 # GDP per capita #
 ECON$gdppc <- ECON$GDP/ECON$Population
@@ -260,7 +260,7 @@ FULLDAT <- inner_join(FULLDAT,RELIANCE,by=c("country_ID"))
 
 # add back a country name #
 master_names <- read.csv("master_names.csv",stringsAsFactors = F)
-FULLDAT <- FULLDAT %>% left_join(master_names) %>% rename(country_name=master)
+FULLDAT <- FULLDAT %>% left_join(master_names) %>% dplyr::rename(country_name=master)
 
 #### REMOVE LANDLOCKED COUNTRIES ####
 FULLDAT <- FULLDAT [ ! FULLDAT$country_name %in% c("Afghanistan", "Andorra","Armenia","Austria",
@@ -284,11 +284,11 @@ FULLDAT <- FULLDAT %>% select(country_name,country_ID,year,Population,GDP,
 
 #### NORMALIZE VARIABLES ####
 # for most of the variables, we normalize
-# to 90th percentile. This means that we'll divide everything by the 90th percentile country in the data. 
+# to 90th percentile. This means that we'll divide everything by the *90th* percentile country in the data. 
 # All countries above this cutoff get forced to 1.
 
 norm_90 <- function(variable) {
-  quant90 <- quantile(variable,probs=.9,na.rm=T)
+  quant90 <- quantile(variable,probs=.8,na.rm=T)
   out <- variable/quant90
   out[out>1] <- 1
   return(out)
