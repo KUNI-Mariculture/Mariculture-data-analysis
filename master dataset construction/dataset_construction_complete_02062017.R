@@ -258,9 +258,26 @@ RELIANCE <- RELIANCE[rowSums(is.na(RELIANCE))!=nvars,]
 FULLDAT <- inner_join(ECON,NUTRITION,by=c("country_ID"))
 FULLDAT <- inner_join(FULLDAT,RELIANCE,by=c("country_ID"))
 
-# add back a country name #
+# add back a country name. Also includes IUCN region #
+# region2 variable has fewer categories (for plotting)
+region2 <- function(x) {
+  out <- x
+  out[out=="North Asia"] <-"Asia"
+  out[out=="East Asia"] <- "Asia"
+  out[out=="West & Central Asia"] <- "Asia"
+  out[out=="Sub-Saharan Africa"] <- "Africa"
+  out[out=="North Africa"] <- "Africa"
+  out[out=="Mesoamerica"] <- "Latin America and Caribbean"
+  out[out=="South America"] <- "Latin America and Caribbean"
+  out[out=="Caribbean Islands"] <- "Latin America and Caribbean"
+  out[out=="Oceania"] <- "South East Asia and Oceania"
+  out[out=="South & South East Asia"] <- "South East Asia and Oceania"
+  return(out)
+}
 master_names <- read.csv("master_names.csv",stringsAsFactors = F)
-FULLDAT <- FULLDAT %>% left_join(master_names) %>% dplyr::rename(country_name=master)
+FULLDAT <- FULLDAT %>% left_join(master_names) %>% 
+  dplyr::rename(country_name=master) %>%
+  mutate(region2=region2(region))
 
 #### REMOVE LANDLOCKED COUNTRIES ####
 FULLDAT <- FULLDAT [ ! FULLDAT$country_name %in% c("Afghanistan", "Andorra","Armenia","Austria",
@@ -278,13 +295,13 @@ FULLDAT <- FULLDAT [ ! FULLDAT$country_name %in% c("Afghanistan", "Andorra","Arm
 # We only use some of the variables for scoring #
 # The others, we put as the first columns of the dataset #
 # Then, the econ, nutrition, and reliance variables from left to right #
-FULLDAT <- FULLDAT %>% select(country_name,country_ID,year,Population,GDP,
+FULLDAT <- FULLDAT %>% select(country_name,country_ID,region,regions2,year,Population,GDP,
                               Aq.prod:V.imp,DTF:`Voice and accountability`,
                               gross.production.ratio:gdppc,energy_adequacy:iron_percentseafood)
 
 #### NORMALIZE VARIABLES ####
 # for most of the variables, we normalize
-# to 90th percentile. This means that we'll divide everything by the *90th* percentile country in the data. 
+# to 80th percentile. This means that we'll divide everything by the *80th* percentile country in the data. 
 # All countries above this cutoff get forced to 1.
 
 norm_90 <- function(variable) {
@@ -339,15 +356,10 @@ NA_count <- FULLDAT.NORM %>% summarise_all(funs(sum(is.na(.))))
 
 ## Biplots of final scores ##
 # econ vs. malnutrition
-ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=mean_malnutrition)) + 
-  geom_point(size=0.5)+
-  geom_text(aes(label=country_name),size=1.8,vjust=1.2)+
-  xlab("Normalized Economic Opportunity")+
-  ylab("Normalized Malnutrition")+
-  coord_fixed(xlim=c(0,1),ylim=c(0,1))+
-  geom_hline(yintercept=0.5,linetype=2)+
-  geom_vline(xintercept = 0.5,linetype=2)
-ggsave("econ_malnutrition.png")
+econ_mal <-ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=mean_malnutrition)) + 
+  geom_point(aes(col=region2,size=mean_reliance))
+
+ggsave("econ_malnutrition.png",plot=econ_mal)
 
 # econ vs. reliance
 ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=mean_reliance)) + 
@@ -373,12 +385,54 @@ ggsave("nutrition_reliance.png")
 
 
 # econ vs. (reliance*malnutrition)
-ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=reliance_mal)) + 
-  geom_point(size=0.5)+
-  geom_text(aes(label=country_name),size=1.8,vjust=1.2)+
-  xlab("Normalized Economic Opportunity")+
-  ylab("Geometric Mean of Reliance and Malnutrition")+
+econ_rel_mal <- ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=reliance_mal)) + 
+  geom_point(aes(col=region2),size=3)
+ggsave("econ_reliance_mal.png",plot=econ_rel_mal)
+
+### For Presentation ###
+library(extrafont)
+library(ggplot2)
+library(ggthemes)
+
+kobe2 <- econ_rel_mal+
   coord_fixed(xlim=c(0,1),ylim=c(0,1))+
   geom_hline(yintercept=0.5,linetype=2)+
-  geom_vline(xintercept = 0.5,linetype=2)
-ggsave("econ_reliance_mal.png")
+  geom_vline(xintercept = 0.5,linetype=2)+
+  ggtitle("Global Mariculture Opportunity")+
+  xlab("Economic Opportunity")+
+  ylab("Reliance and Nutrition Opportunity")+
+  scale_color_brewer(palette = "Spectral")+
+  theme_few()+
+  theme(legend.position = "right",
+        text = element_text(size = 18,color="black",family="Rockwell"),
+        panel.border = element_blank(),
+        legend.key = element_blank(),
+        legend.title=element_blank(),
+        plot.title = element_text(
+          colour = "black",
+          size = 20,
+          hjust = 3.5))
+ggsave("biplot.png", plot=kobe2,  width=8)
+
+### Econ, Mal, Reliance as size
+pal <- c("#9E0142", "#D53E4F", "#F46D43","#66C2A5", "#3288BD", "#5E4FA2")
+econ_mal2 <- econ_mal+
+  coord_fixed(xlim=c(0,1),ylim=c(0,1))+
+  geom_hline(yintercept=0.5,linetype=2)+
+  geom_vline(xintercept = 0.5,linetype=2)+
+  xlab("Economic Opportunity")+
+  ylab("Nutrition Opportunity")+
+  scale_size_continuous(name="Reliance on Seafood")+
+  scale_color_manual(values = pal,name="")+
+  guides(color=guide_legend(override.aes = list(size=3,linetype=0)))+
+  theme_few()+
+  theme(legend.position = "right",
+        text = element_text(size = 18,color="black",family="Rockwell"),
+        panel.border = element_blank(),
+        legend.key = element_blank(),
+        plot.background = element_rect(linetype = 0),
+        plot.title = element_text(
+          colour = "black",
+          size = 20,
+          hjust = -3))
+ggsave("econ_mal.png", plot=econ_mal2,  width=8)
