@@ -1,14 +1,15 @@
 ### Full Dataset Construction ###
 
 ## Load packages ##
-library(tidyverse)
 library(reshape2)
 library(plyr)
+library(tidyverse)
+
 
 #### Set working directory ####
 # all raw files should be in this directory for script to run #
 WD <- getwd()
-
+setwd(paste0(WD,"/master dataset construction"))
 #### IMPORT RAW DATA ####
 
 # Raw aquaculture production from FishStat
