@@ -437,3 +437,87 @@ econ_mal2 <- econ_mal+
           size = 20,
           hjust = -3))
 ggsave("econ_mal.png", plot=econ_mal2,  width=8)
+
+blank_kobe <-ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=mean_malnutrition)) + 
+  geom_blank(aes(col=region2,size=mean_reliance))
+econ_mal3 <- blank_kobe+
+  coord_fixed(xlim=c(0,1),ylim=c(0,1))+
+  geom_hline(yintercept=0.5,linetype=2)+
+  geom_vline(xintercept = 0.5,linetype=2)+
+  xlab("Economic Opportunity")+
+  ylab("Nutrition Opportunity")+
+  scale_size_continuous(name="Reliance on Seafood")+
+  scale_color_manual(values = pal,name="")+
+  guides(color=guide_legend(override.aes = list(size=3,linetype=0)))+
+  theme_few()+
+  theme(legend.position = "right",
+        text = element_text(size = 24,color="black",family="Rockwell"),
+        panel.border = element_blank(),
+        legend.key = element_blank(),
+        plot.background = element_rect(linetype = 0),
+        plot.title = element_text(
+          colour = "black",
+          size = 20,
+          hjust = -3))
+ggsave("kobe_blank.png", plot=econ_mal3,  width=8)
+
+
+#### Sensitivity Analyses ####
+## Remove one variable at a time and look at how the mean and SD changes for the three scores ##
+# Function to remove and re-calculate #
+
+# variables to test, and categories of variables
+testvars <- FULLDAT.NORM %>% 
+  select(country_name,contains("_norm")) %>% names()
+testvars <- testvars[-(7:13)]
+econvars <- testvars[2:6]
+nutvars <- testvars[7:12]
+reliancevars <- testvars[13:18]
+
+# scores calc
+calc_scores <- function(dat) {
+  out<-dat
+  
+  # variables of interest
+  econvars <- names(out)[names(out) %in% econvars]
+  nutvars <- names(out)[names(out) %in% nutvars]
+  reliancevars <- names(out)[names(out) %in% reliancevars]
+  
+  # recalculate scores
+  out$mean_econ <- rowMeans(select(out,one_of(econvars)),na.rm=T)
+  out$mean_nutrition <- rowMeans(select(out,one_of(nutvars)),na.rm=T)
+  # rescale nutrition
+  out$mean_nutrition <- (out$mean_nutrition
+                                  -min(out$mean_nutrition,na.rm=T))/(max(out$mean_nutrition,na.rm=T)-
+                                                                                min(out$mean_nutrition,na.rm=T))
+  out$mean_reliance <- rowMeans(select(out,one_of(reliancevars)),na.rm=T)
+  
+  out <- out %>% mutate(econ_opportunity=1-mean_econ,mean_malnutrition=1-mean_nutrition)
+  out$mariculture_opportunity <- rowMeans(select(out,mean_reliance,econ_opportunity,mean_malnutrition))
+  return(out)
+}
+
+# calculate differences from full model
+calc_diffs <- function(dat.full, variable) {
+  # remove variable from full data and recalculate scores
+  dat.reduced <- dat.full %>% select(-contains(variable)) %>% calc_scores()
+  
+  # for each aggregate score, calculate mean change across countries
+  econdiff <- dat.reduced$econ_opportunity - dat.full$econ_opportunity
+  nutdiff <- dat.reduced$mean_malnutrition - dat.full$mean_malnutrition
+  reliancediff <- dat.reduced$mean_reliance - dat.full$mean_reliance
+  oppdiff <- dat.reduced$mariculture_opportunity-dat.full$mariculture_opportunity
+  
+  # Return mean and sd of changes
+  out <- data_frame(variable=variable, 
+                    delta_econ=mean(econdiff,na.rm=T),sd_econ=sd(econdiff,na.rm=T),
+                    delta_nut=mean(nutdiff,na.rm=T),sd_nut=sd(nutdiff,na.rm=T),
+                    delta_rel=mean(reliancediff,na.rm=T),sd_rel=sd(reliancediff,na.rm=T),
+                    delta_opp=mean(oppdiff,na.rm=T),sd_opp=sd(oppdiff,na.rm=T))
+  return(out)
+}
+
+
+# map calc diff function to all variables (i.e., removing one at a time and calculating scores diffs)
+sensitivity <- map_df(testvars,calc_diffs,dat.full=FULLDAT.NORM)
+write.csv(sensitivity,file="score_sensitivity.csv",row.names = F)
