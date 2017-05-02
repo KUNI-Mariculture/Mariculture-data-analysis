@@ -342,6 +342,8 @@ FULLDAT.NORM <- FULLDAT.NORM %>% mutate(econ_opportunity=1-mean_econ,mean_malnut
 # Final score
 FULLDAT.NORM$mariculture_opportunity <- rowMeans(select(FULLDAT.NORM,mean_reliance,econ_opportunity,mean_malnutrition))
 
+### write the data ####
+write.csv(FULLDAT.NORM,file="final_country_scores.csv",row.names=F)
 
 #### VISUALIZATION ####
 require(ggplot2)
