@@ -209,7 +209,7 @@ ECON$Q.trade.deficit <- ECON$Q.Exp/ECON$Q.imp
 # trade balance in value, exports divided by imports
 ECON$V.trade.deficit <- ECON$V.Exp/ECON$V.imp
 
-# "willingness to pay", equal to total value of imports divided by GDP
+# "willingness to pay", equal to GDP divided by total value of imports
 ECON$willingness <- ECON$GDP/ECON$V.imp
 
 # GDP per capita #
@@ -521,3 +521,24 @@ calc_diffs <- function(dat.full, variable) {
 # map calc diff function to all variables (i.e., removing one at a time and calculating scores diffs)
 sensitivity <- map_df(testvars,calc_diffs,dat.full=FULLDAT.NORM)
 write.csv(sensitivity,file="score_sensitivity.csv",row.names = F)
+
+## Countries in Each quadrant of kobe plot
+up_right <- FULLDAT.NORM %>%
+  filter(mean_malnutrition>0.5,econ_opportunity>0.5) %>%
+  select(country_name,mean_reliance:mariculture_opportunity) %>%
+  mutate(quadrant="Upper Right")
+up_left <- FULLDAT.NORM %>%
+  filter(mean_malnutrition>0.5,econ_opportunity<0.5) %>%
+  select(country_name,mean_reliance:mariculture_opportunity)%>%
+  mutate(quadrant="Upper Left")
+lower_right <- FULLDAT.NORM %>%
+  filter(mean_malnutrition<0.5,econ_opportunity>0.5) %>%
+  select(country_name,mean_reliance:mariculture_opportunity)%>%
+  mutate(quadrant="Lower Right")
+lower_left <- FULLDAT.NORM %>%
+  filter(mean_malnutrition<0.5,econ_opportunity<0.5) %>%
+  select(country_name,mean_reliance:mariculture_opportunity)%>%
+  mutate(quadrant="Lower Left")
+
+quads <- bind_rows(list(up_right,up_left,lower_right,lower_left))
+write.csv(quads, file="final_kobe_quadrants.csv")
