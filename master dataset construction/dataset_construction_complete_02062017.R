@@ -218,15 +218,21 @@ ECON$gdppc <- ECON$GDP/ECON$Population
 #### Other databases  ####
 
 # Doing Business metric for 2011 #
-DBI <- DBI %>% distinct(country_ID,year,.keep_all=TRUE) %>% select(-country) %>% filter(year==2011)
+DBI <- DBI %>% 
+  distinct(country_ID,year,.keep_all=TRUE) %>% 
+  select(-country) %>% 
+  filter(year==2011)
 
 # Good governance metric #
 # remove country name and flip to long form #
-GOV <- GOV %>% select(-country) %>% melt(id.vars=c('country_ID','indicator'),var='year')
+GOV <- GOV %>% 
+  select(-country) %>% 
+  melt(id.vars=c('country_ID','indicator'),var='year')
 GOV$year<-as.numeric(gsub( "X", "", as.character(GOV$year)))
 GOV <- GOV[GOV$year==2011,]
 # switch back to indicators as columns
 GOV <- dcast(GOV,country_ID~indicator)
+names(GOV) <- c("country_ID","corruption","gov_effectiveness","pol_stab","reg_qual","rule_law","voice")
 
 # Join DBI and GOV to master database by country and year
 ECON <- merge(ECON,DBI,by.x=c('country_ID','year'),by.y=c('country_ID','year'),all=TRUE)
@@ -318,7 +324,7 @@ FULLDAT.NORM <- FULLDAT %>%
   mutate_at(vars(gross.production.ratio:iron_percentseafood),funs("norm"=norm_90))
 
 #### CALCULATE AGGREGATE SCORES FOR THREE CATEGORIES ####
-# Add aggregated scores for each category, based on 90th percentile normalized scores. 
+# Add aggregated scores for each category, based on 80th percentile normalized scores. 
 # For these scores, disregard NA values in individual vars 
 # (although this is important to note)
 
@@ -357,45 +363,24 @@ glimpse(finalmetrics)
 ## Number of NA values in each variables ##
 NA_count <- FULLDAT.NORM %>% summarise_all(funs(sum(is.na(.))))
 
-## Biplots of final scores ##
+#### Biplots of final scores ####
 # econ vs. malnutrition
 econ_mal <-ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=mean_malnutrition)) + 
   geom_point(aes(col=region2,size=mean_reliance))
 
-ggsave("econ_malnutrition.png",plot=econ_mal)
-
-# econ vs. reliance
-ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=mean_reliance)) + 
-  geom_point(size=0.5)+
-  geom_text(aes(label=country_name),size=1.8,vjust=1.2)+
-  xlab("Normalized Economic Opportunity")+
-  ylab("Normalized Seafood Reliance")+
-  coord_fixed(xlim=c(0,1),ylim=c(0,1))+
-  geom_hline(yintercept=0.5,linetype=2)+
-  geom_vline(xintercept = 0.5,linetype=2)
-ggsave("econ_reliance.png")
-
-# malnutriation vs. reliance
-ggplot(FULLDAT.NORM, aes(x=mean_malnutrition,y=mean_reliance)) + 
-  geom_point(size=0.5)+
-  geom_text(aes(label=country_name),size=1.8,vjust=1.2)+
-  xlab("Normalized Malnutrition")+
-  ylab("Normalized Seafood Reliance")+
-  coord_fixed(xlim=c(0,1),ylim=c(0,1))+
-  geom_hline(yintercept=0.5,linetype=2)+
-  geom_vline(xintercept = 0.5,linetype=2)
-ggsave("nutrition_reliance.png")
-
+# mal vs. reliance
+mal_rel <- ggplot(FULLDAT.NORM, aes(x=mean_reliance,y=mean_malnutrition)) + 
+  geom_point(aes(col=region2),size=3)
 
 # econ vs. (reliance*malnutrition)
 econ_rel_mal <- ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=reliance_mal)) + 
   geom_point(aes(col=region2),size=3)
-ggsave("econ_reliance_mal.png",plot=econ_rel_mal)
 
 ### For Presentation ###
 library(extrafont)
 library(ggplot2)
 library(ggthemes)
+pal <- c("#9E0142", "#D53E4F", "#F46D43","#66C2A5", "#3288BD", "#5E4FA2")
 
 kobe2 <- econ_rel_mal+
   coord_fixed(xlim=c(0,1),ylim=c(0,1))+
@@ -404,7 +389,7 @@ kobe2 <- econ_rel_mal+
   ggtitle("Global Mariculture Opportunity")+
   xlab("Economic Opportunity")+
   ylab("Reliance and Nutrition Opportunity")+
-  scale_color_brewer(palette = "Spectral")+
+  scale_color_manual(values = pal,name="")+
   theme_few()+
   theme(legend.position = "right",
         text = element_text(size = 18,color="black",family="Rockwell"),
@@ -414,11 +399,27 @@ kobe2 <- econ_rel_mal+
         plot.title = element_text(
           colour = "black",
           size = 20,
-          hjust = 3.5))
-ggsave("biplot.png", plot=kobe2,  width=8)
+          hjust = 0))
+kobe2
 
+kobe3 <- mal_rel+
+  # geom_smooth(aes(color=region2),method="lm",se=F)+
+  coord_fixed(xlim=c(0,1),ylim=c(0,1))+
+  geom_hline(yintercept=0.5,linetype=2)+
+  geom_vline(xintercept = 0.5,linetype=2)+
+  ylab("Nutrition Opportunity")+
+  xlab("Reliance on Seafood")+
+  scale_color_manual(values = pal,name="")+
+  theme_few()+
+  theme(legend.position = "right",
+        text = element_text(size = 18,color="black",family="Rockwell"),
+        panel.border = element_blank(),
+        legend.key = element_blank(),
+        legend.title=element_blank())
+kobe3
+ggsave("mal_rel.png",plot=kobe3,width=8)
 ### Econ, Mal, Reliance as size
-pal <- c("#9E0142", "#D53E4F", "#F46D43","#66C2A5", "#3288BD", "#5E4FA2")
+
 econ_mal2 <- econ_mal+
   coord_fixed(xlim=c(0,1),ylim=c(0,1))+
   geom_hline(yintercept=0.5,linetype=2)+
@@ -433,14 +434,13 @@ econ_mal2 <- econ_mal+
         text = element_text(size = 18,color="black",family="Rockwell"),
         panel.border = element_blank(),
         legend.key = element_blank(),
-        plot.background = element_rect(linetype = 0),
-        plot.title = element_text(
-          colour = "black",
-          size = 20,
-          hjust = -3))
-ggsave("econ_mal.png", plot=econ_mal2,  width=8)
+        plot.background = element_rect(linetype = 0))
 
-blank_kobe <-ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=mean_malnutrition)) + 
+econ_mal2
+# ggsave("econ_mal.png", plot=econ_mal2,  width=8)
+
+#blank plot (for presentations)
+blank_kobe <-ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=mean_malnutrition)) +
   geom_blank(aes(col=region2,size=mean_reliance))
 econ_mal3 <- blank_kobe+
   coord_fixed(xlim=c(0,1),ylim=c(0,1))+
@@ -461,7 +461,134 @@ econ_mal3 <- blank_kobe+
           colour = "black",
           size = 20,
           hjust = -3))
-ggsave("kobe_blank.png", plot=econ_mal3,  width=8)
+econ_mal3
+# ggsave("kobe_blank.png", plot=econ_mal3,  width=8)
+
+#### Plots Relative to Economic Indicators ####
+
+# Political stability vs. mariculture opportunity
+polstab_opportunity <- ggplot(FULLDAT.NORM, aes(x=pol_stab,y=mariculture_opportunity))+
+  ylim(0,1)+
+  geom_point(size=2)+
+  xlab("Political Stability")+
+  ylab("Mariculture Opportunity")+
+  geom_smooth(method="lm",se=T,col="darkgreen",linetype=2)+
+  theme_few()+
+  theme(legend.position = "right",
+        text = element_text(size = 18,color="black",family="Rockwell"),
+        panel.border = element_blank(),
+        legend.key = element_blank(),
+        plot.background = element_rect(linetype = 0),
+        plot.title = element_text(
+          colour = "black",
+          size = 20,
+          hjust = -3))
+polstab_opportunity
+
+# Control of corruption vs. mariculture opportunity
+corruption_opportunity <- ggplot(FULLDAT.NORM, aes(x=corruption,y=mariculture_opportunity))+
+  ylim(0,1)+
+  geom_point(size=2)+
+  xlab("Corruption")+
+  ylab("Mariculture Opportunity")+
+  geom_smooth(method="lm",se=T,col="darkgreen",linetype=2)+
+  theme_few()+
+  theme(legend.position = "right",
+        text = element_text(size = 18,color="black",family="Rockwell"),
+        panel.border = element_blank(),
+        legend.key = element_blank(),
+        plot.background = element_rect(linetype = 0),
+        plot.title = element_text(
+          colour = "black",
+          size = 20,
+          hjust = -3))
+corruption_opportunity
+
+# rule of law vs. mariculture opportunity
+law_opportunity <- ggplot(FULLDAT.NORM, aes(x=rule_law,y=mariculture_opportunity))+
+  ylim(0,1)+
+  geom_point(size=2)+
+  xlab("Rule of Law")+
+  ylab("Mariculture Opportunity")+
+  geom_smooth(method="lm",se=T,col="darkgreen",linetype=2)+
+  theme_few()+
+  theme(legend.position = "right",
+        text = element_text(size = 18,color="black",family="Rockwell"),
+        panel.border = element_blank(),
+        legend.key = element_blank(),
+        plot.background = element_rect(linetype = 0),
+        plot.title = element_text(
+          colour = "black",
+          size = 20,
+          hjust = -3))
+law_opportunity
+
+#government effectiveness vs mariculture opportunity
+gov_opportunity <- ggplot(FULLDAT.NORM, aes(x=gov_effectiveness,y=mariculture_opportunity))+
+  ylim(0,1)+
+  geom_point(size=2)+
+  xlab("Government Effectiveness")+
+  ylab("Mariculture Opportunity")+
+  geom_smooth(method="lm",se=T,col="darkgreen",linetype=2)+
+  theme_few()+
+  theme(legend.position = "right",
+        text = element_text(size = 18,color="black",family="Rockwell"),
+        panel.border = element_blank(),
+        legend.key = element_blank(),
+        plot.background = element_rect(linetype = 0),
+        plot.title = element_text(
+          colour = "black",
+          size = 20,
+          hjust = -3))
+gov_opportunity
+
+# voice and accountability vs. mariculture opportunity
+voice_opportunity <- ggplot(FULLDAT.NORM, aes(x=voice,y=mariculture_opportunity))+
+  ylim(0,1)+
+  geom_point(size=2)+
+  xlab("Voice and Accountability")+
+  ylab("Mariculture Opportunity")+
+  geom_smooth(method="lm",se=T,col="darkgreen",linetype=2)+
+  theme_few()+
+  theme(legend.position = "right",
+        text = element_text(size = 18,color="black",family="Rockwell"),
+        panel.border = element_blank(),
+        legend.key = element_blank(),
+        plot.background = element_rect(linetype = 0),
+        plot.title = element_text(
+          colour = "black",
+          size = 20,
+          hjust = -3))
+voice_opportunity
+
+# voice and accountability vs. mariculture opportunity
+dbi_opportunity <- ggplot(FULLDAT.NORM, aes(x=DTF,y=mariculture_opportunity))+
+  ylim(0,1)+
+  geom_point(size=2)+
+  xlab("Doing Business Indicator")+
+  ylab("Mariculture Opportunity")+
+  geom_smooth(method="lm",se=T,col="darkgreen",linetype=2)+
+  theme_few()+
+  theme(legend.position = "right",
+        text = element_text(size = 18,color="black",family="Rockwell"),
+        panel.border = element_blank(),
+        legend.key = element_blank(),
+        plot.background = element_rect(linetype = 0),
+        plot.title = element_text(
+          colour = "black",
+          size = 20,
+          hjust = -3))
+dbi_opportunity
+
+# significant?
+summary(lm(mariculture_opportunity~DTF+voice+gov_effectiveness+rule_law+corruption+pol_stab,data=FULLDAT.NORM))
+summary(lm(mariculture_opportunity~pol_stab,data=FULLDAT.NORM))
+summary(lm(mariculture_opportunity~gov_effectiveness,data=FULLDAT.NORM))
+summary(lm(mariculture_opportunity~voice,data=FULLDAT.NORM))
+summary(lm(mariculture_opportunity~rule_law,data=FULLDAT.NORM))
+summary(lm(mariculture_opportunity~corruption,data=FULLDAT.NORM))
+summary(lm(mariculture_opportunity~DTF,data=FULLDAT.NORM))
+
 
 
 #### Sensitivity Analyses ####
