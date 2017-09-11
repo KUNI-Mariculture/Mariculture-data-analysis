@@ -22,6 +22,8 @@ Trade.V <- read.csv("Trade_V.csv", stringsAsFactors=FALSE)
 Pop <- read.csv("Pop.csv", stringsAsFactors=FALSE)
 # GDP #
 GDP <- read.csv("GDP.csv", stringsAsFactors=FALSE)
+# Upsides data, from Costello et al. 2016
+upsides <- read.csv("renato_upside_results.csv",stringsAsFactors = FALSE)
 # Doing Business Indicator #
 DBI <- read.csv("DBI.csv", stringsAsFactors=FALSE)
 # Good governance metric #
@@ -38,7 +40,7 @@ nutr_reliance <- read.csv(paste0("FOOD SECURITY and NUTRIENT INTAKES.csv"),strin
 
 # first, all datasets have a country column. find unique country names for each #
 find_names <- function(dataset) sort(unique(dataset$country))
-raw.all <- list(Production,Catch,Trade.Q,Trade.V,Pop,GDP,DBI,GOV,nutr_reliance)
+raw.all <- list(Production,Catch,Trade.Q,Trade.V,Pop,GDP,DBI,GOV,nutr_reliance,upsides)
 
 # apply name-finding function, coerce to character vector of ALL unique country names in all data #
 names.all <- unlist(purrr::map(raw.all,find_names))
@@ -72,6 +74,7 @@ GDP <- assign_ID(GDP)
 DBI <- assign_ID(DBI)
 GOV <- assign_ID(GOV)
 nutr_reliance <- assign_ID(nutr_reliance)
+upsides <- assign_ID(upsides)
 
 #### DATA CLEANING AND JOINING ####
 #### ECONOMIC VARIABLES ####
@@ -254,6 +257,10 @@ ECON <- ECON %>%
          gdppc=GDP/Population)
 
 #### Other databases  ####
+upsides <- upsides %>%
+  distinct(country_ID,.keep_all=TRUE) %>%
+  filter(!is.na(country_ID))%>%
+  select(-country)
 
 # Doing Business metric for 2011 #
 DBI <- DBI %>% 
@@ -272,9 +279,10 @@ GOV <- GOV %>%
   
 names(GOV) <- c("country_ID","corruption","gov_effectiveness","pol_stab","reg_qual","rule_law","voice")
 
-# Join DBI and GOV to master database by country and year
+# Join upsides, DBI and GOV to master database by country and year
 ECON <- full_join(ECON,DBI,by=c("country_ID","year")) %>%
-  full_join(GOV,by="country_ID")
+  full_join(GOV,by="country_ID") %>%
+  full_join(upsides,by="country_ID")
 
 #### NUTRITION ####
 # select country, energy adequacy, protein, fatty acids, vitamin A, zinc, and iron
@@ -284,11 +292,8 @@ NUTRITION_RELIANCE <- nutr_reliance %>%
          vitaminA_percentseafood,zinc_percentseafood,iron_percentseafood)
 
 
-## REMOVE COUNTRIES WITH MISSING DATA?
-
-
 #### JOIN DATASETS ####
-# Here, we join the data together again, and add a country name #
+# Here, we join the data together again, and add a country name, keeping only those countries in both datasets #
 FULLDAT <- inner_join(ECON,NUTRITION_RELIANCE,by="country_ID")
 
 # add back a country name. Also includes IUCN region #
@@ -331,10 +336,13 @@ FULLDAT <- FULLDAT [ ! FULLDAT$country_name %in% c("Afghanistan", "Andorra","Arm
 FULLDAT <- FULLDAT %>% select(
   # general country stats
   country_name,country_ID,region,region2,year,Population,GDP,
-  
+  #upsides metrics
+  stocks:perc_catch_below_05,
   DTF:voice,
   # economic metrics
   Aq.prod:V.imp,gross.production.ratio:gdppc,
+  
+ 
   
   #nutrition and reliance metrics
   energy_adequacy:iron_percentseafood
