@@ -354,8 +354,8 @@ FULLDAT <- FULLDAT %>% select(
 # All countries above this cutoff get forced to 1.
 
 norm_80 <- function(variable) {
-  quant90 <- quantile(variable,probs=.8,na.rm=T)
-  out <- variable/quant90
+  quant80 <- quantile(variable,probs=.8,na.rm=T)
+  out <- variable/quant80
   out[out>1] <- 1
   return(out)
 }
@@ -401,12 +401,12 @@ FULLDAT.NORM <- FULLDAT.NORM %>%
 # Final score
 FULLDAT.NORM$mariculture_opportunity <- rowMeans(select(FULLDAT.NORM,mean_reliance,econ_opportunity,mean_malnutrition))
 
-# Reduced to just countries will a final score
+# Reduced to just countries with a final score
 FULLDAT.NORM.reduced <- FULLDAT.NORM %>% filter(!is.na(mariculture_opportunity))
 
 ### write the data ####
-write.csv(FULLDAT.NORM,file="final_country_scores.csv",row.names=F)
-write.csv(FULLDAT.NORM.reduced,file="final_country_scores_completecases.csv",row.names=F)
+# write.csv(FULLDAT.NORM,file="final_country_scores.csv",row.names=F)
+# write.csv(FULLDAT.NORM.reduced,file="final_country_scores_completecases.csv",row.names=F)
 
 
 #### Sensitivity Analyses ####
@@ -466,7 +466,7 @@ calc_diffs <- function(dat.full, variable) {
 
 # map calc diff function to all variables (i.e., removing one at a time and calculating scores diffs)
 sensitivity <- map_df(testvars,calc_diffs,dat.full=FULLDAT.NORM.reduced)
-write.csv(sensitivity,file="score_sensitivity.csv",row.names = F)
+# write.csv(sensitivity,file="score_sensitivity.csv",row.names = F)
 
 ## Countries in Each quadrant of kobe plot
 up_right <- FULLDAT.NORM.reduced %>%
@@ -487,7 +487,7 @@ lower_left <- FULLDAT.NORM.reduced %>%
   mutate(quadrant="Lower Left")
 
 quads <- bind_rows(list(up_right,up_left,lower_right,lower_left))
-write.csv(quads, file="final_kobe_quadrants.csv")
+# write.csv(quads, file="final_kobe_quadrants.csv")
 
 #### GAP ANALYSIS ####
 # where did countries drop out??
@@ -505,7 +505,7 @@ nutrition_all_countries <- select(NUTRITION_RELIANCE,country_ID) %>%
   select(-region) %>%
   arrange(country_ID)
 
-# first join (what is removed when econ and nutrition/reliance are removed?)
+# first join (what is removed when econ and nutrition/reliance are joined?)
 # this is after removing landlocked countries as well
 first_join <- select(FULLDAT,country_ID) %>%
   left_join(master_names,by="country_ID") %>%
@@ -518,7 +518,7 @@ first_join <- select(FULLDAT,country_ID) %>%
       # A. the country is only missing Aquaculture production data (keep it)
       # B. the country is only missing energy adequacy (keep it)
       # C. the country is only missing GDP data (keep it)
-      # D. the 
+
 final_set <- select(FULLDAT.NORM.reduced,country_ID) %>%
   left_join(master_names,by="country_ID") %>%
   mutate(final="included") %>%
@@ -543,3 +543,233 @@ FULLDAT.NORM.reduced$country_name[is.na(FULLDAT.NORM.reduced$F.prod)]
 FULLDAT.NORM.reduced$country_name[is.na(FULLDAT.NORM.reduced$energy_adequacy)]
 
 proc.time() - ptm
+
+#### WHAT IS THE EFFECT OF NORM80 INSTEAD OF NORM90? ####
+norm_90 <- function(variable) {
+  quant90 <- quantile(variable,probs=0.9,na.rm=T)
+  out <- variable/quant90
+  out[out>1] <- 1
+  return(out)
+}
+
+
+# Add new, normalized columns for all variables (except those that have already been normalized)
+FULLDAT.NORM90 <- FULLDAT %>%
+  mutate_at(vars(gross.production.ratio:iron_percentseafood),funs("norm"=norm_90))
+
+#REMOVE COUNTRIES WITH MISSING DATA BEFORE CALCULATING SCORES #
+
+
+# CALCULATE AGGREGATE SCORES FOR THREE CATEGORIES #
+# Add aggregated scores for each category, based on 90th percentile normalized scores. 
+# For these scores, disregard NA values in individual vars FOR ECON, but NOT FOR NUTRITION AND RELIANCE
+
+FULLDAT.NORM90$mean_econ <- rowMeans(select(FULLDAT.NORM90,gross.production.ratio_norm:gdppc_norm),na.rm=T)
+FULLDAT.NORM90$mean_nutrition <- rowMeans(select(FULLDAT.NORM90,energy_adequacy_norm:iron_norm),na.rm=F)
+FULLDAT.NORM90$mean_reliance <- rowMeans(select(FULLDAT.NORM90,calories_percentseafood_norm:iron_percentseafood_norm),na.rm=F)
+
+# For countries with missing energy adequacy data, this is okay (recalculate nutrition score)
+FULLDAT.NORM90$mean_nutrition[is.na(FULLDAT.NORM90$energy_adequacy_norm)] <- rowMeans(select(FULLDAT.NORM90,energy_adequacy_norm:iron_norm),na.rm=T)[is.na(FULLDAT.NORM90$energy_adequacy_norm)]
+FULLDAT.NORM90$mean_econ[is.nan(FULLDAT.NORM90$mean_econ)] <- NA
+FULLDAT.NORM90$mean_nutrition[is.nan(FULLDAT.NORM90$mean_nutrition)] <- NA
+
+
+## FOR NUTRITION, RESCALE TO 0-1. BECAUSE CALORIES, ETC. DON'T SCALE DOWN TO ZERO
+FULLDAT.NORM90$mean_nutrition <- (FULLDAT.NORM90$mean_nutrition
+                                -min(FULLDAT.NORM90$mean_nutrition,na.rm=T))/(max(FULLDAT.NORM90$mean_nutrition,na.rm=T)-
+                                                                              min(FULLDAT.NORM90$mean_nutrition,na.rm=T))
+
+
+# FINAL SCORES #
+## for econ and nutrition, the opportunity score is actually one minus the calculated score above
+# Include a geometric mean of reliance and malnutrition, for visualization's sake (not used for final score) #
+FULLDAT.NORM90 <- FULLDAT.NORM90 %>% 
+  mutate(econ_opportunity=1-mean_econ,mean_malnutrition=1-mean_nutrition,
+         reliance_mal=sqrt(mean_reliance*mean_malnutrition)) %>%
+  select(-mean_econ,-mean_nutrition)
+
+# Final score
+FULLDAT.NORM90$mariculture_opportunity <- rowMeans(select(FULLDAT.NORM90,mean_reliance,econ_opportunity,mean_malnutrition))
+
+#### What about un-normalized? ####
+norm_100 <- function(variable) {
+  quant100 <- quantile(variable,probs=1,na.rm=T)
+  out <- variable/quant100
+  out[out>1] <- 1
+  return(out)
+}
+
+
+# Add new, normalized columns for all variables (except those that have already been normalized)
+FULLDAT.NORM100 <- FULLDAT %>%
+  mutate_at(vars(gross.production.ratio:iron_percentseafood),funs("norm"=norm_100))
+
+#REMOVE COUNTRIES WITH MISSING DATA BEFORE CALCULATING SCORES #
+
+
+# CALCULATE AGGREGATE SCORES FOR THREE CATEGORIES #
+# Add aggregated scores for each category, based on 100th percentile normalized scores. 
+# For these scores, disregard NA values in individual vars FOR ECON, but NOT FOR NUTRITION AND RELIANCE
+
+FULLDAT.NORM100$mean_econ <- rowMeans(select(FULLDAT.NORM100,gross.production.ratio_norm:gdppc_norm),na.rm=T)
+FULLDAT.NORM100$mean_nutrition <- rowMeans(select(FULLDAT.NORM100,energy_adequacy_norm:iron_norm),na.rm=F)
+FULLDAT.NORM100$mean_reliance <- rowMeans(select(FULLDAT.NORM100,calories_percentseafood_norm:iron_percentseafood_norm),na.rm=F)
+
+# For countries with missing energy adequacy data, this is okay (recalculate nutrition score)
+FULLDAT.NORM100$mean_nutrition[is.na(FULLDAT.NORM100$energy_adequacy_norm)] <- rowMeans(select(FULLDAT.NORM100,energy_adequacy_norm:iron_norm),na.rm=T)[is.na(FULLDAT.NORM100$energy_adequacy_norm)]
+FULLDAT.NORM100$mean_econ[is.nan(FULLDAT.NORM100$mean_econ)] <- NA
+FULLDAT.NORM100$mean_nutrition[is.nan(FULLDAT.NORM100$mean_nutrition)] <- NA
+
+
+## FOR NUTRITION, RESCALE TO 0-1. BECAUSE CALORIES, ETC. DON'T SCALE DOWN TO ZERO
+FULLDAT.NORM100$mean_nutrition <- (FULLDAT.NORM100$mean_nutrition
+                                  -min(FULLDAT.NORM100$mean_nutrition,na.rm=T))/(max(FULLDAT.NORM100$mean_nutrition,na.rm=T)-
+                                                                                  min(FULLDAT.NORM100$mean_nutrition,na.rm=T))
+
+
+# FINAL SCORES #
+## for econ and nutrition, the opportunity score is actually one minus the calculated score above
+# Include a geometric mean of reliance and malnutrition, for visualization's sake (not used for final score) #
+FULLDAT.NORM100 <- FULLDAT.NORM100 %>% 
+  mutate(econ_opportunity=1-mean_econ,mean_malnutrition=1-mean_nutrition,
+         reliance_mal=sqrt(mean_reliance*mean_malnutrition)) %>%
+  select(-mean_econ,-mean_nutrition)
+
+# Final score
+FULLDAT.NORM100$mariculture_opportunity <- rowMeans(select(FULLDAT.NORM100,mean_reliance,econ_opportunity,mean_malnutrition))
+
+
+#### COMPARE RANKS AND SCORES ####
+norm80.scores <- FULLDAT.NORM %>% 
+  select(country_name,mean_reliance:mariculture_opportunity)%>%
+  mutate_if(is.numeric,funs(rnk=min_rank(desc(.))))%>%
+  gather("category","score",mean_reliance:mariculture_opportunity)%>%
+  gather("rnk_cat","rank",mean_reliance_rnk:mariculture_opportunity_rnk)
+norm90.scores <- FULLDAT.NORM90 %>% 
+  select(country_name,mean_reliance:mariculture_opportunity)%>%
+  mutate_if(is.numeric,funs(rnk=min_rank(desc(.))))%>%
+  gather("category","score",mean_reliance:mariculture_opportunity)%>%
+  gather("rnk_cat","rank",mean_reliance_rnk:mariculture_opportunity_rnk)
+norm100.scores <- FULLDAT.NORM100 %>% 
+  select(country_name,mean_reliance:mariculture_opportunity)%>%
+  mutate_if(is.numeric,funs(rnk=min_rank(desc(.))))%>%
+  gather("category","score",mean_reliance:mariculture_opportunity)%>%
+  gather("rnk_cat","rank",mean_reliance_rnk:mariculture_opportunity_rnk)
+
+
+## Top and Bottom 10 countries for each calculation
+topbot10 <- function(dat) {
+  temp <- dat %>%
+    select(country_name,rnk_cat,rank)%>%
+    filter(rnk_cat=="mariculture_opportunity_rnk")%>%
+    distinct()%>%
+    arrange(rank)
+  top10<-temp %>%
+    top_n(-10,rank)%>%
+    mutate(tier="Top 10")
+  bot10<-temp %>%
+    top_n(10,rank)%>%
+    mutate(tier="Bottom 10")
+  out<-bind_rows(top10,bot10)
+  return(out)
+}
+topbot10_unfilt<-topbot10(norm100.scores) %>% select(rank,country_name) %>% rename(norm100=country_name)
+topbot10_filt90<-topbot10(norm90.scores) %>% select(country_name) %>% rename(norm90=country_name)
+topbot10_filt80 <- topbot10(norm80.scores) %>% select(country_name) %>% rename(norm80=country_name)
+topbot10_all <- bind_cols(topbot10_unfilt,topbot10_filt90,topbot10_filt80)
+
+# write.csv(topbot10_all,file="top_and_bot_10_sensitivity.csv",row.names = F)
+
+## Kendall's Tau between scores? ##
+normscores_all <- norm80.scores %>%
+  filter(category=="mariculture_opportunity")%>%
+  select(country_name,score) %>%
+  distinct()%>%
+  rename(score80=score)%>%
+  left_join((norm90.scores %>%
+               filter(category=="mariculture_opportunity")%>%
+               select(country_name,score) %>%
+               distinct()%>%
+               rename(score90=score)),
+            by="country_name")%>%
+  left_join((norm100.scores %>%
+               filter(category=="mariculture_opportunity")%>%
+               select(country_name,score) %>%
+               distinct()%>%
+               rename(score100=score)),
+            by="country_name")
+ktau <- cor(select(normscores_all,-country_name),method="kendall",use="pairwise.complete.obs")
+
+# Kendall's W between ranks
+library(irr)
+normranks_all <- norm80.scores %>%
+  filter(rnk_cat=="mariculture_opportunity_rnk")%>%
+  select(country_name,rank) %>%
+  distinct()%>%
+  rename(rank80=rank)%>%
+  left_join((norm90.scores %>%
+               filter(rnk_cat=="mariculture_opportunity_rnk")%>%
+               select(country_name,rank) %>%
+               distinct()%>%
+               rename(rank90=rank)),
+            by="country_name")%>%
+  left_join((norm100.scores %>%
+               filter(rnk_cat=="mariculture_opportunity_rnk")%>%
+               select(country_name,rank) %>%
+               distinct()%>%
+               rename(rank100=rank)),
+            by="country_name")%>%
+  filter(!is.na(rank80))
+
+kw <- normranks_all %>% select(-country_name) %>% kendall()
+
+plot(normscores_all$score80,normscores_all$score100)
+# norm90.score.change <- FULLDAT.NORM90 %>% 
+#   select(country_name,mean_reliance:mariculture_opportunity)%>%
+#   # rank countries by each score
+#   mutate_if(is.numeric,funs(rnk=min_rank(desc(.))))%>%
+#   # long form for comparison
+#   gather("category_90","score_90",mean_reliance:mariculture_opportunity)%>%
+#   gather("rnk_cat_90","rank_90",mean_reliance_rnk:mariculture_opportunity_rnk)%>%
+#   # join the original (normalized to 80th percentile) scores
+#   bind_cols(norm80.scores)%>%
+#   select(-country_name1)%>%
+#   # calculate a percent difference in score, and the absolute change in rank for each category
+#   mutate(score_change=score-score_90,rnk_change=rank-rank_90)%>%
+#   arrange(country_name,category)
+
+# #spread to wideform
+# score_changes <- norm90.score.change %>%
+#   select(country_name,category,score_change)%>%
+#   distinct()
+# rank_changes <- norm90.score.change %>%
+#   select(country_name,rnk_cat,rnk_change)%>%
+#   distinct()%>%
+#   filter(rnk_cat!="reliance_mal_rnk")
+# 
+# # plot?
+# require(ggplot2)
+# require(extrafont)
+# theme_rockwell <- function() {
+#   theme_minimal()+
+#     theme(text=element_text(family="Rockwell",size=12),
+#           axis.title = element_text(family="Rockwell",size=14),
+#           strip.background = element_rect(colour="black"),
+#           panel.border = element_rect(color="black",fill=NA))
+# }
+# 
+# rank_change_plot <- ggplot(rank_changes,aes(x=rnk_change,y=..count..))+
+#   geom_histogram(binwidth=5)+
+#   labs(x="Absolute Change in Rank",y="Number of Nations")+
+#   geom_vline(xintercept=0,linetype=2)+
+#   facet_wrap(~rnk_cat)+
+#   theme_rockwell()
+# rank_change_plot
+# 
+# score_change_plot <- ggplot(score_changes,aes(x=score_change,y=..count..))+
+#   geom_histogram(binwidth=0.05)+
+#   labs(x="Absolute Score Change",y="Number of Nations")+
+#   geom_vline(xintercept=0,linetype=2)+
+#   facet_wrap(~category)+
+#   theme_rockwell()
+# score_change_plot

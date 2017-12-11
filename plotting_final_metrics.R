@@ -1,6 +1,6 @@
 ## Plots for presentation and publication
 ## Data
-FULLDAT.NORM <- read.csv("master dataset construction/final_country_scores.csv",stringsAsFactors = F)
+FULLDAT.NORM <- read.csv("master dataset construction/final_country_scores_completecases.csv",stringsAsFactors = F)
 
 library(tidyverse)
 library(ggthemes)
@@ -57,7 +57,7 @@ kobe3 <- mal_rel+
         legend.key = element_blank(),
         legend.title=element_blank())
 kobe3
-ggsave("mal_rel.png",plot=kobe3,width=8)
+#ggsave("mal_rel.png",plot=kobe3,width=8)
 ### Econ, Mal, Reliance as size
 
 econ_mal2 <- econ_mal+
@@ -74,12 +74,14 @@ econ_mal2 <- econ_mal+
   theme_few()+
   theme(legend.position = "right",
         text = element_text(size = 18,color="black",family="Rockwell"),
+        legend.text = element_text(size=12,color="black",family="Rockwell"),
+        legend.title = element_text(size=12),
         panel.border = element_blank(),
         legend.key = element_blank(),
         plot.background = element_rect(linetype = 0))
 
 econ_mal2
-ggsave("econ_mal.png", plot=econ_mal2,  width=8)
+# ggsave("econ_mal.png", plot=econ_mal2,  width=8,height=8.25)
 
 #blank plot (for presentations)
 blank_kobe <-ggplot(FULLDAT.NORM, aes(x=econ_opportunity,y=mean_malnutrition)) +
@@ -104,7 +106,7 @@ econ_mal3 <- blank_kobe+
           size = 20,
           hjust = -3))
 econ_mal3
-# ggsave("kobe_blank.png", plot=econ_mal3,  width=8)
+# #ggsave("kobe_blank.png", plot=econ_mal3,  width=8)
 
 #### Mariculture Opportunity Relative to Economic Indicators ####
 
@@ -223,12 +225,12 @@ dbi_opportunity <- ggplot(FULLDAT.NORM, aes(x=DTF,y=mariculture_opportunity))+
 dbi_opportunity
 
 ##save plots
-ggsave("master dataset construction/extrafigs/dbi_opp.png",plot=dbi_opportunity)
-ggsave("master dataset construction/extrafigs/voice_opp.png",plot=voice_opportunity)
-ggsave("master dataset construction/extrafigs/gov_opp.png",plot=gov_opportunity)
-ggsave("master dataset construction/extrafigs/law_opp.png",plot=law_opportunity)
-ggsave("master dataset construction/extrafigs/corrup_opp.png",plot=corruption_opportunity)
-ggsave("master dataset construction/extrafigs/pols_opp.png",plot=polstab_opportunity)
+#ggsave("master dataset construction/extrafigs/dbi_opp.png",plot=dbi_opportunity)
+#ggsave("master dataset construction/extrafigs/voice_opp.png",plot=voice_opportunity)
+#ggsave("master dataset construction/extrafigs/gov_opp.png",plot=gov_opportunity)
+#ggsave("master dataset construction/extrafigs/law_opp.png",plot=law_opportunity)
+#ggsave("master dataset construction/extrafigs/corrup_opp.png",plot=corruption_opportunity)
+#ggsave("master dataset construction/extrafigs/pols_opp.png",plot=polstab_opportunity)
 
 # significant?
 summary(lm(mariculture_opportunity~DTF+voice+gov_effectiveness+rule_law+corruption+pol_stab,data=FULLDAT.NORM))
@@ -412,8 +414,8 @@ scorehist_stacked <- ggplot(opps_long,aes(x=score,fill=region2))+
         legend.key = element_blank(),
         plot.background = element_rect(linetype = 0))
 scorehist_stacked
-# ggsave("final_hists.png",scorehist,width=8)
-# ggsave("final_hists_stack.png",scorehist_stacked,width=8)
+# #ggsave("final_hists.png",scorehist,width=8)
+# #ggsave("final_hists_stack.png",scorehist_stacked,width=8)
 
 
 #### Regional Means, histograms, and correlations ####
@@ -453,7 +455,7 @@ regionhist<-ggplot(mariculture_opp,aes(x=score,fill=region2))+
         plot.background = element_rect(linetype = 1),
         panel.spacing = unit(1,"lines"))
 regionhist
-#ggsave("opp_hist_region.png",regionhist,width=8)
+##ggsave("opp_hist_region.png",regionhist,width=8)
 FULLDAT.NORM %>% group_by(region2) %>% summarise(n())
 
 
@@ -467,7 +469,7 @@ library(raster)
 #import shapefile and match the data to the polygons
 worldmap <- readOGR(paste0(getwd(),"/mapdata"),layer="TM_WORLD_BORDERS-0.3")
 mapdat <- worldmap@data
-mar_dat <- FULLDAT.NORM %>% left_join(select(mapdat,NAME,ISO3),by=c("country_name"="NAME"))
+mar_dat <- FULLDAT.NORM %>% left_join(dplyr::select(mapdat,NAME,ISO3),by=c("country_name"="NAME"))
 mar_dat$ISO3[mar_dat$country_name=="Sudan (former)"] <- "SDN"
 mar_dat$ISO3[mar_dat$country_name=="Tanzania"] <- "TZA"
 mar_dat$ISO3[mar_dat$country_name=="Cabo Verde"] <- "CPV"
@@ -479,7 +481,7 @@ mar_dat$ISO3[mar_dat$country_name=="Russian Federation"] <- "RUS"
 
 mapdat <- mapdat %>% 
   full_join(mar_dat,by="ISO3") %>%
-  select(-(FIPS:ISO2),-UN,-(NAME:POP2005))
+  dplyr::select(-(FIPS:ISO2),-UN,-(NAME:POP2005))
 worldmap@data <- mapdat
 
 # world
@@ -487,7 +489,7 @@ opp_world <- tm_shape(worldmap,bbox=c(-180,180,-60,80))+
   tm_polygons("mariculture_opportunity",
           title="",colorNA="gray80",
           auto.palette.mapping = F,
-          palette=brewer.pal(5,"RdYlGn"),
+          palette=rev(brewer.pal(5,"RdYlGn")),
           legend.is.portrait=T)+
   tm_layout(frame="gray80",
             bg.color = "lightblue1",
@@ -504,7 +506,7 @@ opp_caribbean <- tm_shape(worldmap,bbox=bb_car)+
               title="",colorNA="gray80",
               legend.show=F,
               auto.palette.mapping = F,
-              palette=brewer.pal(5,"RdYlGn"))+
+              palette=rev(brewer.pal(5,"RdYlGn")))+
   tm_layout(frame=T,
             bg.color = "lightblue1",
             aes.color = c(borders="grey60"))
@@ -535,11 +537,24 @@ opp_med <-  tm_shape(worldmap,bbox=bb_med)+
             aes.color = c(borders="grey60"))
 opp_med
 
+# Pacific islands
+bb_pac<-c(155,200,-14,18)
+opp_pac <-tm_shape(worldmap,bbox=bb_pac)+
+  tm_polygons("mariculture_opportunity",
+              title="",colorNA="gray80",
+              legend.show=F,
+              auto.palette.mapping = F,
+              palette=brewer.pal(5,"RdYlGn"))+
+  tm_layout(frame=T,
+            bg.color = "lightblue1",
+            aes.color = c(borders="grey60"))
+opp_pac
+
 # save maps
-save_tmap(opp_world,"world_opp.png",width=1920)
-save_tmap(opp_sea,"sea_opp.png",width=1920)
-save_tmap(opp_med,"med_opp.png",width=1920)
-save_tmap(opp_caribbean,"carr_opp.png",width=1920)
+# save_tmap(opp_world,"world_opp.png",width=1920)
+# save_tmap(opp_sea,"sea_opp.png",width=1920)
+# save_tmap(opp_med,"med_opp.png",width=1920)
+# save_tmap(opp_caribbean,"carr_opp.png",width=1920)
 
 #### Ordered bar graph ####
 dat <- FULLDAT.NORM
@@ -562,4 +577,4 @@ opp_bar <- dat %>%
         axis.title = element_text(size=24,color="black",family="Rockwell"))
 opp_bar
 
-ggsave("opportunity_bars.png",opp_bar,height=10)
+#ggsave("opportunity_bars.png",opp_bar,height=10)
